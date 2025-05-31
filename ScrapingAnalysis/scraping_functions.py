@@ -10,7 +10,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium_stealth import stealth
 from selenium.webdriver.support import expected_conditions as EC
-
+import json
 
 import time
 import re
@@ -316,6 +316,7 @@ def ebay_api(query: str,res_num: int,maximum: int,progress_callback=None)->dict 
           print("No items found using this query!")
       offset += res_num
       print(offset)
+    print(items)
     return items,access_token
   else:
     print("Error obtaining token:", response.status_code, response.text)  #anticipating any errors

@@ -96,3 +96,19 @@ def style_frame(frame:QFrame,bg_color:str = "background-color: rgba(255, 255, 25
             }}
         """)
     return frame
+
+def style_modern_button(modern_button:ModernButton)->ModernButton:
+    modern_button.setStyleSheet("""
+            ModernButton {
+                background-color: #7719d4;
+                color: white;
+                border-radius: 8px;
+                font-size: 14px;
+                padding: 10px 20px;
+                min-width: 100px;
+            }
+            ModernButton:hover {
+                background-color: #8a2be2;
+            }
+        """)
+    return modern_button

@@ -1,10 +1,11 @@
+
 from . import (QWidget, pyqtSignal, QLinearGradient,
                QColor, QPalette, QBrush, QVBoxLayout,
                QHBoxLayout, QFrame, QLineEdit, QScrollArea, Qt,
                QLabel, QTimer, QPropertyAnimation, QParallelAnimationGroup,
                QRadioButton,QButtonGroup,QComboBox,QProgressBar,
-               matplotlib, threading, intro, main_menu,QMovie)
-import os
+               matplotlib, threading, intro, main_menu,QMessageBox,QFileDialog,
+               os,json,pd)
 
 from .loading_anim import LoadingAnimation
 from .modern_button import ModernButton
@@ -14,7 +15,7 @@ from .analysis_figure import AnalysisFigure
 from .plotly_figure import PlotlyFigure
 
 from .styling_functions import style_radiobutton, style_label, style_line_edit, style_top_buttons, style_scroll_area, \
-    style_frame
+    style_frame, style_modern_button
 from .analysis_description_mappings import get_description
 
 from ScrapingAnalysis.scraping_functions import seller_network, ebay_api
@@ -139,19 +140,7 @@ class ScraperScreen(QWidget):
 
 
         self.search_button = ModernButton("Search")
-        self.search_button.setStyleSheet("""
-            ModernButton {
-                background-color: #7719d4;
-                color: white;
-                border-radius: 8px;
-                font-size: 14px;
-                padding: 10px 20px;
-                min-width: 100px;
-            }
-            ModernButton:hover {
-                background-color: #8a2be2;
-            }
-        """)
+        self.search_button = style_modern_button(self.search_button)
 
         self.search_button.clicked.connect(self.perform_search)
 
@@ -167,8 +156,13 @@ class ScraperScreen(QWidget):
         self.max_items.setPlaceholderText("Set a max number of items (<= 200 Recommended)...")
         self.max_items = style_line_edit(self.max_items)
 
+        self.export_button = ModernButton("Export to CSV")
+        self.export_button = style_modern_button(self.export_button)
+        self.export_button.clicked.connect(self.export_to_csv)
         limits_layout.addWidget(self.items_per_request)
         limits_layout.addWidget(self.max_items)
+        limits_layout.addWidget(self.export_button)
+
         self.search_progress = QProgressBar()
         self.search_progress.setStyleSheet("""
             QProgressBar {
@@ -411,6 +405,7 @@ class ScraperScreen(QWidget):
 
     def update_ui(self, items: dict):
         self.items = items
+        print("UI received items:", len(items))
         item_pairs = list(self.items.items())
         total = len(item_pairs)
         self._ui_index = 0
@@ -491,7 +486,6 @@ class ScraperScreen(QWidget):
 
         text = self.analysis_dropdown.currentText()
         self.loading.showGIF()
-
 
         def worker():
             fig = None
@@ -600,6 +594,88 @@ class ScraperScreen(QWidget):
         elif text == "Chart Analysis":
             for widget in self.chart_choice_widgets:
                 widget.setVisible(True)
+    def show_warning(self,message):
+        msg = QMessageBox()
+        msg.setIcon(QMessageBox.Icon.Warning)
+        msg.setWindowTitle("Warning")
+        msg.setText(message)
+        msg.setStandardButtons(QMessageBox.StandardButton.Ok)
+        msg.exec()
+    def export_to_csv(self):
+        if not self.items:
+            self.show_warning("No items were loaded, exporting failed!")
+            return
+        try:
+            df = pd.DataFrame([
+                {
+                    "Item ID": item.get('Item ID'),
+                    "Title": item.get('Title'),
+                    "Price": item.get('Price'),
+                    "Link": item.get('Link'),
+                    "Buying Options": json.dumps(item.get('Buying Options', [])),  # JSON string
+                    "Shipping Cost": item.get('Shipping Cost'),
+                    "Also Bought": json.dumps(item.get('Also Bought', [])),  # JSON string
+                    "Image": item.get('Image'),
+                    "Seller": item.get('Seller'),
+                    "Feedback Score": item.get('Feedback Score'),
+                    "Feedback Percentage": item.get('Feedback Percentage'),
+                    "Category": json.dumps(item.get('Category', []))  # JSON string
+                }
+                for item in self.items.values()
+            ])
+            file_path,_ = QFileDialog.getSaveFileName(
+                parent = self,
+                caption = "Save as CSV",
+                directory = "",
+                filter = "CSV Files (*.csv);;All Files (*)"
+            )
+            if file_path:
+                try:
+                    df.to_csv(file_path, index=False)
+                except Exception as e:
+                    self.show_warning(f"Error saving CSV file: {e}")
+            else:
+                print("User cancelled dialog")
+        except Exception as e:
+            self.show_warning(f"Error saving CSV file: {e}")
+
+    def import_csv(self):
+        file_path, _ = QFileDialog.getOpenFileName(
+            parent=self,
+            caption="Load CSV",
+            directory="",
+            filter="CSV Files (*.csv);;All Files (*)"
+        )
+        if file_path:
+            items = {}
+            try:
+                df = pd.read_csv(file_path)
+                for _, row in df.iterrows():
+                    items[row['Item ID']] = {
+                        'Item ID': row['Item ID'],
+                        'Title': row['Title'],
+                        'Price': row['Price'],
+                        'Link': row['Link'],
+                        'Buying Options': json.loads(row['Buying Options']) if pd.notna(row['Buying Options']) else [],
+                        'Shipping Cost': row['Shipping Cost'],
+                        'Also Bought': json.loads(row['Also Bought']) if pd.notna(row['Also Bought']) else [],
+                        'Image': row['Image'],
+                        'Seller': row['Seller'],
+                        'Feedback Score': row['Feedback Score'],
+                        'Feedback Percentage': row['Feedback Percentage'],
+                        'Category': json.loads(row['Category']) if pd.notna(row['Category']) else []
+                    }
+                self.items = items
+                print("Items loaded from CSV:", len(self.items))
+                print(items)
+                self.items_returned.emit(self.items)
+                self.search_clicked = True
+                self.toggle_analysis_button()
+            except Exception as e:
+                self.show_warning(f"Error loading CSV file: {e}")
+        else:
+            print("User cancelled dialog")
+
 
 
 
