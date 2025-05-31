@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/DEEPSCRAPE_IMPROVED.ico</file>
+        <file>resources/spinner.gif</file>
+    </qresource>
+</RCC>
