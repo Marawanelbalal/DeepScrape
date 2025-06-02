@@ -590,10 +590,10 @@ class ScraperScreen(QWidget):
     def show_figure(self,fig):
         if isinstance(fig,matplotlib.figure.Figure):
             self._analysis_win = AnalysisFigure(fig)
-            self._analysis_win.showMaximized()
 
         else:
-            fig.show()
+            self._analysis_win = PlotlyFigure(fig)
+        self._analysis_win.showMaximized()
 
         self.analyze_button.setEnabled(True)
 
