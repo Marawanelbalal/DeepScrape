@@ -104,8 +104,9 @@ def style_modern_button(modern_button:ModernButton)->ModernButton:
                 color: white;
                 border-radius: 8px;
                 font-size: 14px;
-                padding: 10px 20px;
+                padding: 4px 12px;
                 min-width: 100px;
+                min-height: 30px;
             }
             ModernButton:hover {
                 background-color: #8a2be2;

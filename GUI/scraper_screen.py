@@ -5,7 +5,7 @@ from . import (QWidget, pyqtSignal, QLinearGradient,
                QLabel, QTimer, QPropertyAnimation, QParallelAnimationGroup,
                QRadioButton,QButtonGroup,QComboBox,QProgressBar,
                matplotlib, threading, intro, main_menu,QMessageBox,QFileDialog,
-               os,json,pd)
+               QEasingCurve,QRect,QPoint,os,json,pd)
 
 from .loading_anim import LoadingAnimation
 from .modern_button import ModernButton
@@ -13,6 +13,7 @@ from .main_menu import MainMenu
 from .product_card import ProductCard
 from .analysis_figure import AnalysisFigure
 from .plotly_figure import PlotlyFigure
+from .Terminal import Terminal
 
 from .styling_functions import style_radiobutton, style_label, style_line_edit, style_top_buttons, style_scroll_area, \
     style_frame, style_modern_button
@@ -52,6 +53,7 @@ class ScraperScreen(QWidget):
         self.fig = None
         self.token = ""
         self.search_clicked = False
+        self.terminal_open = False
 
     def initUI(self):
         self.setWindowTitle("DeepScrape - Scraper")
@@ -370,6 +372,27 @@ class ScraperScreen(QWidget):
         content_layout.addWidget(right_panel,5)
 
         main_layout.addLayout(content_layout)
+
+        self.terminal = Terminal(self)
+        self.terminal.setFixedHeight(300)  # Fixed height works better for animations
+        self.terminal.hide()
+        self.terminal.move(0, self.height())
+
+
+        self.terminal_button = ModernButton("▲  Terminal  ▲",self)
+        self.terminal_button.setFixedSize(150,30)
+        self.terminal_button = style_modern_button(self.terminal_button)
+        self.terminal_button.setCursor(Qt.CursorShape.PointingHandCursor)
+        self.terminal_button.clicked.connect(self.toggle_terminal)
+        self.terminal_button.move((self.width() - 150) // 2, self.height() - 30)
+        self.terminal_button.raise_()
+        self.terminal_button.setVisible(True)
+        print(f"Button parent: {self.terminal_button.parent()}")
+        print(f"Button isVisible: {self.terminal_button.isVisible()}")
+        print(f"Button geometry: {self.terminal_button.geometry()}")
+        print(f"Window geometry: {self.geometry()}")
+        self.terminal_anim = QPropertyAnimation(self.terminal, b"geometry")
+        self.button_anim = QPropertyAnimation(self.terminal_button, b"geometry")
         self.setLayout(main_layout)
 
     def resizeEvent(self, event):
@@ -379,6 +402,27 @@ class ScraperScreen(QWidget):
             # Extra insurance for mode changes
             QTimer.singleShot(100, lambda: self.loading.adjustPosition())
 
+        width: int = self.width()
+        height: int = self.height()
+        if hasattr(self, 'terminal') and hasattr(self, 'terminal_button'):
+            width = self.width()
+            height = self.height()
+
+            # Terminal positioning
+            self.terminal.setFixedWidth(width)
+            if self.terminal_open:
+                self.terminal.move(0, height - self.terminal.height())
+            else:
+                self.terminal.move(0, height)
+
+            # Button positioning
+            btn_x = (width - self.terminal_button.width()) // 2
+            if self.terminal_open:
+                btn_y = height - self.terminal.height() - self.terminal_button.height()
+            else:
+                btn_y = height - self.terminal_button.height()
+            self.terminal_button.move(btn_x, btn_y)
+            self.terminal_button.raise_()  # Keep on top
     def toggle_restore(self):
         if self.is_fullscreen:
             self.showNormal()
@@ -676,7 +720,64 @@ class ScraperScreen(QWidget):
         else:
             print("User cancelled dialog")
 
+    def toggle_terminal(self):
+        if hasattr(self, "terminal_group"):
+            try:
+                self.terminal_group.finished.disconnect()
+            except TypeError:
+                pass
+        terminal_height = self.terminal.height()
+        button_height = self.terminal_button.height()
+        width = self.width()
+        screen_height = self.height()
 
+        # Ensure sizes are fixed so geometry animation works
+        self.terminal.setFixedWidth(width)
 
+        self.terminal_anim.setTargetObject(self.terminal)
+        self.terminal_anim.setPropertyName(b"geometry")
+        self.terminal_anim.setDuration(300)
+        self.terminal_anim.setEasingCurve(QEasingCurve.Type.OutCubic)
+
+        self.button_anim.setTargetObject(self.terminal_button)
+        self.button_anim.setPropertyName(b"geometry")
+        self.button_anim.setDuration(300)
+        self.button_anim.setEasingCurve(QEasingCurve.Type.OutCubic)
+
+        group = QParallelAnimationGroup()
+        group.addAnimation(self.terminal_anim)
+        group.addAnimation(self.button_anim)
+
+        if not self.terminal_open:
+            self.terminal.show()
+            self.terminal.raise_()
+            self.terminal_button.raise_()
+
+            # Animate terminal up
+            self.terminal_anim.setStartValue(QRect(0, screen_height, width, terminal_height))
+            self.terminal_anim.setEndValue(QRect(0, screen_height - terminal_height, width, terminal_height))
+
+            # Animate button up
+            self.button_anim.setStartValue(QRect((width - 150) // 2, screen_height - 30, 150, 30))
+            self.button_anim.setEndValue(QRect((width - 150) // 2, screen_height - terminal_height - 30, 150, 30))
+            self.terminal_button.setText("▼  Terminal  ▼")
+
+            self.terminal_open = True
+        else:
+            # Animate terminal down
+            self.terminal_anim.setStartValue(QRect(0, screen_height - terminal_height, width, terminal_height))
+            self.terminal_anim.setEndValue(QRect(0, screen_height, width, terminal_height))
+
+            # Animate button down
+            self.button_anim.setStartValue(QRect((width - 150) // 2, screen_height - terminal_height - 30, 150, 30))
+            self.button_anim.setEndValue(QRect((width - 150) // 2, screen_height - 30, 150, 30))
+
+            group.finished.connect(lambda: self.terminal.hide())
+
+            self.terminal_button.setText("▲  Terminal  ▲")
+            self.terminal_open = False
+
+        group.start()
+        self.terminal_group = group
 
 

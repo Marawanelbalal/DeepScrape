@@ -8,15 +8,16 @@ class ModernButton(QPushButton):
         self._animation = QPropertyAnimation(self, b"geometry")
         self._animation.setDuration(200)
         self._animation.setEasingCurve(QEasingCurve.Type.OutQuad)
-
-    def enterEvent(self, event):
-        self._animation.stop()
-        self._animation.setEndValue(self.geometry().adjusted(-2, -2, 2, 2))
-        self._animation.start()
-        super().enterEvent(event)
-
-    def leaveEvent(self, event):
-        self._animation.stop()
-        self._animation.setEndValue(self.geometry().adjusted(2, 2, -2, -2))
-        self._animation.start()
-        super().leaveEvent(event)
+        self.setFocusPolicy(Qt.FocusPolicy.NoFocus)
+    #
+    # def enterEvent(self, event):
+    #     self._animation.stop()
+    #     self._animation.setEndValue(self.geometry().adjusted(-2, -2, 2, 2))
+    #     self._animation.start()
+    #     super().enterEvent(event)
+    #
+    # def leaveEvent(self, event):
+    #     self._animation.stop()
+    #     self._animation.setEndValue(self.geometry().adjusted(2, 2, -2, -2))
+    #     self._animation.start()
+    #     super().leaveEvent(event)
