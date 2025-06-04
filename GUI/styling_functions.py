@@ -1,11 +1,7 @@
-from . import (QWidget, pyqtSignal, QLinearGradient,
-               QColor, QPalette, QBrush, QVBoxLayout,
-               QHBoxLayout, QFrame, QLineEdit, QScrollArea, Qt,
-               QLabel, QTimer, QPropertyAnimation, QParallelAnimationGroup,
-               QRadioButton,QButtonGroup,QComboBox)
+from . import (QFrame, QLineEdit, QScrollArea,QLabel,QRadioButton,Qt)
 from .modern_button import ModernButton
 
-def style_radiobutton(button: QRadioButton)->QRadioButton:
+def style_radiobutton(button: QRadioButton):
     button.setStyleSheet("""
                             QRadioButton {
                                 color: #a0a0b0;
@@ -23,9 +19,8 @@ def style_radiobutton(button: QRadioButton)->QRadioButton:
                                 border: 2px solid #7719d4;
                             }
                         """)
-    return button
 
-def style_label(label: QLabel)->QLabel:
+def style_label(label: QLabel):
     label.setStyleSheet("""
                 QLabel {
                     color: white;
@@ -33,31 +28,31 @@ def style_label(label: QLabel)->QLabel:
                     font-weight: bold;
                 }
                     """)
-    return label
 
-def style_scroll_area(scroll_area: QScrollArea)->QScrollArea:
-    scroll_area.setStyleSheet("""
-                QScrollArea {
+def style_scroll_area(scroll_area: QScrollArea,background_color):
+    #rgba(255, 255, 255, 0.05)
+    scroll_area.setStyleSheet(f"""
+    
+                QScrollArea {{
                     border: none;
-                }
-                QScrollBar:vertical {
+                }}
+                QScrollBar:vertical {{
                     border: none;
-                    background: rgba(255, 255, 255, 0.05);
+                    background: {background_color};
                     width: 10px;
                     margin: 0px;
-                }
-                QScrollBar::handle:vertical {
+                }}
+                QScrollBar::handle:vertical {{
                     background: rgba(255, 255, 255, 0.2);
                     min-height: 20px;
                     border-radius: 5px;
-                }
-                QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+                }}
+                QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {{
                     height: 0px;
-                }
+                }}
             """)
-    return scroll_area
 
-def style_line_edit(line_edit:QLineEdit)->QLineEdit:
+def style_line_edit(line_edit:QLineEdit):
     line_edit.setStyleSheet("""
                         QLineEdit {
                             background-color: rgba(255, 255, 255, 0.1);
@@ -71,9 +66,9 @@ def style_line_edit(line_edit:QLineEdit)->QLineEdit:
                             border: 1px solid #7719d4;
                         }
                     """)
-    return line_edit
 
-def style_top_buttons(top_button:ModernButton,bg_color:str = "rgba(255, 255, 255, 0.1)",hover_bg_color:str = "rgba(255, 255, 255, 0.2)")->ModernButton:
+
+def style_top_buttons(top_button:ModernButton,bg_color:str = "rgba(255, 255, 255, 0.1)",hover_bg_color:str = "rgba(255, 255, 255, 0.2)"):
     top_button.setStyleSheet(f"""
             ModernButton {{
                 background-color: {bg_color};
@@ -85,9 +80,8 @@ def style_top_buttons(top_button:ModernButton,bg_color:str = "rgba(255, 255, 255
                 background-color: {hover_bg_color};
             }}
         """)
-    return top_button
 
-def style_frame(frame:QFrame,bg_color:str = "background-color: rgba(255, 255, 255, 0.05)",border_radius:int = 15)->QFrame:
+def style_frame(frame:QFrame,bg_color:str = "background-color: rgba(255, 255, 255, 0.05)",border_radius:int = 15):
     frame.setStyleSheet(f"""
             QFrame {{
                 background-color: {bg_color};
@@ -95,9 +89,8 @@ def style_frame(frame:QFrame,bg_color:str = "background-color: rgba(255, 255, 25
                 border: 1px solid rgba(255, 255, 255, 0.1);
             }}
         """)
-    return frame
 
-def style_modern_button(modern_button:ModernButton)->ModernButton:
+def style_modern_button(modern_button:ModernButton):
     modern_button.setStyleSheet("""
             ModernButton {
                 background-color: #7719d4;
@@ -112,4 +105,32 @@ def style_modern_button(modern_button:ModernButton)->ModernButton:
                 background-color: #8a2be2;
             }
         """)
-    return modern_button
+
+def label_with_background(labelBackgroundColor,scrollAreaBackgroundColor,height=275,width=500):
+    label = QLabel("Description: ")
+    label.setStyleSheet(f"""
+                QLabel {{
+                    color: white;
+                    font-size: 16px;
+                    font-weight: bold;
+                    font-family: "Segoe UI Semibold", sans-serif;
+                    background-color: {labelBackgroundColor};;
+                    padding: 8px 12px;
+                    border-radius: 4px;
+                    border-left: 4px solid #7719d4;
+                }}
+            """)
+    label.setAlignment(
+        Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop
+    )
+    label.setWordWrap(True)
+
+    scroll_area = QScrollArea()
+    scroll_area.setWidgetResizable(True)
+    scroll_area.setWidget(label)
+    scroll_area.setFixedSize(width,height)
+    scroll_area.setAlignment(
+        Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop
+    )
+    style_scroll_area(scroll_area,scrollAreaBackgroundColor)
+    return label,scroll_area

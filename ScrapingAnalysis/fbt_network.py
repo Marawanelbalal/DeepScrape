@@ -1,8 +1,105 @@
-import networkx as nx
-import matplotlib.pyplot as plt
-from .fbt_analysis import frequently_bought_together
-from .scraping_functions import ebay_api
+from . import nx #Networkx
+from . import webdriver,By,Options,stealth #Selenium imports
+from . import plt #Pyplot
+from . import pd #Pandas
+from . import time,random,copy
+from .scraping_functions import get_item_data,extract_item_id
 
+
+def customers_also_bought(URL,XPATH):
+    options = Options()
+    options.add_argument("--headless")  #run in headless mode (no browser will open)
+    options.add_argument("--disable-gpu")
+    options.add_argument("--disable-extensions")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--blink-settings=imagesEnabled=false")
+    options.add_argument("--disable-plugins-discovery")
+    options.add_argument("--disable-features=SharedStorageWorklet")
+    #some of the extra arguments are not always helpful, but including them doesn't hurt.
+
+    prefs = {
+      "profile.default_content_setting_values": {
+        "images": 2,
+        "notifications": 2,
+        "geolocation": 2,
+        "javascript": 1,
+      }
+    }
+    options.add_experimental_option("prefs", prefs)
+    web = webdriver.Chrome(options = options)
+    stealth(web,
+            languages=["en-US", "en"],
+            vendor="Google Inc.",
+            platform="Win32",
+            webgl_vendor="Intel Inc.",
+            renderer="Intel Iris OpenGL Engine",
+            fix_hairline=True,
+            )
+    web.get(URL)
+    content = web.page_source[:1000]
+    if "Pardon Our Interruption" in content or "automated access" in content:
+      print("Blocked by eBay. Received interruption page.")
+      return []
+    # wait = WebDriverWait(web, 15)
+    # also_bought = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//a[contains(@class, 'GvB_')]")))
+    time.sleep(random.uniform(2, 5))
+    also_bought = web.find_elements(By.XPATH, XPATH)
+
+    print(f"Found {len(also_bought)} elements")
+
+    if also_bought:
+      links = [x.get_attribute("href") for x in also_bought]
+      item_ids = [extract_item_id(x) for x in links]
+      web.quit()
+      return item_ids
+    else:
+      web.quit()
+      return []
+
+def frequently_bought_together(items:dict,access_token)->pd.DataFrame:
+
+    scraped_ids = set(items.keys())
+    duplicates = 0
+    if items:
+        items_copy = copy.deepcopy(items)
+        for key,value in items.items():
+            also_bought_IDs = customers_also_bought(value['Link'], "//a[contains(@class, 'cHK7')]")
+            if also_bought_IDs:
+                items_copy[key].update({"Also Bought": also_bought_IDs})
+            else:
+                items_copy[key].update({"Also Bought": [value['Item ID']]})
+            scraped_ids.add(key)
+            last_scraped = {}
+            also_bought = items_copy[key]['Also Bought']
+            for ID in also_bought:
+
+                if f"v1|{ID}|0" not in scraped_ids:
+                    last_scraped = get_item_data(ID, access_token, 'US')
+                    if last_scraped is not None:
+                        last_scraped['Also Bought'] = [key]
+                        items_copy[last_scraped['Item ID']] = last_scraped
+                        scraped_ids.add(ID)
+                else:
+                    items_copy[f"v1|{ID}|0"]['Also Bought'].append(key)
+
+                    print('Duplicate not scraped: ', ID)
+
+                    duplicates += 1
+        print(len(items_copy))
+        print(duplicates, " duplicates found!")
+        for ID,item in items_copy.items():
+            print(ID,": ",item)
+        all_items = list(items_copy.values())
+
+        df = pd.DataFrame(all_items)
+
+        for item in items_copy.items():
+                print(item)
+
+        return df
+    else:
+        print('No items found')
 
 def bought_together_analysis(items:dict,access_token:str):
     df = frequently_bought_together(items,access_token)

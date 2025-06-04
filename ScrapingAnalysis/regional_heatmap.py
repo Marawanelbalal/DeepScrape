@@ -1,17 +1,26 @@
-import geopandas as gpd
-import matplotlib.pyplot as plt
-import matplotlib as mpl
-import pandas as pd
-#-------------------------------------------------------------------------------------------------
+from . import gpd,plt,pd,mpl
+from common_imports import os,load_dotenv
+#Geopandas, pyplot, pandas,matplotlib
+
+
 def ebay_api_multi_region(query,total_items):
     import requests
     import base64
+    load_dotenv()
+    try:
+        Client_ID = os.getenv("EBAY_CLIENT_ID")
+        Client_Secret = os.getenv("EBAY_CLIENT_SECRET")
+        Exchange_API_Key = os.getenv("EXCHANGE_API_KEY") #To unify currency
 
-    CLIENT_ID = "MarawanE-DeepScra-PRD-e8c4184bf-8925ec1a"
-    CLIENT_SECRET = "PRD-8c4184bf3a60-67a9-457c-9b81-caf6"
-    EXCHANGE_API_KEY = "7b58c7c5f80600ead0081243"
+    except Exception as e:
+        print("Invalid Client ID or Client Secret Keys\n", e)
+        return
 
-    credentials = f"{CLIENT_ID}:{CLIENT_SECRET}"
+    if Client_ID is None or Client_Secret is None or Exchange_API_Key is None:
+        print("Invalid Client ID or Client Secret or Exchange Key")
+        return
+
+    credentials = f"{Client_ID}:{Client_Secret}"
     encoded_credentials = base64.b64encode(credentials.encode()).decode()
 
     token_url = "https://api.ebay.com/identity/v1/oauth2/token"
@@ -93,10 +102,10 @@ def ebay_api_multi_region(query,total_items):
         if currency == "USD":
             exchange_rates[currency] = 1.0
         else:
-            url = f"https://v6.exchangerate-api.com/v6/{EXCHANGE_API_KEY}/pair/{currency}/USD"
-            r = requests.get(url)
-            if r.status_code == 200:
-                data = r.json()
+            url = f"https://v6.exchangerate-api.com/v6/{Exchange_API_Key}/pair/{currency}/USD"
+            request = requests.get(url)
+            if request.status_code == 200:
+                data = request.json()
                 rate = data.get("conversion_rate", 1.0)
                 exchange_rates[currency] = rate
             else:
@@ -109,6 +118,7 @@ def ebay_api_multi_region(query,total_items):
         usd_value = round(float(value) * exchange_rates.get(currency, 1.0), 2)
 
         all_prices[item_id]['USD_Price'] = usd_value
+
     return all_prices
 
 
@@ -138,7 +148,6 @@ def calculate_average_prices(all_prices_data):
 
 def regional_price_heatmap(query,total_items):
     all_data = ebay_api_multi_region(query,total_items)
-    print(f"All data: {all_data}")
     average_prices_by_region = calculate_average_prices(all_data)
     world = gpd.read_file(
         "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson"
@@ -170,7 +179,7 @@ def regional_price_heatmap(query,total_items):
 
     merged.plot(
         column='avg_price',
-        cmap='YlOrRd',
+        cmap='YlOrRd', #Yellow - Orange - Red
         linewidth=0.8,
         ax=ax,
         edgecolor='0.8',
@@ -179,7 +188,7 @@ def regional_price_heatmap(query,total_items):
             "edgecolor": "white",
             "hatch": "///x",
             "label": "No Data"
-        }
+        } #Missing regions appear as slashes
     )
 
 
@@ -190,6 +199,7 @@ def regional_price_heatmap(query,total_items):
     )
 
     cmap = plt.cm.YlOrRd
+    #Connect the data to the heatmap colors.
     norm = mpl.colors.Normalize(vmin=merged['avg_price'].min(), vmax=merged['avg_price'].max())
     sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
     sm._A = []

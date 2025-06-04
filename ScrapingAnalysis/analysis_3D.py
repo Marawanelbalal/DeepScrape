@@ -1,7 +1,4 @@
-from sklearn.cluster import KMeans
-import matplotlib.pyplot as plt
-from matplotlib.patches import Patch
-import pandas as pd
+from . import pd,plt,KMeans,Patch
 
 def Analysis3D(items:dict):
     N_CLUSTERS = 4

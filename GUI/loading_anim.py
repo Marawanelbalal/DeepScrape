@@ -23,7 +23,7 @@ class LoadingAnimation(QLabel):
                 self.parent().width() // 2 - self.width() // 2,
                 self.parent().height() // 2 - self.height() // 2
             )
-            print("Position Adjusted!")
+
     def initMovie(self):
         try:
             self.movie = QMovie(r":/resources/spinner.gif")
@@ -34,9 +34,7 @@ class LoadingAnimation(QLabel):
             print(f"Error loading spinner GIF: {e}")
 
     def showGIF(self):
-        print(f"GIF exists: {os.path.exists(r':/resources/spinner.gif')}")
-        print(f"GIF valid: {self.movie.isValid()}")
-        print(f"Frame count: {self.movie.frameCount()}")
+
         if self.movie and self.movie.isValid():
             self.adjustPosition()
             self.setVisible(True)

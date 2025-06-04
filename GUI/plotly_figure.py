@@ -1,5 +1,10 @@
-from . import QMainWindow,FigureWidget,QWidget,QVBoxLayout
-from PyQt6.QtWebEngineWidgets import QWebEngineView
+#Not used in the main app
+#Attempted to use QWebEngineView for plotly so the application doesn't have to use a browser
+#Doesn't work reliably
+
+from . import QMainWindow,QWidget,QVBoxLayout
+from . import QWebEngineView
+
 class PlotlyFigure(QMainWindow):
     def __init__(self,fig):
         super().__init__()

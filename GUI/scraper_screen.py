@@ -1,3 +1,4 @@
+#The main screen application where everything happens, uses a lot of imports.
 
 from . import (QWidget, pyqtSignal, QLinearGradient,
                QColor, QPalette, QBrush, QVBoxLayout,
@@ -12,21 +13,21 @@ from .modern_button import ModernButton
 from .main_menu import MainMenu
 from .product_card import ProductCard
 from .analysis_figure import AnalysisFigure
-from .plotly_figure import PlotlyFigure
 from .Terminal import Terminal
 
 from .styling_functions import style_radiobutton, style_label, style_line_edit, style_top_buttons, style_scroll_area, \
-    style_frame, style_modern_button
+    style_frame, style_modern_button, label_with_background
+
 from .analysis_description_mappings import get_description
 
-from ScrapingAnalysis.scraping_functions import seller_network, ebay_api
-
+from ScrapingAnalysis.scraping_functions import ebay_api
+from ScrapingAnalysis.seller_analysis import seller_network
 from ScrapingAnalysis.heatmaps import price_heatmap,feedback_percentage_heatmap
 from ScrapingAnalysis.regional_heatmap import regional_price_heatmap
 
 from ScrapingAnalysis.charts import price_range_pie_chart,price_range_chart,feedback_percentage_pie_chart
 
-from ScrapingAnalysis.fbt_network import frequently_bought_together, bought_together_analysis
+from ScrapingAnalysis.fbt_network import bought_together_analysis
 
 from ScrapingAnalysis.reviews import review_bar
 
@@ -68,7 +69,7 @@ class ScraperScreen(QWidget):
         self.setPalette(palette)
 
         main_layout = QVBoxLayout()
-        main_layout.setContentsMargins(20, 20, 20, 20)
+        main_layout.setContentsMargins(10, 10, 10, 10)
         main_layout.setSpacing(0)
 
         title_bar = QHBoxLayout()
@@ -95,17 +96,17 @@ class ScraperScreen(QWidget):
 
         self.minimize_button = ModernButton("—")
         self.minimize_button.setFixedSize(30, 30)
-        self.minimize_button = style_top_buttons(self.minimize_button)
+        style_top_buttons(self.minimize_button)
 
         self.restore_button = ModernButton("□")
         self.restore_button.setFixedSize(30, 30)
-        self.restore_button = style_top_buttons(self.restore_button)
+        style_top_buttons(self.restore_button)
 
         self.close_button = ModernButton("✕")
         self.close_button.setFixedSize(30, 30)
-        self.close_button = style_top_buttons(self.close_button,
-                                              "rgba(255, 60, 60, 0.3)",
-                                            "rgba(255, 60, 60, 0.7)")
+        style_top_buttons(self.close_button,
+                "rgba(255, 60, 60, 0.3)",
+            "rgba(255, 60, 60, 0.7)")
 
         self.minimize_button.clicked.connect(self.showMinimized)
         self.restore_button.clicked.connect(self.toggle_restore)
@@ -126,7 +127,8 @@ class ScraperScreen(QWidget):
         content_layout.setSpacing(20)
 
         #the left panel is where the user will enter their queries and item amounts
-        left_panel = style_frame(QFrame())
+        left_panel = QFrame()
+        style_frame(left_panel)
 
         left_layout = QVBoxLayout(left_panel)
         left_layout.setContentsMargins(20, 20, 20, 20)
@@ -138,11 +140,11 @@ class ScraperScreen(QWidget):
 
         self.search_bar = QLineEdit()
         self.search_bar.setPlaceholderText("Search for products on eBay...")
-        self.search_bar = style_line_edit(self.search_bar)
+        style_line_edit(self.search_bar)
 
 
         self.search_button = ModernButton("Search")
-        self.search_button = style_modern_button(self.search_button)
+        style_modern_button(self.search_button)
 
         self.search_button.clicked.connect(self.perform_search)
 
@@ -152,14 +154,14 @@ class ScraperScreen(QWidget):
         limits_layout.setSpacing(10)
         self.items_per_request = QLineEdit()
         self.items_per_request.setPlaceholderText("Set items per request (50 Recommended)...")
-        self.items_per_request = style_line_edit(self.items_per_request)
+        style_line_edit(self.items_per_request)
 
         self.max_items = QLineEdit()
         self.max_items.setPlaceholderText("Set a max number of items (<= 200 Recommended)...")
-        self.max_items = style_line_edit(self.max_items)
+        style_line_edit(self.max_items)
 
         self.export_button = ModernButton("Export to CSV")
-        self.export_button = style_modern_button(self.export_button)
+        style_modern_button(self.export_button)
         self.export_button.clicked.connect(self.export_to_csv)
         limits_layout.addWidget(self.items_per_request)
         limits_layout.addWidget(self.max_items)
@@ -189,7 +191,7 @@ class ScraperScreen(QWidget):
         #this scroll area will allow the user to view all the added product cards
         scroll_area = QScrollArea()
         scroll_area.setWidgetResizable(True)
-        scroll_area = style_scroll_area(scroll_area)
+        style_scroll_area(scroll_area,"rgba(255, 255, 255, 0.05)")
 
         self.results_container = QWidget()
         self.results_layout = QVBoxLayout(self.results_container)
@@ -202,24 +204,24 @@ class ScraperScreen(QWidget):
         left_layout.addWidget(scroll_area)
         left_layout.addWidget(self.search_progress)
         right_panel = QFrame()
-        right_panel = style_frame(right_panel)
+        style_frame(right_panel)
         right_panel.setFixedWidth(550)
 
         right_layout = QVBoxLayout(right_panel)
-        right_layout.setContentsMargins(20, 20, 20, 20)
-        right_layout.setSpacing(20)
+        right_layout.setContentsMargins(10, 10, 10, 10)
+        right_layout.setSpacing(15)
 
 
         # Analysis options
         analysis_group = QFrame()
-        analysis_group = style_frame(analysis_group,"rgba(255, 255, 255, 0.03)",15)
+        style_frame(analysis_group,"rgba(255, 255, 255, 0.03)",15)
 
         analysis_layout = QVBoxLayout(analysis_group)
-        analysis_layout.setContentsMargins(15, 15, 15, 15)
+        analysis_layout.setContentsMargins(10, 10, 10, 10)
         analysis_layout.setSpacing(15)
 
         analysis_title = QLabel("Analysis Options")
-        analysis_title = style_label(analysis_title)
+        style_label(analysis_title)
 
         self.analysis_dropdown = QComboBox()
         self.analysis_dropdown.addItems([
@@ -243,7 +245,7 @@ class ScraperScreen(QWidget):
             }
         """)
         self.heatmap_label = QLabel("Choose heatmap analysis metrics:")
-        self.heatmap_label = style_label(self.heatmap_label)
+        style_label(self.heatmap_label)
 
         self.price_heatmap_check = QRadioButton("Heatmap Showing Price Differences")
         self.feedback_heatmap_check = QRadioButton("Heatmap Showing Feedback Score Differences")
@@ -257,7 +259,7 @@ class ScraperScreen(QWidget):
         self.heatmap_group.setExclusive(True)
         self.heatmap_group.buttonClicked.connect(self.change_description)
         for i in range (len(self.heatmap_buttons)):
-            self.heatmap_buttons[i] = style_radiobutton(self.heatmap_buttons[i])
+            style_radiobutton(self.heatmap_buttons[i])
             self.heatmap_group.addButton(self.heatmap_buttons[i])
             self.heatmap_buttons[i].setVisible(False)
 
@@ -267,7 +269,7 @@ class ScraperScreen(QWidget):
 
 
         self.chart_label = QLabel("Choose chart analysis metrics:")
-        self.chart_label = style_label(self.chart_label)
+        style_label(self.chart_label)
 
         self.price_pie_chart_check = QRadioButton("Pie Chart Showing Price Differences")
         self.feedback_pie_chart_check = QRadioButton("Pie Chart Showing Feedback Score Differences")
@@ -281,7 +283,7 @@ class ScraperScreen(QWidget):
         self.chart_group.setExclusive(True)
         self.chart_group.buttonClicked.connect(self.change_description)
         for i in  range(len(self.chart_buttons)):
-            self.chart_buttons[i] = style_radiobutton(self.chart_buttons[i])
+            style_radiobutton(self.chart_buttons[i])
             self.chart_group.addButton(self.chart_buttons[i])
             self.chart_buttons[i].setVisible(False)
         self.chart_label.setVisible(False)
@@ -291,7 +293,7 @@ class ScraperScreen(QWidget):
         #For when the user chooses community analysis
         self.jaccard_bar = QLineEdit()
         self.jaccard_bar.setPlaceholderText("Add Jaccard Similarity Threshold (Optional)..")
-        self.jaccard_bar = style_line_edit(self.jaccard_bar)
+        style_line_edit(self.jaccard_bar)
         self.jaccard_bar.setVisible(False)
         self.analysis_dropdown.currentIndexChanged.connect(self.toggle_jaccard_bar)
 
@@ -301,35 +303,22 @@ class ScraperScreen(QWidget):
         self.loading.adjustPosition()
 
 
-        #This description has a unique look, so it is better to not use the common function
-        self.analysis_description = QLabel("Description: ")
-        self.analysis_description.setStyleSheet("""
-            QLabel {
-                color: white;
-                font-size: 16px;
-                font-weight: bold;
-                font-family: "Segoe UI Semibold", sans-serif;
-                background-color: rgba(119, 25, 212, 0.15);;
-                padding: 8px 12px;
-                border-radius: 4px;
-                border-left: 4px solid #7719d4;
-            }
-        """)
+
+        self.analysis_description,description_scroll_area = label_with_background(
+            "rgba(119, 25, 212, 0.15)",
+            "rgba(255, 255, 255, 0.05)",
+            200
+        )
         self.analysis_description.setAlignment(
             Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop
         )
         self.analysis_description.setWordWrap(True)
-
-        description_scroll_area = QScrollArea()
-        description_scroll_area.setWidgetResizable(True)
-        description_scroll_area.setWidget(self.analysis_description)
-        description_scroll_area.setFixedHeight(275)
-        description_scroll_area.setFixedWidth(475)
-        description_scroll_area.setAlignment(
-            Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop
+        self.warning_label,warning_scroll_area = label_with_background(
+            "rgba(255, 0, 0, 0.15)",
+            "rgba(255, 255, 255, 0.05)",
+                    150
         )
-        description_scroll_area = style_scroll_area(description_scroll_area)
-
+        self.warning_label.setText("This is a warning")
         self.analysis_dropdown.currentIndexChanged.connect(self.change_description)
         #analysis layout which will contain the user's options for radiobuttons and the bar for jaccard similarity
         analysis_layout.addWidget(analysis_title)
@@ -340,6 +329,8 @@ class ScraperScreen(QWidget):
         for widget in self.chart_choice_widgets:
             analysis_layout.addWidget(widget)
         analysis_layout.addWidget(description_scroll_area)
+        analysis_layout.addWidget(warning_scroll_area)
+
 
         self.analyze_button = ModernButton("ANALYZE SELECTED ITEMS")
         self.analyze_button.clicked.connect(self.on_analyze_clicked)
@@ -362,14 +353,21 @@ class ScraperScreen(QWidget):
         """)
         self.analyze_button.setEnabled(False)
         self.analysis_dropdown.currentIndexChanged.connect(self.toggle_analysis_button)
+
+        self.load_csv_button = ModernButton("Load and Use CSV",self)
+        self.enable_scraping_button = ModernButton("Enable Scraping", self)
+        style_modern_button(self.load_csv_button)
+        style_modern_button(self.enable_scraping_button)
+        extra_button_layout = QHBoxLayout()
+        extra_button_layout.addWidget(self.load_csv_button)
+        extra_button_layout.addWidget(self.enable_scraping_button)
+        analysis_layout.addLayout(extra_button_layout)
         right_layout.addWidget(analysis_group)
         right_layout.addStretch()
-
-
         right_layout.addWidget(self.analyze_button)
 
-        content_layout.addWidget(left_panel,1)
-        content_layout.addWidget(right_panel,5)
+        content_layout.addWidget(left_panel)
+        content_layout.addWidget(right_panel)
 
         main_layout.addLayout(content_layout)
 
@@ -381,16 +379,13 @@ class ScraperScreen(QWidget):
 
         self.terminal_button = ModernButton("▲  Terminal  ▲",self)
         self.terminal_button.setFixedSize(150,30)
-        self.terminal_button = style_modern_button(self.terminal_button)
+        style_modern_button(self.terminal_button)
         self.terminal_button.setCursor(Qt.CursorShape.PointingHandCursor)
         self.terminal_button.clicked.connect(self.toggle_terminal)
-        self.terminal_button.move((self.width() - 150) // 2, self.height() - 30)
+        self.terminal_button.move((self.width() - 150) // 2, self.height() - 27)
         self.terminal_button.raise_()
         self.terminal_button.setVisible(True)
-        print(f"Button parent: {self.terminal_button.parent()}")
-        print(f"Button isVisible: {self.terminal_button.isVisible()}")
-        print(f"Button geometry: {self.terminal_button.geometry()}")
-        print(f"Window geometry: {self.geometry()}")
+
         self.terminal_anim = QPropertyAnimation(self.terminal, b"geometry")
         self.button_anim = QPropertyAnimation(self.terminal_button, b"geometry")
         self.setLayout(main_layout)
@@ -441,19 +436,22 @@ class ScraperScreen(QWidget):
             self.hide()
 
     def clear_layout(self,layout):
+        #Used specifically to clear out all product cards in the results layout
         while layout.count():
             item = layout.takeAt(0)
             widget = item.widget()
             if widget is not None:
                 widget.setParent(None)
 
+
+    #All changes to the GUI must be on the main thread, so a helper function is made
     def update_ui(self, items: dict):
         self.items = items
         print("UI received items:", len(items))
         item_pairs = list(self.items.items())
         total = len(item_pairs)
         self._ui_index = 0
-
+        #Add item cards to the GUI chunk by chunk to not overwhelm it
         def add_chunk():
             self.search_button.setEnabled(True)
             self.search_progress.setValue(0)
@@ -483,7 +481,18 @@ class ScraperScreen(QWidget):
         add_chunk()
 
     def perform_search(self):
+        #Add error detection
         if self.max_items.text() == "0" or self.items_per_request.text() == "0":
+            self.show_warning("Items per request and maximum number of items cannot be 0")
+            return
+        if not self.max_items.text() or not self.items_per_request.text() or not self.search_bar.text():
+            self.show_warning("Make sure to fill all required data fields first.")
+            return
+        try:
+            per_request = int(self.items_per_request.text())
+            maximum = int(self.max_items.text())
+        except ValueError as e:
+            self.show_warning("Items per request and maximum number of items must be integer values.")
             return
         self.search_clicked = True
         self.clear_layout(self.results_layout)
@@ -494,18 +503,19 @@ class ScraperScreen(QWidget):
         self.search_progress.setRange(0, self.total_items)
         self.search_progress.setValue(self.total_items//20)
 
-        per_request = int(self.items_per_request.text())
-        maximum = int(self.max_items.text())
+
 
         def worker():
             self.items,self.token = ebay_api(self.query, per_request, maximum,
                                              progress_callback = lambda value:self.progress_update.emit(value))
+            #progress_callback is used to emit number of items to the progress bar
             self.items_returned.emit(self.items)
             self.toggle_analysis_button()
 
         threading.Thread(target=worker, daemon=True).start()
 
     def window_transition(self):
+        #Fading animation between main menu window and scraper screen window
         main_menu.setWindowOpacity(0.0)
         main_menu.showFullScreen()
 
@@ -526,7 +536,9 @@ class ScraperScreen(QWidget):
         group.finished.connect(intro.close)
         group.start()
 
+
     def on_analyze_clicked(self):
+        # A matplotlib/plotly figure is created based on what the user chose
 
         text = self.analysis_dropdown.currentText()
         self.loading.showGIF()
@@ -586,25 +598,27 @@ class ScraperScreen(QWidget):
         threading.Thread(target=worker, daemon=True).start()
 
 
-
+    #Helper function for showing matplotlib and plotly figures
     def show_figure(self,fig):
         if isinstance(fig,matplotlib.figure.Figure):
             self._analysis_win = AnalysisFigure(fig)
+            self._analysis_win.showMaximized()
 
         else:
-            self._analysis_win = PlotlyFigure(fig)
-        self._analysis_win.showMaximized()
+            fig.show()
 
         self.analyze_button.setEnabled(True)
 
-
+    #Jaccard bar only shows when the user picks the analysis option tied to it
     def toggle_jaccard_bar(self):
         text = self.analysis_dropdown.currentText()
         if text == "Chart Showing Communities (Related Categories)":
             self.jaccard_bar.setVisible(True)
         else:
             self.jaccard_bar.setVisible(False)
+
     def toggle_analysis_button(self):
+        #Make sure user has selected an analysis type before enabling the analyze button
         text = self.analysis_dropdown.currentText()
         if text == "Select an analysis type...":
             self.analyze_button.setEnabled(False)
@@ -612,6 +626,7 @@ class ScraperScreen(QWidget):
             self.analyze_button.setEnabled(True)
 
     def change_description(self):
+        #Change the description based on the selected analysis type
         text = self.analysis_dropdown.currentText()
         inner_text = ""
 
@@ -625,6 +640,7 @@ class ScraperScreen(QWidget):
         self.analysis_description.setText(get_description(text,inner_text))
 
     def update_radiobuttons(self):
+        #If the user chooses heatmap or charts, reveal the extra options using radiobuttons
         text = self.analysis_dropdown.currentText()
 
         for Hwidget,CHwidget in zip(self.heatmap_choice_widgets,self.chart_choice_widgets):
@@ -650,6 +666,7 @@ class ScraperScreen(QWidget):
             self.show_warning("No items were loaded, exporting failed!")
             return
         try:
+            #Use JSON strings to save nested data structures reliably
             df = pd.DataFrame([
                 {
                     "Item ID": item.get('Item ID'),
@@ -683,6 +700,9 @@ class ScraperScreen(QWidget):
         except Exception as e:
             self.show_warning(f"Error saving CSV file: {e}")
 
+    #Import function not used in the app, but the user may choose to
+    #copy this function if they want to use it in their own application
+    #with the .csv file they exported with this app
     def import_csv(self):
         file_path, _ = QFileDialog.getOpenFileName(
             parent=self,
@@ -721,17 +741,17 @@ class ScraperScreen(QWidget):
             print("User cancelled dialog")
 
     def toggle_terminal(self):
+        #Disconnect any signals pre-toggling
         if hasattr(self, "terminal_group"):
             try:
                 self.terminal_group.finished.disconnect()
             except TypeError:
                 pass
         terminal_height = self.terminal.height()
-        button_height = self.terminal_button.height()
         width = self.width()
         screen_height = self.height()
 
-        # Ensure sizes are fixed so geometry animation works
+        #ensure sizes are fixed so geometry animation works reliably
         self.terminal.setFixedWidth(width)
 
         self.terminal_anim.setTargetObject(self.terminal)
@@ -743,7 +763,7 @@ class ScraperScreen(QWidget):
         self.button_anim.setPropertyName(b"geometry")
         self.button_anim.setDuration(300)
         self.button_anim.setEasingCurve(QEasingCurve.Type.OutCubic)
-
+        #make sure both animations for button and terminal happen at the exact same time with a group
         group = QParallelAnimationGroup()
         group.addAnimation(self.terminal_anim)
         group.addAnimation(self.button_anim)
@@ -752,23 +772,20 @@ class ScraperScreen(QWidget):
             self.terminal.show()
             self.terminal.raise_()
             self.terminal_button.raise_()
-
-            # Animate terminal up
+            #Move terminal and button up
             self.terminal_anim.setStartValue(QRect(0, screen_height, width, terminal_height))
             self.terminal_anim.setEndValue(QRect(0, screen_height - terminal_height, width, terminal_height))
 
-            # Animate button up
             self.button_anim.setStartValue(QRect((width - 150) // 2, screen_height - 30, 150, 30))
             self.button_anim.setEndValue(QRect((width - 150) // 2, screen_height - terminal_height - 30, 150, 30))
             self.terminal_button.setText("▼  Terminal  ▼")
 
             self.terminal_open = True
         else:
-            # Animate terminal down
+            #Move terminal and button down
             self.terminal_anim.setStartValue(QRect(0, screen_height - terminal_height, width, terminal_height))
             self.terminal_anim.setEndValue(QRect(0, screen_height, width, terminal_height))
 
-            # Animate button down
             self.button_anim.setStartValue(QRect((width - 150) // 2, screen_height - terminal_height - 30, 150, 30))
             self.button_anim.setEndValue(QRect((width - 150) // 2, screen_height - 30, 150, 30))
 
@@ -778,6 +795,7 @@ class ScraperScreen(QWidget):
             self.terminal_open = False
 
         group.start()
+        #to avoid garbage collection
         self.terminal_group = group
 
 

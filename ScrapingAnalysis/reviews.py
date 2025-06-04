@@ -1,11 +1,111 @@
-from concurrent.futures import ThreadPoolExecutor
-from .scraping_functions import reviews_worker, get_review_score, marwan_score
-import pandas as pd
-import json
+from . import pd #pandas
+from . import json,requests,time,random,BeautifulSoup
+from . import plt #pyplot
+def get_reviews(URL:str)->list and tuple:
 
+
+  USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/117.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Firefox/116.0",
+  ]
+  session = requests.Session()
+  #Rotate user agents and make a session to avoid rate limits
+  headers = {
+    "User-Agent":  random.choice(USER_AGENTS),
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Connection": "keep-alive",
+    "Referer": "https://www.ebay.com/",
+  }
+
+  session.headers.update(headers)
+  #To stay in the safe zone, add random time limits between requests.
+  time.sleep(random.uniform(12, 17))
+
+  try:
+    soup = session.get(URL, timeout=10)
+  except requests.exceptions.RequestException as e:
+    print("Request failed: ", e)
+    return [], None
+
+  #In case of eBay blockage
+  if "Pardon Our Interruption" in soup.text or "automated access" in soup.text:
+    print("Blocked by eBay. Received interruption page.")
+    return [], None
+  else:
+    print("Successful scraping for item: ",URL)
+
+  site = BeautifulSoup(soup.content, 'html5lib')
+
+  R = site.find_all('div', class_="fdbk-container__details__comment")
+  seller_rating_values = site.find_all('span',class_ = 'fdbk-detail-seller-rating__value')
+
+  AD,RSC,SS,COMM = None,None,None,None
+
+  if seller_rating_values:
+
+    try:
+
+      AD = float(seller_rating_values[0].text)
+      RSC = float(seller_rating_values[1].text)
+      SS = float(seller_rating_values[2].text)
+      COMM = float(seller_rating_values[3].text)
+
+    except ValueError as e:
+
+      print('Something went wrong collecting seller data:\n',e)
+
+  reviews = [review.text for review in R]
+
+  seen = set()
+  unique_reviews = []
+  for rev in reviews:
+    if rev not in seen:
+      seen.add(rev)
+      unique_reviews.append(rev)
+  return unique_reviews,(AD,RSC,SS,COMM)
+
+
+
+def reviews_worker(item):
+  reviews = get_reviews(item['Link'])
+  item_name = item['Title']
+  review_list = reviews[0]
+
+  if reviews[1] is None:
+    scores_tuple = (None, None, None, None, float(item['Feedback Percentage']))
+  else:
+    scores_tuple = reviews[1] + (float(item['Feedback Percentage']),)
+  return item_name,review_list,scores_tuple
+
+def get_review_score(review):
+  import nltk
+  from nltk.sentiment.vader import SentimentIntensityAnalyzer
+  review_analyzer = SentimentIntensityAnalyzer()
+  #update the lexicon with some common phrases found
+  review_analyzer.lexicon.update({
+    "smaller than I expected": -1.5,
+    "so far so good": 1.5,
+    "no problems": 1.0,
+    "Exactly as advertised": 1.0,
+    "Fast shipping": 1.0,
+    "Would do business again": 1.0
+  })
+  vader_score = review_analyzer.polarity_scores(review)
+  return vader_score
+
+
+#this function is used in item rank in reviews.py
+def calculate_item_score(S,FP,AD,SC,SS,C):
+  return round( ( (3 * S) + (0.5 * FP) + (0.7 * AD) + (0.15 * SC) + (0.5 * SS) + (0.15 * C) ), 2)
 
 def review_analysis(items:dict,csv_path = None):
-
+    #If a CSV path is given, use it, otherwise try to scrape data live
 
     all_reviews = {}
     title_seller_map = {}
@@ -17,35 +117,20 @@ def review_analysis(items:dict,csv_path = None):
     if csv_path is not None:
         df = pd.read_csv(csv_path)
 
-        # Decode JSON strings
+        #Decode JSON strings back to their original forms
         df["item_name"] = df["item_name"].apply(json.loads)
         df["review_list"] = df["review_list"].apply(json.loads)
         df["score_tuple"] = df["score_tuple"].apply(lambda x: tuple(json.loads(x)))
 
-        # Reconstruct the original list of tuples
+        #Reconstruct the original list of tuples
         results = list(zip(df["item_name"], df["review_list"], df["score_tuple"]))
         print("Loaded CSV!")
         print(results)
-        try:
-            print("Top level type: ",type(results))
-            print("1st element: ",type(results[0]))
-            print("1st inner 1st element: ", type(results[0][0]))
-            print("2nd inner 1st element: ", type(results[0][1]))
-            print("3rd inner 1st element: ", type(results[0][2]))
-        except Exception as e:
-            print("Couldn't print: ",e)
+
     else:
         for item in items.values():
             results.append(reviews_worker(item))
-        try:
-            print("Top level type: ",type(results))
-            print("1st element: ",type(results[0]))
-            print("1st inner 1st element: ", type(results[0][0]))
-            print("2nd inner 1st element: ", type(results[0][1]))
-            print("3rd inner 1st element: ", type(results[0][2]))
-        except Exception as e:
-            print("Couldn't print: ",e)
-        # Convert complex types to JSON strings
+        #Convert complex data structures to JSON strings
         try:
             df = pd.DataFrame([
                 {
@@ -110,12 +195,12 @@ def review_analysis(items:dict,csv_path = None):
                 SS *= 0.2
                 COMM = ratings[3]
                 COMM *= 0.2
-                rank = marwan_score(final_score, FP, AD, RSC, SS, COMM)
+                rank = calculate_item_score(final_score, FP, AD, RSC, SS, COMM)
 
                 print(f'Accurate Description: {AD}\nReasonable shipping cost: {RSC}')
                 print(f'Shipping speed: {SS}\nCommunication: {COMM}')
                 print(f'Feedback Percentage: {FP}')
-                print(f'Final score: {marwan_score(final_score, FP, AD, RSC, SS, COMM)}')
+                print(f'Final score: {calculate_item_score(final_score, FP, AD, RSC, SS, COMM)}')
 
                 title_rank_map[title] = rank
 
@@ -137,8 +222,7 @@ def review_analysis(items:dict,csv_path = None):
 
 def review_bar(items:dict):
     title_rank_map = review_analysis(items)
-    #r"C:\Users\maraw\Documents\name_list_tuple_map.csv"
-    import matplotlib.pyplot as plt
+
 
     titles = list(title_rank_map.keys())
     ranks = list(title_rank_map.values())

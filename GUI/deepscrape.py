@@ -1,4 +1,5 @@
-from . import QMainWindow,QApplication,sys,QIcon,QPalette,QColor,Qt
+from . import QMainWindow,QApplication,QIcon,QPalette,QColor,Qt
+from common_imports import sys
 from .main_menu import MainMenu
 from .intro import Intro
 from .scraper_screen import ScraperScreen
@@ -11,6 +12,7 @@ class DeepScrape:
         self.app.setStyle("Fusion")
 
         palette = self.app.palette()
+        #Give the application a dark purple palette
         palette.setColor(QPalette.ColorRole.Window, QColor("#1a1a2e"))
         palette.setColor(QPalette.ColorRole.WindowText, Qt.GlobalColor.white)
         palette.setColor(QPalette.ColorRole.Base, QColor("#2c2c3a"))

@@ -1,5 +1,5 @@
-import pandas as pd
-import plotly.express as px
+from . import px,pd
+#Plotly and Pandas
 
 
 def price_heatmap(items:dict):

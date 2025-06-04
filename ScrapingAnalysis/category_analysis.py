@@ -1,3 +1,5 @@
+from . import plt
+
 def merge_sets(set1,set2,count1,count2,percentage):
     intersection = len(set1.intersection(set2))
     union = len(set1.union(set2))
@@ -13,7 +15,6 @@ def jaccard_similarity(sets_dict,percentage):
     merged_dict = {}
     used = set()
     sets = list(sets_dict.items())
-    merged_keys = []
     for i in range (len(sets)):
         if i in used:
             continue
@@ -41,6 +42,7 @@ def jaccard_similarity(sets_dict,percentage):
 def recurse_jaccard_similarity(similarity_list,percentage):
     while True:
         latest_similarity = jaccard_similarity(similarity_list,percentage)
+
         if latest_similarity == similarity_list:
             break
         similarity_list = latest_similarity
@@ -72,13 +74,13 @@ def community_analysis(items:dict,percentage=100):
     for community,counter in communities.items():
         print(community," : ",counter)
         sets.append(community)
-    print(f'After applying {percentage}% Jaccard similarity: ')
-    communities = recurse_jaccard_similarity(communities,percentage)
+    if percentage != 100:
+        print(f'After applying {percentage}% Jaccard similarity: ')
+        communities = recurse_jaccard_similarity(communities,percentage)
     sets = []
     for community,counter in communities.items():
         print(community, " : ", counter)
         sets.append(community)
-    import matplotlib.pyplot as plt
 
     sets = []
 

@@ -1,5 +1,5 @@
-import pandas as pd
-import plotly.express as px
+from . import px,pd
+#Import plotly express and pandas
 
 def price_range_pie_chart(items:dict):
 

@@ -1,9 +1,10 @@
-from PyQt6.QtCore import Qt, QObject, pyqtSignal, QTimer, pyqtSlot
-from PyQt6.QtWidgets import QWidget, QVBoxLayout, QTextEdit
-from PyQt6.QtGui import QFont, QTextCursor
-import sys
+from . import Qt, QObject, pyqtSignal, QTimer, pyqtSlot
+from . import QWidget, QVBoxLayout, QTextEdit
+from . import QFont, QTextCursor
+from common_imports import sys
 
 
+#Create a custom stream to which stdout and stderr are rerouted
 class CustomStream(QObject):
     text_written = pyqtSignal(str)
 
@@ -20,7 +21,7 @@ class CustomStream(QObject):
     def flush(self):
         pass
 
-
+#Style a terminal where stdout and stderr will be displayed
 class Terminal(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -52,9 +53,21 @@ class Terminal(QWidget):
                     }
                     QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
                         background: none;
+                    QScrollBar:horizontal {
+                        background: #1a1a1a;
+                        height: 12px;
+                        margin: 0px;
+                    }
+                    QScrollBar::handle:horizontal {
+                        background: #444444;
+                        min-width: 20px;
+                        border-radius: 4px;
+                    }
+                    QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+                        background: none;
                     }
                 """)
-        self.text_edit.setFont(QFont("Menlo", 11))
+        self.text_edit.setFont(QFont("Consolas", 11))
         layout = QVBoxLayout(self)
         layout.setContentsMargins(0, 0, 0, 0)
         layout.addWidget(self.text_edit)
@@ -71,6 +84,7 @@ class Terminal(QWidget):
         sys.stdout = self.stdout_stream
         sys.stderr = self.stderr_stream
 
+    #handle_output receives the pyqtSignal with the text to write in the terminal
     @pyqtSlot(str)
     def handle_output(self, text):
 
@@ -79,12 +93,13 @@ class Terminal(QWidget):
         cursor.insertText(text)
         self.text_edit.setTextCursor(cursor)
 
-        # Only scroll if we're at bottom
+        #Only scroll if we're at bottom
         scrollbar = self.text_edit.verticalScrollBar()
         if scrollbar.value() == scrollbar.maximum():
             scrollbar.setValue(scrollbar.maximum())
 
     def closeEvent(self, event):
+        #For when we close the application, redirect stdout and stderr to the system
         sys.stdout = self.original_stdout
         sys.stderr = self.original_stderr
         super().closeEvent(event)
