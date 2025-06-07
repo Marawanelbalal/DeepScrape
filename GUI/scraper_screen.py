@@ -18,7 +18,7 @@ from .Terminal import Terminal
 from .styling_functions import style_radiobutton, style_label, style_line_edit, style_top_buttons, style_scroll_area, \
     style_frame, style_modern_button, label_with_background
 
-from .analysis_description_mappings import get_description
+from .analysis_description_mappings import get_description,get_warning
 
 from ScrapingAnalysis.scraping_functions import ebay_api
 from ScrapingAnalysis.seller_analysis import seller_network
@@ -133,6 +133,8 @@ class ScraperScreen(QWidget):
         left_layout = QVBoxLayout(left_panel)
         left_layout.setContentsMargins(20, 20, 20, 20)
         left_layout.setSpacing(15)
+        left_panel.setFixedWidth(675)
+
 
         #make a layout for the search bar (query) and the request numbers.
         search_layout = QHBoxLayout()
@@ -304,7 +306,7 @@ class ScraperScreen(QWidget):
 
 
 
-        self.analysis_description,description_scroll_area = label_with_background(
+        self.analysis_description,description_scrollarea = label_with_background(
             "rgba(119, 25, 212, 0.15)",
             "rgba(255, 255, 255, 0.05)",
             200
@@ -313,13 +315,16 @@ class ScraperScreen(QWidget):
             Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop
         )
         self.analysis_description.setWordWrap(True)
-        self.warning_label,warning_scroll_area = label_with_background(
+        self.warning_label,self.warning_scrollarea = label_with_background(
             "rgba(255, 0, 0, 0.15)",
             "rgba(255, 255, 255, 0.05)",
                     150
         )
         self.warning_label.setText("This is a warning")
         self.analysis_dropdown.currentIndexChanged.connect(self.change_description)
+        self.analysis_dropdown.currentIndexChanged.connect(self.update_warning)
+        self.warning_label.setVisible(False)
+        self.warning_scrollarea.setVisible(False)
         #analysis layout which will contain the user's options for radiobuttons and the bar for jaccard similarity
         analysis_layout.addWidget(analysis_title)
         analysis_layout.addWidget(self.analysis_dropdown)
@@ -328,8 +333,8 @@ class ScraperScreen(QWidget):
             analysis_layout.addWidget(widget)
         for widget in self.chart_choice_widgets:
             analysis_layout.addWidget(widget)
-        analysis_layout.addWidget(description_scroll_area)
-        analysis_layout.addWidget(warning_scroll_area)
+        analysis_layout.addWidget(description_scrollarea)
+        analysis_layout.addWidget(self.warning_scrollarea)
 
 
         self.analyze_button = ModernButton("ANALYZE SELECTED ITEMS")
@@ -355,12 +360,19 @@ class ScraperScreen(QWidget):
         self.analysis_dropdown.currentIndexChanged.connect(self.toggle_analysis_button)
 
         self.load_csv_button = ModernButton("Load and Use CSV",self)
-        self.enable_scraping_button = ModernButton("Enable Scraping", self)
+        self.enable_analyze_button = ModernButton("Enable Scraping", self)
+        def enable_analyze():
+            if self.search_clicked:
+                self.analyze_button.setEnabled(True)
+        self.enable_analyze_button.clicked.connect(enable_analyze)
+        self.load_csv_button.setVisible(False)
+        self.enable_analyze_button.setVisible(False)
         style_modern_button(self.load_csv_button)
-        style_modern_button(self.enable_scraping_button)
+        style_modern_button(self.enable_analyze_button)
         extra_button_layout = QHBoxLayout()
         extra_button_layout.addWidget(self.load_csv_button)
-        extra_button_layout.addWidget(self.enable_scraping_button)
+        extra_button_layout.addWidget(self.enable_analyze_button)
+
         analysis_layout.addLayout(extra_button_layout)
         right_layout.addWidget(analysis_group)
         right_layout.addStretch()
@@ -549,7 +561,9 @@ class ScraperScreen(QWidget):
                 fig = seller_network(self.items)
 
             elif text == "Product Network Graph":
-                fig = bought_together_analysis(self.items, self.token)
+                fig = bought_together_analysis(self.items, self.token,r"C:\Users\maraw\Documents\frequently_bought.csv")
+                #r"C:\Users\maraw\Documents\frequently_bought.csv"
+
 
             elif text == "Review Sentiment Analysis":
                 fig = review_bar(self.items)
@@ -622,8 +636,11 @@ class ScraperScreen(QWidget):
         text = self.analysis_dropdown.currentText()
         if text == "Select an analysis type...":
             self.analyze_button.setEnabled(False)
+        elif text == "Product Network Graph" or text == "Review Sentiment Analysis":
+            pass
         elif self.search_clicked:
             self.analyze_button.setEnabled(True)
+
 
     def change_description(self):
         #Change the description based on the selected analysis type
@@ -797,5 +814,37 @@ class ScraperScreen(QWidget):
         group.start()
         #to avoid garbage collection
         self.terminal_group = group
+    def update_warning(self):
+        text = self.analysis_dropdown.currentText()
+
+        if text == "Product Network Graph":
+            self.warning_label.setText(get_warning(text))
+            self.warning_label.setVisible(True)
+            self.warning_scrollarea.setVisible(True)
+            self.load_csv_button.setVisible(True)
+            self.enable_analyze_button.setVisible(True)
+            self.analyze_button.setEnabled(False)
+            print("Analyze button supposedly disabled.")
+
+
+        elif text == "Review Sentiment Analysis":
+            self.warning_label.setText(get_warning(text))
+            self.warning_label.setVisible(True)
+            self.warning_scrollarea.setVisible(True)
+            self.load_csv_button.setVisible(True)
+            self.enable_analyze_button.setVisible(True)
+            self.analyze_button.setEnabled(False)
+            print("Analyze button supposedly disabled.")
+
+        else:
+            self.warning_label.setText("")
+            self.warning_label.setVisible(False)
+            self.warning_scrollarea.setVisible(False)
+            self.load_csv_button.setVisible(False)
+            self.enable_analyze_button.setVisible(False)
+            print("Analyze button supposedly enabled.")
+            self.analyze_button.setEnabled(False)
+
+
 
 

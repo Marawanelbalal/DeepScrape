@@ -1,5 +1,5 @@
 import base64
-import re
+from common_imports import re
 from . import json,requests,BeautifulSoup
 from common_imports import os,load_dotenv
 

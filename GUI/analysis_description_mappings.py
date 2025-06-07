@@ -95,6 +95,17 @@ description_map = {
             "bar chart is used to visualize communities and their count."
 }
 
+warning_map = {
+    "Product Network Graph":"⚠️ <b>Warning:</b> Unlike other options, this option scrapes data with <code>selenium</code>, "
+    "which will likely be blocked by eBay due to their recent bot detection.<br><br>"
+    "You may choose to use a preloaded CSV with the <b>'Load CSV'</b> button, or press the "
+    "<b>'Enable Scraping'</b> button and scrape live data at your own discretion.",
+
+    "Review Sentiment Analysis":"⚠️ <b>Warning:</b> Unlike other options, this option scrapes data with <code>requests</code>, "
+    "which will likely be blocked by eBay due to their recent bot detection.<br><br>"
+    "You may choose to use a preloaded CSV with the <b>'Load CSV'</b> button, or press the "
+    "<b>'Enable Scraping'</b> button and scrape live data at your own discretion."
+}
 def get_description(text:str,inner_text="")->str:
     if inner_text:
         description = description_map.get(text).get(inner_text)
@@ -102,3 +113,5 @@ def get_description(text:str,inner_text="")->str:
         description = description_map.get(text)
     description = description if isinstance(description,str) else "Choose an analysis type!"
     return description
+
+def get_warning(text:str)->str: return warning_map[text]

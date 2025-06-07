@@ -25,7 +25,7 @@ def get_reviews(URL:str)->list and tuple:
 
   session.headers.update(headers)
   #To stay in the safe zone, add random time limits between requests.
-  time.sleep(random.uniform(12, 17))
+  time.sleep(random.uniform(25, 30))
 
   try:
     soup = session.get(URL, timeout=10)
