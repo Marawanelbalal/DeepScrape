@@ -26,7 +26,7 @@ class LoadingAnimation(QLabel):
 
     def initMovie(self):
         try:
-            self.movie = QMovie(r":/resources/spinner.gif")
+            self.movie = QMovie(r":/images/resources/spinner.gif")
             if not self.movie.isValid():
                 print("Error: Invalid GIF file")
             self.setMovie(self.movie)

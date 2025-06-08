@@ -8,7 +8,7 @@ import resources_rc
 class DeepScrape:
     def __init__(self):
         self.app = QApplication(sys.argv)
-        self.app.setWindowIcon(QIcon(":/resources/DEEPSCRAPE_IMPROVED.ico"))
+        self.app.setWindowIcon(QIcon(":/images/resources/DEEPSCRAPE_IMPROVED.ico"))
         self.app.setStyle("Fusion")
 
         palette = self.app.palette()

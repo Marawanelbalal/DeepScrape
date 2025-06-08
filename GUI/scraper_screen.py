@@ -198,8 +198,8 @@ class ScraperScreen(QWidget):
         self.results_container = QWidget()
         self.results_layout = QVBoxLayout(self.results_container)
         self.results_layout.setAlignment(Qt.AlignmentFlag.AlignTop)
-        self.results_layout.setSpacing(10)
-        self.results_layout.setContentsMargins(0, 0, 10, 0)  #right part of the scrollbar
+        self.results_layout.setSpacing(5)
+        self.results_layout.setContentsMargins(0, 0, 5, 0)  #right part of the scrollbar
 
 
         scroll_area.setWidget(self.results_container)
@@ -207,11 +207,11 @@ class ScraperScreen(QWidget):
         left_layout.addWidget(self.search_progress)
         right_panel = QFrame()
         style_frame(right_panel)
-        right_panel.setFixedWidth(550)
+        right_panel.setFixedSize(550,800)
 
         right_layout = QVBoxLayout(right_panel)
-        right_layout.setContentsMargins(10, 10, 10, 10)
-        right_layout.setSpacing(15)
+        right_layout.setContentsMargins(5, 5, 5, 5)
+        right_layout.setSpacing(8)
 
 
         # Analysis options
@@ -224,7 +224,7 @@ class ScraperScreen(QWidget):
 
         analysis_title = QLabel("Analysis Options")
         style_label(analysis_title)
-
+        analysis_title.setFixedSize(500,30)
         self.analysis_dropdown = QComboBox()
         self.analysis_dropdown.addItems([
             "Select an analysis type...",
@@ -246,6 +246,7 @@ class ScraperScreen(QWidget):
                 padding: 6px;
             }
         """)
+        self.analysis_dropdown.setFixedSize(500,30)
         self.heatmap_label = QLabel("Choose heatmap analysis metrics:")
         style_label(self.heatmap_label)
 
@@ -374,6 +375,7 @@ class ScraperScreen(QWidget):
         extra_button_layout.addWidget(self.enable_analyze_button)
 
         analysis_layout.addLayout(extra_button_layout)
+        analysis_layout.setSpacing(2)
         right_layout.addWidget(analysis_group)
         right_layout.addStretch()
         right_layout.addWidget(self.analyze_button)

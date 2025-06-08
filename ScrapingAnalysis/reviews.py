@@ -25,7 +25,7 @@ def get_reviews(URL:str)->list and tuple:
 
   session.headers.update(headers)
   #To stay in the safe zone, add random time limits between requests.
-  time.sleep(random.uniform(25, 30))
+  time.sleep(random.uniform(60, 120))
 
   try:
     soup = session.get(URL, timeout=10)
@@ -33,9 +33,10 @@ def get_reviews(URL:str)->list and tuple:
     print("Request failed: ", e)
     return [], None
 
-  #In case of eBay blockage
+  #In case of eBay blockage, sleep for a long time.
   if "Pardon Our Interruption" in soup.text or "automated access" in soup.text:
     print("Blocked by eBay. Received interruption page.")
+    time.sleep(1800)
     return [], None
   else:
     print("Successful scraping for item: ",URL)
@@ -141,7 +142,7 @@ def review_analysis(items:dict,csv_path = None):
                 for row in results
             ])
 
-            df.to_csv(r"C:\Users\maraw\Documents\name_list_tuple_map.csv", index=False)
+            df.to_csv(r"C:\Users\Marawan\Documents\name_list_tuple_map.csv", index=False)
             print("Saved to csv!")
         except Exception as e:
             print("Couldn't save to csv",e)
