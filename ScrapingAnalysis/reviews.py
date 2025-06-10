@@ -1,6 +1,8 @@
 from . import pd #pandas
 from . import json,requests,time,random,BeautifulSoup
 from . import plt #pyplot
+import resources_rc
+from common_imports import read_csv_from_qrc
 def get_reviews(URL:str)->list and tuple:
 
 
@@ -24,8 +26,7 @@ def get_reviews(URL:str)->list and tuple:
   }
 
   session.headers.update(headers)
-  #To stay in the safe zone, add random time limits between requests.
-  time.sleep(random.uniform(60, 120))
+
 
   try:
     soup = session.get(URL, timeout=10)
@@ -35,8 +36,8 @@ def get_reviews(URL:str)->list and tuple:
 
   #In case of eBay blockage, sleep for a long time.
   if "Pardon Our Interruption" in soup.text or "automated access" in soup.text:
-    print("Blocked by eBay. Received interruption page.")
-    time.sleep(1800)
+    print("Blocked by eBay. Received interruption page.\nSleeping for 10 minutes")
+    time.sleep(600)
     return [], None
   else:
     print("Successful scraping for item: ",URL)
@@ -69,6 +70,10 @@ def get_reviews(URL:str)->list and tuple:
     if rev not in seen:
       seen.add(rev)
       unique_reviews.append(rev)
+  #To stay in the safe zone, add random time limits between requests.
+  delay = random.uniform(60, 120)
+  print(f"Sleeping for: {delay} seconds")
+  time.sleep(delay)
   return unique_reviews,(AD,RSC,SS,COMM)
 
 
@@ -116,10 +121,9 @@ def review_analysis(items:dict,csv_path = None):
 
     results = []
     if csv_path is not None:
-        df = pd.read_csv(csv_path)
+        df = read_csv_from_qrc(csv_path)
 
         #Decode JSON strings back to their original forms
-        df["item_name"] = df["item_name"].apply(json.loads)
         df["review_list"] = df["review_list"].apply(json.loads)
         df["score_tuple"] = df["score_tuple"].apply(lambda x: tuple(json.loads(x)))
 
@@ -186,8 +190,7 @@ def review_analysis(items:dict,csv_path = None):
 
             ratings = title_seller_map[title]
             if ratings[0] is not None:
-                FP = float([item['Feedback Percentage'] for item in items.values() if item['Title'] == title][0])
-                FP *= 0.01
+
                 AD = ratings[0]
                 AD *= 0.2
                 RSC = ratings[1]
@@ -196,6 +199,8 @@ def review_analysis(items:dict,csv_path = None):
                 SS *= 0.2
                 COMM = ratings[3]
                 COMM *= 0.2
+                FP = float(ratings[4])
+                FP *= 0.01
                 rank = calculate_item_score(final_score, FP, AD, RSC, SS, COMM)
 
                 print(f'Accurate Description: {AD}\nReasonable shipping cost: {RSC}')
@@ -219,11 +224,9 @@ def review_analysis(items:dict,csv_path = None):
     for item in sorted_ranks:
         print(f'For item: {item[0]}\nFinal rank: {item[1]}\n')
 
-    return title_rank_map
+    return review_bar(title_rank_map)
 
-def review_bar(items:dict):
-    title_rank_map = review_analysis(items)
-
+def review_bar(title_rank_map:dict):
 
     titles = list(title_rank_map.keys())
     ranks = list(title_rank_map.values())

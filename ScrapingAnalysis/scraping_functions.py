@@ -1,17 +1,18 @@
-import base64
+from . import base64,time
+
 from common_imports import re
 from . import json,requests,BeautifulSoup
 from common_imports import os,load_dotenv
 
 
-def get_item_data(item_id, access_token,region):
-  #The browse api allows us to get item data using only the ID
-  url = f"https://api.ebay.com/buy/browse/v1/item/v1|{item_id}|0"
+def get_item_data(item_id,access_token,region):
+
+
+  url = f"https://api.ebay.com/buy/browse/v1/item/{item_id}"
   headers = {
     "Authorization": f"Bearer {access_token}",
     "X-EBAY-C-MARKETPLACE-ID": f"EBAY_{region}"
   }
-
   response = requests.get(url, headers=headers)
 
   if response.status_code == 200:

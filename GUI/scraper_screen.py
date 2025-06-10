@@ -5,8 +5,8 @@ from . import (QWidget, pyqtSignal, QLinearGradient,
                QHBoxLayout, QFrame, QLineEdit, QScrollArea, Qt,
                QLabel, QTimer, QPropertyAnimation, QParallelAnimationGroup,
                QRadioButton,QButtonGroup,QComboBox,QProgressBar,
-               matplotlib, threading, intro, main_menu,QMessageBox,QFileDialog,
-               QEasingCurve,QRect,QPoint,os,json,pd)
+               matplotlib, intro, main_menu,QMessageBox,QFileDialog,
+               QEasingCurve,QRect,QPoint,QFile,os,json,pd,io,threading)
 
 from .loading_anim import LoadingAnimation
 from .modern_button import ModernButton
@@ -29,11 +29,25 @@ from ScrapingAnalysis.charts import price_range_pie_chart,price_range_chart,feed
 
 from ScrapingAnalysis.fbt_network import bought_together_analysis
 
-from ScrapingAnalysis.reviews import review_bar
+from ScrapingAnalysis.reviews import review_analysis
 
 from ScrapingAnalysis.analysis_3D import Analysis3D
 
 from ScrapingAnalysis.category_analysis import community_analysis
+
+from common_imports import read_csv_from_qrc,time
+
+
+def get_runtime(func):
+
+    def wrapper():
+        start_time = time.time()
+        func()
+        runtime = time.time() - start_time
+        print(f"Function ran for: {runtime} seconds")
+
+    return wrapper
+
 
 class ScraperScreen(QWidget):
     progress_update = pyqtSignal(int)
@@ -207,12 +221,12 @@ class ScraperScreen(QWidget):
         left_layout.addWidget(self.search_progress)
         right_panel = QFrame()
         style_frame(right_panel)
-        right_panel.setFixedSize(550,800)
+        right_panel.setFixedWidth(550)
 
         right_layout = QVBoxLayout(right_panel)
-        right_layout.setContentsMargins(5, 5, 5, 5)
-        right_layout.setSpacing(8)
-
+        right_layout.setContentsMargins(10, 10, 10,10)
+        right_layout.setSpacing(15)
+        right_layout.setAlignment(Qt.AlignmentFlag.AlignTop)
 
         # Analysis options
         analysis_group = QFrame()
@@ -220,8 +234,7 @@ class ScraperScreen(QWidget):
 
         analysis_layout = QVBoxLayout(analysis_group)
         analysis_layout.setContentsMargins(10, 10, 10, 10)
-        analysis_layout.setSpacing(15)
-
+        analysis_layout.setSpacing(8)
         analysis_title = QLabel("Analysis Options")
         style_label(analysis_title)
         analysis_title.setFixedSize(500,30)
@@ -246,7 +259,7 @@ class ScraperScreen(QWidget):
                 padding: 6px;
             }
         """)
-        self.analysis_dropdown.setFixedSize(500,30)
+        self.analysis_dropdown.setFixedWidth(500)
         self.heatmap_label = QLabel("Choose heatmap analysis metrics:")
         style_label(self.heatmap_label)
 
@@ -296,6 +309,7 @@ class ScraperScreen(QWidget):
         #For when the user chooses community analysis
         self.jaccard_bar = QLineEdit()
         self.jaccard_bar.setPlaceholderText("Add Jaccard Similarity Threshold (Optional)..")
+        self.jaccard_bar.setFixedWidth(500)
         style_line_edit(self.jaccard_bar)
         self.jaccard_bar.setVisible(False)
         self.analysis_dropdown.currentIndexChanged.connect(self.toggle_jaccard_bar)
@@ -361,6 +375,7 @@ class ScraperScreen(QWidget):
         self.analysis_dropdown.currentIndexChanged.connect(self.toggle_analysis_button)
 
         self.load_csv_button = ModernButton("Load and Use CSV",self)
+        self.load_csv_button.clicked.connect(self.load_csv)
         self.enable_analyze_button = ModernButton("Enable Scraping", self)
         def enable_analyze():
             if self.search_clicked:
@@ -373,7 +388,6 @@ class ScraperScreen(QWidget):
         extra_button_layout = QHBoxLayout()
         extra_button_layout.addWidget(self.load_csv_button)
         extra_button_layout.addWidget(self.enable_analyze_button)
-
         analysis_layout.addLayout(extra_button_layout)
         analysis_layout.setSpacing(2)
         right_layout.addWidget(analysis_group)
@@ -458,7 +472,7 @@ class ScraperScreen(QWidget):
                 widget.setParent(None)
 
 
-    #All changes to the GUI must be on the main thread, so a helper function is made
+    #All changes to the GUI must be on the main thread, so a helper function is made to show product cards
     def update_ui(self, items: dict):
         self.items = items
         print("UI received items:", len(items))
@@ -556,19 +570,18 @@ class ScraperScreen(QWidget):
 
         text = self.analysis_dropdown.currentText()
         self.loading.showGIF()
-
+        @get_runtime
         def worker():
             fig = None
             if text == "Seller Influence Analysis":
                 fig = seller_network(self.items)
 
             elif text == "Product Network Graph":
-                fig = bought_together_analysis(self.items, self.token,r"C:\Users\maraw\Documents\frequently_bought.csv")
-                #r"C:\Users\maraw\Documents\frequently_bought.csv"
+                fig = bought_together_analysis(self.items)
 
 
             elif text == "Review Sentiment Analysis":
-                fig = review_bar(self.items)
+                fig = review_analysis(self.items)
 
             elif text == "Heatmap Analysis":
                 chosen = self.heatmap_group.checkedButton()
@@ -680,6 +693,25 @@ class ScraperScreen(QWidget):
         msg.setText(message)
         msg.setStandardButtons(QMessageBox.StandardButton.Ok)
         msg.exec()
+
+
+    def load_csv(self):
+        text = self.analysis_dropdown.currentText()
+        self.loading.showGIF()
+
+        def worker():
+            fig = None
+            if text == "Product Network Graph":
+                df = read_csv_from_qrc(r":/data/resources/frequently_bought_together.csv")
+                fig = bought_together_analysis({},df)
+            elif text == "Review Sentiment Analysis":
+                fig = review_analysis(self.items,r":/data/resources/product_reviews_scores.csv")
+            self.loading.hideGIF()
+            if fig is not None:
+                self.figure_drawn.emit(fig)
+
+        threading.Thread(target=worker, daemon=True).start()
+
     def export_to_csv(self):
         if not self.items:
             self.show_warning("No items were loaded, exporting failed!")

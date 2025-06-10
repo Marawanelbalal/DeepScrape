@@ -1,6 +1,16 @@
 #General imports
 from common_imports import matplotlib as mpl
-from common_imports import pd,time,json
+from common_imports import pd,time,json,load_dotenv
+import base64
+#Suppress pyplot warning.
+import warnings
+
+warnings.filterwarnings(
+    "ignore",
+    message="Starting a Matplotlib GUI outside of the main thread will likely fail.",
+    category=UserWarning,
+)
+
 import matplotlib.pyplot as plt
 
 import plotly.express as px

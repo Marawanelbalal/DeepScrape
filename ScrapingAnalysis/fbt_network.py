@@ -5,9 +5,9 @@ from . import By,Options,uc #Selenium imports
 from . import plt #Pyplot
 from . import pd #Pandas
 from . import time,random,copy
+from .TokenManager import TokenManager
 from .scraping_functions import get_item_data,extract_item_id
 from common_imports import json,re
-
 
 def customers_also_bought(URL,XPATH):
     options = Options()
@@ -46,7 +46,7 @@ def customers_also_bought(URL,XPATH):
       web.quit()
       return []
 
-def frequently_bought_together(items:dict,access_token:str,csv_path:str="")->pd.DataFrame:
+def frequently_bought_together(items:dict)->pd.DataFrame:
 
     scraped_ids = set(items.keys())
     duplicates = 0
@@ -61,24 +61,19 @@ def frequently_bought_together(items:dict,access_token:str,csv_path:str="")->pd.
             last_scraped = {}
             also_bought = items_copy[key]['Also Bought']
 
-            def extract_id(s):
-                match = re.search(r'\|([^|]+)\|', s)
-                if match:
-                    return match.group(1)
-                return None
             also_bought = list(set(also_bought))
+            ebay_token_manager = TokenManager()
             for ID in also_bought:
                 if not ID.startswith("v1|"):
                     formatted_ID = f"v1|{ID}|0"
-                    get_data_key = ID
                 else:
                     formatted_ID = ID
 
-                    get_data_key = extract_id(formatted_ID)
 
                 if formatted_ID not in scraped_ids:
-
-                    last_scraped = get_item_data(get_data_key, access_token, 'EBAY_US')
+                    print("Get Data Key is: ",formatted_ID)
+                    access_token = ebay_token_manager.get_token()
+                    last_scraped = get_item_data(formatted_ID, access_token,'EBAY_US')
                     if last_scraped is not None:
                         last_scraped['Also Bought'] = [key]
                         items_copy[last_scraped['Item ID']] = last_scraped
@@ -99,26 +94,15 @@ def frequently_bought_together(items:dict,access_token:str,csv_path:str="")->pd.
 
         df = pd.DataFrame(all_items)
 
-        if csv_path:
-            df_to_save = df.copy()
-            df_to_save["Also Bought"] = df_to_save["Also Bought"].apply(json.dumps)
-            df_to_save.to_csv(csv_path, index=False)
-            try:
-                df_to_save.to_pickle(csv_path.rstrip(".csv")+".pkl")
-            except Exception as e:
-                print(e)
-
-
         return df
     else:
         print('No items found')
 
-def bought_together_analysis(items:dict,access_token:str,csv_path:str=""):
-    start_time = time.time()
-    if csv_path:
-        df = pd.read_csv(csv_path)
-    else:
-        df = frequently_bought_together(items,access_token,csv_path)
+def bought_together_analysis(items:dict,df:pd.DataFrame=None):
+    if df is None:
+        print("Trying to scrape live data...")
+        df = frequently_bought_together(items)
+    df["Also Bought"] = df["Also Bought"].fillna("[]")
     df["Also Bought"] = df["Also Bought"].apply(
         lambda x: json.loads(x) if isinstance(x, str) else x
     )
@@ -183,8 +167,7 @@ def bought_together_analysis(items:dict,access_token:str,csv_path:str=""):
     nx.draw(G, pos, with_labels=True, node_color="lightblue", edge_color="gray", node_size=150)
 
     print(type(fig))
-    runtime = time.time() - start_time
-    print(f"Function ran for: {runtime}")
+
     return fig
 
 

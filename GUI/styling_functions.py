@@ -128,7 +128,8 @@ def label_with_background(labelBackgroundColor,scrollAreaBackgroundColor,height=
     scroll_area = QScrollArea()
     scroll_area.setWidgetResizable(True)
     scroll_area.setWidget(label)
-    scroll_area.setFixedSize(width,height)
+    scroll_area.setFixedWidth(width)
+    scroll_area.setMinimumHeight(height)
     scroll_area.setAlignment(
         Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop
     )

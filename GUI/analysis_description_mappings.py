@@ -99,12 +99,19 @@ warning_map = {
     "Product Network Graph":"⚠️ <b>Warning:</b> Unlike other options, this option scrapes data with <code>selenium</code>, "
     "which will likely be blocked by eBay due to their recent bot detection.<br><br>"
     "You may choose to use a preloaded CSV with the <b>'Load CSV'</b> button, or press the "
-    "<b>'Enable Scraping'</b> button and scrape live data at your own discretion.",
+    "<b>'Enable Scraping'</b> button and scrape live data at your own discretion.\n"
+    "Please note that scraping with selenium is very slow, it is advised to keep the maximum number of items below 50 as "
+    "to not take up too much time."
+    "\n\nData about the preloaded CSV:"
+    "\nQuery: Gaming Laptop\nMax Number of Items: 100\n Outputted items: 300",
 
     "Review Sentiment Analysis":"⚠️ <b>Warning:</b> Unlike other options, this option scrapes data with <code>requests</code>, "
     "which will likely be blocked by eBay due to their recent bot detection.<br><br>"
     "You may choose to use a preloaded CSV with the <b>'Load CSV'</b> button, or press the "
-    "<b>'Enable Scraping'</b> button and scrape live data at your own discretion."
+    "<b>'Enable Scraping'</b> button and scrape live data at your own discretion.\nPlease note that scraping with requests "
+    "is very slow due to the added delays to avoid bot detection\n\n"
+    "Data about the preloaded CSV:\nQuery: Gaming Laptop\nMax Number of Items: 50\nOutputted items: 45"
+
 }
 def get_description(text:str,inner_text="")->str:
     if inner_text:
