@@ -60,27 +60,22 @@ def community_analysis(items:dict,percentage=100):
             community.add(category[0])
 
         if len(community) >= 2:
-            print(community)
-            print(communities)
-            print(frozenset(community) in communities)
             if frozenset(community) not in communities:
                 communities[frozenset(community)] = 1
-                print(community," : ",communities[frozenset(community)])
             elif frozenset(community) in communities:
                 communities[frozenset(community)] += 1
-                print(community," : ",communities[frozenset(community)])
 
     print('Before applying Jaccard similarity: ')
     for community,counter in communities.items():
-        print(community," : ",counter)
+        print(set(community)," : ",counter)
         sets.append(community)
     if percentage != 100:
         print(f'After applying {percentage}% Jaccard similarity: ')
         communities = recurse_jaccard_similarity(communities,percentage)
-    sets = []
-    for community,counter in communities.items():
-        print(community, " : ", counter)
-        sets.append(community)
+        sets = []
+        for community,counter in communities.items():
+            print(community, " : ", counter)
+            sets.append(community)
 
     sets = []
 
@@ -91,12 +86,12 @@ def community_analysis(items:dict,percentage=100):
         sets.append(str_version)
 
     counters = list(communities.values())
-    fig = plt.figure(figsize=(10, 10))
+    fig = plt.figure(figsize=(10, 6))
     plt.barh(sets, counters, color='lightblue')
     plt.xlabel('Number')
     plt.ylabel('Community')
     plt.title('Bar chart for communities and their numbers.')
-    plt.tight_layout(pad=3.0)
+    plt.tight_layout(pad=1)
     return fig
 
 

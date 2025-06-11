@@ -186,8 +186,6 @@ def bought_together_analysis(items:dict,df:pd.DataFrame=None):
 
     nx.draw(G, pos, with_labels=True, node_color="lightblue", edge_color="gray", node_size=150)
 
-    print(type(fig))
-
     return fig
 
 
