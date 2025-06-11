@@ -19,6 +19,14 @@ Built with PyQt6, the application provides a graphical interface for both scrapi
 - **Data Export**  
   After scraping, results can be exported as a CSV file.
 
+
+🚀 Getting Started
+1. Clone the repo: `git clone https://github.com/yourusername/DeepScrape.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Add your keys to a `.env` file (see instructions below)
+4. Run the app: `python main.py`
+
+
 How to get the required keys?
 -----------------------------
 For the eBay keys, sign up for the eBay developer's program: https://developer.ebay.com/signin?tab=register
