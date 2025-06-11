@@ -1,8 +1,12 @@
 from . import pd #pandas
 from . import json,requests,time,random,BeautifulSoup
 from . import plt #pyplot
+from . import By
 import resources_rc
 from common_imports import read_csv_from_qrc
+from .scraping_functions import initialize_chromedriver
+
+
 def get_reviews(URL:str)->list and tuple:
 
 
@@ -76,17 +80,65 @@ def get_reviews(URL:str)->list and tuple:
   time.sleep(delay)
   return unique_reviews,(AD,RSC,SS,COMM)
 
+def get_reviews_sel(URL: str)->list and tuple:
+    web = initialize_chromedriver()
+
+    try:
+        web.get(URL)
+        time.sleep(3)
+    except Exception as e:
+        print("Request failed: ", e)
+        web.quit()
+        return [], None
+
+    if "Pardon Our Interruption" in web.page_source or "automated access" in web.page_source:
+        print("Blocked by eBay. Received interruption page.\nSleeping for 10 minutes")
+        web.quit()
+        return [], None
+    else:
+        print("Successful scraping for item: ", URL)
+
+    # Extract reviews
+    reviews_elements = web.find_elements(By.XPATH, '//div[contains(@class, "fdbk-container__details__comment")]')
+    reviews = [element.text for element in reviews_elements]
+
+    seen = set()
+    unique_reviews = []
+    for rev in reviews:
+        if rev not in seen:
+            seen.add(rev)
+            unique_reviews.append(rev)
+
+    # Extract seller ratings
+    AD, RSC, SS, COMM = None, None, None, None
+    try:
+        rating_elements = web.find_elements(By.XPATH, '//span[contains(@class, "fdbk-detail-seller-rating__value")]')
+        if len(rating_elements) >= 4:
+            AD = float(rating_elements[0].text)
+            RSC = float(rating_elements[1].text)
+            SS = float(rating_elements[2].text)
+            COMM = float(rating_elements[3].text)
+    except ValueError as e:
+        print('Something went wrong collecting seller data:\n', e)
+
+    # To stay in the safe zone, add random time limits between requests.
+    web.quit()
+    delay = random.uniform(1, 3)
+    print(f"Sleeping for: {delay} seconds")
+    time.sleep(delay)
+
+    return unique_reviews,(AD,RSC,SS,COMM)
 
 
 def reviews_worker(item):
-  reviews = get_reviews(item['Link'])
+  reviews = get_reviews_sel(item['Link'])
   item_name = item['Title']
   review_list = reviews[0]
 
   if reviews[1] is None:
     scores_tuple = (None, None, None, None, float(item['Feedback Percentage']))
   else:
-    scores_tuple = reviews[1] + (float(item['Feedback Percentage']),)
+    scores_tuple = reviews[1] + (float(item["Feedback Percentage"]),)
   return item_name,review_list,scores_tuple
 
 def get_review_score(review):

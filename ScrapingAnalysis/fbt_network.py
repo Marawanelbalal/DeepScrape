@@ -1,50 +1,70 @@
 import sys
 
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 from . import nx #Networkx
 from . import By,Options,uc #Selenium imports
 from . import plt #Pyplot
 from . import pd #Pandas
 from . import time,random,copy
 from .TokenManager import TokenManager
-from .scraping_functions import get_item_data,extract_item_id
+from .scraping_functions import get_item_data, extract_item_id, initialize_chromedriver
 from common_imports import json,re
 
-def customers_also_bought(URL,XPATH):
-    options = Options()
-    # options.add_argument("--headless")  #run in headless mode (no browser will open)
-    options.add_argument("--disable-gpu")
-    options.add_argument("--disable-extensions")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--blink-settings=imagesEnabled=false")
-    options.add_argument("--disable-features=SharedStorageWorklet")
-    #some of the extra arguments are not always helpful, but including them doesn't hurt.
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 
-
-    web = uc.Chrome(options = options)
-    web.set_window_size(1366, 768)
-
-
+def customers_also_bought(URL, XPATH):
+    web = initialize_chromedriver()
     web.get(URL)
-    content = web.page_source[:1000]
+    delay2 = random.uniform(1, 3)
 
-    delay = random.uniform(random.randint(55, 65), random.randint(75, 85))
-    delay2 = random.uniform(1,3)
-    print(f"Sleeping for {delay2:.2f} seconds...")
-    time.sleep(delay)
+    max_wait_time = 10  # Max total wait
+    check_interval = 0.5  # Check every 0.5s for new elements
+    max_checks = int(max_wait_time / check_interval)
 
-    also_bought = web.find_elements(By.XPATH, XPATH)
+    last_count = -1
+    stable_count = 0
+    also_bought = []
+
+    try:
+        for _ in range(max_checks):
+            elements = web.find_elements(By.XPATH, XPATH)
+            current_count = len(elements)
+
+            if current_count == last_count:
+                stable_count += 1
+            else:
+                stable_count = 0
+
+            last_count = current_count
+            also_bought = elements
+
+            if stable_count >= 3:  # e.g., stable for 1.5s
+                break
+
+            time.sleep(check_interval)
+
+        if not also_bought:
+            print(f"[Warning] No 'also bought' elements found after {max_wait_time} seconds.")
+    except Exception as e:
+        print(f"[Error] Failed to collect 'also bought' items:\n{e}")
+        web.quit()
+        return []
 
     print(f"Found {len(also_bought)} elements")
+    print(f"Sleeping for {delay2:.2f} seconds...")
 
-    if also_bought:
-      links = [x.get_attribute("href") for x in also_bought]
-      item_ids = [extract_item_id(x) for x in links]
-      web.quit()
-      return item_ids
-    else:
-      web.quit()
-      return []
+    links = [x.get_attribute("href") for x in also_bought if x.get_attribute("href")]
+    item_ids = [extract_item_id(x) for x in links]
+
+    web.quit()
+    time.sleep(delay2)
+    return item_ids
+
 
 def frequently_bought_together(items:dict)->pd.DataFrame:
 

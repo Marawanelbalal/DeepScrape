@@ -6,7 +6,7 @@ from . import (QWidget, pyqtSignal, QLinearGradient,
                QLabel, QTimer, QPropertyAnimation, QParallelAnimationGroup,
                QRadioButton,QButtonGroup,QComboBox,QProgressBar,
                matplotlib, intro, main_menu,QMessageBox,QFileDialog,
-               QEasingCurve,QRect,QPoint,QFile,os,json,pd,io,threading)
+               QEasingCurve,QRect,QApplication,QPoint,QFile,os,json,pd,io,threading)
 
 from .loading_anim import LoadingAnimation
 from .modern_button import ModernButton
@@ -471,6 +471,12 @@ class ScraperScreen(QWidget):
             if widget is not None:
                 widget.setParent(None)
 
+    def closeEvent(self, event):
+        #This close event was added to make sure all background threads get killed along with the python process
+        print("Closing app. Forcing full shutdown.")
+        QApplication.quit()
+        event.accept()
+
 
     #All changes to the GUI must be on the main thread, so a helper function is made to show product cards
     def update_ui(self, items: dict):
@@ -572,62 +578,66 @@ class ScraperScreen(QWidget):
         self.loading.showGIF()
         @get_runtime
         def worker():
-            fig = None
-            if text == "Seller Influence Analysis":
-                fig = seller_network(self.items)
+            try:
+                fig = None
+                if text == "Seller Influence Analysis":
+                    fig = seller_network(self.items)
 
-            elif text == "Product Network Graph":
-                fig = bought_together_analysis(self.items)
+                elif text == "Product Network Graph":
+                    fig = bought_together_analysis(self.items)
 
 
-            elif text == "Review Sentiment Analysis":
-                fig = review_analysis(self.items)
+                elif text == "Review Sentiment Analysis":
+                    fig = review_analysis(self.items)
 
-            elif text == "Heatmap Analysis":
-                chosen = self.heatmap_group.checkedButton()
-                heatmap_text = chosen.text()
+                elif text == "Heatmap Analysis":
+                    chosen = self.heatmap_group.checkedButton()
+                    heatmap_text = chosen.text()
 
-                if heatmap_text == "Heatmap Showing Price Differences":
-                    fig = price_heatmap(self.items)
+                    if heatmap_text == "Heatmap Showing Price Differences":
+                        fig = price_heatmap(self.items)
 
-                elif heatmap_text == "Heatmap Showing Feedback Score Differences":
-                    fig = feedback_percentage_heatmap(self.items)
+                    elif heatmap_text == "Heatmap Showing Feedback Score Differences":
+                        fig = feedback_percentage_heatmap(self.items)
 
-                elif heatmap_text == "Multi regional Heatmap Showing Price Differences":
-                    fig = regional_price_heatmap(self.query,self.total_items)
+                    elif heatmap_text == "Multi regional Heatmap Showing Price Differences":
+                        fig = regional_price_heatmap(self.query,self.total_items)
 
-            elif text == "Chart Analysis":
-                chosen = self.chart_group.checkedButton()
-                chart_text = chosen.text()
-                if chart_text == "Pie Chart Showing Price Differences":
-                    fig = price_range_pie_chart(self.items)
+                elif text == "Chart Analysis":
+                    chosen = self.chart_group.checkedButton()
+                    chart_text = chosen.text()
+                    if chart_text == "Pie Chart Showing Price Differences":
+                        fig = price_range_pie_chart(self.items)
 
-                elif chart_text == "Pie Chart Showing Feedback Score Differences":
-                    fig = feedback_percentage_pie_chart(self.items)
+                    elif chart_text == "Pie Chart Showing Feedback Score Differences":
+                        fig = feedback_percentage_pie_chart(self.items)
 
-                elif chart_text == "Bar Chart Showing Price Differences":
-                    fig = price_range_chart(self.items)
+                    elif chart_text == "Bar Chart Showing Price Differences":
+                        fig = price_range_chart(self.items)
 
-            elif text == "3D Graph Analysis":
-                fig = Analysis3D(self.items)
+                elif text == "3D Graph Analysis":
+                    fig = Analysis3D(self.items)
 
-            elif text == "Chart Showing Communities (Related Categories)":
-                threshold = 100
-                if self.jaccard_bar.text():
-                    try:
-                        threshold = int(self.jaccard_bar.text())
-                    except ValueError as e:
-                        print(f'Failed to convert jaccard threshold: {e}')
+                elif text == "Chart Showing Communities (Related Categories)":
+                    threshold = 100
+                    if self.jaccard_bar.text():
+                        try:
+                            threshold = int(self.jaccard_bar.text())
+                        except ValueError as e:
+                            print(f'Failed to convert jaccard threshold: {e}')
 
-                fig = community_analysis(self.items,threshold)
-            self.loading.hideGIF()
-            if fig is not None:
-                self.figure_drawn.emit(fig)
+                    fig = community_analysis(self.items,threshold)
+                if fig is not None:
+                    self.figure_drawn.emit(fig)
+            except Exception as e:
+                print("Analysis failed: ",e)
+            finally:
+                self.loading.hideGIF()
+
 
         threading.Thread(target=worker, daemon=True).start()
 
 
-    #Helper function for showing matplotlib and plotly figures
     def show_figure(self,fig):
         if isinstance(fig,matplotlib.figure.Figure):
             self._analysis_win = AnalysisFigure(fig)

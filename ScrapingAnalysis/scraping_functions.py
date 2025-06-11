@@ -4,6 +4,8 @@ from common_imports import re
 from . import json,requests,BeautifulSoup
 from common_imports import os,load_dotenv
 
+from . import By,Options,uc #Selenium imports
+
 
 def get_item_data(item_id,access_token,region):
 
@@ -218,3 +220,19 @@ def ebay_api(query: str,res_num: int,maximum: int,progress_callback=None)->dict 
     return items,access_token
   else:
     print("Error scraping items:", response.status_code, response.text)  #anticipating any errors
+
+def initialize_chromedriver():
+  options = Options()
+  options.add_argument("--headless")  # run in headless mode (no browser will open)
+  options.add_argument("--disable-gpu")
+  options.add_argument("--disable-extensions")
+  options.add_argument("--no-sandbox")
+  options.add_argument("--disable-dev-shm-usage")
+  options.add_argument("--blink-settings=imagesEnabled=false")
+  options.add_argument("--disable-features=SharedStorageWorklet")
+  # some of the extra arguments are not always helpful, but including them doesn't hurt.
+
+  web = uc.Chrome(options=options)
+  web.set_window_size(1366, 768)
+
+  return web

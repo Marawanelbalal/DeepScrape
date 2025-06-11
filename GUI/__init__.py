@@ -12,6 +12,7 @@ from PyQt6.QtGui import QIcon,QFont, QPixmap,QTextCursor,QPalette, QBrush, QColo
 from PyQt6.QtCore import Qt, QPropertyAnimation, QEasingCurve, QTimer, pyqtSignal, QParallelAnimationGroup,\
     QCoreApplication,QRect,QPoint,QObject,pyqtSlot,QFile
 
+
 from PyQt6.QtWebEngineWidgets import QWebEngineView
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.backends.backend_qtagg import NavigationToolbar2QT as NavigationToolbar
