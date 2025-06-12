@@ -1,4 +1,4 @@
-from . import base64,time
+from . import base64,nx
 
 from common_imports import re
 from . import json,requests,BeautifulSoup
@@ -236,3 +236,18 @@ def initialize_chromedriver():
   web.set_window_size(1366, 768)
 
   return web
+
+def show_graph_summary(G):
+  print("\n\tNetwork Summary:\n")
+  summary = {
+    "Number of Nodes": G.number_of_nodes(),
+    "Number of Edges": G.number_of_edges(),
+    "Average Degree": sum(dict(G.degree()).values()) / G.number_of_nodes(),
+    "Density": nx.density(G),
+    "Number of Connected Components": nx.number_connected_components(G),
+    "Largest Component Size": len(max(nx.connected_components(G), key=len))
+  }
+  for item,key in summary.items():
+    print(f"{item}: {key}")
+    print("-" * 50)
+  return summary

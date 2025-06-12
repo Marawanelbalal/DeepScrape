@@ -1,21 +1,13 @@
-import sys
-
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
 from . import nx #Networkx
-from . import By,Options,uc #Selenium imports
 from . import plt #Pyplot
 from . import pd #Pandas
 from . import time,random,copy
 from .TokenManager import TokenManager
 from .scraping_functions import get_item_data, extract_item_id, initialize_chromedriver
-from common_imports import json,re
+from common_imports import json
 
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
+from .scraping_functions import show_graph_summary
 
 def customers_also_bought(URL, XPATH):
     web = initialize_chromedriver()
@@ -49,9 +41,9 @@ def customers_also_bought(URL, XPATH):
             time.sleep(check_interval)
 
         if not also_bought:
-            print(f"[Warning] No 'also bought' elements found after {max_wait_time} seconds.")
+            print(f"No 'also bought' elements found after {max_wait_time} seconds.")
     except Exception as e:
-        print(f"[Error] Failed to collect 'also bought' items:\n{e}")
+        print(f"Failed to collect 'also bought' items:\n{e}")
         web.quit()
         return []
 
@@ -171,12 +163,17 @@ def bought_together_analysis(items:dict,df:pd.DataFrame=None):
 
     sorted_centrality = sorted(betweenness.items(), key=lambda x: x[1], reverse=True)
 
-    print("Top 10 Nodes by Betweenness Centrality:")
+    show_graph_summary(G)
+
+    print("Ranked Nodes by Betweenness Centrality (Non-Zero Only):")
     for item_num,centrality in sorted_centrality:
         node = [x for x in numbered_items.keys() if numbered_items[x] == item_num][0]
+        if centrality == 0:
+            break
         print(f"{item_num}: {item_id_map.get(node, 'Unknown')} - "
-              f"Normalized Betweenness Centrality: {betweenness_normalized[item_num]} - Non-Normalized : {centrality:.5f} ")
+            f"Normalized Betweenness Centrality: {betweenness_normalized[item_num]:.5f} - Non-Normalized : {centrality:.5f} ")
         print("-" * 150)
+
 
 
 

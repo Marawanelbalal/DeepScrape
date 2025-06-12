@@ -44,7 +44,7 @@ def get_runtime(func):
         start_time = time.time()
         func()
         runtime = time.time() - start_time
-        print(f"Function ran for: {runtime} seconds")
+        print(f"Function ran for: {runtime:.2f} seconds")
 
     return wrapper
 

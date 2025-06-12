@@ -1,4 +1,6 @@
 from . import plt,nx
+from .scraping_functions import show_graph_summary
+
 
 def seller_network(items):
 
@@ -31,23 +33,29 @@ def seller_network(items):
   nx.draw_networkx_labels(G, pos, labels, font_size=6, font_color='black',
                           bbox=dict(facecolor='white', edgecolor='none', alpha=0.7))
 
+  show_graph_summary(G)
+
   degree_centrality = nx.degree_centrality(G)
+  sorted_centrality = dict(sorted(degree_centrality.items(), key=lambda x: x[1], reverse=True))
 
-  print("Degree Centrality:")
-  for item,centrality in degree_centrality.items():
-    print(f"{item}: {centrality}")
-  components = list(nx.connected_components(G))
-  print("Number of Connected Components:", len(components))
+  # Reverse map from product title to seller
+  product_to_seller = {
+    product: seller
+    for seller, products in seller_products.items()
+    for product in products
+  }
 
-  for idx, component in enumerate(components,start=1):
-    print(f"Component {idx}: {len(component)} products")
-    print("-"*50)
-
+  print("\tDegree Centrality:")
+  for item,centrality in sorted_centrality.items():
+    if centrality != 0:
+      print("-" * 50)
+      print(f"{item}: {centrality}, Seller: {product_to_seller[item]}")
+  print("-" * 50)
 
   seller_product_counts = {seller: len(products) for seller, products in seller_products.items()}
+  seller_product_counts = dict(sorted(seller_product_counts.items(), key=lambda x: x[1], reverse=True))
 
-
-  print("number of products for every seller:")
+  print("Sorted number of products for every seller:")
   for seller, count in seller_product_counts.items():
     print(f"{seller}: {count} products")
     print("-" * 50)
