@@ -143,6 +143,11 @@ def reviews_worker(item):
 
 def get_review_score(review):
   import nltk
+  try:
+      nltk.data.find('sentiment/vader_lexicon.zip')
+  except LookupError:
+      print("VADER lexicon not found. Downloading...")
+      nltk.download('vader_lexicon')
   from nltk.sentiment.vader import SentimentIntensityAnalyzer
   review_analyzer = SentimentIntensityAnalyzer()
   #update the lexicon with some common phrases found

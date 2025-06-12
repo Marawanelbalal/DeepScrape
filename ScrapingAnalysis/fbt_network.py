@@ -59,7 +59,8 @@ def customers_also_bought(URL, XPATH):
 
 
 def frequently_bought_together(items:dict)->pd.DataFrame:
-
+    for item in items.values():
+        item['Also Bought'] = []
     scraped_ids = set(items.keys())
     duplicates = 0
     if items:

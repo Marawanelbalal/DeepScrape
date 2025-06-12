@@ -192,7 +192,6 @@ def ebay_api(query: str,res_num: int,maximum: int,progress_callback=None)->dict 
                 'Link': result.get('itemWebUrl', ''),
                 'Buying Options': result.get('buyingOptions', ''),
                 'Shipping Cost': shipping_cost,
-                'Also Bought' : []
               }
               image_data = result.get('image',{})
               img_URL = image_data.get('imageUrl',"")
