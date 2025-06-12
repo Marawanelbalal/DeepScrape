@@ -11,8 +11,8 @@ description_map = {
             "This analysis option uses selenium to find frequently "
             "bought together items for each item in the dataset and "
             "adds them to the dataset. For each item usually 5-15 items "
-            "are found, so a 50 item dataset might explode to 300 items. "
-            "A special algorithm links all the related items together, "
+            "are found, so a 50 item dataset might increase to 200 items. "
+            "An algorithm is used to link all the related items together, "
             "taking into consideration whether the scraped items exist "
             "in the dataset or not, or if they are connected to any other items. "
             "A Networkx graph is used to show the frequently bought together "
@@ -81,9 +81,8 @@ description_map = {
 
 "3D Graph Analysis":
             "Description:\n\n\n"
-            "A 3D scatterplot made using the matplotlib library that shows"
-            "the price, feedback percentage and feedback scores of each item in an interactive "
-            "3D space and the relation between them.",
+            "An interactive 3D scatterplot built with Matplotlib that visualizes each item based on its price, feedback percentage, and feedback score. "
+            "The graph uses K-Nearest Neighbors (KNN) clustering to group the items into four distinct clusters, helping users identify patterns in product characteristics at a glance.",
 
 "Chart Showing Communities (Related Categories)":
             "Description:\n\n\n"
