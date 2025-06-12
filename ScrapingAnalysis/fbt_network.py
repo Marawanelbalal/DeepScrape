@@ -45,6 +45,7 @@ def customers_also_bought(URL, XPATH):
     except Exception as e:
         print(f"Failed to collect 'also bought' items:\n{e}")
         web.quit()
+        web = None
         return []
 
     print(f"Found {len(also_bought)} elements")
@@ -54,6 +55,7 @@ def customers_also_bought(URL, XPATH):
     item_ids = [extract_item_id(x) for x in links]
 
     web.quit()
+    web = None #To help the garbage collector know the driver is gone
     time.sleep(delay2)
     return item_ids
 
