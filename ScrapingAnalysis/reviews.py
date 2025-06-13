@@ -92,7 +92,7 @@ def get_reviews_sel(URL: str)->list and tuple:
         return [], None
 
     if "Pardon Our Interruption" in web.page_source or "automated access" in web.page_source:
-        print("Blocked by eBay. Received interruption page.\nSleeping for 10 minutes")
+        print("Blocked by eBay. Received interruption page for item: ",URL)
         web.quit()
         return [], None
     else:
@@ -192,21 +192,6 @@ def review_analysis(items:dict,csv_path = None):
     else:
         for item in items.values():
             results.append(reviews_worker(item))
-        #Convert complex data structures to JSON strings
-        try:
-            df = pd.DataFrame([
-                {
-                    "item_name": json.dumps(row[0]),  # str (safe but optional for strings)
-                    "review_list": json.dumps(row[1]),
-                    "score_tuple": json.dumps(row[2])
-                }
-                for row in results
-            ])
-
-            df.to_csv(r"C:\Users\Marawan\Documents\name_list_tuple_map.csv", index=False)
-            print("Saved to csv!")
-        except Exception as e:
-            print("Couldn't save to csv",e)
 
     for title,reviews,seller_data in results:
         all_reviews[title] = reviews

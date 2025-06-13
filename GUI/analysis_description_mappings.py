@@ -6,7 +6,20 @@ description_map = {
             "and labeled by the name of its seller. Insights are extracted using "
             "the degree of any given seller node and the degree centrality. ",
 
-"Product Network Graph":
+"Product Network Graph ('Customers Ultimately Bought' Relationship)":
+            "Description:\n\n\n"
+            "This analysis option uses selenium to find 'Ultimately Bought' "
+            "items for each item in the dataset, scrapes their data and "
+            "adds them to the dataset. For each item usually 5-15 items "
+            "are found and added, so the number of items in the dataset increases quickly the more items there are. "
+            "An algorithm is used to link an item to its 'Ultimately Bought' items, "
+            "using a directed graph to represent a one way relationship between the item "
+            "that was left and the item that was bought. "
+            "The NetworkX graph shows the top betweenness centrality items, along with the top 20 "
+            "items in In-Degree and Out-Degree, the In-Degree represents how many times the item "
+            "was bought instead of another, and the Out-Degree represents how many times the item "
+            "was left in favor of another.",
+"Product Network Graph ('Frequently Bought Together' Relationship)":
             "Description:\n\n\n"
             "This analysis option uses selenium to find frequently "
             "bought together items for each item in the dataset and "
@@ -19,7 +32,6 @@ description_map = {
             "items, then insights are extracted using the betweenness centrality "
             "of each item. The higher the betweenness centrality, the higher the "
             "likelihood that this item is bought together with others. ",
-
 "Review Sentiment Analysis":
             "Description:\n\n\n"
             "Using the beautifulsoup library, the top reviews are scraped "
@@ -95,12 +107,19 @@ description_map = {
 }
 
 warning_map = {
-    "Product Network Graph":"⚠️ <b>Warning:</b> Unlike other options, this option scrapes data with <code>selenium</code>, "
+    "Product Network Graph ('Frequently Bought Together' Relationship)":"⚠️ <b>Warning:</b> Unlike other options, this option scrapes data with <code>selenium</code>, "
     "which is slow compared to other types of analysis, analysis on 50 product listings could take about 10 minutes..<br><br>"
     "You may choose to use a preloaded CSV with the <b>'Load CSV'</b> button, or press the "
     "<b>'Enable Scraping'</b> button and scrape live data<br><br>"
     "<br><br><br><br>Data about the preloaded CSV:"
     "<br><br>Query: Gaming Laptop<br><br>Max Number of Items: 100<br><br> Outputted items: 300",
+
+    "Product Network Graph ('Customers Ultimately Bought' Relationship)": "⚠️ <b>Warning:</b> Unlike other options, this option scrapes data with <code>selenium</code>, "
+                                                                         "which is slow compared to other types of analysis, analysis on 50 product listings could take about 10 minutes..<br><br>"
+                                                                         "You may choose to use a preloaded CSV with the <b>'Load CSV'</b> button, or press the "
+                                                                         "<b>'Enable Scraping'</b> button and scrape live data<br><br>"
+                                                                         "<br><br><br><br>Data about the preloaded CSV:"
+                                                                         "<br><br>Query: Gaming Laptop<br><br>Max Number of Items: 100<br><br> Outputted items: 300",
 
     "Review Sentiment Analysis":"⚠️ <b>Warning:</b> Unlike other options, this option scrapes data with <code>selenium</code>, "
     "which is slow compared to other types of analysis, analysis on 50 product listings could take about 10 minutes..<br><br>"

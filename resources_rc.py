@@ -1,9 +1,9 @@
 # Resource object code (Python 3)
 # Created by: object code
-# Created by: The Resource Compiler for Qt version 6.9.1
+# Created by: The Resource Compiler for Qt version 6.9.0
 # WARNING! All changes made in this file will be lost!
 
-from PyQt6 import QtCore
+from PySide6 import QtCore
 
 qt_resource_data = b"\
 \x00\x02zc\
@@ -24760,6 +24760,8814 @@ jGlvcM5vK6XPITY%\
 96695168772|0\x22\x22]\
 \x22,,hellogoodlife\
 1,14175,,,New\x0d\x0a\
+\x00\x02&X\
+,\
+Title,Item ID,Pr\
+ice,Link,Buying \
+Options,Shipping\
+ Cost,Image,Sell\
+er,Feedback Scor\
+e,Feedback Perce\
+ntage,Category,U\
+ltimately Bought\
+,Condition,Also \
+Bought\x0d\x0a0,\x2215.6\x22\
+\x22 FHD DELL Gamin\
+g Laptop PC: Int\
+el i7 Quad Core!\
+ 32GB RAM ~ 1TB \
+NVME SSD!\x22,v1|11\
+6528001029|0,390\
+.95,https://www.\
+ebay.com/itm/116\
+528001029?_skw=G\
+aming+laptop&has\
+h=item1b219c3005\
+:g:GqoAAOSw0htoI\
+0wL&amdata=enc%3\
+AAQAKAAAA8PeG5RI\
+uIyokJHJy903%2F5\
+Ubi5t0ib7ysL5aui\
+4S7AOQBwExMiArwv\
+PH7Yk54HHg%2BAS7\
+TcEAR7%2BxnRA2s2\
+Qi3ZI1AkL5p0a5MN\
+cGRk2GzeNwKwvX3W\
+EQFTZmxheTBrWqxX\
+1RmgoYHcqbPUs50s\
+x%2BJb%2FG3KAuPx\
+L9810yU%2Bhvqyrl\
+AoXkx7Emgrj5mG%2\
+FIM1uSLw31ApFIf%\
+2BjMpFMMU8yL%2FF\
+Ds5VXYiD%2Fo1uvS\
+pzMsTGKKxpzyJ%2F\
+Jwzpg9mU7V4SbBfa\
+xfXRInNFAWiPuesy\
+%2BqrHGB6Q0AITAR\
+nRTr0PBcBxGhyhOL\
+da21nD9tymzixPsg\
+Xqw%3D%3D,\x22['FIX\
+ED_PRICE', 'BEST\
+_OFFER']\x22,0.00,h\
+ttps://i.ebayimg\
+.com/images/g/Gq\
+oAAOSw0htoI0wL/s\
+-l225.jpg,rinuvo\
+,7237,99.3,\x22[('P\
+C Laptops & Netb\
+ooks', '177'), (\
+'Computers/Table\
+ts & Networking'\
+, '58058'), ('La\
+ptops & Netbooks\
+', '175672')]\x22,\x22\
+[\x22\x22286045958900\x22\
+\x22, \x22\x2218726106690\
+4\x22\x22, \x22\x22127160053\
+854\x22\x22, \x22\x223884925\
+30467\x22\x22, \x22\x2211567\
+1195335\x22\x22, \x22\x22115\
+892100200\x22\x22, \x22\x221\
+15691174137\x22\x22, \x22\
+\x22115975817889\x22\x22,\
+ \x22\x22115811998873\x22\
+\x22, \x22\x2211584796904\
+0\x22\x22, \x22\x22115795483\
+206\x22\x22, \x22\x221156681\
+44521\x22\x22, \x22\x2211484\
+5745485\x22\x22, \x22\x22115\
+916714429\x22\x22]\x22,,\x0d\
+\x0a1,Dell Latitude\
+ Laptop Light Ga\
+ming PC Core i7 \
+16GB RAM 256GB S\
+SD Windows 10 Pr\
+o,v1|26471455388\
+9|0,302.62,https\
+://www.ebay.com/\
+itm/264714553889\
+?_skw=Gaming+lap\
+top&hash=item3da\
+2378a21:g:spkAAO\
+Sw~UNoCPgo&amdat\
+a=enc%3AAQAKAAAA\
+8PeG5RIuIyokJHJy\
+903%2F5UbHprDDyb\
+ljkW3LjOBeIEuNm7\
+I0ke%2B3AKYa78RD\
+PTwb%2FyzyJWYPWO\
+bX6NH9PsNIuoNnDI\
+d7%2FEikqgDdwvZ%\
+2FgUEDxpU6VBeUvq\
+RwerqQ84FrqxpKBy\
+5HvIaeklAtG%2F1h\
+yb76dKQC46lWNiiM\
+r1VL92Bt2z08bu%2\
+BKD6umZUrFPQhvK8\
+5Lc4giTlCWn5I31F\
+ZLo460e6nMsP66XD\
+kCWIIR%2BUiBk3lr\
+tWb%2FUxNWa69nLf\
+ivXcHDmpzIXxiz0R\
+WROc2ndQ1myQanXr\
+lga5cdsMSCbAAo2m\
+2y8hbp3wvTA72h5x\
+cQtg%3D%3D,['FIX\
+ED_PRICE'],0.00,\
+https://i.ebayim\
+g.com/images/g/s\
+pkAAOSw~UNoCPgo/\
+s-l225.jpg,disco\
+untcomputerdepot\
+,131743,98.6,\x22[(\
+'PC Laptops & Ne\
+tbooks', '177'),\
+ ('Computers/Tab\
+lets & Networkin\
+g', '58058'), ('\
+Laptops & Netboo\
+ks', '175672')]\x22\
+,\x22[\x22\x2226680455087\
+6\x22\x22, \x22\x22334384327\
+563\x22\x22, \x22\x222566879\
+32768\x22\x22, \x22\x2211662\
+5646506\x22\x22]\x22,,\x0d\x0a2\
+,HP EliteBook 84\
+5 G8 14\xe2\x80\x9d Lapto\
+p FHD AMD Ryzen \
+5 8GB RAM 256GB \
+SSD Windows 11 P\
+ro,v1|2862888475\
+06|0,231.00,http\
+s://www.ebay.com\
+/itm/28628884750\
+6?_skw=Gaming+la\
+ptop&hash=item42\
+a8252292:g:tuwAA\
+OSwBwBoMTzb&amda\
+ta=enc%3AAQAKAAA\
+A8PeG5RIuIyokJHJ\
+y903%2F5UbAGglUj\
+leBC5QCBBNGNkayk\
+sQ5%2FWoKM8CXVcH\
+XMkfl8mtHLzg6MsX\
+bwLkfK68VXETOZ6v\
+4Mff0ForX8QC8JDi\
+W5T3Ze1vfueHP97V\
+elE0WDhIjmEnmR--\
+zxRATdMhzKuW4MeC\
+8QTwg%2BX6Ti6aiW\
+osDWb%2Bwngb5K2I\
+umFF4CSIU6w9ipvZ\
+qpbHggEjvx%2Bxzc\
+MV1dnJC3TgBT%2BP\
+h2%2Fj5rc3zRe%2F\
+O5yTFu4ck%2FqdTD\
+uTo9tX7cXIlqOvn6\
+9a6wwuG6efLKQKAn\
+ehTIdIEg43XdV2n4\
+cYufhW5G%2FIWmpz\
+F8VofLw%3D%3D,['\
+FIXED_PRICE'],0.\
+00,https://i.eba\
+yimg.com/images/\
+g/tuwAAOSwBwBoMT\
+zb/s-l225.jpg,di\
+scountcomputerde\
+pot,131743,98.6,\
+\x22[('PC Laptops &\
+ Netbooks', '177\
+'), ('Computers/\
+Tablets & Networ\
+king', '58058'),\
+ ('Laptops & Net\
+books', '175672'\
+)]\x22,\x22[\x22\x2228590620\
+1705\x22\x22, \x22\x22286601\
+719329\x22\x22, \x22\x222567\
+24033347\x22\x22, \x22\x2225\
+6942721121\x22\x22]\x22,,\
+\x0d\x0a3,\x22Lenovo LOQ \
+15.6\x22\x22 FHD 144Hz\
+ Gaming Laptop i\
+5-12450HX 12GB R\
+AM 512GB SSD RTX\
+ 3050\x22,v1|126480\
+962681|0,559.99,\
+https://www.ebay\
+.com/itm/1264809\
+62681?_skw=Gamin\
+g+laptop&hash=it\
+em1d72da5479:g:p\
+osAAeSwX8JoE6JX,\
+['FIXED_PRICE'],\
+0.00,https://i.e\
+bayimg.com/image\
+s/g/posAAeSwX8Jo\
+E6JX/s-l225.jpg,\
+antonline,335462\
+,99.1,\x22[('PC Lap\
+tops & Netbooks'\
+, '177'), ('Comp\
+uters/Tablets & \
+Networking', '58\
+058'), ('Laptops\
+ & Netbooks', '1\
+75672')]\x22,\x22[\x22\x2212\
+7160053854\x22\x22, \x22\x22\
+305776945810\x22\x22, \
+\x22\x22126678883714\x22\x22\
+, \x22\x22187261066904\
+\x22\x22, \x22\x221264809626\
+81\x22\x22, \x22\x2230422828\
+8867\x22\x22, \x22\x22296584\
+849936\x22\x22, \x22\x221251\
+51448960\x22\x22, \x22\x2212\
+6184586575\x22\x22, \x22\x22\
+294556686629\x22\x22, \
+\x22\x22304211399566\x22\x22\
+, \x22\x22295992047052\
+\x22\x22, \x22\x222960212041\
+38\x22\x22, \x22\x2229416143\
+3526\x22\x22]\x22,,\x0d\x0a4,\x22L\
+enovo LOQ 15.6\x22\x22\
+ FHD 144Hz Gamin\
+g Notebook i5-12\
+450HX 12GB 512GB\
+ SSD RTX 2050\x22,v\
+1|305776945810|0\
+,499.99,https://\
+www.ebay.com/itm\
+/305776945810?_s\
+kw=Gaming+laptop\
+&hash=item4731b9\
+ea92:g:UXgAAOSwz\
+GZnGIS~,['FIXED_\
+PRICE'],0.00,htt\
+ps://i.ebayimg.c\
+om/images/g/UXgA\
+AOSwzGZnGIS~/s-l\
+225.jpg,antonlin\
+e,335462,99.1,\x22[\
+('PC Laptops & N\
+etbooks', '177')\
+, ('Computers/Ta\
+blets & Networki\
+ng', '58058'), (\
+'Laptops & Netbo\
+oks', '175672')]\
+\x22,\x22[\x22\x221271600538\
+54\x22\x22, \x22\x2212648096\
+2681\x22\x22, \x22\x22146217\
+047090\x22\x22, \x22\x221872\
+61066904\x22\x22, \x22\x2212\
+6480962681\x22\x22, \x22\x22\
+304228288867\x22\x22, \
+\x22\x22296584849936\x22\x22\
+, \x22\x22125151448960\
+\x22\x22, \x22\x221261845865\
+75\x22\x22, \x22\x2229455668\
+6629\x22\x22, \x22\x22304211\
+399566\x22\x22, \x22\x222959\
+92047052\x22\x22, \x22\x2229\
+6021204138\x22\x22, \x22\x22\
+294161433526\x22\x22]\x22\
+,,\x0d\x0a5,Acer Nitro\
+ V 15.6in Laptop\
+ NVIDIA GeForce \
+RTX 16GB 512GB C\
+ertified Refurbi\
+shed,v1|25657402\
+5033|0,643.99,ht\
+tps://www.ebay.c\
+om/itm/256574025\
+033?_skw=Gaming+\
+laptop&hash=item\
+3bbd00ed49:g:8-U\
+AAOSwnO9njm1W,['\
+FIXED_PRICE'],0.\
+00,https://i.eba\
+yimg.com/images/\
+g/8-UAAOSwnO9njm\
+1W/s-l225.jpg,ac\
+er,73500,96.8,\x22[\
+('PC Laptops & N\
+etbooks', '177')\
+, ('Computers/Ta\
+blets & Networki\
+ng', '58058'), (\
+'Laptops & Netbo\
+oks', '175672')]\
+\x22,\x22[\x22\x222567056070\
+66\x22\x22, \x22\x2218726106\
+6904\x22\x22, \x22\x22116453\
+645269\x22\x22, \x22\x221675\
+66662555\x22\x22, \x22\x2225\
+6347779410\x22\x22, \x22\x22\
+266889342994\x22\x22, \
+\x22\x22275913158537\x22\x22\
+, \x22\x22256547414823\
+\x22\x22, \x22\x222563477867\
+56\x22\x22, \x22\x2227610421\
+0750\x22\x22, \x22\x22256195\
+038210\x22\x22, \x22\x222650\
+45647896\x22\x22, \x22\x2227\
+6237750527\x22\x22, \x22\x22\
+256518979185\x22\x22]\x22\
+,,\x0d\x0a6,\x22Lenovo LO\
+Q-E 15.6\x22\x22 FHD 1\
+44Hz Gaming Lapt\
+op i5-12450HX 8G\
+B RAM 512GB SSD \
+RTX 2050\x22,v1|126\
+754097392|0,479.\
+99,https://www.e\
+bay.com/itm/1267\
+54097392?_skw=Ga\
+ming+laptop&hash\
+=item1d832208f0:\
+g:uzAAAOSw~pNncs\
+DK,['FIXED_PRICE\
+'],0.00,https://\
+i.ebayimg.com/im\
+ages/g/uzAAAOSw~\
+pNncsDK/s-l225.j\
+pg,antonline,335\
+462,99.1,\x22[('PC \
+Laptops & Netboo\
+ks', '177'), ('C\
+omputers/Tablets\
+ & Networking', \
+'58058'), ('Lapt\
+ops & Netbooks',\
+ '175672')]\x22,\x22[\x22\
+\x22126678883714\x22\x22,\
+ \x22\x22126480962681\x22\
+\x22, \x22\x2212716005385\
+4\x22\x22, \x22\x22187261066\
+904\x22\x22, \x22\x221264809\
+62681\x22\x22, \x22\x2230422\
+8288867\x22\x22, \x22\x22296\
+584849936\x22\x22, \x22\x221\
+25151448960\x22\x22, \x22\
+\x22126184586575\x22\x22,\
+ \x22\x22294556686629\x22\
+\x22, \x22\x2230421139956\
+6\x22\x22, \x22\x22295992047\
+052\x22\x22, \x22\x222960212\
+04138\x22\x22, \x22\x2229416\
+1433526\x22\x22]\x22,,\x0d\x0a7\
+,\x2215.6\x22\x22 FHD Tou\
+chScreen Gaming \
+Laptop: Intel i5\
+! 16GB RAM, 512G\
+B SSD! Windows 1\
+1\x22,v1|1166256465\
+06|0,279.99,http\
+s://www.ebay.com\
+/itm/11662564650\
+6?_skw=Gaming+la\
+ptop&hash=item1b\
+276e23aa:g:xK4AA\
+OSwqGloOdUJ,\x22['F\
+IXED_PRICE', 'BE\
+ST_OFFER']\x22,0.00\
+,https://i.ebayi\
+mg.com/images/g/\
+xK4AAOSwqGloOdUJ\
+/s-l225.jpg,rinu\
+vo,7237,99.3,\x22[(\
+'PC Laptops & Ne\
+tbooks', '177'),\
+ ('Computers/Tab\
+lets & Networkin\
+g', '58058'), ('\
+Laptops & Netboo\
+ks', '175672')]\x22\
+,\x22[\x22\x2227713386583\
+7\x22\x22, \x22\x22116593182\
+179\x22\x22, \x22\x222564906\
+55672\x22\x22, \x22\x2211661\
+3698495\x22\x22]\x22,,\x0d\x0a8\
+,Acer Predator H\
+elios 14-14.5in \
+Laptop NVIDIA 16\
+GB 1TB SSD  Cert\
+ified Refurbishe\
+d,v1|25670436491\
+5|0,999.99,https\
+://www.ebay.com/\
+itm/256704364915\
+?_skw=Gaming+lap\
+top&hash=item3bc\
+4c5c173:g:fAkAAO\
+SwT3pn9VGS,['FIX\
+ED_PRICE'],0.00,\
+https://i.ebayim\
+g.com/images/g/f\
+AkAAOSwT3pn9VGS/\
+s-l225.jpg,acer,\
+73500,96.8,\x22[('P\
+C Laptops & Netb\
+ooks', '177'), (\
+'Computers/Table\
+ts & Networking'\
+, '58058'), ('La\
+ptops & Netbooks\
+', '175672')]\x22,\x22\
+[\x22\x22127126630150\x22\
+\x22, \x22\x2218726106690\
+4\x22\x22, \x22\x22116345882\
+068\x22\x22, \x22\x221871487\
+29984\x22\x22, \x22\x2225634\
+7779410\x22\x22, \x22\x22266\
+889342994\x22\x22, \x22\x222\
+75913158537\x22\x22, \x22\
+\x22256547414823\x22\x22,\
+ \x22\x22256347786756\x22\
+\x22, \x22\x2227610421075\
+0\x22\x22, \x22\x22256195038\
+210\x22\x22, \x22\x222650456\
+47896\x22\x22, \x22\x2227623\
+7750527\x22\x22, \x22\x22256\
+518979185\x22\x22]\x22,,\x0d\
+\x0a9,Acer Nitro V \
+16  Gaming Lapto\
+p 165Hz WUXGA R7\
+-8845HS 16GB RAM\
+ 1TB SSD RTX 406\
+0,v1|12652813592\
+2|0,899.99,https\
+://www.ebay.com/\
+itm/126528135922\
+?_skw=Gaming+lap\
+top&hash=item1d7\
+5aa22f2:g:q9EAAO\
+SwHHtmmVh2,['FIX\
+ED_PRICE'],0.00,\
+https://i.ebayim\
+g.com/images/g/q\
+9EAAOSwHHtmmVh2/\
+s-l225.jpg,anton\
+line,335462,99.1\
+,\x22[('PC Laptops \
+& Netbooks', '17\
+7'), ('Computers\
+/Tablets & Netwo\
+rking', '58058')\
+, ('Laptops & Ne\
+tbooks', '175672\
+')]\x22,\x22[\x22\x221271266\
+30150\x22\x22, \x22\x2218726\
+1066904\x22\x22, \x22\x22116\
+453645269\x22\x22, \x22\x224\
+05876185313\x22\x22, \x22\
+\x22126480962681\x22\x22,\
+ \x22\x22304228288867\x22\
+\x22, \x22\x2229658484993\
+6\x22\x22, \x22\x22125151448\
+960\x22\x22, \x22\x221261845\
+86575\x22\x22, \x22\x2229455\
+6686629\x22\x22, \x22\x22304\
+211399566\x22\x22, \x22\x222\
+95992047052\x22\x22, \x22\
+\x22296021204138\x22\x22,\
+ \x22\x22294161433526\x22\
+\x22]\x22,,\x0d\x0a10,\x2215.6\x22\
+\x22 Acer Gaming La\
+ptop PC: Intel i\
+5 Quad Core! 20G\
+B RAM! 512GB SSD\
+! Windows 11\x22,v1\
+|116613698495|0,\
+299.99,https://w\
+ww.ebay.com/itm/\
+116613698495?_sk\
+w=Gaming+laptop&\
+hash=item1b26b7d\
+3bf:g:SOgAAOSw1D\
+xoLz0M,\x22['FIXED_\
+PRICE', 'BEST_OF\
+FER']\x22,0.00,http\
+s://i.ebayimg.co\
+m/images/g/SOgAA\
+OSw1DxoLz0M/s-l2\
+25.jpg,rinuvo,72\
+37,99.3,\x22[('PC L\
+aptops & Netbook\
+s', '177'), ('Co\
+mputers/Tablets \
+& Networking', '\
+58058'), ('Lapto\
+ps & Netbooks', \
+'175672')]\x22,\x22[\x22\x22\
+265752692346\x22\x22, \
+\x22\x22116630792067\x22\x22\
+, \x22\x22254579476051\
+\x22\x22, \x22\x221166256465\
+06\x22\x22]\x22,,\x0d\x0a11,\x22MS\
+I Modern 15 A10M\
+ Gaming Laptop M\
+S-1551 i7-10510U\
+@1.8GHz, 256gb 1\
+6gb ram Win 11\x22,\
+v1|297406954897|\
+0,299.00,https:/\
+/www.ebay.com/it\
+m/297406954897?_\
+skw=Gaming+lapto\
+p&hash=item453ed\
+5fd91:g:9fwAAOSw\
+LHdoS5nu,\x22['FIXE\
+D_PRICE', 'BEST_\
+OFFER']\x22,0.00,ht\
+tps://i.ebayimg.\
+com/images/g/9fw\
+AAOSwLHdoS5nu/s-\
+l225.jpg,techtra\
+der123,110,100.0\
+,\x22[('PC Laptops \
+& Netbooks', '17\
+7'), ('Computers\
+/Tablets & Netwo\
+rking', '58058')\
+, ('Laptops & Ne\
+tbooks', '175672\
+')]\x22,\x22[\x22\x222647145\
+53889\x22\x22, \x22\x2217718\
+0131805\x22\x22, \x22\x22146\
+597453368\x22\x22, \x22\x221\
+77179679657\x22\x22]\x22,\
+,\x0d\x0a12,\x2215.6\x22\x22 FH\
+D TOUCHSCREEN Ga\
+ming Laptop: Int\
+el i5! 32GB RAM,\
+ 512GB SSD! Wind\
+ows 11!\x22,v1|1166\
+30792067|0,294.9\
+9,https://www.eb\
+ay.com/itm/11663\
+0792067?_skw=Gam\
+ing+laptop&hash=\
+item1b27bca783:g\
+:GsUAAOSwmg5oPdc\
+E,\x22['FIXED_PRICE\
+', 'BEST_OFFER']\
+\x22,0.00,https://i\
+.ebayimg.com/ima\
+ges/g/GsUAAOSwmg\
+5oPdcE/s-l225.jp\
+g,rinuvo,7237,99\
+.3,\x22[('PC Laptop\
+s & Netbooks', '\
+177'), ('Compute\
+rs/Tablets & Net\
+working', '58058\
+'), ('Laptops & \
+Netbooks', '1756\
+72')]\x22,\x22[\x22\x2228604\
+5958900\x22\x22, \x22\x22187\
+261066904\x22\x22, \x22\x221\
+27160053854\x22\x22, \x22\
+\x22116625646506\x22\x22]\
+\x22,,\x0d\x0a13,\x22HP Elit\
+eBook 14\x22\x22 FHD L\
+aptop AMD Ryzen \
+5 Pro Up To 32GB\
+ RAM 1TB SSD Win\
+dows 11 PC\x22,v1|2\
+86601719329|5886\
+49223900,242.98,\
+https://www.ebay\
+.com/itm/2866017\
+19329?_skw=Gamin\
+g+laptop&hash=it\
+em42bacb2e21:g:a\
+q0AAOSwpEBoNhIb&\
+amdata=enc%3AAQA\
+KAAAA8PeG5RIuIyo\
+kJHJy903%2F5UYh9\
+5yXg0H8A7729L7tM\
+AjDsB6vJ8GICVw38\
+xX5VxXzd73ESsC9y\
+ukgds4tsKA3%2FV0\
+An5gXlDJ2sMB%2FK\
+xSAoGFPCm8xH2njL\
+MN%2B9yO%2Fo5d37\
+XOY9s3dGRojMUZmk\
+rnWmLuS7sFQQXh1a\
+NnpIrZsmmQBpQ88v\
+Y62E671QLkI8D6Xr\
+2PUN9sydFnQh8Uc4\
+X9WDEEtabxpmLMyx\
+7bBEKafkBgh2%2By\
+U40WcBXTh28DW0UT\
+HtIaYM%2FfwMByxw\
+hnkMzdldlK2HBh3U\
+qzqEeGi7wtmeGNrs\
+H8Xc3WaxImms9idx\
+p9nJA%3D%3D,['FI\
+XED_PRICE'],0.00\
+,https://i.ebayi\
+mg.com/images/g/\
+aq0AAOSwpEBoNhIb\
+/s-l225.jpg,disc\
+ountcomputerdepo\
+t,131743,98.6,\x22[\
+('PC Laptops & N\
+etbooks', '177')\
+, ('Computers/Ta\
+blets & Networki\
+ng', '58058'), (\
+'Laptops & Netbo\
+oks', '175672')]\
+\x22,\x22[\x22\x222859062017\
+05\x22\x22, \x22\x2228628884\
+7506\x22\x22, \x22\x22285872\
+318366\x22\x22, \x22\x222861\
+25444869\x22\x22]\x22,,\x0d\x0a\
+14,\x22Dell Latitud\
+e 14\x22\x22 Laptop Co\
+mputer PC Intel \
+i5 Up To 32GB RA\
+M 1TB SSD Window\
+s 11\x22,v1|2863930\
+92388|5884987487\
+96,279.36,https:\
+//www.ebay.com/i\
+tm/286393092388?\
+_skw=Gaming+lapt\
+op&hash=item42ae\
+5bc924:g:8osAAOS\
+w65poQz1p&amdata\
+=enc%3AAQAKAAAA8\
+PeG5RIuIyokJHJy9\
+03%2F5UbeVTdVWY9\
+UbRJNj7K%2BnJ4eg\
+Pi6puhl2nWe3%2Bm\
+Sy2I4%2FtAyrMcAk\
+QF0mAbzZGMm86XwB\
+rFeWgrDd3untBKHF\
+Lw50MuOlLj32Fj%2\
+FNMA5cLKPuRt5uhU\
+I6hfLFDxO0%2Bmhi\
+xVCRegyiF44kOzXu\
+ypMS4CLCTiDO6Z6G\
+jGqwwfU3a46tT9iv\
+gQ%2FnWSWrOy79rU\
+Ry2RjqE5VGy45ccC\
+bBHdc5pOG4NZQTBC\
+a980XOHEg5atlzIB\
+YhqTohGrkSY%2FJ6\
+Jnr3DH7QvocUHEp3\
+%2BFnhg30kJaDb7g\
+fnrW3Thm0psgbIiN\
+yiw%3D%3D,['FIXE\
+D_PRICE'],0.00,h\
+ttps://i.ebayimg\
+.com/images/g/8o\
+sAAOSw65poQz1p/s\
+-l225.jpg,discou\
+ntcomputerdepot,\
+131743,98.6,\x22[('\
+PC Laptops & Net\
+books', '177'), \
+('Computers/Tabl\
+ets & Networking\
+', '58058'), ('L\
+aptops & Netbook\
+s', '175672')]\x22,\
+\x22[\x22\x22286045958900\
+\x22\x22, \x22\x221163322339\
+76\x22\x22, \x22\x2226702303\
+4235\x22\x22, \x22\x22266433\
+553734\x22\x22]\x22,,\x0d\x0a15\
+,Acer Nitro V 15\
+ Gaming Laptop N\
+VIDIA\xc2\xae GeForce \
+RTX\xe2\x84\xa2 4050,v1|2\
+36148302177|0,60\
+0.00,https://www\
+.ebay.com/itm/23\
+6148302177?_skw=\
+Gaming+laptop&ha\
+sh=item36fb89216\
+1:g:OjwAAeSwqg1o\
+SzfQ&amdata=enc%\
+3AAQAKAAAA8PeG5R\
+IuIyokJHJy903%2F\
+5UY1LQ6s8%2Fqeds\
+efjFwoONMlMYwft%\
+2BD9c218ieRWPsbq\
+FrSlWWunc2Swlekf\
+O286EcnLLLWQNzrD\
+%2BCikO9bP%2FlP6\
+tu4UFeQL3gVwXSj2\
+guh0GH7q9z4dRYEx\
+RB0Do8MWzOVG0ekp\
+UKaGZzcI1kP%2Blw\
+kL2nHrgBMYvjTZRb\
+6zZJNtPW5BAgEbPW\
+zmvDG0jPonzuXmZA\
+8ORbIAnRb9x%2BCo\
+FNPwWwtL9FQDButl\
+B68o%2F6r%2F8igU\
+qAS0WAudV6oX6KaR\
+SIzwFPzC6aHO5Qnz\
+2DyAtnFCckDuSpOb\
+jdGAKvih%2FwFv7Q\
+%3D%3D,\x22['FIXED_\
+PRICE', 'BEST_OF\
+FER']\x22,N/A,https\
+://i.ebayimg.com\
+/images/g/OjwAAe\
+Swqg1oSzfQ/s-l22\
+5.jpg,brody-13,0\
+,0.0,\x22[('PC Lapt\
+ops & Netbooks',\
+ '177'), ('Compu\
+ters/Tablets & N\
+etworking', '580\
+58'), ('Laptops \
+& Netbooks', '17\
+5672')]\x22,\x22[\x22\x22127\
+126630150\x22\x22, \x22\x223\
+57007794547\x22\x22, \x22\
+\x22256705607066\x22\x22,\
+ \x22\x22167566662555\x22\
+\x22]\x22,,\x0d\x0a16,\x22New H\
+P Victus Gaming \
+15.6\x22\x22 144Hz FHD\
+ Ryzen 5 7535HS \
+16GB 512GB Radeo\
+n RX 6550M\x22,v1|3\
+05926090649|0,57\
+9.00,https://www\
+.ebay.com/itm/30\
+5926090649?_skw=\
+Gaming+laptop&ha\
+sh=item473a9daf9\
+9:g:ypAAAOSw9ahn\
+QGCj,['FIXED_PRI\
+CE'],0.00,https:\
+//i.ebayimg.com/\
+images/g/ypAAAOS\
+w9ahnQGCj/s-l225\
+.jpg,themaxmart,\
+14458,99.3,\x22[('P\
+C Laptops & Netb\
+ooks', '177'), (\
+'Computers/Table\
+ts & Networking'\
+, '58058'), ('La\
+ptops & Netbooks\
+', '175672')]\x22,\x22\
+[\x22\x22116453645269\x22\
+\x22, \x22\x2229739555850\
+6\x22\x22, \x22\x22127160053\
+854\x22\x22, \x22\x221872610\
+66904\x22\x22, \x22\x2211598\
+0692081\x22\x22, \x22\x22304\
+430790412\x22\x22, \x22\x223\
+05542356538\x22\x22, \x22\
+\x22305963666613\x22\x22,\
+ \x22\x22116402078017\x22\
+\x22, \x22\x2230528804783\
+1\x22\x22, \x22\x22305926090\
+649\x22\x22, \x22\x221161662\
+14886\x22\x22, \x22\x2229686\
+9004471\x22\x22, \x22\x22305\
+932423338\x22\x22]\x22,,\x0d\
+\x0a17,\x22MSI Modern \
+15 H B13M-010US \
+15.6\x22\x22 Laptop In\
+tel i9-13900H 32\
+GB RAM 1TB SSD W\
+in11\x22,v1|2565349\
+91741|0,579.00,h\
+ttps://www.ebay.\
+com/itm/25653499\
+1741?_skw=Gaming\
++laptop&hash=ite\
+m3bbaad537d:g:c6\
+oAAeSwtR9oB8NA,[\
+'FIXED_PRICE'],0\
+.00,https://i.eb\
+ayimg.com/images\
+/g/c6oAAeSwtR9oB\
+8NA/s-l225.jpg,s\
+tarlit_partner,1\
+0364,99.3,\x22[('PC\
+ Laptops & Netbo\
+oks', '177'), ('\
+Computers/Tablet\
+s & Networking',\
+ '58058'), ('Lap\
+tops & Netbooks'\
+, '175672')]\x22,\x22[\
+\x22\x22127160053854\x22\x22\
+, \x22\x22187261066904\
+\x22\x22, \x22\x221466313721\
+68\x22\x22, \x22\x2233448013\
+7378\x22\x22, \x22\x22145613\
+148025\x22\x22, \x22\x221456\
+03455451\x22\x22, \x22\x2232\
+6049399384\x22\x22, \x22\x22\
+143996101008\x22\x22, \
+\x22\x22145573370759\x22\x22\
+, \x22\x22326087403646\
+\x22\x22, \x22\x223259921735\
+78\x22\x22, \x22\x2225639414\
+9935\x22\x22, \x22\x22256138\
+650503\x22\x22, \x22\x223244\
+12779391\x22\x22]\x22,,\x0d\x0a\
+18,\x2215.6\x22\x22 FHD D\
+ELL Gaming Lapto\
+p PC: Intel i7 Q\
+uad Core! 16GB R\
+AM ~ 1TB NVME SS\
+D!\x22,v1|116507650\
+119|0,343.95,htt\
+ps://www.ebay.co\
+m/itm/1165076501\
+19?_skw=Gaming+l\
+aptop&hash=item1\
+b2065a847:g:8koA\
+AOSw1rhn3DIb,\x22['\
+FIXED_PRICE', 'B\
+EST_OFFER']\x22,0.0\
+0,https://i.ebay\
+img.com/images/g\
+/8koAAOSw1rhn3DI\
+b/s-l225.jpg,rin\
+uvo,7237,99.3,\x22[\
+('PC Laptops & N\
+etbooks', '177')\
+, ('Computers/Ta\
+blets & Networki\
+ng', '58058'), (\
+'Laptops & Netbo\
+oks', '175672')]\
+\x22,\x22[\x22\x222567056070\
+66\x22\x22, \x22\x2218726106\
+6904\x22\x22, \x22\x22286055\
+616899\x22\x22, \x22\x221163\
+32233976\x22\x22]\x22,,\x0d\x0a\
+19,Acer Nitro V1\
+5-15in Laptop NV\
+IDIA GeForceRTX4\
+060 512GB SSD Ce\
+rtified Refurbis\
+hed,v1|276741884\
+846|0,834.99,htt\
+ps://www.ebay.co\
+m/itm/2767418848\
+46?_skw=Gaming+l\
+aptop&hash=item4\
+06f1a0bae:g:8hQA\
+AOSwYZRoLLH2,['F\
+IXED_PRICE'],0.0\
+0,https://i.ebay\
+img.com/images/g\
+/8hQAAOSwYZRoLLH\
+2/s-l225.jpg,ace\
+r,73500,96.8,\x22[(\
+'PC Laptops & Ne\
+tbooks', '177'),\
+ ('Computers/Tab\
+lets & Networkin\
+g', '58058'), ('\
+Laptops & Netboo\
+ks', '175672')]\x22\
+,\x22[\x22\x2212712663015\
+0\x22\x22, \x22\x22187261066\
+904\x22\x22, \x22\x222567056\
+07066\x22\x22, \x22\x2235700\
+7794547\x22\x22]\x22,,\x0d\x0a2\
+0,\x221920 x 1080P \
+FHD 15.6\x22\x22 Lenov\
+o Gaming Laptop:\
+ Intel i7! 16GB \
+RAM~1TB SSD! Nvi\
+dia!\x22,v1|1164232\
+96043|0,309.95,h\
+ttps://www.ebay.\
+com/itm/11642329\
+6043?_skw=Gaming\
++laptop&hash=ite\
+m1b1b5e842b:g:Qq\
+MAAOSwlS1oG4IC,\x22\
+['FIXED_PRICE', \
+'BEST_OFFER']\x22,0\
+.00,https://i.eb\
+ayimg.com/images\
+/g/QqMAAOSwlS1oG\
+4IC/s-l225.jpg,r\
+inuvo,7237,99.3,\
+\x22[('PC Laptops &\
+ Netbooks', '177\
+'), ('Computers/\
+Tablets & Networ\
+king', '58058'),\
+ ('Laptops & Net\
+books', '175672'\
+)]\x22,\x22[\x22\x2225670560\
+7066\x22\x22, \x22\x22116625\
+646506\x22\x22, \x22\x221266\
+78883714\x22\x22, \x22\x2218\
+7261066904\x22\x22]\x22,,\
+\x0d\x0a21,\x22HP Victus \
+15-fb2063dx 15.6\
+\x22\x22 FHD Gaming La\
+ptop - AMD 5-753\
+5HS/8GB/512GB/ R\
+X 6550M\x22,v1|1466\
+44987277|0,435.0\
+0,https://www.eb\
+ay.com/itm/14664\
+4987277?_skw=Gam\
+ing+laptop&hash=\
+item2224b8ed8d:g\
+:jGsAAOSwTSdoSz8\
+A,['FIXED_PRICE'\
+],0.00,https://i\
+.ebayimg.com/ima\
+ges/g/jGsAAOSwTS\
+doSz8A/s-l225.jp\
+g,ezprobay99,576\
+7,98.1,\x22[('PC La\
+ptops & Netbooks\
+', '177'), ('Com\
+puters/Tablets &\
+ Networking', '5\
+8058'), ('Laptop\
+s & Netbooks', '\
+175672')]\x22,\x22[\x22\x222\
+86601719329\x22\x22, \x22\
+\x22146640535795\x22\x22,\
+ \x22\x22256724033347\x22\
+\x22, \x22\x2211662564650\
+6\x22\x22]\x22,,\x0d\x0a22,\x22Del\
+l 15.6\x22\x22 NVIDIA \
+Gaming Laptop - \
+Intel Quad Core \
+i7 64GB RAM 4TB \
+SSD Windows 11\x22,\
+v1|335333304416|\
+544912129521,570\
+.00,https://www.\
+ebay.com/itm/335\
+333304416?_skw=G\
+aming+laptop&has\
+h=item4e136c2860\
+:g:AGkAAOSwVsxnf\
+Csq,['FIXED_PRIC\
+E'],0.00,https:/\
+/i.ebayimg.com/i\
+mages/g/AGkAAOSw\
+VsxnfCsq/s-l225.\
+jpg,aaa_pcs,5707\
+,100.0,\x22[('PC La\
+ptops & Netbooks\
+', '177'), ('Com\
+puters/Tablets &\
+ Networking', '5\
+8058'), ('Laptop\
+s & Netbooks', '\
+175672')]\x22,\x22[\x22\x222\
+86045958900\x22\x22, \x22\
+\x22334480137378\x22\x22,\
+ \x22\x22286047394395\x22\
+\x22, \x22\x2233598738189\
+3\x22\x22]\x22,,\x0d\x0a23,\x22ASU\
+S TUF A15 15.6\x22\x22\
+ FHD AMD Ryzen 7\
+ 7435HS 8GB RAM \
+512GB SSD RTX 30\
+50 W11H Laptop\x22,\
+v1|376270723759|\
+0,587.00,https:/\
+/www.ebay.com/it\
+m/376270723759?_\
+skw=Gaming+lapto\
+p&hash=item579b7\
+b9aaf:g:YC8AAeSw\
+09ZoL35V,['FIXED\
+_PRICE'],0.00,ht\
+tps://i.ebayimg.\
+com/images/g/YC8\
+AAeSw09ZoL35V/s-\
+l225.jpg,prycedi\
+n,69632,98.4,\x22[(\
+'PC Laptops & Ne\
+tbooks', '177'),\
+ ('Computers/Tab\
+lets & Networkin\
+g', '58058'), ('\
+Laptops & Netboo\
+ks', '175672')]\x22\
+,\x22[\x22\x2212697884486\
+7\x22\x22, \x22\x22297379926\
+343\x22\x22, \x22\x221164536\
+45269\x22\x22, \x22\x2237629\
+3823487\x22\x22, \x22\x22167\
+025758236\x22\x22, \x22\x221\
+65457676079\x22\x22, \x22\
+\x22375180679177\x22\x22,\
+ \x22\x22165917584066\x22\
+\x22, \x22\x2216662315778\
+2\x22\x22, \x22\x22375496991\
+612\x22\x22, \x22\x223734633\
+40003\x22\x22, \x22\x2237411\
+2619167\x22\x22, \x22\x22375\
+817685079\x22\x22, \x22\x221\
+64224118708\x22\x22]\x22,\
+,\x0d\x0a24,\x22Lenovo LO\
+Q 15.6\x22\x22 FHD 144\
+Hz Gaming Laptop\
+ i5-12450HX 12GB\
+ RAM 512GB SSD R\
+TX 3050\x22,v1|3063\
+49548233|0,400.0\
+0,https://www.eb\
+ay.com/itm/30634\
+9548233?_skw=Gam\
+ing+laptop&hash=\
+item4753db22c9:g\
+:SpgAAeSwFI1oS5t\
+9,['FIXED_PRICE'\
+],0.00,https://i\
+.ebayimg.com/ima\
+ges/g/SpgAAeSwFI\
+1oS5t9/s-l225.jp\
+g,audfy_0,1,100.\
+0,\x22[('PC Laptops\
+ & Netbooks', '1\
+77'), ('Computer\
+s/Tablets & Netw\
+orking', '58058'\
+), ('Laptops & N\
+etbooks', '17567\
+2')]\x22,[],,\x0d\x0a25,H\
+P Victus 15.6 FH\
+D Gaming Laptop \
+Intel Core i5-12\
+450H 32GB RAM 1T\
+B SSD Touchpad,v\
+1|335954594601|0\
+,629.00,https://\
+www.ebay.com/itm\
+/335954594601?_s\
+kw=Gaming+laptop\
+&hash=item4e3874\
+4b29:g:ZtYAAOSwL\
+KRoHxTH,['FIXED_\
+PRICE'],0.00,htt\
+ps://i.ebayimg.c\
+om/images/g/ZtYA\
+AOSwLKRoHxTH/s-l\
+225.jpg,bestptv,\
+1712,98.6,\x22[('PC\
+ Laptops & Netbo\
+oks', '177'), ('\
+Computers/Tablet\
+s & Networking',\
+ '58058'), ('Lap\
+tops & Netbooks'\
+, '175672')]\x22,\x22[\
+\x22\x22286287864775\x22\x22\
+, \x22\x22126776137671\
+\x22\x22, \x22\x222866017193\
+29\x22\x22, \x22\x2212648096\
+2681\x22\x22]\x22,,\x0d\x0a26,M\
+SI Katana GF76 I\
+7-12700H 32GB RA\
+M 1TB SSD GeForc\
+e RTX 3060,v1|39\
+6736568589|0,635\
+.00,https://www.\
+ebay.com/itm/396\
+736568589?_skw=G\
+aming+laptop&has\
+h=item5c5f579d0d\
+:g:~b8AAeSw6YpoS\
+zpK,['FIXED_PRIC\
+E'],0.00,https:/\
+/i.ebayimg.com/i\
+mages/g/~b8AAeSw\
+6YpoSzpK/s-l225.\
+jpg,grungs_helps\
+,7,100.0,\x22[('PC \
+Laptops & Netboo\
+ks', '177'), ('C\
+omputers/Tablets\
+ & Networking', \
+'58058'), ('Lapt\
+ops & Netbooks',\
+ '175672')]\x22,\x22[\x22\
+\x22146506951038\x22\x22,\
+ \x22\x22116630792067\x22\
+\x22, \x22\x2230577694581\
+0\x22\x22, \x22\x22116625646\
+506\x22\x22]\x22,,\x0d\x0a27,\x22H\
+P Victus Gaming \
+15.6\x22\x22 144Hz FHD\
+ Core i5-12450H \
+8GB 512GB SSD Ge\
+Force RTX 2050\x22,\
+v1|146640535795|\
+0,439.99,https:/\
+/www.ebay.com/it\
+m/146640535795?_\
+skw=Gaming+lapto\
+p&hash=item22247\
+500f3:g:UO0AAeSw\
+8lZoPHaG,\x22['FIXE\
+D_PRICE', 'BEST_\
+OFFER']\x22,0.00,ht\
+tps://i.ebayimg.\
+com/images/g/UO0\
+AAeSw8lZoPHaG/s-\
+l225.jpg,circuit\
+cycleent,24,100.\
+0,\x22[('PC Laptops\
+ & Netbooks', '1\
+77'), ('Computer\
+s/Tablets & Netw\
+orking', '58058'\
+), ('Laptops & N\
+etbooks', '17567\
+2')]\x22,\x22[\x22\x22286601\
+719329\x22\x22, \x22\x222973\
+95558506\x22\x22, \x22\x2225\
+6724033347\x22\x22, \x22\x22\
+297401906946\x22\x22]\x22\
+,,\x0d\x0a28,Lenovo Th\
+inkPad Laptop 14\
+\xe2\x80\x9d 4-Core Intel\
+ i7 4.6GHz 16GB \
+RAM 512GB SSD Wi\
+n 11 Pro,v1|2862\
+58263660|0,293.2\
+3,https://www.eb\
+ay.com/itm/28625\
+8263660?_skw=Gam\
+ing+laptop&hash=\
+item42a652766c:g\
+:DmsAAOSwvUdoSOo\
+C&amdata=enc%3AA\
+QAKAAAA8PeG5RIuI\
+yokJHJy903%2F5UY\
+ZbfVmoTFvA5Hm0F3\
+FdWREBY0yVHBzu7u\
+Rx6IgMUeeca%2FVl\
+LsEusijgzCKNdcQJ\
+8oNqkcnaiTfBdMqi\
+dYdCUxQN%2FlYr1c\
+GISycjzcHUEwbpxE\
+dHwaO%2Bn2I3KoJb\
+tmb6IZ5%2F6t2iCs\
+%2FS1oBXlOjEBinH\
+rW%2BO5ymvMo7ZP5\
+jok5pNeaCnDNsy%2\
+Fuh%2BH3xjDV%2FD\
+nnnVWVnW0sqF3aHW\
+rTpWxuYBfRKa2AGb\
+DZmyhL89eStmnYn3\
+Wlmz5At3VQVUzY7d\
+uCvxIDyi8CenP4KQ\
+CwcuTdh1TURzXBfW\
+mBFbudbwYVyYA%3D\
+%3D,['FIXED_PRIC\
+E'],0.00,https:/\
+/i.ebayimg.com/i\
+mages/g/DmsAAOSw\
+vUdoSOoC/s-l225.\
+jpg,discountcomp\
+uterdepot,131743\
+,98.6,\x22[('PC Lap\
+tops & Netbooks'\
+, '177'), ('Comp\
+uters/Tablets & \
+Networking', '58\
+058'), ('Laptops\
+ & Netbooks', '1\
+75672')]\x22,\x22[\x22\x2225\
+6724033347\x22\x22, \x22\x22\
+286125444869\x22\x22, \
+\x22\x22285872318366\x22\x22\
+, \x22\x22267154269405\
+\x22\x22]\x22,,\x0d\x0a29,HP El\
+iteBook X360 104\
+0 G6 Touchscreen\
+ Laptop 14\xe2\x80\x9d Co\
+re i5 16GB 256GB\
+ SSD Win 11,v1|2\
+56752971411|0,24\
+9.99,https://www\
+.ebay.com/itm/25\
+6752971411?_skw=\
+Gaming+laptop&ha\
+sh=item3bc7ab6e9\
+3:g:vhsAAOSwT9Fo\
+Q-v6&amdata=enc%\
+3AAQAKAAAA8PeG5R\
+IuIyokJHJy903%2F\
+5UY5htECu41Dn1CL\
+p%2FBUZPv%2FYEWJ\
+wmw85WSBH8BK0Lmo\
+bCvekJ9JADVlDJWU\
+%2F7quCROuoqCdR3\
+CP%2BQKmtNq3QtYX\
+yw%2FGYfT4w4VJpe\
+%2FSVVKIwzmvCc3s\
+xGFglhUI5kJsM7yl\
+xNSq%2F0674Ya3rQ\
+6YlFzmx9PBpxIHTz\
+RDaCtMmAlNeiRBUa\
+rSL79QGGjlypbapC\
+xsgQ5crJs00NRF3H\
+zzRh4US7ZWib5Stm\
+bGTbjAZAv6iX8ah2\
+gU4XbZHJ1SRrWX2g\
+lbptFjK4nvkNQ5RX\
+uDln%2BqQnO%2Bq6\
+GsTsMal3x7DbTtjg\
+%3D%3D,['FIXED_P\
+RICE'],0.00,http\
+s://i.ebayimg.co\
+m/images/g/vhsAA\
+OSwT9FoQ-v6/s-l2\
+25.jpg,discountc\
+omputerdepot,131\
+743,98.6,\x22[('PC \
+Laptops & Netboo\
+ks', '177'), ('C\
+omputers/Tablets\
+ & Networking', \
+'58058'), ('Lapt\
+ops & Netbooks',\
+ '175672')]\x22,\x22[\x22\
+\x22286601719329\x22\x22,\
+ \x22\x22266791101115\x22\
+\x22, \x22\x2225694272112\
+1\x22\x22, \x22\x22286288847\
+506\x22\x22]\x22,,\x0d\x0a30,Le\
+novo IdeaPad Gam\
+ing 3 15ACH6 Ryz\
+en 7 5800H 3.2GH\
+z 32GB RAM RTX 3\
+050 (NO SSD),v1|\
+365667051054|0,3\
+50.00,https://ww\
+w.ebay.com/itm/3\
+65667051054?_skw\
+=Gaming+laptop&h\
+ash=item55237466\
+2e:g:XwAAAOSwwU9\
+oSwGA&amdata=enc\
+%3AAQAKAAAA8PeG5\
+RIuIyokJHJy903%2\
+F5UYmcRAvTgS%2BW\
+Uqwi6bLS17G5COSH\
+yj2dwIWofXXzTMZw\
+1dPXDaNCIMPZwQaV\
+8mnd0Oy4iK%2BYEm\
+NcbNiEQGhyTs%2F4\
+0icF%2BuLOUvizpE\
+Yk4bNCPzk8Go5oDi\
+%2F04jHT6SBlhqj%\
+2BYKGVOcJK0PG3LA\
+vSlAGv2ZhLTqYYje\
+1fjLFPE139z2auwj\
+NoFPuA4HDvtCT9aj\
+ws6ifoHS9IdMTtH5\
+ejlPevKNaLvwIfDa\
+DFSUpeBIz9qNOvqV\
+7EATLDH1SlDPMccj\
+ZZo7ca3aGXpiIAoC\
+Nzc8vs3HXR4%2FC5\
+HE9DDB9TVfN4g%3D\
+%3D,\x22['FIXED_PRI\
+CE', 'BEST_OFFER\
+']\x22,N/A,https://\
+i.ebayimg.com/im\
+ages/g/XwAAAOSww\
+U9oSwGA/s-l225.j\
+pg,murraypwn,1,1\
+00.0,\x22[('PC Lapt\
+ops & Netbooks',\
+ '177'), ('Compu\
+ters/Tablets & N\
+etworking', '580\
+58'), ('Laptops \
+& Netbooks', '17\
+5672')]\x22,\x22[\x22\x22126\
+678883714\x22\x22, \x22\x221\
+46640535795\x22\x22, \x22\
+\x22127031042789\x22\x22,\
+ \x22\x22116630792067\x22\
+\x22]\x22,,\x0d\x0a31,ASUS G\
+aming Laptop G75\
+0J i7 GTX 765M 2\
+4GB RAM 500GB SS\
+D+1TB HDD Blk/C/\
+See Desc,v1|1771\
+12402075|0,289.0\
+0,https://www.eb\
+ay.com/itm/17711\
+2402075?_skw=Gam\
+ing+laptop&hash=\
+item293cb8c89b:g\
+:iLEAAOSwUh9oAQY\
+S&amdata=enc%3AA\
+QAKAAAA8PeG5RIuI\
+yokJHJy903%2F5Ub\
+yYZlKuneStoJAYZX\
+EFQGIp701yLp2%2B\
+9KUk3IA1gqUquv6m\
+tKOfrISXzAfwhBzo\
+i0fRSYMFib2h1pKX\
+N5B%2BUbnnnKkhYk\
+6LCofIKQi%2FtyPs\
+9mwgaf1Tyjc7BKPI\
+KHy6Qdn8y9ORcHoj\
+H6%2FPoNBg93MXtU\
+Nr3sV7zPwR6Ta6OB\
+R1%2Bgp0dQQfLwDg\
+ArcOozFmmbWSof9p\
+yrWmCZ%2BqdNfYGG\
+exm52ogyrcteiE1q\
+V1vsnsGKYYoQcL4u\
+RtFN4xcphk38Md0%\
+2FROSirlV%2BImD9\
+O0xyGGxc2yCyHvEM\
+qz2QXRAUe5Q%3D%3\
+D,\x22['FIXED_PRICE\
+', 'BEST_OFFER']\
+\x22,0.00,https://i\
+.ebayimg.com/ima\
+ges/g/iLEAAOSwUh\
+9oAQYS/s-l225.jp\
+g,mrdevices,3944\
+1,98.3,\x22[('PC La\
+ptops & Netbooks\
+', '177'), ('Com\
+puters/Tablets &\
+ Networking', '5\
+8058'), ('Laptop\
+s & Netbooks', '\
+175672')]\x22,\x22[\x22\x222\
+64714553889\x22\x22, \x22\
+\x22166790963171\x22\x22,\
+ \x22\x22256724033347\x22\
+\x22, \x22\x2228606879793\
+4\x22\x22]\x22,,\x0d\x0a32,GIGA\
+BYTE (P57W) i7-6\
+700HQ 16GB Nvidi\
+a GTX 1070 Gamin\
+g Laptop,v1|3885\
+67145047|0,225.0\
+0,https://www.eb\
+ay.com/itm/38856\
+7145047?_skw=Gam\
+ing+laptop&hash=\
+item5a78681a57:g\
+:be4AAeSws9FoSfQ\
+B,\x22['FIXED_PRICE\
+', 'BEST_OFFER']\
+\x22,20.00,https://\
+i.ebayimg.com/im\
+ages/g/be4AAeSws\
+9FoSfQB/s-l225.j\
+pg,muguglymerch,\
+40,100.0,\x22[('PC \
+Laptops & Netboo\
+ks', '177'), ('C\
+omputers/Tablets\
+ & Networking', \
+'58058'), ('Lapt\
+ops & Netbooks',\
+ '175672')]\x22,\x22[\x22\
+\x22264714553889\x22\x22,\
+ \x22\x22116625646506\x22\
+\x22, \x22\x2225658069439\
+5\x22\x22, \x22\x22116423296\
+043\x22\x22]\x22,,\x0d\x0a33,\x22D\
+ell 14\x22\x22 FHD Lap\
+top Intel Quad C\
+ore i7 4.20GHz 6\
+4GB RAM 4TB SSD \
+Windows 11 Pro\x22,\
+v1|335762770305|\
+545286436003,307\
+.00,https://www.\
+ebay.com/itm/335\
+762770305?_skw=G\
+aming+laptop&has\
+h=item4e2d054981\
+:g:T3wAAOSwR1Bng\
+Y1o,['FIXED_PRIC\
+E'],0.00,https:/\
+/i.ebayimg.com/i\
+mages/g/T3wAAOSw\
+R1BngY1o/s-l225.\
+jpg,aaa_pcs,5707\
+,100.0,\x22[('PC La\
+ptops & Netbooks\
+', '177'), ('Com\
+puters/Tablets &\
+ Networking', '5\
+8058'), ('Laptop\
+s & Netbooks', '\
+175672')]\x22,\x22[\x22\x222\
+65752692346\x22\x22, \x22\
+\x22388492530467\x22\x22,\
+ \x22\x22256687932768\x22\
+\x22, \x22\x2233448013737\
+8\x22\x22]\x22,,\x0d\x0a34,\x22MSI\
+ Sword 16 HX B13\
+VFKG-662US 16\x22\x22 \
+Gaming Laptop i7\
+-13700HX 16GB 40\
+60 1TB Win11\x22,v1\
+|146593521291|0,\
+879.00,https://w\
+ww.ebay.com/itm/\
+146593521291?_sk\
+w=Gaming+laptop&\
+hash=item2221a79\
+e8b:g:ipYAAeSwbw\
+5oK2pN,['FIXED_P\
+RICE'],0.00,http\
+s://i.ebayimg.co\
+m/images/g/ipYAA\
+eSwbw5oK2pN/s-l2\
+25.jpg,starlit_p\
+artner,10364,99.\
+3,\x22[('PC Laptops\
+ & Netbooks', '1\
+77'), ('Computer\
+s/Tablets & Netw\
+orking', '58058'\
+), ('Laptops & N\
+etbooks', '17567\
+2')]\x22,\x22[\x22\x22177180\
+726648\x22\x22, \x22\x221872\
+61066904\x22\x22, \x22\x2225\
+6705607066\x22\x22, \x22\x22\
+187148729984\x22\x22]\x22\
+,,\x0d\x0a35,\x22New MSI \
+Katana 15.6\x22\x22 In\
+tel i7-13620H 16\
+GB RAM 1TB SSD G\
+eForce RTX 4050 \
+Laptop\x22,v1|29740\
+3008710|0,849.95\
+,https://www.eba\
+y.com/itm/297403\
+008710?_skw=Gami\
+ng+laptop&hash=i\
+tem453e99c6c6:g:\
+8Y8AAOSwD5doG8NF\
+,['FIXED_PRICE']\
+,0.00,https://i.\
+ebayimg.com/imag\
+es/g/8Y8AAOSwD5d\
+oG8NF/s-l225.jpg\
+,steevesj,12467,\
+100.0,\x22[('PC Lap\
+tops & Netbooks'\
+, '177'), ('Comp\
+uters/Tablets & \
+Networking', '58\
+058'), ('Laptops\
+ & Netbooks', '1\
+75672')]\x22,\x22[\x22\x2217\
+7180721580\x22\x22, \x22\x22\
+167575229345\x22\x22, \
+\x22\x22267157284916\x22\x22\
+, \x22\x22187261066904\
+\x22\x22]\x22,,\x0d\x0a36,\x22Dell\
+ 15.6\x22\x22 Light Ga\
+ming Laptop Inte\
+l Core i7 4.20 G\
+Hz 64GB RAM 4TB \
+SSD Win11 Pro\x22,v\
+1|334703417715|5\
+44907135164,570.\
+00,https://www.e\
+bay.com/itm/3347\
+03417715?_skw=Ga\
+ming+laptop&hash\
+=item4dede0d973:\
+g:EKMAAOSw3rlnft\
+ZD,['FIXED_PRICE\
+'],0.00,https://\
+i.ebayimg.com/im\
+ages/g/EKMAAOSw3\
+rlnftZD/s-l225.j\
+pg,aaa_pcs,5707,\
+100.0,\x22[('PC Lap\
+tops & Netbooks'\
+, '177'), ('Comp\
+uters/Tablets & \
+Networking', '58\
+058'), ('Laptops\
+ & Netbooks', '1\
+75672')]\x22,\x22[\x22\x2225\
+6580694395\x22\x22, \x22\x22\
+334480137378\x22\x22, \
+\x22\x22286045958900\x22\x22\
+, \x22\x22335987342105\
+\x22\x22, \x22\x223353537063\
+06\x22\x22, \x22\x2233572044\
+8847\x22\x22, \x22\x22335505\
+237309\x22\x22, \x22\x223354\
+78590590\x22\x22, \x22\x2233\
+5333304416\x22\x22, \x22\x22\
+334703417715\x22\x22, \
+\x22\x22335475616152\x22\x22\
+, \x22\x22334713666566\
+\x22\x22, \x22\x223353332435\
+08\x22\x22, \x22\x2233590082\
+5955\x22\x22]\x22,,\x0d\x0a37,\x22\
+ASUS - ROG Zephy\
+rus G16 16\x22\x22 OLE\
+D QHD 240Hz Gami\
+ng Laptop - Inte\
+l Core Ultra 9..\
+.\x22,v1|3260687420\
+80|0,1999.99,htt\
+ps://www.ebay.co\
+m/itm/3260687420\
+80?_skw=Gaming+l\
+aptop&hash=item4\
+beb3627c0:g:MeUA\
+AeSwbrxnopc7,['F\
+IXED_PRICE'],0.0\
+0,https://i.ebay\
+img.com/images/g\
+/MeUAAeSwbrxnopc\
+7/s-l225.jpg,bes\
+t_buy,864325,95.\
+9,\x22[('PC Laptops\
+ & Netbooks', '1\
+77'), ('Computer\
+s/Tablets & Netw\
+orking', '58058'\
+), ('Laptops & N\
+etbooks', '17567\
+2')]\x22,\x22[\x22\x22126978\
+844867\x22\x22, \x22\x221872\
+61066904\x22\x22, \x22\x2214\
+6433519178\x22\x22, \x22\x22\
+335967705421\x22\x22]\x22\
+,,\x0d\x0a38,\x22Dell 749\
+0 14\x22\x22 Light Gam\
+ing Intel Core i\
+7 4.20GHz 32GB R\
+AM 1TB SSD Windo\
+ws 11 Pro\x22,v1|33\
+4480137378|0,489\
+.99,https://www.\
+ebay.com/itm/334\
+480137378?_skw=G\
+aming+laptop&has\
+h=item4de091dca2\
+:g:l7QAAOSwPqBng\
+vkZ&amdata=enc%3\
+AAQAKAAAA8PeG5RI\
+uIyokJHJy903%2F5\
+UbUyX4itVbvBhjXO\
+sl7uPQu%2BSnSEch\
+hsBT5jYG%2FMKwj9\
+qGm%2B85Rw--18nO\
+ZZgywGz%2Fzirvba\
+frVHCMDfnlMpZjBB\
+ZNnqQMfCJ3ZM8mzM\
+ajDqTgkRfCJZagW1\
+qOhnjT6w2Km6WJ3f\
+sFXCofHx11%2FdQ%\
+2BgUG3MEBtLVYLGB\
+gt3zTK7Hj5iu5aNO\
+4lzv2hKGk8GE5EgS\
+q8tMbkFlXudwHkxK\
+D%2Fx9xwJVsDuXTx\
+YZoKfzdgFIgn7sZN\
+kiQDk5tDOmLdCfBW\
+9pHpFg9fZEhp56e5\
+9LRIOng%2BTw9Y5T\
+m04%2FxEf4q3BeA%\
+3D%3D,['FIXED_PR\
+ICE'],0.00,https\
+://i.ebayimg.com\
+/images/g/l7QAAO\
+SwPqBngvkZ/s-l22\
+5.jpg,aaa_pcs,57\
+07,100.0,\x22[('PC \
+Laptops & Netboo\
+ks', '177'), ('C\
+omputers/Tablets\
+ & Networking', \
+'58058'), ('Lapt\
+ops & Netbooks',\
+ '175672')]\x22,\x22[\x22\
+\x22286047394395\x22\x22,\
+ \x22\x22335687791979\x22\
+\x22, \x22\x2228398716437\
+9\x22\x22, \x22\x22334384327\
+563\x22\x22, \x22\x223343843\
+27563\x22\x22, \x22\x2233448\
+0137378\x22\x22, \x22\x22335\
+687601888\x22\x22, \x22\x223\
+35891118104\x22\x22, \x22\
+\x22335497664548\x22\x22,\
+ \x22\x22335822786472\x22\
+\x22, \x22\x2233531874447\
+9\x22\x22, \x22\x22335987381\
+893\x22\x22, \x22\x223353090\
+34074\x22\x22, \x22\x2233568\
+7791979\x22\x22]\x22,,\x0d\x0a3\
+9,\x22Dell 15.6\x22\x22 T\
+ouchscreen Lapto\
+p Windows 11 Int\
+el Core i5 4.40 \
+GHz 64GB RAM 4TB\
+ SSD\x22,v1|3357204\
+48847|5452350946\
+36,437.00,https:\
+//www.ebay.com/i\
+tm/335720448847?\
+_skw=Gaming+lapt\
+op&hash=item4e2a\
+7f834f:g:SJ4AAOS\
+wH5poBr2V&amdata\
+=enc%3AAQAKAAAA4\
+PeG5RIuIyokJHJy9\
+03%2F5UbbLz84XQn\
+umNhJEl%2BgXn1aU\
+tGJMR1Yl6jOn2iDD\
+q43zEClqKJQ3COzQ\
+BeXoJUNfCfXXYTkN\
+it5%2BGD4xg35l9g\
+SPOT4mN3U8H7QmdQ\
+W%2Ft4j7eC8NLaQq\
+8str9p4DrZrIFoTP\
+3Ns5ghuamoI2f6DY\
+XccR5w5Bs%2FnK7z\
+nN06wh9mB1Fkh3ad\
+qhnpdXJaCPPDEows\
+9q4bI%2BFpzvQxPk\
+tusRgc5z36XrgW8%\
+2BXTHBAO9l23kARR\
+AUaYWbZKns5iyVg6\
+jImUf7p0kUnUoX0%\
+2FRDI51wnTq,['FI\
+XED_PRICE'],0.00\
+,https://i.ebayi\
+mg.com/images/g/\
+SJ4AAOSwH5poBr2V\
+/s-l225.jpg,aaa_\
+pcs,5707,100.0,\x22\
+[('PC Laptops & \
+Netbooks', '177'\
+), ('Computers/T\
+ablets & Network\
+ing', '58058'), \
+('Laptops & Netb\
+ooks', '175672')\
+]\x22,\x22[\x22\x22265752692\
+346\x22\x22, \x22\x223344801\
+37378\x22\x22, \x22\x2228604\
+5958900\x22\x22, \x22\x22116\
+332233976\x22\x22, \x22\x223\
+35353706306\x22\x22, \x22\
+\x22335720448847\x22\x22,\
+ \x22\x22335505237309\x22\
+\x22, \x22\x2233547859059\
+0\x22\x22, \x22\x22335333304\
+416\x22\x22, \x22\x223347034\
+17715\x22\x22, \x22\x2233547\
+5616152\x22\x22, \x22\x22334\
+713666566\x22\x22, \x22\x223\
+35333243508\x22\x22, \x22\
+\x22335900825955\x22\x22]\
+\x22,,\x0d\x0a40,\x22HP Vict\
+us 15.6\x22\x22 144Hz \
+Gaming Laptop / \
+Core i5-12450H 8\
+GB/512GB RTX 305\
+0\x22,v1|1873253261\
+63|0,479.99,http\
+s://www.ebay.com\
+/itm/18732532616\
+3?_skw=Gaming+la\
+ptop&hash=item2b\
+9d75a353:g:iOcAA\
+OSwABdoSyRr,['FI\
+XED_PRICE'],0.00\
+,https://i.ebayi\
+mg.com/images/g/\
+iOcAAOSwABdoSyRr\
+/s-l225.jpg,uag1\
+mx,11296,99.4,\x22[\
+('PC Laptops & N\
+etbooks', '177')\
+, ('Computers/Ta\
+blets & Networki\
+ng', '58058'), (\
+'Laptops & Netbo\
+oks', '175672')]\
+\x22,\x22[\x22\x222859062017\
+05\x22\x22, \x22\x2212648096\
+2681\x22\x22, \x22\x22256724\
+033347\x22\x22, \x22\x221466\
+40535795\x22\x22]\x22,,\x0d\x0a\
+41,\x222024 HP Vict\
+us Gaming Laptop\
+ 15.6\x22\x22 144Hz In\
+tel i5 RTX 4050 \
+Upto 64GB RAM 2T\
+B SSD\x22,v1|126776\
+137671|427854036\
+321,799.00,https\
+://www.ebay.com/\
+itm/126776137671\
+?_skw=Gaming+lap\
+top&hash=item1d8\
+47257c7:g:Yv8AAO\
+SwM-VnNRwh,['FIX\
+ED_PRICE'],0.00,\
+https://i.ebayim\
+g.com/images/g/Y\
+v8AAOSwM-VnNRwh/\
+s-l225.jpg,hello\
+goodlife1,14239,\
+97.9,\x22[('PC Lapt\
+ops & Netbooks',\
+ '177'), ('Compu\
+ters/Tablets & N\
+etworking', '580\
+58'), ('Laptops \
+& Netbooks', '17\
+5672')]\x22,\x22[\x22\x22116\
+361722744\x22\x22, \x22\x221\
+46640535795\x22\x22, \x22\
+\x22286601719329\x22\x22,\
+ \x22\x22187261066904\x22\
+\x22]\x22,,\x0d\x0a42,\x22NIMO \
+15.6\x22\x22 IPS FHD B\
+usiness Gaming L\
+aptop, AMD Ryzen\
+ 5 32GB DDR5 RAM\
+ 1TB SSD\x22,v1|187\
+127720668|695121\
+190800,379.00,ht\
+tps://www.ebay.c\
+om/itm/187127720\
+668?_skw=Gaming+\
+laptop&hash=item\
+2b91ae6adc:g:rKg\
+AAOSwp9hoRrm7,['\
+FIXED_PRICE'],0.\
+00,https://i.eba\
+yimg.com/images/\
+g/rKgAAOSwp9hoRr\
+m7/s-l225.jpg,ni\
+mo-direct,84,98.\
+8,\x22[('PC Laptops\
+ & Netbooks', '1\
+77'), ('Computer\
+s/Tablets & Netw\
+orking', '58058'\
+), ('Laptops & N\
+etbooks', '17567\
+2')]\x22,\x22[\x22\x22286288\
+847506\x22\x22, \x22\x221166\
+25646506\x22\x22, \x22\x2212\
+7160053854\x22\x22, \x22\x22\
+116528001029\x22\x22]\x22\
+,,\x0d\x0a43,\x22Refurb: \
+HP Victus 15.6\x22\x22\
+ FHD 144Hz Gamin\
+g Laptop R5-7535\
+HS 8GB 512GB RX \
+6550M\x22,v1|126846\
+245713|0,494.99,\
+https://www.ebay\
+.com/itm/1268462\
+45713?_skw=Gamin\
+g+laptop&hash=it\
+em1d88a01b51:g:7\
+VAAAeSw32NnuBh9,\
+['FIXED_PRICE'],\
+0.00,https://i.e\
+bayimg.com/image\
+s/g/7VAAAeSw32Nn\
+uBh9/s-l225.jpg,\
+antonline,335462\
+,99.1,\x22[('PC Lap\
+tops & Netbooks'\
+, '177'), ('Comp\
+uters/Tablets & \
+Networking', '58\
+058'), ('Laptops\
+ & Netbooks', '1\
+75672')]\x22,\x22[\x22\x2228\
+6601719329\x22\x22, \x22\x22\
+297395558506\x22\x22, \
+\x22\x22256724033347\x22\x22\
+, \x22\x22187261066904\
+\x22\x22]\x22,,\x0d\x0a44,Lenov\
+o LOQ 15.6 Gamin\
+g Laptop i5-1245\
+0H 8GB RAM 512GB\
+ SSD - Storm Gre\
+y,v1|14661638789\
+3|0,558.94,https\
+://www.ebay.com/\
+itm/146616387893\
+?_skw=Gaming+lap\
+top&hash=item222\
+3048935:g:578AAe\
+SwbtNoOjGV,['FIX\
+ED_PRICE'],0.00,\
+https://i.ebayim\
+g.com/images/g/5\
+78AAeSwbtNoOjGV/\
+s-l225.jpg,stree\
+trobin,40615,99.\
+7,\x22[('PC Laptops\
+ & Netbooks', '1\
+77'), ('Computer\
+s/Tablets & Netw\
+orking', '58058'\
+), ('Laptops & N\
+etbooks', '17567\
+2')]\x22,\x22[\x22\x22126678\
+883714\x22\x22, \x22\x222054\
+60941698\x22\x22, \x22\x2211\
+6322624657\x22\x22, \x22\x22\
+126754097392\x22\x22]\x22\
+,,\x0d\x0a45,\x22Asus Gam\
+ing Laptop GX501\
+V1 Intel Core i7\
+ , 16 GB, 500 GB\
+ SSD, 8 GB Graph\
+ic\x22,v1|316847110\
+918|0,399.00,htt\
+ps://www.ebay.co\
+m/itm/3168471109\
+18?_skw=Gaming+l\
+aptop&hash=item4\
+9c58f3b06:g:xLoA\
+AOSwRaloL4k-,\x22['\
+FIXED_PRICE', 'B\
+EST_OFFER']\x22,0.0\
+0,https://i.ebay\
+img.com/images/g\
+/xLoAAOSwRaloL4k\
+-/s-l225.jpg,reb\
+ootbay,1888,99.3\
+,\x22[('PC Laptops \
+& Netbooks', '17\
+7'), ('Computers\
+/Tablets & Netwo\
+rking', '58058')\
+, ('Laptops & Ne\
+tbooks', '175672\
+')]\x22,\x22[\x22\x222647145\
+53889\x22\x22, \x22\x2211662\
+5646506\x22\x22, \x22\x22126\
+978844867\x22\x22, \x22\x221\
+16423296043\x22\x22]\x22,\
+,\x0d\x0a46,Razer Blad\
+e 15 240Hz OLED \
+QHD 4.8GHz i9-12\
+900H 64GB RAM 1T\
+B SSD RTX 3070 T\
+i,v1|22679850977\
+1|0,1650.00,http\
+s://www.ebay.com\
+/itm/22679850977\
+1?_skw=Gaming+la\
+ptop&hash=item34\
+ce3e9ecb:g:F1gAA\
+OSwpcdoSzhf,['FI\
+XED_PRICE'],0.00\
+,https://i.ebayi\
+mg.com/images/g/\
+F1gAAOSwpcdoSzhf\
+/s-l225.jpg,alph\
+a_tech_store,465\
+1,98.7,\x22[('PC La\
+ptops & Netbooks\
+', '177'), ('Com\
+puters/Tablets &\
+ Networking', '5\
+8058'), ('Laptop\
+s & Netbooks', '\
+175672')]\x22,\x22[\x22\x221\
+27126630150\x22\x22, \x22\
+\x22187261066904\x22\x22,\
+ \x22\x22116361874746\x22\
+\x22, \x22\x2233596770542\
+1\x22\x22]\x22,,\x0d\x0a47,\x22Del\
+l 15.6\x22\x22 NVIDIA \
+Gaming Laptop - \
+Windows 11 Intel\
+ Quad Core i7 64\
+GB RAM 1TB SSD\x22,\
+v1|335505237309|\
+0,549.99,https:/\
+/www.ebay.com/it\
+m/335505237309?_\
+skw=Gaming+lapto\
+p&hash=item4e1da\
+ba53d:g:MoEAAOSw\
+YPRnfCyq,['FIXED\
+_PRICE'],0.00,ht\
+tps://i.ebayimg.\
+com/images/g/MoE\
+AAOSwYPRnfCyq/s-\
+l225.jpg,aaa_pcs\
+,5707,100.0,\x22[('\
+PC Laptops & Net\
+books', '177'), \
+('Computers/Tabl\
+ets & Networking\
+', '58058'), ('L\
+aptops & Netbook\
+s', '175672')]\x22,\
+\x22[\x22\x22256705607066\
+\x22\x22, \x22\x223359873818\
+93\x22\x22, \x22\x2226471455\
+3889\x22\x22, \x22\x22334480\
+137378\x22\x22, \x22\x223353\
+53706306\x22\x22, \x22\x2233\
+5720448847\x22\x22, \x22\x22\
+335505237309\x22\x22, \
+\x22\x22335478590590\x22\x22\
+, \x22\x22335333304416\
+\x22\x22, \x22\x223347034177\
+15\x22\x22, \x22\x2233547561\
+6152\x22\x22, \x22\x22334713\
+666566\x22\x22, \x22\x223353\
+33243508\x22\x22, \x22\x2233\
+5900825955\x22\x22]\x22,,\
+\x0d\x0a48,\x22New Seal A\
+SUS TUF Gaming A\
+15 15.6\x22\x22 Laptop\
+ PC Ryzen5/16GB/\
+512GB/RTX4060/14\
+4Hz/FHD\x22,v1|2865\
+72311797|0,808.8\
+6,https://www.eb\
+ay.com/itm/28657\
+2311797?_skw=Gam\
+ing+laptop&hash=\
+item42b90a74f5:g\
+:5gcAAOSwViloJro\
+r,['FIXED_PRICE'\
+],0.00,https://i\
+.ebayimg.com/ima\
+ges/g/5gcAAOSwVi\
+loJror/s-l225.jp\
+g,bay_best_selle\
+r,8365,99.5,\x22[('\
+PC Laptops & Net\
+books', '177'), \
+('Computers/Tabl\
+ets & Networking\
+', '58058'), ('L\
+aptops & Netbook\
+s', '175672')]\x22,\
+\x22[\x22\x22126978844867\
+\x22\x22, \x22\x221872800043\
+65\x22\x22, \x22\x2225670560\
+7066\x22\x22, \x22\x22187261\
+066904\x22\x22]\x22,,\x0d\x0a49\
+,\x22HP Victus 15.6\
+\x22\x22 Laptop i5-125\
+00H 16GB RAM 512\
+GB SSD NVIDIA RT\
+X 4050 - Black\x22,\
+v1|135895332721|\
+0,648.98,https:/\
+/www.ebay.com/it\
+m/135895332721?_\
+skw=Gaming+lapto\
+p&hash=item1fa3f\
+e3771:g:IWoAAeSw\
+f21oOjF6,\x22['FIXE\
+D_PRICE', 'BEST_\
+OFFER']\x22,0.00,ht\
+tps://i.ebayimg.\
+com/images/g/IWo\
+AAeSwf21oOjF6/s-\
+l225.jpg,streetr\
+obin,40615,99.7,\
+\x22[('PC Laptops &\
+ Netbooks', '177\
+'), ('Computers/\
+Tablets & Networ\
+king', '58058'),\
+ ('Laptops & Net\
+books', '175672'\
+)]\x22,\x22[\x22\x2228587231\
+8366\x22\x22, \x22\x22126776\
+137671\x22\x22, \x22\x221267\
+28923334\x22\x22, \x22\x2214\
+6640535795\x22\x22]\x22,,\
+\x0d\x0a50,\x22MSI Thin A\
+15 15.6\x22\x22 144Hz \
+Gaming Laptop Ry\
+zen 9 8945HS RTX\
+ 4060 16GB DDR5 \
+1TB SSD\x22,v1|2966\
+28904443|0,979.4\
+9,https://www.eb\
+ay.com/itm/29662\
+8904443?_skw=Gam\
+ing+laptop&hash=\
+item451075e1fb:g\
+:pH0AAOSwechnK6f\
+Z,['FIXED_PRICE'\
+],0.00,https://i\
+.ebayimg.com/ima\
+ges/g/pH0AAOSwec\
+hnK6fZ/s-l225.jp\
+g,newegg,1041524\
+,98.7,\x22[('PC Lap\
+tops & Netbooks'\
+, '177'), ('Comp\
+uters/Tablets & \
+Networking', '58\
+058'), ('Laptops\
+ & Netbooks', '1\
+75672')]\x22,\x22[\x22\x2217\
+7180721580\x22\x22, \x22\x22\
+187261066904\x22\x22, \
+\x22\x22177180726648\x22\x22\
+, \x22\x22297299301065\
+\x22\x22, \x22\x223028118828\
+18\x22\x22, \x22\x2238243951\
+1156\x22\x22, \x22\x22291602\
+742593\x22\x22, \x22\x223814\
+31652128\x22\x22, \x22\x2238\
+2581881519\x22\x22, \x22\x22\
+381397607742\x22\x22, \
+\x22\x22291606948488\x22\x22\
+, \x22\x22291601967605\
+\x22\x22, \x22\x223033138681\
+50\x22\x22, \x22\x2230326112\
+4600\x22\x22]\x22,,\x0d\x0a51,2\
+025 HP Laptop Co\
+mputer 17.3 FHD \
+6-Core Ryzen 5 U\
+pto 64GB RAM & 2\
+TB SSD Win Pro,v\
+1|116453646030|4\
+16742535675,549.\
+00,https://www.e\
+bay.com/itm/1164\
+53646030?_skw=Ga\
+ming+laptop&hash\
+=item1b1d2d9ece:\
+g:1IsAAOSwBt1nkA\
+5E,['FIXED_PRICE\
+'],0.00,https://\
+i.ebayimg.com/im\
+ages/g/1IsAAOSwB\
+t1nkA5E/s-l225.j\
+pg,hellogoodlife\
+1,14239,97.9,\x22[(\
+'PC Laptops & Ne\
+tbooks', '177'),\
+ ('Computers/Tab\
+lets & Networkin\
+g', '58058'), ('\
+Laptops & Netboo\
+ks', '175672')]\x22\
+,\x22[\x22\x2212674458763\
+1\x22\x22, \x22\x22146402238\
+727\x22\x22, \x22\x222569427\
+21121\x22\x22, \x22\x2218726\
+1066904\x22\x22]\x22,,\x0d\x0a5\
+2,ASUS ROG Strix\
+ G16 Gaming Lapt\
+op RTX 4060 i9-1\
+4900HX 16G RAM 1\
+TB SSD NEBULA Ne\
+w,v1|14662731043\
+8|0,1349.99,http\
+s://www.ebay.com\
+/itm/14662731043\
+8?_skw=Gaming+la\
+ptop&hash=item22\
+23ab3366:g:e-QAA\
+OSwcnpoQNN8,['FI\
+XED_PRICE'],0.00\
+,https://i.ebayi\
+mg.com/images/g/\
+e-QAAOSwcnpoQNN8\
+/s-l225.jpg,wete\
+ch11,2560,99.8,\x22\
+[('PC Laptops & \
+Netbooks', '177'\
+), ('Computers/T\
+ablets & Network\
+ing', '58058'), \
+('Laptops & Netb\
+ooks', '175672')\
+]\x22,\x22[\x22\x22126978844\
+867\x22\x22, \x22\x221872610\
+66904\x22\x22, \x22\x2214643\
+3519178\x22\x22, \x22\x22405\
+472437255\x22\x22]\x22,,\x0d\
+\x0a53,\x22ASUS - TUF \
+Gaming A16 16\x22\x22 \
+165Hz Gaming Lap\
+top FHD-AMD Ryze\
+n 7 7735HS with \
+16G...\x22,v1|32653\
+5777937|0,1099.9\
+9,https://www.eb\
+ay.com/itm/32653\
+5777937?_skw=Gam\
+ing+laptop&hash=\
+item4c070c8e91:g\
+:iwoAAeSw1fVnm5n\
+A,['FIXED_PRICE'\
+],0.00,https://i\
+.ebayimg.com/ima\
+ges/g/iwoAAeSw1f\
+Vnm5nA/s-l225.jp\
+g,best_buy,86432\
+5,95.9,\x22[('PC La\
+ptops & Netbooks\
+', '177'), ('Com\
+puters/Tablets &\
+ Networking', '5\
+8058'), ('Laptop\
+s & Netbooks', '\
+175672')]\x22,\x22[\x22\x221\
+26978844867\x22\x22, \x22\
+\x22297379926343\x22\x22,\
+ \x22\x22146433519178\x22\
+\x22, \x22\x2218726106690\
+4\x22\x22]\x22,,\x0d\x0a54,Gami\
+ng laptop MSI GS\
+65 STEALTH THIN \
+32GB RAM GTX 206\
+0,v1|17718373511\
+7|0,395.00,https\
+://www.ebay.com/\
+itm/177183735117\
+?_skw=Gaming+lap\
+top&hash=item294\
+0f93d4d:g:Y3EAAO\
+Sw71VoSfNw,\x22['FI\
+XED_PRICE', 'BES\
+T_OFFER']\x22,35.00\
+,https://i.ebayi\
+mg.com/images/g/\
+Y3EAAOSw71VoSfNw\
+/s-l225.jpg,aika\
+rhos,307,100.0,\x22\
+[('PC Laptops & \
+Netbooks', '177'\
+), ('Computers/T\
+ablets & Network\
+ing', '58058'), \
+('Laptops & Netb\
+ooks', '175672')\
+]\x22,\x22[\x22\x22264714553\
+889\x22\x22, \x22\x221466405\
+35795\x22\x22, \x22\x2225670\
+5607066\x22\x22, \x22\x22205\
+551038286\x22\x22]\x22,,\x0d\
+\x0a55,HP Victus Ga\
+ming 15.6'' 256G\
+B SSD 16GB RAM R\
+yzen 5 5600H 3.3\
+GHz GTX 1650  4R\
+AM,v1|1166488608\
+06|0,400.00,http\
+s://www.ebay.com\
+/itm/11664886080\
+6?_skw=Gaming+la\
+ptop&hash=item1b\
+28d05c86:g:IqcAA\
+OSwmwhoSzhb,['FI\
+XED_PRICE'],N/A,\
+https://i.ebayim\
+g.com/images/g/I\
+qcAAOSwmwhoSzhb/\
+s-l225.jpg,braza\
+dmitriy,3458,97.\
+4,\x22[('PC Laptops\
+ & Netbooks', '1\
+77'), ('Computer\
+s/Tablets & Netw\
+orking', '58058'\
+), ('Laptops & N\
+etbooks', '17567\
+2')]\x22,\x22[\x22\x22256724\
+033347\x22\x22, \x22\x221466\
+44987277\x22\x22, \x22\x2225\
+6942721121\x22\x22, \x22\x22\
+256728255215\x22\x22]\x22\
+,,\x0d\x0a56,\x22HP - Vic\
+tus 15.6\x22\x22 Full \
+HD Gaming Laptop\
+ - AMD Ryzen 5-7\
+535HS - 8GB DDR5\
+ Memor...\x22,v1|32\
+6202671916|0,849\
+.99,https://www.\
+ebay.com/itm/326\
+202671916?_skw=G\
+aming+laptop&has\
+h=item4bf331c32c\
+:g:I4kAAOSw3Thm7\
+diy,['FIXED_PRIC\
+E'],0.00,https:/\
+/i.ebayimg.com/i\
+mages/g/I4kAAOSw\
+3Thm7diy/s-l225.\
+jpg,best_buy,864\
+325,95.9,\x22[('PC \
+Laptops & Netboo\
+ks', '177'), ('C\
+omputers/Tablets\
+ & Networking', \
+'58058'), ('Lapt\
+ops & Netbooks',\
+ '175672')]\x22,\x22[\x22\
+\x22286601719329\x22\x22,\
+ \x22\x22146644987277\x22\
+\x22, \x22\x2225694272112\
+1\x22\x22, \x22\x22305926090\
+649\x22\x22]\x22,,\x0d\x0a57,\x22G\
+IGABYTE - G6 KF \
+16\x22\x22 165Hz Gamin\
+g Laptop IPS - I\
+ntel i7-13620H w\
+ith 32GB RAM ...\
+\x22,v1|19627842865\
+7|0,999.99,https\
+://www.ebay.com/\
+itm/196278428657\
+?_skw=Gaming+lap\
+top&hash=item2db\
+31b23f1:g:oYgAAe\
+SwCR9noo4b,['FIX\
+ED_PRICE'],0.00,\
+https://i.ebayim\
+g.com/images/g/o\
+YgAAeSwCR9noo4b/\
+s-l225.jpg,best_\
+buy,864325,95.9,\
+\x22[('PC Laptops &\
+ Netbooks', '177\
+'), ('Computers/\
+Tablets & Networ\
+king', '58058'),\
+ ('Laptops & Net\
+books', '175672'\
+)]\x22,\x22[\x22\x2226471455\
+3889\x22\x22, \x22\x22116625\
+646506\x22\x22, \x22\x222671\
+57284916\x22\x22, \x22\x2237\
+6270723759\x22\x22]\x22,,\
+\x0d\x0a58,\x22ASUS ROG S\
+trix SCAR 18\x22\x22 2\
+.5K 240Hz i9-275\
+HX 32GB 2TB RTX \
+5080 Gaming Lapt\
+op\x22,v1|297272518\
+971|0,3399.00,ht\
+tps://www.ebay.c\
+om/itm/297272518\
+971?_skw=Gaming+\
+laptop&hash=item\
+4536d2a93b:g:d8E\
+AAeSw0c5oN3l3,['\
+FIXED_PRICE'],0.\
+00,https://i.eba\
+yimg.com/images/\
+g/d8EAAeSw0c5oN3\
+l3/s-l225.jpg,an\
+tonline,335462,9\
+9.1,\x22[('PC Lapto\
+ps & Netbooks', \
+'177'), ('Comput\
+ers/Tablets & Ne\
+tworking', '5805\
+8'), ('Laptops &\
+ Netbooks', '175\
+672')]\x22,\x22[\x22\x221271\
+26630150\x22\x22, \x22\x2218\
+7261066904\x22\x22, \x22\x22\
+116361922949\x22\x22, \
+\x22\x22187148729984\x22\x22\
+]\x22,,\x0d\x0a59,\x22NIMO 1\
+5.6 IPS FHD-Gami\
+ng-Laptop 8 Core\
+s AMD Ryzen 7 68\
+00H, 32GB DDR5 R\
+AM 1TB SSD\x22,v1|1\
+27154128888|0,54\
+9.00,https://www\
+.ebay.com/itm/12\
+7154128888?_skw=\
+Gaming+laptop&ha\
+sh=item1d9afa07f\
+8:g:ILMAAOSwBlxo\
+P7m5,\x22['FIXED_PR\
+ICE', 'BEST_OFFE\
+R']\x22,0.00,https:\
+//i.ebayimg.com/\
+images/g/ILMAAOS\
+wBlxoP7m5/s-l225\
+.jpg,nimo-offici\
+al,33,100.0,\x22[('\
+PC Laptops & Net\
+books', '177'), \
+('Computers/Tabl\
+ets & Networking\
+', '58058'), ('L\
+aptops & Netbook\
+s', '175672')]\x22,\
+\x22[\x22\x22264714553889\
+\x22\x22, \x22\x221872610669\
+04\x22\x22, \x22\x2212716005\
+3854\x22\x22, \x22\x22375346\
+784128\x22\x22]\x22,,\x0d\x0a60\
+,MSI GS63VR 7RF \
+15.6 Gaming lapt\
+op,v1|2672875269\
+93|0,330.00,http\
+s://www.ebay.com\
+/itm/26728752699\
+3?_skw=Gaming+la\
+ptop&hash=item3e\
+3b93fe51:g:6AQAA\
+eSwgutoSiWX,\x22['F\
+IXED_PRICE', 'BE\
+ST_OFFER']\x22,N/A,\
+https://i.ebayim\
+g.com/images/g/6\
+AQAAeSwgutoSiWX/\
+s-l225.jpg,jun-j\
+un-jun,185,100.0\
+,\x22[('PC Laptops \
+& Netbooks', '17\
+7'), ('Computers\
+/Tablets & Netwo\
+rking', '58058')\
+, ('Laptops & Ne\
+tbooks', '175672\
+')]\x22,\x22[\x22\x222567056\
+07066\x22\x22, \x22\x2211662\
+5646506\x22\x22, \x22\x22264\
+714553889\x22\x22, \x22\x221\
+16423296043\x22\x22]\x22,\
+,\x0d\x0a61,\x22ASUS TUF \
+Gaming F15 15.6\x22\
+\x22 FHD Intel i5-1\
+1400H 8GB DDR4 5\
+12GB SSD RTX 305\
+0 W11H\x22,v1|37629\
+3823487|0,499.00\
+,https://www.eba\
+y.com/itm/376293\
+823487?_skw=Gami\
+ng+laptop&hash=i\
+tem579cdc13ff:g:\
+FmUAAeSwKCRoOgfQ\
+,['FIXED_PRICE']\
+,0.00,https://i.\
+ebayimg.com/imag\
+es/g/FmUAAeSwKCR\
+oOgfQ/s-l225.jpg\
+,prycedin,69632,\
+98.4,\x22[('PC Lapt\
+ops & Netbooks',\
+ '177'), ('Compu\
+ters/Tablets & N\
+etworking', '580\
+58'), ('Laptops \
+& Netbooks', '17\
+5672')]\x22,\x22[\x22\x22127\
+160053854\x22\x22, \x22\x223\
+35987381893\x22\x22, \x22\
+\x22264714553889\x22\x22,\
+ \x22\x22376270723759\x22\
+\x22, \x22\x2216702575823\
+6\x22\x22, \x22\x22165457676\
+079\x22\x22, \x22\x223751806\
+79177\x22\x22, \x22\x2216591\
+7584066\x22\x22, \x22\x22166\
+623157782\x22\x22, \x22\x223\
+75496991612\x22\x22, \x22\
+\x22373463340003\x22\x22,\
+ \x22\x22374112619167\x22\
+\x22, \x22\x2237581768507\
+9\x22\x22, \x22\x22164224118\
+708\x22\x22]\x22,,\x0d\x0a62,Ac\
+er NitroV15 Gami\
+ng Notebook NVID\
+IA GeForce RTX40\
+50 512GB Certifi\
+ed Refurbished,v\
+1|276942200298|0\
+,695.51,https://\
+www.ebay.com/itm\
+/276942200298?_s\
+kw=Gaming+laptop\
+&hash=item407b0a\
+9dea:g:WRQAAeSwk\
+INn0ePz,['FIXED_\
+PRICE'],0.00,htt\
+ps://i.ebayimg.c\
+om/images/g/WRQA\
+AeSwkINn0ePz/s-l\
+225.jpg,acer,735\
+00,96.8,\x22[('PC L\
+aptops & Netbook\
+s', '177'), ('Co\
+mputers/Tablets \
+& Networking', '\
+58058'), ('Lapto\
+ps & Netbooks', \
+'175672')]\x22,\x22[\x22\x22\
+116453645269\x22\x22, \
+\x22\x22167566662555\x22\x22\
+, \x22\x22127126630150\
+\x22\x22, \x22\x221872610669\
+04\x22\x22]\x22,,\x0d\x0a63,\x22MS\
+I - THIN 15 15.6\
+\x22\x22 144Hz FHD Gam\
+ing Laptop-Intel\
+ Core i5-13420H \
+- 16GB Memor...\x22\
+,v1|326062145999\
+|0,899.99,https:\
+//www.ebay.com/i\
+tm/326062145999?\
+_skw=Gaming+lapt\
+op&hash=item4bea\
+d181cf:g:JiIAAOS\
+worVnnAL~,['FIXE\
+D_PRICE'],0.00,h\
+ttps://i.ebayimg\
+.com/images/g/Ji\
+IAAOSworVnnAL~/s\
+-l225.jpg,best_b\
+uy,864325,95.9,\x22\
+[('PC Laptops & \
+Netbooks', '177'\
+), ('Computers/T\
+ablets & Network\
+ing', '58058'), \
+('Laptops & Netb\
+ooks', '175672')\
+]\x22,\x22[\x22\x22127109999\
+084\x22\x22, \x22\x222972993\
+02033\x22\x22, \x22\x2212716\
+0053854\x22\x22, \x22\x22297\
+299301065\x22\x22]\x22,,\x0d\
+\x0a64,\x22Asus TUF F1\
+5 15.6\x22\x22 FHD 144\
+Hz Gaming Laptop\
+, RTX 3050, i5-1\
+2500H, 16GB RAM,\
+ 512GB\x22,v1|33555\
+0639369|0,699.00\
+,https://www.eba\
+y.com/itm/335550\
+639369?_skw=Gami\
+ng+laptop&hash=i\
+tem4e20606d09:g:\
+vEwAAOSwN8xmzoR0\
+,['FIXED_PRICE']\
+,0.00,https://i.\
+ebayimg.com/imag\
+es/g/vEwAAOSwN8x\
+mzoR0/s-l225.jpg\
+,dealjustdeal,24\
+8,100.0,\x22[('PC L\
+aptops & Netbook\
+s', '177'), ('Co\
+mputers/Tablets \
+& Networking', '\
+58058'), ('Lapto\
+ps & Netbooks', \
+'175672')]\x22,\x22[\x22\x22\
+264714553889\x22\x22, \
+\x22\x22376270723759\x22\x22\
+, \x22\x22256705607066\
+\x22\x22, \x22\x224045902756\
+92\x22\x22]\x22,,\x0d\x0a65,\x22De\
+ll Inspiron 15 L\
+aptop AMD Ryzen \
+7 7730U 16GB RAM\
+ 512GB SSD 15.6\x22\
+\x22 FHD Touch W11\x22\
+,v1|326307311564\
+|0,349.00,https:\
+//www.ebay.com/i\
+tm/326307311564?\
+_skw=Gaming+lapt\
+op&hash=item4bf9\
+6e6fcc:g:6JcAAOS\
+wsoNnEUuZ,['FIXE\
+D_PRICE'],0.00,h\
+ttps://i.ebayimg\
+.com/images/g/6J\
+cAAOSwsoNnEUuZ/s\
+-l225.jpg,new.te\
+chies,17517,97.9\
+,\x22[('PC Laptops \
+& Netbooks', '17\
+7'), ('Computers\
+/Tablets & Netwo\
+rking', '58058')\
+, ('Laptops & Ne\
+tbooks', '175672\
+')]\x22,\x22[\x22\x222647145\
+53889\x22\x22, \x22\x2228612\
+5444869\x22\x22, \x22\x22116\
+280008849\x22\x22, \x22\x221\
+67551127190\x22\x22, \x22\
+\x22326117046792\x22\x22,\
+ \x22\x22226694002583\x22\
+\x22, \x22\x2222635904603\
+8\x22\x22, \x22\x22226714780\
+969\x22\x22, \x22\x222357482\
+07972\x22\x22, \x22\x2223575\
+0229718\x22\x22, \x22\x22326\
+307311564\x22\x22, \x22\x223\
+26297491859\x22\x22, \x22\
+\x22226156376715\x22\x22,\
+ \x22\x22226356721440\x22\
+\x22]\x22,,\x0d\x0a66,\x22Lenov\
+o Legion 5 AMD L\
+aptop, 15.6 IPS \
+165Hz, Ryzen 7 6\
+800H , RTX 3060 \
+1TB, READ!!\x22,v1|\
+146642388363|0,4\
+99.99,https://ww\
+w.ebay.com/itm/1\
+46642388363?_skw\
+=Gaming+laptop&h\
+ash=item22249145\
+8b:g:yw8AAeSwe1p\
+oRdwj,['FIXED_PR\
+ICE'],0.00,https\
+://i.ebayimg.com\
+/images/g/yw8AAe\
+Swe1poRdwj/s-l22\
+5.jpg,afooshani9\
+497,1464,99.7,\x22[\
+('PC Laptops & N\
+etbooks', '177')\
+, ('Computers/Ta\
+blets & Networki\
+ng', '58058'), (\
+'Laptops & Netbo\
+oks', '175672')]\
+\x22,\x22[\x22\x221266788837\
+14\x22\x22, \x22\x2214664053\
+5795\x22\x22, \x22\x22264714\
+553889\x22\x22, \x22\x222771\
+94371784\x22\x22]\x22,,\x0d\x0a\
+67,\x22MSI Stealth \
+15M 15.6\x22\x22 144hz\
+ Gaming Laptop/N\
+VIDIA GeForce RT\
+X 3060/1 TB SSD/\
+16GB\x22,v1|1771869\
+10608|0,600.00,h\
+ttps://www.ebay.\
+com/itm/17718691\
+0608?_skw=Gaming\
++laptop&hash=ite\
+m294129b190:g:db\
+cAAOSwUt1oSyAT,\x22\
+['FIXED_PRICE', \
+'BEST_OFFER']\x22,N\
+/A,https://i.eba\
+yimg.com/images/\
+g/dbcAAOSwUt1oSy\
+AT/s-l225.jpg,va\
+lenzells,1,100.0\
+,\x22[('PC Laptops \
+& Netbooks', '17\
+7'), ('Computers\
+/Tablets & Netwo\
+rking', '58058')\
+, ('Laptops & Ne\
+tbooks', '175672\
+')]\x22,\x22[\x22\x222671572\
+84916\x22\x22, \x22\x2211662\
+5646506\x22\x22, \x22\x22256\
+499495813\x22\x22, \x22\x221\
+77180131805\x22\x22]\x22,\
+,\x0d\x0a68,\x2215.6\x22\x22 Ga\
+me Laptop AMD Ry\
+zen 7 5700U 16GB\
+/512GB SSD Win11\
+ WiFi6 | 2-Year \
+Warranty\x22,v1|316\
+551683097|0,349.\
+00,https://www.e\
+bay.com/itm/3165\
+51683097?_skw=Ga\
+ming+laptop&hash\
+=item49b3f35c19:\
+g:Q4EAAOSwbfVn-j\
+6U,\x22['FIXED_PRIC\
+E', 'BEST_OFFER'\
+]\x22,0.00,https://\
+i.ebayimg.com/im\
+ages/g/Q4EAAOSwb\
+fVn-j6U/s-l225.j\
+pg,acemagic-offi\
+cial-us,107,100.\
+0,\x22[('PC Laptops\
+ & Netbooks', '1\
+77'), ('Computer\
+s/Tablets & Netw\
+orking', '58058'\
+), ('Laptops & N\
+etbooks', '17567\
+2')]\x22,\x22[\x22\x22264714\
+553889\x22\x22, \x22\x223753\
+46784128\x22\x22, \x22\x2225\
+6496543516\x22\x22, \x22\x22\
+116625646506\x22\x22]\x22\
+,,\x0d\x0a69,\x22Dell 15.\
+6\x22\x22 NVIDIA Gamin\
+g Laptop - Intel\
+ Quad Core i7 32\
+GB RAM 1TB SSD W\
+indows 11\x22,v1|33\
+5318744479|0,645\
+.00,https://www.\
+ebay.com/itm/335\
+318744479?_skw=G\
+aming+laptop&has\
+h=item4e128dfd9f\
+:g:sZUAAOSw5Qlnf\
+DXe,['FIXED_PRIC\
+E'],0.00,https:/\
+/i.ebayimg.com/i\
+mages/g/sZUAAOSw\
+5QlnfDXe/s-l225.\
+jpg,aaa_pcs,5707\
+,100.0,\x22[('PC La\
+ptops & Netbooks\
+', '177'), ('Com\
+puters/Tablets &\
+ Networking', '5\
+8058'), ('Laptop\
+s & Netbooks', '\
+175672')]\x22,\x22[\x22\x222\
+86055616899\x22\x22, \x22\
+\x22187261066904\x22\x22,\
+ \x22\x22256705607066\x22\
+\x22, \x22\x2233448013737\
+8\x22\x22, \x22\x22334384327\
+563\x22\x22, \x22\x223344801\
+37378\x22\x22, \x22\x2233568\
+7601888\x22\x22, \x22\x22335\
+891118104\x22\x22, \x22\x223\
+35497664548\x22\x22, \x22\
+\x22335822786472\x22\x22,\
+ \x22\x22335318744479\x22\
+\x22, \x22\x2233598738189\
+3\x22\x22, \x22\x22335309034\
+074\x22\x22, \x22\x223356877\
+91979\x22\x22]\x22,,\x0d\x0a70,\
+\x22Lenovo LEGION 5\
+i Laptop i9-1490\
+0HX 32GB 1TB SSD\
+ 16\x22\x22 2K 165Hz R\
+TX 4060 W11\x22,v1|\
+235750229718|0,1\
+249.00,https://w\
+ww.ebay.com/itm/\
+235750229718?_sk\
+w=Gaming+laptop&\
+hash=item36e3cf0\
+6d6:g:CmkAAOSws3\
+pm6x5p,['FIXED_P\
+RICE'],0.00,http\
+s://i.ebayimg.co\
+m/images/g/CmkAA\
+OSws3pm6x5p/s-l2\
+25.jpg,new.techi\
+es,17517,97.9,\x22[\
+('PC Laptops & N\
+etbooks', '177')\
+, ('Computers/Ta\
+blets & Networki\
+ng', '58058'), (\
+'Laptops & Netbo\
+oks', '175672')]\
+\x22,\x22[\x22\x222647145538\
+89\x22\x22, \x22\x2218726106\
+6904\x22\x22, \x22\x22146165\
+897359\x22\x22, \x22\x222048\
+80043580\x22\x22, \x22\x2232\
+6117046792\x22\x22, \x22\x22\
+226694002583\x22\x22, \
+\x22\x22226359046038\x22\x22\
+, \x22\x22226714780969\
+\x22\x22, \x22\x222357482079\
+72\x22\x22, \x22\x2223575022\
+9718\x22\x22, \x22\x22326307\
+311564\x22\x22, \x22\x223262\
+97491859\x22\x22, \x22\x2222\
+6156376715\x22\x22, \x22\x22\
+226356721440\x22\x22]\x22\
+,,\x0d\x0a71,\x22Acer Nit\
+ro V - 15.6\x22\x22 Ge\
+Force RTX 4050 L\
+aptop GPU - Inte\
+l Core i7-13620H\
+ - 16GB\x22,v1|3967\
+37872085|0,949.9\
+9,https://www.eb\
+ay.com/itm/39673\
+7872085?_skw=Gam\
+ing+laptop&hash=\
+item5c5f6b80d5:g\
+:weEAAOSw9vtoS5i\
+A,\x22['FIXED_PRICE\
+', 'BEST_OFFER']\
+\x22,0.00,https://i\
+.ebayimg.com/ima\
+ges/g/weEAAOSw9v\
+toS5iA/s-l225.jp\
+g,exotic-3590,0,\
+0.0,\x22[('PC Lapto\
+ps & Netbooks', \
+'177'), ('Comput\
+ers/Tablets & Ne\
+tworking', '5805\
+8'), ('Laptops &\
+ Netbooks', '175\
+672')]\x22,\x22[\x22\x221271\
+26630150\x22\x22, \x22\x2216\
+7566662555\x22\x22, \x22\x22\
+124855084823\x22\x22, \
+\x22\x22167221243581\x22\x22\
+]\x22,,\x0d\x0a72,Lenovo \
+IdeaPad 3i 15.6'\
+' (512GB SSD Int\
+el Core i3-1215U\
+ 1.2GHz 8GB RAM)\
+ Laptop,v1|25697\
+3900445|0,239.95\
+,https://www.eba\
+y.com/itm/256973\
+900445?_skw=Gami\
+ng+laptop&hash=i\
+tem3bd4d68a9d:g:\
+qhEAAOSwVbRoS4J0\
+,['FIXED_PRICE']\
+,0.00,https://i.\
+ebayimg.com/imag\
+es/g/qhEAAOSwVbR\
+oS4J0/s-l225.jpg\
+,bluefrontenterp\
+rises,38973,100.\
+0,\x22[('PC Laptops\
+ & Netbooks', '1\
+77'), ('Computer\
+s/Tablets & Netw\
+orking', '58058'\
+), ('Laptops & N\
+etbooks', '17567\
+2')]\x22,\x22[\x22\x22286068\
+793851\x22\x22, \x22\x221464\
+93392451\x22\x22, \x22\x2226\
+5038069230\x22\x22, \x22\x22\
+115847969040\x22\x22]\x22\
+,,\x0d\x0a73,\x2216\x22\x22 Gam\
+ing Laptop AMD R\
+yzen9 6900HX 16G\
+B DDR5 512GB SSD\
+  WiFi6 | Win11 \
+Pro\x22,v1|31690794\
+5980|0,549.00,ht\
+tps://www.ebay.c\
+om/itm/316907945\
+980?_skw=Gaming+\
+laptop&hash=item\
+49c92f7ffc:g:im0\
+AAOSwP8tn-hwX,\x22[\
+'FIXED_PRICE', '\
+BEST_OFFER']\x22,0.\
+00,https://i.eba\
+yimg.com/images/\
+g/im0AAOSwP8tn-h\
+wX/s-l225.jpg,ac\
+emagic-official-\
+us,107,100.0,\x22[(\
+'PC Laptops & Ne\
+tbooks', '177'),\
+ ('Computers/Tab\
+lets & Networkin\
+g', '58058'), ('\
+Laptops & Netboo\
+ks', '175672')]\x22\
+,\x22[\x22\x2226471455388\
+9\x22\x22, \x22\x22376315653\
+670\x22\x22, \x22\x221465974\
+53368\x22\x22, \x22\x2237632\
+9330485\x22\x22]\x22,,\x0d\x0a7\
+4,\x22Dell Precisio\
+n 15.6\x22\x22 NVIDIA \
+Gaming Laptop In\
+tel Core i5 32GB\
+ RAM 512GB SSD W\
+11P\x22,v1|33598738\
+1893|0,499.00,ht\
+tps://www.ebay.c\
+om/itm/335987381\
+893?_skw=Gaming+\
+laptop&hash=item\
+4e3a689685:g:H7o\
+AAOSw5nhoOiUV,['\
+FIXED_PRICE'],0.\
+00,https://i.eba\
+yimg.com/images/\
+g/H7oAAOSw5nhoOi\
+UV/s-l225.jpg,aa\
+a_pcs,5707,100.0\
+,\x22[('PC Laptops \
+& Netbooks', '17\
+7'), ('Computers\
+/Tablets & Netwo\
+rking', '58058')\
+, ('Laptops & Ne\
+tbooks', '175672\
+')]\x22,\x22[\x22\x222647145\
+53889\x22\x22, \x22\x2233448\
+0137378\x22\x22, \x22\x22256\
+705607066\x22\x22, \x22\x223\
+35987342105\x22\x22, \x22\
+\x22334384327563\x22\x22,\
+ \x22\x22334480137378\x22\
+\x22, \x22\x2233568760188\
+8\x22\x22, \x22\x22335891118\
+104\x22\x22, \x22\x223354976\
+64548\x22\x22, \x22\x2233582\
+2786472\x22\x22, \x22\x22335\
+318744479\x22\x22, \x22\x223\
+35987381893\x22\x22, \x22\
+\x22335309034074\x22\x22,\
+ \x22\x22335687791979\x22\
+\x22]\x22,,\x0d\x0a75,MSI 17\
+.3in Gaming Lapt\
+op i7 5.0GHz 32G\
+B 1TB SSD GTX 16\
+60 Backlit WIN 1\
+1,v1|19734606530\
+2|0,599.00,https\
+://www.ebay.com/\
+itm/197346065302\
+?_skw=Gaming+lap\
+top&hash=item2df\
+2bdfb96:g:v9AAAO\
+SwMCloL7C3,['FIX\
+ED_PRICE'],10.00\
+,https://i.ebayi\
+mg.com/images/g/\
+v9AAAOSwMCloL7C3\
+/s-l225.jpg,elit\
+egaminglaptop,12\
+53,98.4,\x22[('PC L\
+aptops & Netbook\
+s', '177'), ('Co\
+mputers/Tablets \
+& Networking', '\
+58058'), ('Lapto\
+ps & Netbooks', \
+'175672')]\x22,\x22[\x22\x22\
+116453645269\x22\x22, \
+\x22\x22187261066904\x22\x22\
+, \x22\x22256499495813\
+\x22\x22, \x22\x223353187444\
+79\x22\x22, \x22\x2219734606\
+5302\x22\x22, \x22\x22205462\
+103208\x22\x22, \x22\x222054\
+62303624\x22\x22, \x22\x2219\
+7262069061\x22\x22, \x22\x22\
+197305444702\x22\x22, \
+\x22\x22205536051163\x22\x22\
+, \x22\x22205536156186\
+\x22\x22]\x22,,\x0d\x0a76,\x22ROG \
+Strix G16 2.5K 2\
+40Hz 16\x22\x22 Gaming\
+ Laptop R9-9955H\
+X 32GB 1TB RTX 5\
+070Ti\x22,v1|297282\
+597330|0,2299.00\
+,https://www.eba\
+y.com/itm/297282\
+597330?_skw=Gami\
+ng+laptop&hash=i\
+tem45376c71d2:g:\
+MpIAAeSw8PNoJCUU\
+,['FIXED_PRICE']\
+,0.00,https://i.\
+ebayimg.com/imag\
+es/g/MpIAAeSw8PN\
+oJCUU/s-l225.jpg\
+,antonline,33546\
+2,99.1,\x22[('PC La\
+ptops & Netbooks\
+', '177'), ('Com\
+puters/Tablets &\
+ Networking', '5\
+8058'), ('Laptop\
+s & Netbooks', '\
+175672')]\x22,\x22[\x22\x221\
+16453645269\x22\x22, \x22\
+\x22187261066904\x22\x22,\
+ \x22\x22127126630150\x22\
+\x22, \x22\x2233596770542\
+1\x22\x22]\x22,,\x0d\x0a77,\x22Del\
+l 14\x22\x22 FHD Lapto\
+p Intel Quad Cor\
+e i5 3.60GHz 64G\
+B RAM 4TB SSD Wi\
+ndows 11 Pro\x22,v1\
+|335762697080|54\
+5286442901,305.0\
+0,https://www.eb\
+ay.com/itm/33576\
+2697080?_skw=Gam\
+ing+laptop&hash=\
+item4e2d042b78:g\
+:zq4AAOSwljxnfY4\
+f,['FIXED_PRICE'\
+],0.00,https://i\
+.ebayimg.com/ima\
+ges/g/zq4AAOSwlj\
+xnfY4f/s-l225.jp\
+g,aaa_pcs,5707,1\
+00.0,\x22[('PC Lapt\
+ops & Netbooks',\
+ '177'), ('Compu\
+ters/Tablets & N\
+etworking', '580\
+58'), ('Laptops \
+& Netbooks', '17\
+5672')]\x22,\x22[\x22\x22267\
+023034235\x22\x22, \x22\x223\
+88492530467\x22\x22, \x22\
+\x22286055616899\x22\x22,\
+ \x22\x22334480137378\x22\
+\x22]\x22,,\x0d\x0a78,\x22Lenov\
+o LOQ 15IRX9 Gam\
+ing Laptop I5-13\
+450HX, RTX 4060,\
+ 16GB RAM, 512GB\
+ SSD\x22,v1|1974298\
+83880|0,779.00,h\
+ttps://www.ebay.\
+com/itm/19742988\
+3880?_skw=Gaming\
++laptop&hash=ite\
+m2df7bcf3e8:g:vp\
+YAAeSwnkRoS1NI,\x22\
+['FIXED_PRICE', \
+'BEST_OFFER']\x22,N\
+/A,https://i.eba\
+yimg.com/images/\
+g/vpYAAeSwnkRoS1\
+NI/s-l225.jpg,mi\
+n_6825,4,100.0,\x22\
+[('PC Laptops & \
+Netbooks', '177'\
+), ('Computers/T\
+ablets & Network\
+ing', '58058'), \
+('Laptops & Netb\
+ooks', '175672')\
+]\x22,\x22[\x22\x22126678883\
+714\x22\x22, \x22\x221466449\
+87277\x22\x22, \x22\x2212672\
+8923334\x22\x22, \x22\x22326\
+634858248\x22\x22]\x22,,\x0d\
+\x0a79,\x22HP Victus G\
+aming 15.6\x22\x22 144\
+Hz FHD Core i5-1\
+2450H 16GB 512GB\
+ SSD GeForce RTX\
+ 3050\x22,v1|116402\
+078017|0,619.00,\
+https://www.ebay\
+.com/itm/1164020\
+78017?_skw=Gamin\
+g+laptop&hash=it\
+em1b1a1ac141:g:E\
+FkAAOSw2CpnRDwS,\
+['FIXED_PRICE'],\
+0.00,https://i.e\
+bayimg.com/image\
+s/g/EFkAAOSw2Cpn\
+RDwS/s-l225.jpg,\
+themaxmart,14458\
+,99.3,\x22[('PC Lap\
+tops & Netbooks'\
+, '177'), ('Comp\
+uters/Tablets & \
+Networking', '58\
+058'), ('Laptops\
+ & Netbooks', '1\
+75672')]\x22,\x22[\x22\x2211\
+6361922949\x22\x22, \x22\x22\
+126480962681\x22\x22, \
+\x22\x22116361874746\x22\x22\
+, \x22\x22187261066904\
+\x22\x22, \x22\x221159806920\
+81\x22\x22, \x22\x2230443079\
+0412\x22\x22, \x22\x22305542\
+356538\x22\x22, \x22\x223059\
+63666613\x22\x22, \x22\x2211\
+6402078017\x22\x22, \x22\x22\
+305288047831\x22\x22, \
+\x22\x22305926090649\x22\x22\
+, \x22\x22116166214886\
+\x22\x22, \x22\x222968690044\
+71\x22\x22, \x22\x2230593242\
+3338\x22\x22]\x22,,\x0d\x0a80,\x22\
+HP Victus 15-FB0\
+121NR 15.6\x22\x22 Ryz\
+en 5 5600H 8GB R\
+AM 512GB SSD GeF\
+orce GTX 1650\x22,v\
+1|336011777699|0\
+,369.99,https://\
+www.ebay.com/itm\
+/336011777699?_s\
+kw=Gaming+laptop\
+&hash=item4e3bdc\
+d6a3:g:8PkAAOSwJ\
+TdoS1db,['FIXED_\
+PRICE'],0.00,htt\
+ps://i.ebayimg.c\
+om/images/g/8PkA\
+AOSwJTdoS1db/s-l\
+225.jpg,txgamin5\
+3,1338,98.2,\x22[('\
+PC Laptops & Net\
+books', '177'), \
+('Computers/Tabl\
+ets & Networking\
+', '58058'), ('L\
+aptops & Netbook\
+s', '175672')]\x22,\
+\x22[\x22\x22256724033347\
+\x22\x22, \x22\x221466405357\
+95\x22\x22, \x22\x2228660171\
+9329\x22\x22, \x22\x22297406\
+413590\x22\x22]\x22,,\x0d\x0a81\
+,\x22ASUS ROG Strix\
+ G17 17.3\x22\x22 (512\
+ SSD, AMD Ryzen \
+7, 4.30 GHz, 16G\
+B, RTX 3060) \x22,v\
+1|297406328287|0\
+,300.00,https://\
+www.ebay.com/itm\
+/297406328287?_s\
+kw=Gaming+laptop\
+&hash=item453ecc\
+6ddf:g:c-YAAeSwG\
+Z1oS0FL,\x22['FIXED\
+_PRICE', 'BEST_O\
+FFER']\x22,N/A,http\
+s://i.ebayimg.co\
+m/images/g/c-YAA\
+eSwGZ1oS0FL/s-l2\
+25.jpg,vy96k41,0\
+,0.0,\x22[('PC Lapt\
+ops & Netbooks',\
+ '177'), ('Compu\
+ters/Tablets & N\
+etworking', '580\
+58'), ('Laptops \
+& Netbooks', '17\
+5672')]\x22,\x22[\x22\x22146\
+435421876\x22\x22, \x22\x221\
+46644987277\x22\x22, \x22\
+\x22155718605647\x22\x22,\
+ \x22\x22177179679657\x22\
+\x22]\x22,,\x0d\x0a82,MSI GS\
+66 Stealth 11UH \
+QHD 165HZ RTX 30\
+80 11th GEN i7 3\
+2GB RAM 1TB SSD,\
+v1|236144788196|\
+0,800.00,https:/\
+/www.ebay.com/it\
+m/236144788196?_\
+skw=Gaming+lapto\
+p&hash=item36fb5\
+382e4:g:IP8AAeSw\
+e6toRmEZ,['FIXED\
+_PRICE'],0.00,ht\
+tps://i.ebayimg.\
+com/images/g/IP8\
+AAeSwe6toRmEZ/s-\
+l225.jpg,caldcal\
+andr,84,100.0,\x22[\
+('PC Laptops & N\
+etbooks', '177')\
+, ('Computers/Ta\
+blets & Networki\
+ng', '58058'), (\
+'Laptops & Netbo\
+oks', '175672')]\
+\x22,\x22[\x22\x221771807215\
+80\x22\x22, \x22\x2218726106\
+6904\x22\x22, \x22\x22177180\
+726648\x22\x22, \x22\x221771\
+80131805\x22\x22]\x22,,\x0d\x0a\
+83,\x22MSI Summit B\
+15 A11M 15.6\x22\x22 i\
+5-1135G7 16GB RA\
+M 256GB SSD Used\
+\x22,v1|15693224104\
+8|0,279.00,https\
+://www.ebay.com/\
+itm/156932241048\
+?_skw=Gaming+lap\
+top&hash=item248\
+9e3f698:g:ycoAAO\
+Swwy5oDcQq,['FIX\
+ED_PRICE'],0.00,\
+https://i.ebayim\
+g.com/images/g/y\
+coAAOSwwy5oDcQq/\
+s-l225.jpg,lapto\
+ps.low.price,111\
+8,98.8,\x22[('PC La\
+ptops & Netbooks\
+', '177'), ('Com\
+puters/Tablets &\
+ Networking', '5\
+8058'), ('Laptop\
+s & Netbooks', '\
+175672')]\x22,\x22[\x22\x222\
+64714553889\x22\x22, \x22\
+\x22116625646506\x22\x22,\
+ \x22\x22256499495813\x22\
+\x22, \x22\x2211642329604\
+3\x22\x22]\x22,,\x0d\x0a84,\x22ACE\
+MAGIC 16.1\x22\x22 FHD\
+ Laptop AMD Ryze\
+n 7 5700U 16GB D\
+DR4 512GB 5G [Re\
+furbished]\x22,v1|3\
+55915960834|0,29\
+9.99,https://www\
+.ebay.com/itm/35\
+5915960834?_skw=\
+Gaming+laptop&ha\
+sh=item52de3e920\
+2:g:iJ0AAOSw2~Rn\
+k082,\x22['FIXED_PR\
+ICE', 'BEST_OFFE\
+R']\x22,0.00,https:\
+//i.ebayimg.com/\
+images/g/iJ0AAOS\
+w2~Rnk082/s-l225\
+.jpg,kamrui_outl\
+et_store,761,100\
+.0,\x22[('PC Laptop\
+s & Netbooks', '\
+177'), ('Compute\
+rs/Tablets & Net\
+working', '58058\
+'), ('Laptops & \
+Netbooks', '1756\
+72')]\x22,\x22[\x22\x2225649\
+6543516\x22\x22, \x22\x22375\
+346784128\x22\x22, \x22\x222\
+64714553889\x22\x22, \x22\
+\x22256942721121\x22\x22,\
+ \x22\x22355928110014\x22\
+\x22, \x22\x2235591596083\
+4\x22\x22, \x22\x22356865037\
+528\x22\x22]\x22,,\x0d\x0a85,MS\
+I Cyborg Gaming \
+Laptop Intel i7-\
+13620H RTX 4050 \
+144HZ 1080p 16GB\
+ RAM 512GB SSD,v\
+1|296534908821|0\
+,836.49,https://\
+www.ebay.com/itm\
+/296534908821?_s\
+kw=Gaming+laptop\
+&hash=item450adb\
+9f95:g:vksAAOSw0\
+Axmf-Rm,['FIXED_\
+PRICE'],0.00,htt\
+ps://i.ebayimg.c\
+om/images/g/vksA\
+AOSw0Axmf-Rm/s-l\
+225.jpg,newegg,1\
+041524,98.7,\x22[('\
+PC Laptops & Net\
+books', '177'), \
+('Computers/Tabl\
+ets & Networking\
+', '58058'), ('L\
+aptops & Netbook\
+s', '175672')]\x22,\
+\x22[\x22\x22145699174625\
+\x22\x22, \x22\x221872610669\
+04\x22\x22, \x22\x2226471455\
+3889\x22\x22, \x22\x22167575\
+229345\x22\x22, \x22\x223028\
+11882818\x22\x22, \x22\x2238\
+2439511156\x22\x22, \x22\x22\
+291602742593\x22\x22, \
+\x22\x22381431652128\x22\x22\
+, \x22\x22382581881519\
+\x22\x22, \x22\x223813976077\
+42\x22\x22, \x22\x2229160694\
+8488\x22\x22, \x22\x22291601\
+967605\x22\x22, \x22\x223033\
+13868150\x22\x22, \x22\x2230\
+3261124600\x22\x22]\x22,,\
+\x0d\x0a86,\x22HP Omen 16\
+: Ryzen AI 9 365\
+, RTX 5070, 16\x22\x22\
+ QHD+ 240Hz, 32G\
+B DDR5, 1TB SSD\x22\
+,v1|306346287712\
+|0,1799.99,https\
+://www.ebay.com/\
+itm/306346287712\
+?_skw=Gaming+lap\
+top&hash=item475\
+3a96260:g:EggAAO\
+SwgzxoSPGh,['FIX\
+ED_PRICE'],0.00,\
+https://i.ebayim\
+g.com/images/g/E\
+ggAAOSwgzxoSPGh/\
+s-l225.jpg,klick\
+online,3654,100.\
+0,\x22[('PC Laptops\
+ & Netbooks', '1\
+77'), ('Computer\
+s/Tablets & Netw\
+orking', '58058'\
+), ('Laptops & N\
+etbooks', '17567\
+2')]\x22,\x22[\x22\x22116453\
+645269\x22\x22, \x22\x221872\
+61066904\x22\x22, \x22\x2212\
+7126630150\x22\x22, \x22\x22\
+187148729984\x22\x22]\x22\
+,,\x0d\x0a87,\x22New Acer\
+ Nitro V 15.6\x22\x22 \
+FHD 144Hz Ryzen \
+5 7535HS 16GB 51\
+2GB SSD GeForce \
+RTX 4050\x22,v1|296\
+968881019|0,739.\
+00,https://www.e\
+bay.com/itm/2969\
+68881019?_skw=Ga\
+ming+laptop&hash\
+=item4524b9837b:\
+g:6LoAAOSwVu9niR\
+bE,['FIXED_PRICE\
+'],0.00,https://\
+i.ebayimg.com/im\
+ages/g/6LoAAOSwV\
+u9niRbE/s-l225.j\
+pg,themaxmart,14\
+458,99.3,\x22[('PC \
+Laptops & Netboo\
+ks', '177'), ('C\
+omputers/Tablets\
+ & Networking', \
+'58058'), ('Lapt\
+ops & Netbooks',\
+ '175672')]\x22,\x22[\x22\
+\x22127126630150\x22\x22,\
+ \x22\x22388560306260\x22\
+\x22, \x22\x2214558609690\
+1\x22\x22, \x22\x22187261066\
+904\x22\x22, \x22\x221159806\
+92081\x22\x22, \x22\x2230443\
+0790412\x22\x22, \x22\x22305\
+542356538\x22\x22, \x22\x223\
+05963666613\x22\x22, \x22\
+\x22116402078017\x22\x22,\
+ \x22\x22305288047831\x22\
+\x22, \x22\x2230592609064\
+9\x22\x22, \x22\x22116166214\
+886\x22\x22, \x22\x222968690\
+04471\x22\x22, \x22\x2230593\
+2423338\x22\x22]\x22,,\x0d\x0a8\
+8,New MSI Vector\
+ 16 HX AI Gaming\
+ Laptop PC Ultra\
+7/16GB/512GB/RTX\
+ 5070TI/144Hz/FH\
+D+,v1|2866466670\
+65|0,1949.99,htt\
+ps://www.ebay.co\
+m/itm/2866466670\
+65?_skw=Gaming+l\
+aptop&hash=item4\
+2bd790739:g:LdYA\
+AOSwrDNoS0My,['F\
+IXED_PRICE'],0.0\
+0,https://i.ebay\
+img.com/images/g\
+/LdYAAOSwrDNoS0M\
+y/s-l225.jpg,bay\
+_best_seller,836\
+5,99.5,\x22[('PC La\
+ptops & Netbooks\
+', '177'), ('Com\
+puters/Tablets &\
+ Networking', '5\
+8058'), ('Laptop\
+s & Netbooks', '\
+175672')]\x22,\x22[\x22\x221\
+77180726648\x22\x22, \x22\
+\x22187261066904\x22\x22,\
+ \x22\x22177180721580\x22\
+\x22, \x22\x2240547243725\
+5\x22\x22]\x22,,\x0d\x0a89,Asus\
+ ROG Zephyrus G1\
+5 GA503 15 165Hz\
+ FHD 3.3GHz Ryze\
+n 9 5900HS 16GB \
+1TB RTX 3070,v1|\
+146644282655|0,5\
+99.99,https://ww\
+w.ebay.com/itm/1\
+46644282655?_skw\
+=Gaming+laptop&h\
+ash=item2224ae2d\
+1f:g:AVkAAeSwbyR\
+oRcVI,\x22['FIXED_P\
+RICE', 'BEST_OFF\
+ER']\x22,0.00,https\
+://i.ebayimg.com\
+/images/g/AVkAAe\
+SwbyRoRcVI/s-l22\
+5.jpg,afooshani9\
+497,1464,99.7,\x22[\
+('PC Laptops & N\
+etbooks', '177')\
+, ('Computers/Ta\
+blets & Networki\
+ng', '58058'), (\
+'Laptops & Netbo\
+oks', '175672')]\
+\x22,\x22[\x22\x221164536452\
+69\x22\x22, \x22\x2218726106\
+6904\x22\x22, \x22\x22126767\
+521041\x22\x22, \x22\x223359\
+67705421\x22\x22]\x22,,\x0d\x0a\
+90,\x22MSI Thin 15 \
+15.6\x22\x22 FHD Gamin\
+g Laptop RTX 406\
+0 Intel i5-13420\
+H 16GB RAM 512GB\
+ SSD\x22,v1|3062148\
+29278|0,689.95,h\
+ttps://www.ebay.\
+com/itm/30621482\
+9278?_skw=Gaming\
++laptop&hash=ite\
+m474bd37cde:g:9i\
+4AAOSwxqNn7FmF,[\
+'FIXED_PRICE'],0\
+.00,https://i.eb\
+ayimg.com/images\
+/g/9i4AAOSwxqNn7\
+FmF/s-l225.jpg,u\
+ltimate_us_elect\
+ronics,15239,100\
+.0,\x22[('PC Laptop\
+s & Netbooks', '\
+177'), ('Compute\
+rs/Tablets & Net\
+working', '58058\
+'), ('Laptops & \
+Netbooks', '1756\
+72')]\x22,\x22[\x22\x2226471\
+4553889\x22\x22, \x22\x22167\
+575229345\x22\x22, \x22\x222\
+56705607066\x22\x22, \x22\
+\x22177094764440\x22\x22]\
+\x22,,\x0d\x0a91,\x22NEW Len\
+ovo Legion Pro 5\
+ 16IRX8 16\x22\x22 WQX\
+GA  i9-13900HX 3\
+2GB 1TB RTX 4060\
+ Warranty\x22,v1|32\
+6616889952|0,134\
+9.00,https://www\
+.ebay.com/itm/32\
+6616889952?_skw=\
+Gaming+laptop&ha\
+sh=item4c0be23a6\
+0:g:OEIAAOSwa7Vo\
+Py4X,\x22['FIXED_PR\
+ICE', 'BEST_OFFE\
+R']\x22,0.00,https:\
+//i.ebayimg.com/\
+images/g/OEIAAOS\
+wa7VoPy4X/s-l225\
+.jpg,theamazingh\
+ub,6024,100.0,\x22[\
+('PC Laptops & N\
+etbooks', '177')\
+, ('Computers/Ta\
+blets & Networki\
+ng', '58058'), (\
+'Laptops & Netbo\
+oks', '175672')]\
+\x22,\x22[\x22\x221165931881\
+56\x22\x22, \x22\x2218726106\
+6904\x22\x22, \x22\x22146506\
+951038\x22\x22, \x22\x221871\
+48729984\x22\x22]\x22,,\x0d\x0a\
+92,\x22New HP Victu\
+s Gaming 15.6\x22\x22 \
+144Hz FHD Ryzen \
+5 7535HS 32GB 1T\
+B SSD Radeon RX \
+6550M\x22,v1|116399\
+520824|0,679.00,\
+https://www.ebay\
+.com/itm/1163995\
+20824?_skw=Gamin\
+g+laptop&hash=it\
+em1b19f3bc38:g:F\
+0IAAOSwItxnQGDV,\
+['FIXED_PRICE'],\
+0.00,https://i.e\
+bayimg.com/image\
+s/g/F0IAAOSwItxn\
+QGDV/s-l225.jpg,\
+themaxmart,14458\
+,99.3,\x22[('PC Lap\
+tops & Netbooks'\
+, '177'), ('Comp\
+uters/Tablets & \
+Networking', '58\
+058'), ('Laptops\
+ & Netbooks', '1\
+75672')]\x22,\x22[\x22\x2211\
+6453645269\x22\x22, \x22\x22\
+116399517214\x22\x22, \
+\x22\x22146510949481\x22\x22\
+, \x22\x22156985904639\
+\x22\x22, \x22\x221159806920\
+81\x22\x22, \x22\x2230443079\
+0412\x22\x22, \x22\x22305542\
+356538\x22\x22, \x22\x223059\
+63666613\x22\x22, \x22\x2211\
+6402078017\x22\x22, \x22\x22\
+305288047831\x22\x22, \
+\x22\x22305926090649\x22\x22\
+, \x22\x22116166214886\
+\x22\x22, \x22\x222968690044\
+71\x22\x22, \x22\x2230593242\
+3338\x22\x22]\x22,,\x0d\x0a93,\x22\
+ORIGIN EVO17-S N\
+T-17 17.3\x22\x22 144H\
+z i7-12700H 2.30\
+GHz 16GB RAM 1TB\
+ SSD RTX 3070ti\x22\
+,v1|116402489716\
+|0,799.95,https:\
+//www.ebay.com/i\
+tm/116402489716?\
+_skw=Gaming+lapt\
+op&hash=item1b1a\
+210974:g:xpUAAOS\
+wdB9nRObW,['FIXE\
+D_PRICE'],0.00,h\
+ttps://i.ebayimg\
+.com/images/g/xp\
+UAAOSwdB9nRObW/s\
+-l225.jpg,pnpccu\
+sr,7539,97.6,\x22[(\
+'PC Laptops & Ne\
+tbooks', '177'),\
+ ('Computers/Tab\
+lets & Networkin\
+g', '58058'), ('\
+Laptops & Netboo\
+ks', '175672')]\x22\
+,\x22[\x22\x2212606496052\
+2\x22\x22, \x22\x22187261066\
+904\x22\x22, \x22\x221164536\
+45269\x22\x22, \x22\x2212648\
+0962681\x22\x22]\x22,,\x0d\x0a9\
+4,\x22MSI Katana 15\
+ 15.6\x22\x22 144Hz Ga\
+ming Laptop Core\
+ i7-13620H 16GB \
+RTX 4060 1TB SSD\
+\x22,v1|36550466554\
+9|0,869.99,https\
+://www.ebay.com/\
+itm/365504665549\
+?_skw=Gaming+lap\
+top&hash=item551\
+9c697cd:g:~noAAe\
+SwOsln7vbt,['FIX\
+ED_PRICE'],0.00,\
+https://i.ebayim\
+g.com/images/g/~\
+noAAeSwOsln7vbt/\
+s-l225.jpg,hyper\
+microsystems,722\
+87,98.9,\x22[('PC L\
+aptops & Netbook\
+s', '177'), ('Co\
+mputers/Tablets \
+& Networking', '\
+58058'), ('Lapto\
+ps & Netbooks', \
+'175672')]\x22,\x22[\x22\x22\
+127126630150\x22\x22, \
+\x22\x22286646725509\x22\x22\
+, \x22\x22177180726648\
+\x22\x22, \x22\x221872610669\
+04\x22\x22, \x22\x2236267700\
+9418\x22\x22, \x22\x22392165\
+168331\x22\x22, \x22\x222356\
+89795686\x22\x22, \x22\x2236\
+2866974046\x22\x22, \x22\x22\
+235647665580\x22\x22, \
+\x22\x22234338706475\x22\x22\
+, \x22\x22392615109579\
+\x22\x22, \x22\x223648989502\
+95\x22\x22, \x22\x2236405707\
+8967\x22\x22, \x22\x22363982\
+175817\x22\x22]\x22,,\x0d\x0a95\
+,\x222025 HP 17.3 L\
+aptop Computer F\
+HD 6-Core Ryzen \
+5 4.3GHz, 32GB R\
+AM 1TB SSD Win P\
+ro\x22,v1|116453645\
+269|0,579.00,htt\
+ps://www.ebay.co\
+m/itm/1164536452\
+69?_skw=Gaming+l\
+aptop&hash=item1\
+b1d2d9bd5:g:5tcA\
+AOSwzuVnkA5j,\x22['\
+FIXED_PRICE', 'B\
+EST_OFFER']\x22,0.0\
+0,https://i.ebay\
+img.com/images/g\
+/5tcAAOSwzuVnkA5\
+j/s-l225.jpg,hel\
+logoodlife1,1423\
+9,97.9,\x22[('PC La\
+ptops & Netbooks\
+', '177'), ('Com\
+puters/Tablets &\
+ Networking', '5\
+8058'), ('Laptop\
+s & Netbooks', '\
+175672')]\x22,\x22[\x22\x222\
+86601719329\x22\x22, \x22\
+\x22127016011276\x22\x22,\
+ \x22\x22126744587631\x22\
+\x22, \x22\x2218726106690\
+4\x22\x22]\x22,,\x0d\x0a96,Alie\
+nware 15 R3 i7-7\
+700HQ 2.8GHz 16G\
+B RAM 256GB NVMe\
+ 1TB HDD GTX 107\
+0 J11704,v1|3763\
+33501588|0,348.0\
+0,https://www.eb\
+ay.com/itm/37633\
+3501588?_skw=Gam\
+ing+laptop&hash=\
+item579f398494:g\
+:RVoAAeSwMHxoSyV\
+P,['FIXED_PRICE'\
+],0.00,https://i\
+.ebayimg.com/ima\
+ges/g/RVoAAeSwMH\
+xoSyVP/s-l225.jp\
+g,itadlogic,817,\
+98.4,\x22[('PC Lapt\
+ops & Netbooks',\
+ '177'), ('Compu\
+ters/Tablets & N\
+etworking', '580\
+58'), ('Laptops \
+& Netbooks', '17\
+5672')]\x22,\x22[\x22\x22146\
+435421876\x22\x22, \x22\x221\
+16618097564\x22\x22, \x22\
+\x22146510949481\x22\x22,\
+ \x22\x22236140279174\x22\
+\x22]\x22,,\x0d\x0a97,\x22(RI2)\
+ HP Victus 15-fa\
+1030nr 15\x22\x22 Core\
+ i5 2GHz 8GB RAM\
+ 512GB GeForce R\
+TX 2050 (B)\x22,v1|\
+197429553097|0,3\
+99.00,https://ww\
+w.ebay.com/itm/1\
+97429553097?_skw\
+=Gaming+laptop&h\
+ash=item2df7b7e7\
+c9:g:RYoAAOSw17B\
+oSzLT,\x22['FIXED_P\
+RICE', 'BEST_OFF\
+ER']\x22,N/A,https:\
+//i.ebayimg.com/\
+images/g/RYoAAOS\
+w17BoSzLT/s-l225\
+.jpg,quasi098,11\
+4480,99.1,\x22[('PC\
+ Laptops & Netbo\
+oks', '177'), ('\
+Computers/Tablet\
+s & Networking',\
+ '58058'), ('Lap\
+tops & Netbooks'\
+, '175672')]\x22,\x22[\
+\x22\x22256724033347\x22\x22\
+, \x22\x22146640535795\
+\x22\x22, \x22\x222569427211\
+21\x22\x22, \x22\x2211662564\
+6506\x22\x22]\x22,,\x0d\x0a98,\x22\
+ASUS FX705DY-EH5\
+3 17.3 inch (512\
+GB, AMD Ryzen 5,\
+ 3.70GHz, 8GB) -\
+ Gaming Laptop -\
+\x22,v1|35704137760\
+4|0,390.12,https\
+://www.ebay.com/\
+itm/357041377604\
+?_skw=Gaming+lap\
+top&hash=item532\
+1531144:g:gQoAAe\
+SwUp9oQffx&amdat\
+a=enc%3AAQAKAAAA\
+8PeG5RIuIyokJHJy\
+903%2F5UbdMcuOey\
+k8fWFL6j2EuGo542\
+O5zz06ExviVQ6VON\
+oG9rbspQaMAEoajX\
+8zx2liROkD0zf6y%\
+2BkHVmwV63TSMAAy\
+HS42j3qQtkCzo4Be\
+qzVADhvQ7rQPQJjV\
+56s5RwlkUV%2Bc1G\
+fHYDWPAbIB7wXPmh\
+oGxgP427wGPb3%2B\
+1YIXxy1j7OmWPup9\
+bDMjVVSB6%2FJKCz\
+4FHp%2BKahUbNZY%\
+2FFLgyO%2B3Qdkeb\
+QPF0GspsPiSx%2BB\
+HCaxPuMuBT5mqbOn\
+ey5XJd6qkXcWTuNx\
+0XRTb9R4KktSoCV%\
+2BjpIASTZmK63pMw\
+yiz9WQ%3D%3D,\x22['\
+FIXED_PRICE', 'B\
+EST_OFFER']\x22,38.\
+77,https://i.eba\
+yimg.com/images/\
+g/gQoAAeSwUp9oQf\
+fx/s-l225.jpg,ca\
+sssssi0,1,0.0,\x22[\
+('PC Laptops & N\
+etbooks', '177')\
+, ('Computers/Ta\
+blets & Networki\
+ng', '58058'), (\
+'Laptops & Netbo\
+oks', '175672')]\
+\x22,\x22[\x22\x221267675210\
+41\x22\x22, \x22\x2218726106\
+6904\x22\x22, \x22\x22116453\
+645269\x22\x22, \x22\x221166\
+25646506\x22\x22]\x22,,\x0d\x0a\
+99,ASUS ROG Stri\
+x G7 15.6 i7-975\
+0H 2.6GHz 16GB R\
+AM 500 Storage G\
+eForce GTX 1650,\
+v1|316978684700|\
+0,365.00,https:/\
+/www.ebay.com/it\
+m/316978684700?_\
+skw=Gaming+lapto\
+p&hash=item49cd6\
+6e31c:g:tTgAAeSw\
+3WNoS0Qa&amdata=\
+enc%3AAQAKAAAA8P\
+eG5RIuIyokJHJy90\
+3%2F5UZUXe6Ir7VU\
+u9Ju3FgNHYblDioF\
+IqI0lwyVBhqlpj%2\
+FHZCPPrnLQ%2FlwQ\
+HhgkpUiUBb3Rkfa8\
+h8e7sOP3iRrR7u6%\
+2B3hb1%2FCTp5KH0\
+so4pr8fLwvz1cewN\
+2v7hKHJrLDuHfm2q\
+QAVRXDb0XC2QBCXk\
+MEO4IENBLZF4g6ht\
+4zuCk%2F6%2F4j91\
+ZOwpvgiRo4mjgtP8\
+ljUpwjkh7aCVzbjL\
+2ikbe7ouUc5nZXRl\
+LTGYGQHuzj3GQ%2F\
+xvsNLU4MRBdGCK2B\
+nQjuuaDXGOdPuPRd\
+GknD0pX5pXWGswaU\
+H5r5RJbgydbTIbuA\
+%3D%3D,\x22['FIXED_\
+PRICE', 'BEST_OF\
+FER']\x22,N/A,https\
+://i.ebayimg.com\
+/images/g/tTgAAe\
+Sw3WNoS0Qa/s-l22\
+5.jpg,brnd_4721,\
+0,0.0,\x22[('PC Lap\
+tops & Netbooks'\
+, '177'), ('Comp\
+uters/Tablets & \
+Networking', '58\
+058'), ('Laptops\
+ & Netbooks', '1\
+75672')]\x22,\x22[\x22\x2240\
+4655007131\x22\x22, \x22\x22\
+116423296043\x22\x22, \
+\x22\x22146435421876\x22\x22\
+, \x22\x22335967705421\
+\x22\x22]\x22,,\x0d\x0a100,\x2215.\
+6\x22\x22 FHD Lenovo T\
+hinkPad Laptop: \
+Intel i5QC! 16GB\
+ RAM~512GB SSD! \
+Windows 11!\x22,v1|\
+115847969040|0,2\
+44.95 USD,https:\
+//www.ebay.com/i\
+tm/115847969040?\
+amdata=enc%3AAQA\
+KAAAAoFkggFvd1GG\
+Du0w3yXCmi1e5G%2\
+F2lYr0JYLqP0o%2B\
+5SKRLxb6TByA2PKc\
+2HXaC0UnkhfktFiL\
+XUkhSEwJq%2BRi8b\
+J6ztZS7AX3o8V4Cx\
+zlKqaFpmyiXwknJY\
+81CzQYnN%2FF6WV4\
+SV6HQ%2FdK%2FNcZ\
+wmaU1ejxN3V14FtM\
+SlCKWar5c%2BfJwN\
+g2es2Lj9ZrIb%2F2\
+T2FF1NsnDL3hHVWv\
+p%2BvIEesQLF5U%3\
+D,\x22['FIXED_PRICE\
+', 'BEST_OFFER']\
+\x22,0.00,,rinuvo,7\
+237,,,NaN,Good -\
+ Refurbished,[]\x0d\
+\x0a101,HP ZBook Fu\
+ry WORKSTATION I\
+7 LIST - I9 - NV\
+IDIA RTX - 32GB \
+RAM - 64GB RAM,v\
+1|187261066904|0\
+,1147.55 USD,htt\
+ps://www.ebay.co\
+m/itm/1872610669\
+04?amdata=enc%3A\
+AQAKAAAAoFkggFvd\
+1GGDu0w3yXCmi1e3\
+VPdxZbRUdYHKKmhk\
+CCviePj3AlVLuheQ\
+lki7lFUOaT3DS37i\
+VjQnMVtkEVsP%2Fx\
+11cwppuLFFV5FP%2\
+Bvvx9GkNA8S545uz\
+xx4wwxM9xLXjQGQ2\
+JtzT1UyRXUYT5LYr\
+t8cdTxsmB8iSHTbx\
+8dZMIwyEulRwq0Vz\
+9s%2FjFnVO6rS%2B\
+D4%2FJa%2BezNu0p\
+Lb%2B5zCb0ia0%3D\
+,['FIXED_PRICE']\
+,34.46,,space_he\
+lp_it,109,,,NaN,\
+Used,[]\x0d\x0a102,\x22~C\
+LEARANCE~ 14\x22\x22 D\
+ell Latitude Lap\
+top PC: 16GB RAM\
+! 1TB HDD! Windo\
+ws 10!\x22,v1|11589\
+2100200|0,159.95\
+ USD,https://www\
+.ebay.com/itm/11\
+5892100200?amdat\
+a=enc%3AAQAKAAAA\
+oFkggFvd1GGDu0w3\
+yXCmi1evc4X6hqzX\
+kduq99RgfLyt3Hxk\
+r4l2wJqg2f1SDXhG\
+QE6ZdfVJZzCWH%2B\
+1ohRpaPtp8v%2FFL\
+SCj%2B4szHSLpEQL\
+MxFlneGCRK0zza05\
+7dktRfmoPR6VKHNP\
+HsugnozKjsawRUF9\
+tlhFfjLEZXR7cmPV\
+70IOW4%2Fqsz7dCv\
+sYmmQMApn21Bo3ik\
+e2tkA49%2FkcaWxo\
+8%3D,\x22['FIXED_PR\
+ICE', 'BEST_OFFE\
+R']\x22,0.00,,rinuv\
+o,7237,,,NaN,Goo\
+d - Refurbished,\
+[]\x0d\x0a103,\x22~BLACK \
+FRIDAY SALE~ 15.\
+6\x22\x22 Dell Latitud\
+e Laptop PC: Int\
+el i5! 16GB RAM~\
+512GB SSD!\x22,v1|1\
+15975817889|0,21\
+9.95 USD,https:/\
+/www.ebay.com/it\
+m/115975817889?a\
+mdata=enc%3AAQAK\
+AAAAoFkggFvd1GGD\
+u0w3yXCmi1erzrJE\
+WCS4b5ti7iSiUMFQ\
+QMJo0n4kAJ6TWeRY\
+vHvWZOYiz7CuNfWK\
+XAw%2FpDnhZhkwxG\
+s1VURfLa3D49wyAb\
+JeeZL6ZfegmE9pii\
+l5U%2FJxDFrRppcx\
+LekfCIWw5BMlyJNb\
+5iN2I2GgWMy0oxvE\
+wMyuSOhxzoga3aiB\
+7%2BFJYIP6OAwuJ%\
+2BBIVyWaQhDVzYeT\
+zMA%3D,\x22['FIXED_\
+PRICE', 'BEST_OF\
+FER']\x22,0.00,,rin\
+uvo,7237,,,NaN,V\
+ery Good - Refur\
+bished,[]\x0d\x0a104,\x22\
+15.6\x22\x22 Dell Lati\
+tude Laptop: Int\
+el i5 Dual Core!\
+ 16GB Ram! 512GB\
+ SSD! Windows 10\
+!\x22,v1|1158119988\
+73|0,179.99 USD,\
+https://www.ebay\
+.com/itm/1158119\
+98873?amdata=enc\
+%3AAQAKAAAAoFkgg\
+Fvd1GGDu0w3yXCmi\
+1eR6TXoEqc6mh3Ia\
+xUpuKXUS7GYslIt9\
+C9tOAcWCoSnAfs%2\
+FSA8jmS%2B4Lyifj\
+rK0%2FCkzmUo5kjb\
+mzm%2B9TfKv63%2F\
+R3300eghOcegRAMG\
+1JlzSYWX3bcr7jsT\
+19NnpPKFsjDW2tLk\
+fdJ5eobklaR%2B6I\
+pQNvizRN8F%2FbCK\
+3G2lGyPHmoLZl654\
+6ezoHDK5R1XfdeJ4\
+%3D,\x22['FIXED_PRI\
+CE', 'BEST_OFFER\
+']\x22,0.00,,rinuvo\
+,7237,,,NaN,Good\
+ - Refurbished,[\
+]\x0d\x0a105,Dell Prec\
+ision 15.6\xe2\x80\x9d La\
+ptop Intel Xeon \
+E3-1545 32GB RAM\
+ 256GB SSD Windo\
+ws 10 Pro,v1|286\
+045958900|0,294.\
+63 USD,https://w\
+ww.ebay.com/itm/\
+286045958900?amd\
+ata=enc%3AAQAKAA\
+AAoFkggFvd1GGDu0\
+w3yXCmi1dIvmBmYS\
+wjJTSmj8IpuwQ2DZ\
+2hFbIjryjzR9Rv0D\
+QDrZv%2FBf9oUhvP\
+gL%2FZF9CzJQP7Qx\
+5MyhtGhuH8E5IkjL\
+TARFh2coS7OohBIU\
+XJ2tpbTbYcTLrH81\
+xNrKtW05M43Y5gDG\
+qLi012WjF0DgUUBX\
+u1dYq70WlAPXtxt8\
+KqzjhdXUmzE5Kahw\
+wH%2BAGNK3B0H1A%\
+3D,['FIXED_PRICE\
+'],0.00,,discoun\
+tcomputerdepot,1\
+31743,,,NaN,Very\
+ Good - Refurbis\
+hed,[]\x0d\x0a106,\x22Len\
+ovo ThinkPad 15.\
+6\x22\x22 Laptop: Inte\
+l i5! 16GB RAM~5\
+12 SSD! Built in\
+ CD/DVD Drive!\x22,\
+v1|115795483206|\
+0,229.99 USD,htt\
+ps://www.ebay.co\
+m/itm/1157954832\
+06?amdata=enc%3A\
+AQAKAAAAoFkggFvd\
+1GGDu0w3yXCmi1ff\
+lhfc6WwRi9wszGr7\
+nbtzoeVGQO2hN6Qt\
+UKWJF8vFXFW%2Beq\
+ajbu5dy024gvy1xC\
+UKlMq7snZArkjV8Q\
+UJyWKU2QjNI8VHXs\
+9U69nIeCd7s3nEED\
+K%2Brsu0ca%2BKhi\
+UkpqOS8qj7ADhDD7\
+Hyy8zRWMJJZdIWrM\
+8FoziesvCPP6mrqr\
+pVkz2fHExQrgUzU%\
+2BX8zLA%3D,\x22['FI\
+XED_PRICE', 'BES\
+T_OFFER']\x22,0.00,\
+,rinuvo,7237,,,N\
+aN,Good - Refurb\
+ished,[]\x0d\x0a107,\x22D\
+ell Laptop Latit\
+ude 7490 14\x22\x22 FH\
+D i7-8650U 32GB \
+RAM 512GB SSD Wi\
+ndows 11 Pro\x22,v1\
+|388492530467|0,\
+288.99 USD,https\
+://www.ebay.com/\
+itm/388492530467\
+?amdata=enc%3AAQ\
+AKAAAAoFkggFvd1G\
+GDu0w3yXCmi1eVZ6\
+p88eq9eu93hgRJYC\
+dU3StFcCtINhfUSG\
+MuEpXAbzqGUJ0RxY\
+6JRRMVh9ro3ZYC8i\
+9QqBKJ78D1qs025W\
+erxf6XPHaJCixZc1\
+Hlw5USR%2Fs2jG9a\
+U31F7FnDJu5OA4KD\
+9n3sJ14gekmVGJln\
+C%2FpXyG6%2BYZRz\
+%2Bw7kLxu3t%2Bly\
+pwDv%2FQGLxbk%2B\
+JCRC5XhlcDw%3D,[\
+'FIXED_PRICE'],0\
+.00,,at.services\
+,610,,,NaN,Excel\
+lent - Refurbish\
+ed,[]\x0d\x0a108,\x2215.6\
+\x22\x22 Dell Latitude\
+ Laptop PC: Inte\
+l i5! 16GB RAM~4\
+80GB SSD Windows\
+ 10 Pro!\x22,v1|115\
+916714429|0,197.\
+81 USD,https://w\
+ww.ebay.com/itm/\
+115916714429?amd\
+ata=enc%3AAQAKAA\
+AAoFkggFvd1GGDu0\
+w3yXCmi1dbachL2Q\
+d%2B8Nt4ynEz36yY\
+8%2FwbEAASpIHrWp\
+YZB5HhlyIVt%2FRy\
+okaevZ6qsUL%2BAV\
+6eZ4kfvskpkgUInL\
+e%2BoAIAzc7LqLi%\
+2FR9iUZJ79Flvl1a\
+Iz67hFcQEqDIFqHZ\
+AIIERgNSZvQA%2F%\
+2BIdqSUQ6nf55ve6\
+6nZewh6oEe9jnJVv\
+Vrb8PPpHsyHF%2F6\
+9LI7UvBz50o%3D,\x22\
+['FIXED_PRICE', \
+'BEST_OFFER']\x22,0\
+.00,,rinuvo,7237\
+,,,NaN,Good - Re\
+furbished,[]\x0d\x0a10\
+9,\x222025 HP Lapto\
+p Notebook 15.6\x22\
+\x22 FHD 8-Core Int\
+el i3 32GB RAM 1\
+TB SSD Office 20\
+24\x22,v1|127160053\
+854|0,419.00 USD\
+,https://www.eba\
+y.com/itm/127160\
+053854?amdata=en\
+c%3AAQAKAAAAoFkg\
+gFvd1GGDu0w3yXCm\
+i1fW0KCtshyqMXiI\
+X%2BfIh%2BtAe1D7\
+GObDJnYyA%2Fn2b7\
+AhODIYizCGUdqeZD\
+SdIJecBTfiBKPygf\
+pfS4OuMyMoPEjMFK\
+cyVw8gZdhF2tAg1u\
+a3uRz1dJRqX6R1Vh\
+9nuOqfBvK6MBE%2B\
+Z2w0%2BN5GrtnD%2\
+BcUXvGShXqxkW64N\
+mWsKHD4UsdW17s95\
+%2Bu6dYPGaP5wwh3\
+U%3D,\x22['FIXED_PR\
+ICE', 'BEST_OFFE\
+R']\x22,0.00,,hello\
+goodlife1,14239,\
+,,NaN,New,[]\x0d\x0a11\
+0,\x22Powerful 11th\
+ Gen Dell Laptop\
+!! Intel i7, 16G\
+B RAM, 256GB SSD\
+- Windows 11 Hom\
+e!!\x22,v1|11569117\
+4137|0,360.00 US\
+D,https://www.eb\
+ay.com/itm/11569\
+1174137?amdata=e\
+nc%3AAQAKAAAAoFk\
+ggFvd1GGDu0w3yXC\
+mi1fbn3g0sAo%2BF\
+ZbIT8ZE2nDJkVm08\
+LCG4mkafKOwc8C%2\
+FIIrHPVghfwm9J5R\
+7YIjFSySBtAK9p%2\
+BD5p19PerAhHkUcN\
+rKVX0Gz3KoVqFPne\
+ewD9fckrA%2F8JdD\
+1d95YEMMKTDq3CNY\
+RUrgOD%2FHm9VF3R\
+%2FvrZKo6y9rE0fr\
+aiZkGTQn8QwfURzB\
+V3ZRLnNkk0ihFEVg\
+%3D,\x22['FIXED_PRI\
+CE', 'BEST_OFFER\
+']\x22,0.00,,rinuvo\
+,7237,,,NaN,Good\
+ - Refurbished,[\
+]\x0d\x0a111,15.6 Leno\
+vo ThinkPad Lapt\
+op PC: 16GB RAM!\
+ 256GB SSD! Inte\
+l i5! Windows 10\
+ Pro!,v1|1148457\
+45485|0,189.95 U\
+SD,https://www.e\
+bay.com/itm/1148\
+45745485?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1f%2FGh%2FONL\
+Q4AZMFPsN6u7%2B%\
+2Bp%2FxjYj8baKEf\
+mPLbkC80zQIwkuV0\
+ltjQiyMumbdISBj%\
+2FsMTvISPuPo2TC5\
+HFeG9Os24fpAwiTb\
+rYgqfj5hP8bixbaY\
+42VkByp58GvyPWwc\
+jRJnLdpaN5Dq74yA\
+BjL1IRn9apXresz%\
+2FqFXBLCyIaId3CD\
+3x8FZ1XpRUR68F%2\
+BM7gI%3D,\x22['FIXE\
+D_PRICE', 'BEST_\
+OFFER']\x22,0.00,,r\
+inuvo,7237,,,NaN\
+,Good - Refurbis\
+hed,[]\x0d\x0a112,\x22~OV\
+ERSTOCK~ 14\x22\x22 HP\
+ EliteBook i5 La\
+ptop PC: 16GB RA\
+M~512GB SSD! Win\
+dows 10!\x22,v1|115\
+668144521|0,239.\
+95 USD,https://w\
+ww.ebay.com/itm/\
+115668144521?amd\
+ata=enc%3AAQAKAA\
+AAoFkggFvd1GGDu0\
+w3yXCmi1eczCBxhE\
+tNvSyBJg%2FvLTqM\
+OhG8twCjHJgD3ZPD\
+852LFw0C1Lh5kitv\
+weUoqcWbEx0ai05J\
+t2rpv7LVw3INU%2F\
+V7Qx4wzoAxMa5ukw\
+vi1RoIFy2qM6xmqD\
+me8d3jBgtDjx0Icc\
+%2BmtBr55%2B4nUm\
+7uNfdE1yYPKDbRvM\
+jaBCP1iPUkRMA6n7\
+K9Sbrvb%2FE882Jx\
+KjA%3D,\x22['FIXED_\
+PRICE', 'BEST_OF\
+FER']\x22,0.00,,rin\
+uvo,7237,,,NaN,G\
+ood - Refurbishe\
+d,[]\x0d\x0a113,\x2215.6\x22\
+\x22 Lenovo ThinkPa\
+d Laptop PC: Int\
+el i5! 16GB RAM~\
+512GB SSD! Windo\
+ws 10 Pro!\x22,v1|1\
+15671195335|0,19\
+9.95 USD,https:/\
+/www.ebay.com/it\
+m/115671195335?a\
+mdata=enc%3AAQAK\
+AAAAoFkggFvd1GGD\
+u0w3yXCmi1eFYgW9\
+AOCFLTmbsJaEPU3V\
+SBiq47mCK0S2jaUU\
+xBOXjiyVMVgOzUSI\
+EyiE%2FKFhmeFB%2\
+BUmOqMClLjybw0GO\
+zeDLeab9euafTh%2\
+F4IVWvkSbXGM1qla\
+kHvTW4yapMq9kR1p\
+V34scq4TgK8SJCXV\
+Q60VrUFLTmAvPzku\
+cAEYS1%2BuOj2FO7\
+KZ%2BrYAVZ0As1Vi\
+1djUg%3D,\x22['FIXE\
+D_PRICE', 'BEST_\
+OFFER']\x22,0.00,,r\
+inuvo,7237,,,NaN\
+,Good - Refurbis\
+hed,[]\x0d\x0a114,\x22Del\
+l Latitude 14\x22\x22 \
+FHD Laptop Quad-\
+Core i5 4.4GHz 1\
+6GB RAM 256GB SS\
+D Windows 11\x22,v1\
+|256687932768|0,\
+252.21 USD,https\
+://www.ebay.com/\
+itm/256687932768\
+?amdata=enc%3AAQ\
+AKAAAAoFkggFvd1G\
+GDu0w3yXCmi1eZ0a\
+goOI4yr0fIH59lWU\
+ME8xDEmU4FZHcD%2\
+FoImzBIfk9zuz3TJ\
+UQSNIfmKVJUX1FIv\
+t2BIWy4TZt1U2XMC\
+FgRJXwHdwn96DbRo\
+SzjB1nkxwBL%2FLQ\
+cup%2FONr3WbB9st\
+tUqg%2BI8RQIDdyn\
+WKoiiZ8UDIOws7Ks\
+QVkCN8gYUt4RW1%2\
+BFji2xYc1Jm21aha\
+BvtlI10%3D,['FIX\
+ED_PRICE'],0.00,\
+,discountcompute\
+rdepot,131743,,,\
+NaN,Good - Refur\
+bished,[]\x0d\x0a115,\x22\
+Dell 7490 14\x22\x22 L\
+ight Gaming Lapt\
+op Intel Core i5\
+ 16GB RAM 512GB \
+SSD Windows11 Pr\
+o\x22,v1|3343843275\
+63|0,378.99 USD,\
+https://www.ebay\
+.com/itm/3343843\
+27563?amdata=enc\
+%3AAQAKAAAAoFkgg\
+Fvd1GGDu0w3yXCmi\
+1fwobF7yOo35Kte0\
+dpDzqImZc6AjRThm\
+u9zBQe0N5BD2%2FI\
+WTH%2B%2Bky8ZgZK\
+iCtQZDLB3eDNV4Cq\
+KPn6cwyFMPY%2FCb\
+2N%2B8xz2bWIS0oC\
+RWWMMkqfEThIN%2F\
+UhiJcmeFeaGJrqAY\
+Dr54I5xAHIQ57Vzx\
+LFqygQVVusTPhkqW\
+QUL6k9YySDnRziEP\
+CCI1Dm8elXHFg4%3\
+D,['FIXED_PRICE'\
+],0.00,,aaa_pcs,\
+5707,,,NaN,Very \
+Good - Refurbish\
+ed,[]\x0d\x0a116,Dell \
+Latitude 7290 La\
+ptop 12.5\xe2\x80\x9d FHD\
+ Core i7 16GB RA\
+M 512GB SSD Wind\
+ows 11 Pro,v1|26\
+6804550876|0,288\
+.17 USD,https://\
+www.ebay.com/itm\
+/266804550876?am\
+data=enc%3AAQAKA\
+AAAoFkggFvd1GGDu\
+0w3yXCmi1fEeR7tU\
+u1Zgh6UxOeYeKPHu\
+eQesIpBYbqdqm%2F\
+F%2FlJnGzpxSGudI\
+vvv8z0B79CBfW%2F\
+SCisSwCIR2tE7fCP\
+cIuLzsBxyjIAkVFx\
+q02lmXq%2FANLgKR\
+3cSscAC6PJhHiN9F\
+1FxOG7y9FTi8mqhx\
+cVfVHLy9xC%2BUuQ\
+zTROkHl3mPAIYz%2\
+B8AuYT1dPH0MeayV\
+w96l1U%3D,\x22['FIX\
+ED_PRICE', 'BEST\
+_OFFER']\x22,0.00,,\
+discountcomputer\
+depot,131743,,,N\
+aN,Very Good - R\
+efurbished,[]\x0d\x0a1\
+17,HP EliteBook \
+845 G7 14\xe2\x80\x9d FHD\
+ Laptop Ryzen 5 \
+PRO 16GB RAM 256\
+GB SSD Windows 1\
+1 Pro,v1|2569427\
+21121|0,261.13 U\
+SD,https://www.e\
+bay.com/itm/2569\
+42721121?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1e6XVeBkJncV4\
+6DWXxOE0%2BR9tQN\
+abXUAYbrlyzzrZsE\
+qGPCRaHwPYlXQxKt\
+8XI%2BUiBJXEspt7\
+vK5z5GLVuc0YVK5F\
+M%2FnInDCOaRnZgq\
+6MEcQ64MwRVBvLtA\
+4Fw%2FAXTabNEY4%\
+2BWMX7YIfP4gUJ0I\
+HXCLJrXV43hU5EkV\
+bWq8DLta6VfJgquv\
+IY392qd%2B3dUyNo\
+Q%3D,['FIXED_PRI\
+CE'],0.00,,disco\
+untcomputerdepot\
+,131743,,,NaN,Go\
+od - Refurbished\
+,[]\x0d\x0a118,HP ProB\
+ook 640 G5 14\xe2\x80\x9d\
+ HD Laptop Core \
+i5 8GB RAM 256GB\
+ SSD Windows 11 \
+Pro WiFi,v1|2859\
+06201705|0,206.7\
+9 USD,https://ww\
+w.ebay.com/itm/2\
+85906201705?amda\
+ta=enc%3AAQAKAAA\
+AoFkggFvd1GGDu0w\
+3yXCmi1f%2F0b4qI\
+iJxJ4Mr%2F4oJUr3\
+U%2FxdZXskdsvl4b\
+SVFkmbppeSPpumNo\
+GrevGeGZ2aN%2FW0\
+uxDKv7%2BIbQ%2Be\
+6BCF6G21FjMg50E7\
+AuWOWFJvpdh%2BMy\
+k4HRgF92w929x5Iw\
+%2F25g32KqrpJajY\
+idxDhuTHBjLwiOey\
+mf04iS5Y%2B%2FTi\
+YTS40Rl3ICfL9Yea\
+dYMEKqXEryAc%3D,\
+\x22['FIXED_PRICE',\
+ 'BEST_OFFER']\x22,\
+0.00,,discountco\
+mputerdepot,1317\
+43,,,NaN,Used,[]\
+\x0d\x0a119,HP EliteBo\
+ok 840 G5 Laptop\
+ 14\xe2\x80\x9d FHD Core \
+i7 16GB RAM 512G\
+B SSD NVMe Windo\
+ws 11,v1|2567240\
+33347|0,261.09 U\
+SD,https://www.e\
+bay.com/itm/2567\
+24033347?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1f%2BDnbuLs%2\
+F0MlpDIT61Xd8%2F\
+mBdO95qal%2BKBTX\
+8P4AFMBXTZCczYo3\
+ztoOZphKC2P3KqBA\
+X0RmMQDAyNb2G48w\
+K7sI75n57vUUZ1CS\
+%2FNB19njoq8rwIp\
+%2BZv83NvnDfUiKx\
+r0SZ5bekarC%2B2x\
+kLVCZZEKgycWMciE\
+jGKnGnlNmigyPVIO\
+Lti%2BpK4CWT2CcR\
+MLGYA%3D,['FIXED\
+_PRICE'],0.00,,d\
+iscountcomputerd\
+epot,131743,,,Na\
+N,Very Good - Re\
+furbished,[]\x0d\x0a12\
+0,Intel Core i7-\
+14700K Unlocked \
+Desktop Processo\
+r,v1|12618458657\
+5|0,344.99 USD,h\
+ttps://www.ebay.\
+com/itm/12618458\
+6575,['FIXED_PRI\
+CE'],0.00,,anton\
+line,335462,,,Na\
+N,New,[]\x0d\x0a121,\x22A\
+SUS Vivobook 16\x22\
+\x22 WUXGA i7-1355U\
+ 16GB RAM 1TB SS\
+D Notebook Indie\
+ Black\x22,v1|29658\
+4849936|0,519.99\
+ USD,https://www\
+.ebay.com/itm/29\
+6584849936?amdat\
+a=enc%3AAQAKAAAA\
+oFkggFvd1GGDu0w3\
+yXCmi1fgdKnfHMOB\
+Dc63oY9zvBTGc6u%\
+2FaS6%2F1DjSxJN4\
+0XhaI%2BhFUbRxn9\
+yb4qImMe9Gnuzp7R\
+InJT3dbSqeGs9zzR\
+q3KinCW9ONZZOHgw\
+FSYQCJ7NinE07Njt\
+uo6jC6leBF1O%2BX\
+havvfiZ3oAcOg5NA\
+nNhiPEiJe8tVt1r1\
+03OrX%2B7ab6JKA3\
+Z6uq6UxmoOyIV8ol\
+o%3D,['FIXED_PRI\
+CE'],0.00,,anton\
+line,335462,,,Na\
+N,New,[]\x0d\x0a122,In\
+tel Core i7-1270\
+0K Unlocked Desk\
+top Processor - \
+12 Cores And 20 \
+Threads,v1|30421\
+1399566|0,219.99\
+ USD,https://www\
+.ebay.com/itm/30\
+4211399566,['FIX\
+ED_PRICE'],0.00,\
+,antonline,33546\
+2,,,NaN,New,[]\x0d\x0a\
+123,Intel Core i\
+7-12700KF Unlock\
+ed Desktop Proce\
+ssor - 12 Cores \
+And 20 Threads,v\
+1|304228288867|0\
+,179.99 USD,http\
+s://www.ebay.com\
+/itm/30422828886\
+7,['FIXED_PRICE'\
+],0.00,,antonlin\
+e,335462,,,NaN,N\
+ew,[]\x0d\x0a124,Intel\
+ Core i9-12900K \
+Unlocked Desktop\
+ Processor - 16 \
+Cores (8P+8E) & \
+24 Threads,v1|29\
+4556686629|0,314\
+.99 USD,https://\
+www.ebay.com/itm\
+/294556686629,['\
+FIXED_PRICE'],0.\
+00,,antonline,33\
+5462,,,NaN,New,[\
+]\x0d\x0a125,Intel Cor\
+e i9-12900KF Unl\
+ocked Desktop Pr\
+ocessor,v1|12515\
+1448960|0,289.99\
+ USD,https://www\
+.ebay.com/itm/12\
+5151448960,['FIX\
+ED_PRICE'],0.00,\
+,antonline,33546\
+2,,,NaN,New,[]\x0d\x0a\
+126,AMD Ryzen 9 \
+5950X 16-core & \
+32-thread Deskto\
+p Processor,v1|2\
+94161433526|0,38\
+3.99 USD,https:/\
+/www.ebay.com/it\
+m/294161433526,[\
+'FIXED_PRICE'],0\
+.00,,antonline,3\
+35462,,,NaN,New,\
+[]\x0d\x0a127,2024 Len\
+ovo IdeaPad Lapt\
+op 15.6 FHD 10-C\
+ore Intel i5 16G\
+B RAM 1TB SSD Wi\
+n11 PRO,v1|12667\
+8883714|0,459.00\
+ USD,https://www\
+.ebay.com/itm/12\
+6678883714?amdat\
+a=enc%3AAQAKAAAA\
+oFkggFvd1GGDu0w3\
+yXCmi1deKuvlWkvN\
+lDAL2DlAGCX3fUXT\
+kXkqoaUrLVWuNNwZ\
+5jIt6%2BiBSSdL7X\
+t7%2BE3aOiL0YTBr\
+C9QsAMWq%2BDPoaz\
+NhXBza0EzQXp%2BO\
+P9LC33iLm9wuFihs\
+NCLK%2B8lzRwENzr\
+%2BXZF%2FavJWXlD\
+ITOkgk9JaqaRWlsU\
+6swU2535ezG9usmV\
+kSeZQyXu5lzWgfQg\
+HG%2FCg%3D,\x22['FI\
+XED_PRICE', 'BES\
+T_OFFER']\x22,0.00,\
+,hellogoodlife1,\
+14239,,,NaN,New,\
+[]\x0d\x0a128,Intel Co\
+re i7-14700KF Un\
+locked Desktop P\
+rocessor,v1|2959\
+92047052|0,354.9\
+5 USD,https://ww\
+w.ebay.com/itm/2\
+95992047052,['FI\
+XED_PRICE'],0.00\
+,,antonline,3354\
+62,,,NaN,New,[]\x0d\
+\x0a129,Intel Core \
+i9-14900K Unlock\
+ed Desktop Proce\
+ssor,v1|29602120\
+4138|0,449.99 US\
+D,https://www.eb\
+ay.com/itm/29602\
+1204138,['FIXED_\
+PRICE'],0.00,,an\
+tonline,335462,,\
+,NaN,New,[]\x0d\x0a130\
+,\x222024 Lenovo Id\
+eaPad Laptop 15.\
+6\x22\x22 FHD 10-Core \
+Intel i5 24GB RA\
+M 1TB SSD MS Off\
+ice\x22,v1|14621704\
+7090|0,479.00 US\
+D,https://www.eb\
+ay.com/itm/14621\
+7047090?amdata=e\
+nc%3AAQAKAAAAoFk\
+ggFvd1GGDu0w3yXC\
+mi1fUvPJo5TNLMkQ\
+7t2R%2Bi7kEImt7B\
+pzyh4j%2FgLJFxzq\
+l9%2Bpk33xHG7sPl\
+niAPOjk%2Ftwj7iL\
+scv5yfkTY%2BFQOP\
+2cAJ2m8uoJl22S0%\
+2B8wFvlzuOyZQoAs\
+S3CN9Z2Zud2OCnRz\
+V85B%2BdXDT6Ne9X\
+i27PqVfEYnIHbt%2\
+FzGgEl4ZYrBoeuij\
+tQRQcM0PQ5ELkquR\
+7HVc%3D,\x22['FIXED\
+_PRICE', 'BEST_O\
+FFER']\x22,0.00,,he\
+llogoodlife1,142\
+39,,,NaN,New,[]\x0d\
+\x0a131,\x22Acer Nitro\
+ 5  AN515-58 Int\
+el i7-12700h 16G\
+b RAM 512GB SSD \
+4Gb RTX3050 15.6\
+\x22\x22 FHD\x22,v1|16756\
+6662555|0,584.44\
+ USD,https://www\
+.ebay.com/itm/16\
+7566662555?amdat\
+a=enc%3AAQAKAAAA\
+oFkggFvd1GGDu0w3\
+yXCmi1dLDaL61%2F\
+6a2EfA6O60JLcEe2\
+G59gUVeqMSCMxOfU\
+3qjWZEEi2Ys64jxU\
+A4zld7THhfPqYvJd\
+lUl%2BBOG2WYktkw\
+kVYUUw9z%2BMH22m\
+J5SuljTvxxTGfmaH\
+lQYVC7Q6VypWo%2F\
+OLUCGcHcD66Ds96k\
+rE8zpr6javBUB0CO\
+rbOivaU4gDzWgBVX\
+eg3q2EYG1CikQQQ%\
+3D,\x22['FIXED_PRIC\
+E', 'BEST_OFFER'\
+]\x22,94.26,,compre\
+m,19467,,,NaN,Us\
+ed,[]\x0d\x0a132,Acer \
+Aspire 3 Laptop \
+15.6in 128GB AMD\
+ Ryzen 3 7320U 2\
+.4GHz Certified \
+Refurbished,v1|2\
+56195038210|0,19\
+9.00 USD,https:/\
+/www.ebay.com/it\
+m/256195038210?a\
+mdata=enc%3AAQAK\
+AAAAoFkggFvd1GGD\
+u0w3yXCmi1fKAqwO\
+mS1hnLlaiIiQr0uL\
+nRlLj%2FBSb5qaA8\
+70OS5N5yv1M%2BJe\
+ioRMRl8yWLbTkN4Q\
+Y1q7%2Fjann37IzZ\
+WRyspxGa5LLrJWXp\
+An15ULInMPphJCMh\
+arBnXe1VLDYvpq9D\
+mIFqi4JnCfFfEBK0\
+aXxNFdA8n2hGHch9\
+AKLOLx7earjY0aNF\
+z61nJxLnUHrSR7ly\
+k%3D,['FIXED_PRI\
+CE'],0.00,,acer,\
+73500,,,NaN,Cert\
+ified - Refurbis\
+hed,[]\x0d\x0a133,Acer\
+ 315 Chromebook \
+15.6in 64GB Inte\
+l Celeron N4500 \
+1.1GHz Certified\
+ Refurbished,v1|\
+256347779410|0,1\
+01.19 USD,https:\
+//www.ebay.com/i\
+tm/256347779410?\
+amdata=enc%3AAQA\
+KAAAAoFkggFvd1GG\
+Du0w3yXCmi1cPCSt\
+5GkTyM33kknmsPQ%\
+2B%2B4lmWYTxStvT\
+EQH88xTMuabWY0tI\
+FldkfZu1yrLl9bnD\
+zt%2FiUeXI2IUt7C\
+aNlGl7%2FljlvQtr\
+fsL7%2FELhTwSwq5\
+FF60OUIGYuIaPcuV\
+4MDB6Lk%2F5oBGsa\
+DgL6glTezGVoGz5R\
+8fPyTOTxp%2FrG1j\
+ZZcLObr4FbWqRPMd\
+aiB%2Fx8uJys%3D,\
+['FIXED_PRICE'],\
+0.00,,acer,73500\
+,,,NaN,Certified\
+ - Refurbished,[\
+]\x0d\x0a134,Acer Aspi\
+re 3 Laptop 15.6\
+in 1TB AMD Ryzen\
+ 5 7520U 2.8GHz \
+Certified Refurb\
+ished,v1|2668893\
+42994|0,275.99 U\
+SD,https://www.e\
+bay.com/itm/2668\
+89342994?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1fGry1PJc5jCB\
+FAuovFphA%2FjYO6\
+3ClKyMt1MsjwzK9S\
+hcAm4F%2FcNmJhSK\
+18tYYUukeD--msQu\
+Uxok5kvMNt1jCqfA\
+XUzld7HfZ0MKlY%2\
+BFDa16ZKCfjvELNO\
+yKucuWUxtMTsukt2\
+vahE3TqOqv%2Bhum\
+cZ7QdXIa88JZ1d7L\
+gySjjOAPi2ouVZTA\
+5H2yyjEhzP9DU%3D\
+,['FIXED_PRICE']\
+,0.00,,acer,7350\
+0,,,NaN,Certifie\
+d - Refurbished,\
+[]\x0d\x0a135,Acer Asp\
+ire 3 - 15.6in L\
+aptop 8GB 512GB \
+AMD Ryzen 5 2.8G\
+Hz Certified Ref\
+urbished,v1|2759\
+13158537|0,280.5\
+9 USD,https://ww\
+w.ebay.com/itm/2\
+75913158537?amda\
+ta=enc%3AAQAKAAA\
+AoFkggFvd1GGDu0w\
+3yXCmi1d2D4x7BDJ\
+WWFpUJr3zsdsXgkg\
+m6rwfx91VGZAzYmf\
+XWzaseNZRy6oTmB2\
+adK%2F6x6GDBm36L\
+jPKYpCsApSyUhx8g\
+D4%2Fvo88NINBowJ\
+oouJCZjmrHaI%2F6\
+BmO8JIwDwtGHH3zP\
+MJU7dttbUXbumEtk\
+5zIFg96JwF3imUOI\
+A%2ByZkcAmW8XCCg\
+5vfSn0cG0m%2BguN\
+uo%3D,['FIXED_PR\
+ICE'],0.00,,acer\
+,73500,,,NaN,Cer\
+tified - Refurbi\
+shed,[]\x0d\x0a136,Ace\
+r 315 - 15.6in C\
+hromebook 64GB S\
+SD Intel Celeron\
+ 1.1GHz Certifie\
+d Refurbished,v1\
+|256347786756|0,\
+140.75 USD,https\
+://www.ebay.com/\
+itm/256347786756\
+?amdata=enc%3AAQ\
+AKAAAAoFkggFvd1G\
+GDu0w3yXCmi1fHRK\
+N6NpcSMyBITGFciB\
+fpNFipcpaUr9ECuU\
+YJDJ19vuHe6wKTHi\
+Yq9UGI%2BfxKuLJg\
+hpUH9MeZO1G0V2q4\
+ZWgMNLMuQy%2BcGq\
+Vbh6g1X0ybLAHszA\
+X1T6jMg3v6tkbBU5\
+XgCAAlmZly4Ujiec\
+1jbn3D8NZM3LhhmZ\
+k37Jz6UOMMbsviLH\
+IG4z%2BUmDE84264\
+cNA%3D,['FIXED_P\
+RICE'],0.00,,ace\
+r,73500,,,NaN,Ce\
+rtified - Refurb\
+ished,[]\x0d\x0a137,Ac\
+er Predator XB3 \
+- 27in WQHD 2560\
+x1440 165Hz 1ms \
+400Nit Certified\
+ Refurbished,v1|\
+265045647896|0,2\
+29.99 USD,https:\
+//www.ebay.com/i\
+tm/265045647896?\
+amdata=enc%3AAQA\
+KAAAAoFkggFvd1GG\
+Du0w3yXCmi1e7HFg\
+vK5YeFfqzJ7Sr18L\
+WC5padSukH8KVMKG\
+bOsEuZIOHzC2KNV3\
+UNzD%2FrqJujajYi\
+b0AFIfcWiM9LsYUa\
+kTNDJztdvN8wqDON\
+Bv9q5ZuxPiauuQPQ\
+n02w6dBqZR6jS3YZ\
+cC%2BdF0%2FbESCO\
+7qRNjD2DENzyQq0j\
+t5o9ROHcJ1ItvcJt\
+kyMUcMKt9DxD4vWl\
+PI%3D,['FIXED_PR\
+ICE'],0.00,,acer\
+,73500,,,NaN,Cer\
+tified - Refurbi\
+shed,[]\x0d\x0a138,Ace\
+r Plus 515 Chrom\
+ebook 15.6in 8GB\
+ RAM 128GB SSD 1\
+.2GHz Certified \
+Refurbished,v1|2\
+76237750527|0,19\
+1.99 USD,https:/\
+/www.ebay.com/it\
+m/276237750527?a\
+mdata=enc%3AAQAK\
+AAAAoFkggFvd1GGD\
+u0w3yXCmi1c4A9QE\
+9adECPXE6kjGSVxd\
+azYt%2B7%2FWX0MC\
+eBbSrkYxjFtpbgii\
+GnxJLn%2BI0bNomN\
+2kq%2BDd4qxCFhMr\
+F0Mx1hmN8%2FrqXL\
+vOHG7FMcJTK9hewX\
+4zZKLzt9yZ42hj7w\
+mQEfKdiifQfcgKWN\
+iWliXU70a%2FM6jA\
+I6c0b6t5WelBk9ho\
+bgfT0dYr9g2b%2Fj\
+L%2FS9TLKW4%3D,[\
+'FIXED_PRICE'],0\
+.00,,acer,73500,\
+,,NaN,Certified \
+- Refurbished,[]\
+\x0d\x0a139,Acer XZ322\
+QU 31.5-Inch Cur\
+ved Monitor LED \
+144Hz 2560x1440 \
+Certified Refurb\
+ished,v1|2565474\
+14823|0,140.99 U\
+SD,https://www.e\
+bay.com/itm/2565\
+47414823?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1fpuXgu%2BaWN\
+%2F6c1ecy3fgSUuf\
+grvgaQuIwxjQMC%2\
+FMHYOPq%2FPX84Dl\
+icD44PZL9sbPftzR\
+N3uO5XLPbznyyIIL\
+qEZ59NzfDWh%2BKG\
+hLG2XVFWopi7M4rr\
+1%2B2EL4yDbXltFo\
+9F4%2Bae1dcEmEov\
+%2BPuGBUqN%2Frac\
+ueBwvg3ebByZmbe5\
+Gy0qp9DsIoAlhXRB\
+AlKDJxY%3D,['FIX\
+ED_PRICE'],0.00,\
+,acer,73500,,,Na\
+N,Certified - Re\
+furbished,[]\x0d\x0a14\
+0,Acer Aspire 5 \
+Laptop 15.6in 8G\
+B 512GB SSD Inte\
+l i5 2.1GHz Cert\
+ified Reburbishe\
+d,v1|25651897918\
+5|0,294.99 USD,h\
+ttps://www.ebay.\
+com/itm/25651897\
+9185?amdata=enc%\
+3AAQAKAAAAoFkggF\
+vd1GGDu0w3yXCmi1\
+db1sdykenBXpmjgp\
+mMmkSima%2FkpiCW\
+TMkWEPEHQeXdj0CX\
+OwhbUCKfEc5ZXuM2\
+MdVMQlEeBiN64MwB\
+h7cCrDFY0EO5uimE\
+PhccxbCi%2Bx%2B%\
+2B6WkfPa0QpVkhK%\
+2BWmeSvvUULjTf70\
+Yg3wvjqFY1avKDab\
+VKh9TGYdBpC95SCz\
+C4xlHiqazHbzKFOi\
+WK85QNlEdpA%3D,[\
+'FIXED_PRICE'],0\
+.00,,acer,73500,\
+,,NaN,Certified \
+- Refurbished,[]\
+\x0d\x0a141,Acer EI322\
+QUR - 31.5in Mon\
+itor WQHD 2560x1\
+440 165Hz 1ms Ce\
+rtified Refurbis\
+hed,v1|276104210\
+750|0,199.99 USD\
+,https://www.eba\
+y.com/itm/276104\
+210750?amdata=en\
+c%3AAQAKAAAAoFkg\
+gFvd1GGDu0w3yXCm\
+i1e8jrvdfTYlvV44\
+xU3Dlf1VK%2FDk5Q\
+shGS5zR5G0OgFodq\
+rb6oCu6edN6EZGUc\
+RsjOZx40UIOL%2FJ\
+FJ7AFwOjR5xMd4PJ\
+AnIMW7fT%2B95djT\
+dAXDT6RZfmJNJcNv\
+Bl77Twv8YOo9alXa\
+B2bEd0shlfiQzY84\
+PwWhTOpNsjeigDsz\
+iOOahtLTGZA%2FYv\
+Jg97DDuHdb4%3D,[\
+'FIXED_PRICE'],0\
+.00,,acer,73500,\
+,,NaN,Certified \
+- Refurbished,[]\
+\x0d\x0a142,Dell Preci\
+sion 7560 Laptop\
+ 15.6\xe2\x80\x9d FHD 6-C\
+ore i5 16GB RAM \
+512GB SSD Window\
+s 10 Pro,v1|2567\
+05607066|0,404.4\
+5 USD,https://ww\
+w.ebay.com/itm/2\
+56705607066?amda\
+ta=enc%3AAQAKAAA\
+AoFkggFvd1GGDu0w\
+3yXCmi1eaawMC3QL\
+qS5Gg58ay4mCBXMn\
+862A0wasoG2UVu4o\
+dedldOVrjDl25jEW\
+GS0szduCo5kVhfhi\
+DTzYUo6d2rC4wa0I\
+6t239uEyns4m2lgU\
+JfFOpRPzwnMNDaAv\
+OLQw7g%2FWNWSWIN\
+%2BNsHXa7E%2Fu5J\
+NoZaGFTqoDvt3%2B\
+l5yfXM4cWNHIhmne\
+jfaBTPHXkYw3cQdI\
+%3D,\x22['FIXED_PRI\
+CE', 'BEST_OFFER\
+']\x22,0.00,,discou\
+ntcomputerdepot,\
+131743,,,NaN,Exc\
+ellent - Refurbi\
+shed,[]\x0d\x0a143,HP \
+EliteBook 840 G5\
+ Laptop 14\xe2\x80\x9d In\
+tel i5 4-Core 16\
+GB RAM 256GB SSD\
+ Windows 11 Pro,\
+v1|256490655672|\
+0,234.69 USD,htt\
+ps://www.ebay.co\
+m/itm/2564906556\
+72?amdata=enc%3A\
+AQAKAAAAoFkggFvd\
+1GGDu0w3yXCmi1c5\
+f2ynGuw7kA5OYtbV\
+4fxG9r4GDaaj7u0z\
+cfUU8wizddDkLOH9\
+LoXoboeDt9TJsqNS\
+cOU1%2FUwB0Dr4Wn\
+ml48%2BgaZFMT6b3\
+fU6QtJ8AJkkwQcjJ\
+z%2BIRcoxxVTPJQz\
+pzvzeceozmPhQpKK\
+RNxgKdBs5Gtm0SKR\
+o4bkNg5yCg681Kmp\
+4N6XsI24FDwRT6sB\
+4XchA%3D,['FIXED\
+_PRICE'],0.00,,d\
+iscountcomputerd\
+epot,131743,,,Na\
+N,Excellent - Re\
+furbished,[]\x0d\x0a14\
+4,HP Victus Gami\
+ng 15.6 144Hz FH\
+D 2.6GHz i5-1350\
+0H 16GB 1TB SSD \
+RTX 4050 Very Go\
+od,v1|2771338658\
+37|0,659.99 USD,\
+https://www.ebay\
+.com/itm/2771338\
+65837?amdata=enc\
+%3AAQAKAAAAoFkgg\
+Fvd1GGDu0w3yXCmi\
+1dWhNDgHAh1Y7NKZ\
+OEnM8DB%2BtV8%2F\
+HLsUkqm3ygA7QfHO\
+VQfTbaX7Bsg945ap\
+GEpEFLf9GWpw5msN\
+IJrEhRr7Y7qrUGLA\
+HwgDvgS50btFDzV8\
+KF3ThYYAAvZnrEY7\
+TlSEbS6flKZRjhs2\
+jmXyW4xANIz9t6FK\
+ZhD8AyYtURyRNHnq\
+k1ROylX2o%2FVGli\
+f5CslqQs%3D,['FI\
+XED_PRICE'],0.00\
+,,itsworthmore,9\
+4229,,,NaN,Very \
+Good - Refurbish\
+ed,[]\x0d\x0a145,\x2215.6\
+\x22\x22 FHD Dell Prec\
+ision  Gaming La\
+ptop PC: Intel i\
+5! 16GB RAM~1TB \
+SSD! FirePro!\x22,v\
+1|116593182179|0\
+,279.94 USD,http\
+s://www.ebay.com\
+/itm/11659318217\
+9?amdata=enc%3AA\
+QAKAAAAoFkggFvd1\
+GGDu0w3yXCmi1dsg\
+ztZS6hB8JG55DE9Z\
+t%2FtaCRRZcfh%2B\
+YHu4sv7UVwAMwh88\
+Axzt7ljbcbCP8r0k\
+6EOw%2FjcYzq4Vcl\
+1iWMXkWVNZouwNRv\
+RyztF6%2BQUfd%2F\
+7dkntYGFW9QsGnSP\
+ccwzCFZWCLtmty5l\
+H%2BPahdTPFQJrLx\
+zB%2BTQ79wuONeMB\
+DxNgk1asvV%2Ftcz\
+eoq68BRB3oDMqQ%3\
+D,\x22['FIXED_PRICE\
+', 'BEST_OFFER']\
+\x22,0.00,,rinuvo,7\
+237,,,NaN,Good -\
+ Refurbished,[]\x0d\
+\x0a146,\x22Acer Nitro\
+ 5 Gaming Laptop\
+ Office 2024 15.\
+6\x22\x22 Ryzen 5 GTX \
+1650 32GB RAM & \
+1TB SSD\x22,v1|1271\
+26630150|0,799.0\
+0 USD,https://ww\
+w.ebay.com/itm/1\
+27126630150?amda\
+ta=enc%3AAQAKAAA\
+AoFkggFvd1GGDu0w\
+3yXCmi1ceSPBwYXa\
+vNmWWlSMG7nfwwdr\
+5oSLeEbvZ78Z017Z\
+t%2FzglQPpMV%2B2\
+Llbj6cPVhFjeyxFk\
+Mw9Gb9I0um10VrQ9\
+bgNIjYlIhoAdEM%2\
+BNy5%2Bp5Cr75yZy\
+T85ihMPiPkebI2h3\
+joe0kwz04oHI6lIf\
+%2BqSKL58LF%2Btx\
+gHaeyzRaBJ4lCXe8\
+DWm7LeVTuRSZ23Rh\
+UASw%3D,\x22['FIXED\
+_PRICE', 'BEST_O\
+FFER']\x22,0.00,,he\
+llogoodlife1,142\
+39,,,NaN,New,[]\x0d\
+\x0a147,Lenovo Thin\
+kPad P16 G1 i9 1\
+2950HX 32GB RAM \
+1TB M2 NVIDIA RT\
+X A4500 16GB,v1|\
+187148729984|0,3\
+927.41 USD,https\
+://www.ebay.com/\
+itm/187148729984\
+?amdata=enc%3AAQ\
+AKAAAAoFkggFvd1G\
+GDu0w3yXCmi1f2jw\
+uZZgxiRUWQyrX16c\
+qY3ZS2wC15DJ6dOp\
+EeAjPDLv0WGgbyGm\
+J92aH1lkCjyFiYKk\
+FD0siMLpXuM7Rkab\
+4I7oRBiW4X13iwj7\
+v8uyNJphW4%2FFef\
+qp9F%2Bihlf1BhTB\
+8%2FDhwpKeq0dKMv\
+Da0mstfN1Nb4tb2x\
+lWDzoy1rGNPq87Ik\
+s9CvYtiuP2OOCwIp\
+Xzw%3D,['FIXED_P\
+RICE'],34.46,,sp\
+ace_help_it,109,\
+,,NaN,Used,[]\x0d\x0a1\
+48,\x22Acer Nitro V\
+  ANV16-41 AMD R\
+yzen 5 8645HS 16\
+Gb  512GB SSD 6G\
+b RTX4050 16\x22\x22 1\
+65Hz\x22,v1|4058761\
+85313|0,649.45 U\
+SD,https://www.e\
+bay.com/itm/4058\
+76185313?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1cj1yVRwCzHCp\
+XxU%2FXQDAkrPXlF\
+tcdFcxdZhBb2VidC\
+x9POa1vOFG8HaLR%\
+2BndqbQejcnhh%2F\
+sm2mw4iNgMPVZg6W\
+7YUWZ9kJ3oqwjv2a\
+P2aqeSE0vbVMPRGo\
+BohVUOAiUzjX0Zg1\
+g8jcEOWcSYvoUsB%\
+2BkPBHyuLFfXAkzg\
+QO5kLY74BBjrr5JH\
+VM5KvOBpb3ToY%3D\
+,\x22['FIXED_PRICE'\
+, 'BEST_OFFER']\x22\
+,94.26,,comprem,\
+19467,,,NaN,Used\
+,[]\x0d\x0a149,\x22Dell L\
+atitude Laptop P\
+C Computer 14\x22\x22 \
+Ryzen 5 16GB RAM\
+ 256GB SSD Windo\
+ws 10 HDMI\x22,v1|2\
+65752692346|0,19\
+8.76 USD,https:/\
+/www.ebay.com/it\
+m/265752692346?a\
+mdata=enc%3AAQAK\
+AAAAoFkggFvd1GGD\
+u0w3yXCmi1dqM0MK\
+ulUcfDUrwcRes4Tn\
+wrM6m%2FaghKqmh3\
+0er9pHeck5WX8x2Y\
+W38rHusEjQi42kWO\
+s4g7NqddTY3f7Yr6\
+D%2FGcPUxsyX2sYL\
+76HxH8gJg6kITQp6\
+%2B44swwNjeF4zF0\
+PaQOr8PAuaSE1Zkn\
+Dq1jXjk0rJ5CFyMw\
+h8lsUBMryYOuyocV\
+sBkDJdPxBsvyPEEL\
+U%3D,['FIXED_PRI\
+CE'],0.00,,disco\
+untcomputerdepot\
+,131743,,,NaN,Ve\
+ry Good - Refurb\
+ished,[]\x0d\x0a150,\x22D\
+ell Latitude Lap\
+top PC 14\x22\x22 FHD \
+Core i5 11th Gen\
+ 16GB RAM 512GB \
+SSD Windows 11\x22,\
+v1|254579476051|\
+0,308.09 USD,htt\
+ps://www.ebay.co\
+m/itm/2545794760\
+51?amdata=enc%3A\
+AQAKAAAAoFkggFvd\
+1GGDu0w3yXCmi1c4\
+MeF%2B3iPGH6i29M\
+No2BD0QBvp0FI6gg\
+L6ud2zUHyeDWJK6R\
+MEkzneBOZ5L1s%2B\
+o49jnEdvPSAv7k4J\
+EZMDQw5E9zR91gWJ\
+ePcTlT27A0S%2FHD\
+mNOda7viUZQukezg\
+XYuo7KBpCH6r%2Bo\
+OkSDDoHlT%2BGQd%\
+2B8By3Ftn2ULscu0\
+qqpMaLIjYEOMs5H6\
+KM3ZW6iTv4I%3D,[\
+'FIXED_PRICE'],0\
+.00,,discountcom\
+puterdepot,13174\
+3,,,NaN,Good - R\
+efurbished,[]\x0d\x0a1\
+51,HP 15 Laptop \
+Computer 15.6 Of\
+fice 2024 6-Core\
+ Intel i3 FHD 16\
+GB RAM 1TB SSD P\
+ro,v1|1465974533\
+68|0,399.00 USD,\
+https://www.ebay\
+.com/itm/1465974\
+53368?amdata=enc\
+%3AAQAKAAAAoFkgg\
+Fvd1GGDu0w3yXCmi\
+1d4qInUWTqBXUKSi\
+O0uQStueUpgfVAi7\
+z45KufMEVllPSjEg\
+tyDtJ8oHR4gToMZB\
+SGQmyicFIaOpoOo%\
+2FdNRB6VlRLOnVU1\
+QqmHET72sn%2BK4e\
+8nN2VAs0IfWx%2BW\
+PTyuMnbHrWCZuvMz\
+jq%2FBDhe0ui2%2F\
+lFr7sYiTnVadbaPp\
+yHnI0%2FPMqiWw86\
+F788LTs8OoQIsI%3\
+D,\x22['FIXED_PRICE\
+', 'BEST_OFFER']\
+\x22,0.00,,hellogoo\
+dlife1,14239,,,N\
+aN,New,[]\x0d\x0a152,\x22\
+MSI GS66 Stealth\
+ 10SE-044 \xe2\x80\x93 15\
+.6\x22\x22 FHD 144Hz \xe2\
+\x80\x93i7-10750H\xe2\x80\x9316\
+GB RAM\xe2\x80\x93RTX 206\
+0\xe2\x80\x931TB SSD\x22,v1|\
+177180131805|0,5\
+69.99 USD,https:\
+//www.ebay.com/i\
+tm/177180131805?\
+amdata=enc%3AAQA\
+KAAAAoFkggFvd1GG\
+Du0w3yXCmi1ekdhZ\
+KXwsHSEcYn8uLxXa\
+bpckNjgMH3pLB%2B\
+LhYldRA--%2B2hc4\
+54av1IIB%2FyduTh\
+ZtJ%2Bm2yF9mXuJb\
+R4C3wVGUm8Zfn77R\
+Ii8wF45blw1leTLk\
+unGBeEYef%2Bbhnd\
+zxBOiyjFATtV7JPs\
+%2B2ruMpA0SixI81\
+8p8VKY28XQk9fVFz\
+Uye8eYPPk3UjIiB3\
+4etmSA1k%3D,['FI\
+XED_PRICE'],0.00\
+,,r3newtech,2271\
+0,,,NaN,Good - R\
+efurbished,[]\x0d\x0a1\
+53,\x22MSI P65 Crea\
+tor 9SE-692AU \xe2\x80\
+\x93 15.6\x22\x22 FHD \xe2\x80\x93\
+ i7-9750H \xe2\x80\x93 16\
+GB RAM \xe2\x80\x93RTX 20\
+60 \xe2\x80\x93512GB SSD\x22\
+,v1|177179679657\
+|0,427.49 USD,ht\
+tps://www.ebay.c\
+om/itm/177179679\
+657?amdata=enc%3\
+AAQAKAAAAoFkggFv\
+d1GGDu0w3yXCmi1c\
+z1Sts7jrPprlLwoz\
+vf0Glm2mdHehMmer\
+xXbja%2FHwV9SLx1\
+7vEPrCfDInLxkUjE\
+MAvjkVnOn3pM4FKr\
+CFo6duwSVvZec9Vj\
+a%2BRXUoU%2FJOna\
+hQb4dK%2ByYgN26K\
+Q3RUye2NWPyojHWm\
+K8YrSzY3Dw3CImpu\
+kUFwJTyoDGpfLh7T\
+F3tGFc7NLbmUK1Ji\
+ZXShJVkE%3D,['FI\
+XED_PRICE'],0.00\
+,,r3newtech,2271\
+0,,,NaN,Good - R\
+efurbished,[]\x0d\x0a1\
+54,\x22Dell Latitud\
+e 14\x22\x22 Laptop Co\
+mputer AMD Ryzen\
+ 5 PRO 16GB RAM \
+256GB SSD Window\
+s 10\x22,v1|2861254\
+44869|0,208.57 U\
+SD,https://www.e\
+bay.com/itm/2861\
+25444869?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1dZF3aVfhk6cA\
+da%2FnKCLq6%2FX5\
+66lLLnFMeI%2Bhqd\
+i3aWpmBdXpB9QdCu\
+a6YDJfa89NGT9xNb\
+fw3KVvq8QbU%2Bqz\
+JHnReZ4mXjr4zHxy\
+buRg9Fe3deSYLfxu\
+bZfp%2FauLiv9kvw\
+jOWRUw92Dt2qgzY2\
+FzdrrvjQAHkTiK7E\
+GXi%2BbjdhzgX3vV\
+T6wDCKYjfwXCJ490\
+4%3D,\x22['FIXED_PR\
+ICE', 'BEST_OFFE\
+R']\x22,0.00,,disco\
+untcomputerdepot\
+,131743,,,NaN,Ve\
+ry Good - Refurb\
+ished,[]\x0d\x0a155,\x22H\
+P EliteBook 840 \
+G4 Business Lapt\
+op 14\x22\x22 Core i5 \
+16GB RAM 256GB S\
+SD Windows 10\x22,v\
+1|285872318366|0\
+,191.67 USD,http\
+s://www.ebay.com\
+/itm/28587231836\
+6?amdata=enc%3AA\
+QAKAAAAoFkggFvd1\
+GGDu0w3yXCmi1chh\
+R2l0gghCzb7FCbt%\
+2FOUp3SlVJM3dBcw\
+ONevLGAffJ6QWXK0\
+hqVvZipXZ%2FfdHM\
+U%2Fb4Dh3axxg48Y\
+92pJL9trP%2FLdtO\
+ol8BobAct%2BLJKu\
+xnH3fPqhT5ZCV22Y\
+TXJD5hsRuGlY7Wny\
+gWp5%2FuquUn9%2F\
+G40l0iFji%2FqruJ\
+%2BQbpc%2BYHv3ed\
+OstQS59Fdtq03b5F\
+V0%3D,['FIXED_PR\
+ICE'],0.00,,disc\
+ountcomputerdepo\
+t,131743,,,NaN,V\
+ery Good - Refur\
+bished,[]\x0d\x0a156,\x22\
+15.6\x22\x22 Dell Lati\
+tude Laptop PC: \
+Intel i5 Quad-Co\
+re! 32GB RAM! 1T\
+B SSD! Windows 1\
+1\x22,v1|1163322339\
+76|0,319.95 USD,\
+https://www.ebay\
+.com/itm/1163322\
+33976?amdata=enc\
+%3AAQAKAAAAoFkgg\
+Fvd1GGDu0w3yXCmi\
+1eo7l7hO2W3hUdL2\
+5k48UdynW4FEBsQ7\
+uRXKPEZ0BcM5O5jo\
+8B229y3NVR0m7xq5\
+gFBwxt5uiDxlM%2B\
+UExt0BLHwUjrUC%2\
+BdvMjXokB87%2F9K\
+iWusXUQE5Z3gNHag\
+C1JyminAziYJY9fo\
+fHMPhkMB0ZnDTKH%\
+2BV0VSpAW43msOWe\
+uWMm7zhDVfrtpwOJ\
+YhbnvCN9Ng%3D,\x22[\
+'FIXED_PRICE', '\
+BEST_OFFER']\x22,0.\
+00,,rinuvo,7237,\
+,,NaN,Good - Ref\
+urbished,[]\x0d\x0a157\
+,Dell Latitude 5\
+420 14\xe2\x80\x9d Laptop\
+ Core i5 11th Ge\
+n 16GB Ram 256GB\
+ SSD Windows 11 \
+Pro,v1|266433553\
+734|0,249.33 USD\
+,https://www.eba\
+y.com/itm/266433\
+553734?amdata=en\
+c%3AAQAKAAAAoFkg\
+gFvd1GGDu0w3yXCm\
+i1epZ%2BoWX6qPu8\
+jN%2BKJTIpCeA2wf\
+LMiK24zAOXmLs7Uo\
+1t0rGFivSwkpQxtC\
+NKD6G0preDrbZHlb\
+60JW%2FdsOAuEXzI\
+rHsemJhKHNVdkO07\
+KTGI8N%2BqED5A5%\
+2BEOMzavR8D2iY62\
+DzMNswHxRtpwpjUU\
+nXvbHF3nbPqD0hcE\
+0Zx5v%2BpqbP0M1l\
+1%2F%2BQzKki%2FY\
+ITweQ%3D,['FIXED\
+_PRICE'],0.00,,d\
+iscountcomputerd\
+epot,131743,,,Na\
+N,Good - Refurbi\
+shed,[]\x0d\x0a158,Del\
+l Latitude 3400 \
+14\xe2\x80\x9d Laptop Int\
+el i5 Quad-Core \
+16GB RAM 256GB S\
+SD Windows 11,v1\
+|267023034235|0,\
+196.49 USD,https\
+://www.ebay.com/\
+itm/267023034235\
+?amdata=enc%3AAQ\
+AKAAAAoFkggFvd1G\
+GDu0w3yXCmi1etSY\
+J51V4bBEu%2Fk51X\
+JB515qlxF77MRMTl\
+ZChQfY931kZNEg50\
+aQ%2FehdB4Q9954B\
+MAQgwvmT44e%2B2E\
+oYI81PocJwoK54eu\
+D%2FFAh6pVnJsAfm\
+QR8LmUOEfY%2F1wG\
+PU%2BpjnePOZf7Z3\
+UhoZFyl8LZjIEZzS\
+ybimF5iUvs03IINi\
+n0Z3KtSYcLsjVjge\
+Nd2HM0KHM%3D,['F\
+IXED_PRICE'],0.0\
+0,,discountcompu\
+terdepot,131743,\
+,,NaN,Good - Ref\
+urbished,[]\x0d\x0a159\
+,Acer Nitro V AN\
+V15-51-59MT 15.6\
+'' (512GB SSD In\
+tel Core i5-1342\
+0H 2.1GHz 8GB...\
+,v1|357007794547\
+|0,500.00 USD,ht\
+tps://www.ebay.c\
+om/itm/357007794\
+547?amdata=enc%3\
+AAQAKAAAAoFkggFv\
+d1GGDu0w3yXCmi1c\
+iyy8%2F5tpCdl6sC\
+gf2mmMtDNngLf96m\
+0J%2BdYm92YWLihv\
+MSSQeKnmD8lqFVdV\
+3JIKPy58n%2B6e%2\
+Bb%2FjMezDztakhb\
+klRzq%2BFFZB0zEk\
+r394FiwulgxjkJJB\
+K0yKfPFbjdiz3fzh\
+5dt1MPS%2FNbV5zG\
+L%2BA7Lxb%2BTLAt\
+L%2Fe2D6bvKu79R1\
+nN0GBnIiyDij%2BV\
+LtVce4%3D,\x22['FIX\
+ED_PRICE', 'BEST\
+_OFFER']\x22,39.30,\
+,fiendknight231,\
+56,,,NaN,Used,[]\
+\x0d\x0a160,\x22Lenovo Id\
+eaPad 5 2-in-1 1\
+4\x22\x22 OLED Touch S\
+napdragon X Plus\
+ 16GB 512GB Pen \
+W11 Pro\x22,v1|3059\
+63666613|0,679.0\
+0 USD,https://ww\
+w.ebay.com/itm/3\
+05963666613?amda\
+ta=enc%3AAQAKAAA\
+AoFkggFvd1GGDu0w\
+3yXCmi1dkFZ7dsfP\
+wsom8WFX8rN3m9Rh\
+c6sZ9u7PElE4ECTK\
+XjR9TmjHN29w%2Fh\
+4r%2BT4zT4CNPYd2\
+x72kmHa3z2w17jZK\
+wDgYGv9kZTKJdI6R\
+S1RNfgqeHACCx7Lx\
+Nug42AbU7hZ05NHl\
+SOPtJ8Ru61fGOmrt\
+cr%2FX4Yadmax9Pc\
+NsNEsKDbnD09x0zK\
+WJD0rpdxiXl6%2BY\
+%3D,['FIXED_PRIC\
+E'],0.00,,themax\
+mart,14458,,,NaN\
+,New,[]\x0d\x0a161,\x22HP\
+ 15 Laptop 15.6\x22\
+\x22 HD Pentium Qua\
+d-Core N200 16GB\
+ 128GB SSD Webca\
+m Win 11 Red\x22,v1\
+|305542356538|0,\
+229.00 USD,https\
+://www.ebay.com/\
+itm/305542356538\
+?amdata=enc%3AAQ\
+AKAAAAoFkggFvd1G\
+GDu0w3yXCmi1djJF\
+AOechVbQ9SinK2ej\
+B2MdcdxuYddOomzz\
+sqJNVW6KHlTbVjZN\
+obKXeBagQmPHYZgX\
+FtZoNGCyfn4sUH3Q\
+35QFmxszBrCgc8hb\
+onLE3rqj8L85%2Bw\
+CUvcwX5sn5c3uEPN\
+0djgt4J0jvGJDEhZ\
+UNZTunSeCi1hEaBi\
+Ebt77rGIZktP2dT7\
+vSu9G9mhoEG%2Fbm\
+M%3D,['FIXED_PRI\
+CE'],0.00,,thema\
+xmart,14458,,,Na\
+N,Certified - Re\
+furbished,[]\x0d\x0a16\
+2,\x22HP Victus Gam\
+ing 15.6\x22\x22 144Hz\
+ FHD Core i5-124\
+50H 8GB 512GB SS\
+D GeForce RTX 30\
+50\x22,v1|305932423\
+338|0,599.00 USD\
+,https://www.eba\
+y.com/itm/305932\
+423338?amdata=en\
+c%3AAQAKAAAAoFkg\
+gFvd1GGDu0w3yXCm\
+i1coaRMSCgRWVUYY\
+xP0eWYaysJxSxu6C\
+sDka4nj5SLq8WTIt\
+N2yKwoGfQcp25V4V\
+4COKGVHGdp9yCYHl\
+bT3hh3D4r7oGZLXw\
+lt8sudeOUCAGCa4G\
+EJk9AARwZR6tKUcV\
+Z1jBpNZfNOVdSzTS\
+vda8Hw%2BmWQGmUQ\
+wbN0Tm4NWHMNzd%2\
+FR8usdQzkE4ScSkZ\
+1096gYY%3D,['FIX\
+ED_PRICE'],0.00,\
+,themaxmart,1445\
+8,,,NaN,New,[]\x0d\x0a\
+163,HP Victus Ga\
+ming 15.6 144Hz \
+FHD 3.3 GHz Ryze\
+n 5 7535HS 8GB 5\
+12GB SSD  RTX 20\
+50,v1|2973955585\
+06|0,469.99 USD,\
+https://www.ebay\
+.com/itm/2973955\
+58506?amdata=enc\
+%3AAQAKAAAAoFkgg\
+Fvd1GGDu0w3yXCmi\
+1fRJKN4eXl5si%2B\
+mWm%2FhqvFzy4Ikw\
+EsLVSTQBlxwueZyF\
+RlLMLu53oM%2FCRS\
+3v9ZaMTxvK7T%2F6\
+RG6NFWwmBl0JTG%2\
+BLV4cNzq%2Fij7x6\
+O8G6gr6NZyrAe1kE\
+oUGVz14ArZyx9d8N\
+IIWj1LEspIKIbDhm\
+swXs9LCHBRiyi7Xn\
+KEwLW0mr1qpIIZUr\
+gV8zFaKOotJvXY%3\
+D,['FIXED_PRICE'\
+],0.00,,itsworth\
+more,94229,,,NaN\
+,Excellent - Ref\
+urbished,[]\x0d\x0a164\
+,\x22HP 15 Laptop 1\
+5.6\x22\x22 HD Pentium\
+ Quad-Core N200 \
+8GB 128GB SSD We\
+bcam Win11 Home \
+Red\x22,v1|11616621\
+4886|0,209.00 US\
+D,https://www.eb\
+ay.com/itm/11616\
+6214886?amdata=e\
+nc%3AAQAKAAAAoFk\
+ggFvd1GGDu0w3yXC\
+mi1ecNM23gAmJSZf\
+DUntRVIz%2BR59Pu\
+ktP2ec4VGokdXzn8\
+GdkH2Id4rwbxhSuD\
+vJnTGLMmJ1eJPtw4\
+aw9ijpEIFpXQnHxc\
+oCsCI6%2BnoXlVZO\
+yBCl2E%2BwpnNpRI\
+9DbInzOtN5xCDnwr\
+keFR%2Fkp%2BLKFe\
+NohfMLvnWYzPFusf\
+bpe9oU4Dw6xdzSyr\
+lPWXh2ZepC0Tuo%3\
+D,['FIXED_PRICE'\
+],0.00,,themaxma\
+rt,14458,,,NaN,C\
+ertified - Refur\
+bished,[]\x0d\x0a165,N\
+ew Lenovo ThinkC\
+entre M70q Gen 5\
+ Tiny i5-14500T \
+16GB 512GB SSD W\
+i-Fi Kybd Mouse,\
+v1|296869004471|\
+0,699.00 USD,htt\
+ps://www.ebay.co\
+m/itm/2968690044\
+71?amdata=enc%3A\
+AQAKAAAAoFkggFvd\
+1GGDu0w3yXCmi1ci\
+Iy7QpMw3V1Y9a43j\
+C7XOWq%2Fsf8Wn3x\
+t%2BksVUWyad0kJH\
+frrlwSmQGyK%2FiX\
+FsJu4KI6CC2dYL9%\
+2BkoDlSNswjguQVW\
+nu5nZHVZj%2FgNKc\
+%2FF8DvLT4Dp92AE\
+hk2OZmWF7A2HNmxM\
+cI97YyFAm6axMhuR\
+86PARSmDXIHBY2jV\
+yfkcvTkYE5faU9HM\
+0XJGSnDJTmw%3D,[\
+'FIXED_PRICE'],0\
+.00,,themaxmart,\
+14458,,,NaN,New,\
+[]\x0d\x0a166,LOT of 1\
+0 Mixed Brand WD\
+/Samsung/SK Hyni\
+x 256Gb PCIe NVM\
+e SSD M.2 2280 D\
+rive,v1|30443079\
+0412|0,139.00 US\
+D,https://www.eb\
+ay.com/itm/30443\
+0790412?amdata=e\
+nc%3AAQAKAAAAoFk\
+ggFvd1GGDu0w3yXC\
+mi1eN78R%2BWgZgn\
+ZNd097p0BHHCc5%2\
+BEGt7Fhh2VGibVeO\
+oIpCPia0gh6FpLEh\
+50NI0lL9RHMK38Vw\
+Af09zFG1QMFXpuMV\
+TBcUV9wtFjOyBMHk\
+KgvGfiPWrvwG0AFY\
+dClVggJScx74d7kD\
+DoVtcCtOkPHyiORg\
+oGFw0J8KTmcEALLy\
+c6tB0jHxRlQ1DkTL\
+MkVEMYcY%3D,['FI\
+XED_PRICE'],0.00\
+,,themaxmart,144\
+58,,,NaN,Certifi\
+ed - Refurbished\
+,[]\x0d\x0a167,\x22Lenovo\
+ IdeaPad 5 2-in-\
+1 14\x22\x22 OLED Touc\
+h Snapdragon X P\
+lus 16GB 1TB FPR\
+ Pen W11Pro\x22,v1|\
+305288047831|0,7\
+59.00 USD,https:\
+//www.ebay.com/i\
+tm/305288047831?\
+amdata=enc%3AAQA\
+KAAAAoFkggFvd1GG\
+Du0w3yXCmi1eHXlS\
+MS99AUYhxEoYeKyW\
+WPpyW0RRwKj5WC1Q\
+y6jxrY1F%2BzuHxE\
+TpC23Ig6CAAiiE9D\
+%2FVevzMe4zzIhOM\
+RCkji59hrz8icCd4\
+mGnvhl5hWCAQh87p\
+54Nqnt7Oa15qDZ%2\
+Br%2F2SbELCcJ5D8\
+JbLZv0NQUbJ6uJu%\
+2BFIzW7cm55%2BSP\
+uupGBbMbBdOnk1CT\
+LyKX7oH0%3D,['FI\
+XED_PRICE'],0.00\
+,,themaxmart,144\
+58,,,NaN,New,[]\x0d\
+\x0a168,\x22New HP Lap\
+top 14\x22\x22 HD Inte\
+l Celeron N4120 \
+4GB 64GB eMMC SS\
+D Webcam Windows\
+ 11 S\x22,v1|115980\
+692081|0,199.00 \
+USD,https://www.\
+ebay.com/itm/115\
+980692081?amdata\
+=enc%3AAQAKAAAAo\
+FkggFvd1GGDu0w3y\
+XCmi1eqoJSI8LcVL\
+49KggKaDZQVsjb0%\
+2BEKvbAYulQvlhWv\
+SODNoW%2F%2ByHTl\
+aQvbs3X0Oda8COGZ\
+Xw1oAkVy9FmlBhwN\
+Ty8QijcZc2oe%2BA\
+WCeY%2BumYR9%2FZ\
+sAFItyosh39kV7B5\
+neYa1HnUUW1ye1NX\
+SPvvAIFw%2Feqe8-\
+-i1b01ioxCBBvqLu\
+9EAIcCi7OP5XbdYv\
+NqHE%3D,['FIXED_\
+PRICE'],0.00,,th\
+emaxmart,14458,,\
+,NaN,New,[]\x0d\x0a169\
+,\x22MSI PRO MP273A\
+ 27\x22\x22 FHD Busine\
+ss Flat IPS Moni\
+tor 100Hz/1ms Bu\
+ild-in Speaker\x22,\
+v1|256394149935|\
+0,79.99 USD,http\
+s://www.ebay.com\
+/itm/25639414993\
+5,['FIXED_PRICE'\
+],0.00,,starlit_\
+partner,10365,,,\
+NaN,Certified - \
+Refurbished,[]\x0d\x0a\
+170,MSI MAG B550\
+ TOMAHAWK AM4 AM\
+D B550 PCIe4.0 D\
+ualLAN ATX Mothe\
+rboard,v1|324412\
+779391|0,109.99 \
+USD,https://www.\
+ebay.com/itm/324\
+412779391,['FIXE\
+D_PRICE'],0.00,,\
+starlit_partner,\
+10365,,,NaN,Cert\
+ified - Refurbis\
+hed,[]\x0d\x0a171,\x22MSI\
+ PRO MP243XW 24\x22\
+\x22 FHD Business F\
+lat IPS Monitor \
+100Hz/1ms Build-\
+in Speaker\x22,v1|3\
+25992173578|0,67\
+.99 USD,https://\
+www.ebay.com/itm\
+/325992173578,['\
+FIXED_PRICE'],0.\
+00,,starlit_part\
+ner,10365,,,NaN,\
+Certified - Refu\
+rbished,[]\x0d\x0a172,\
+MSI MAG B550 TOM\
+AHAWK MAX WIFI A\
+M4 AMD WiFi 6E A\
+TX Motherboard,v\
+1|256138650503|0\
+,119.99 USD,http\
+s://www.ebay.com\
+/itm/25613865050\
+3,['FIXED_PRICE'\
+],0.00,,starlit_\
+partner,10365,,,\
+NaN,Certified - \
+Refurbished,[]\x0d\x0a\
+173,\x22MSI GeForce\
+ RTX 3050 VENTUS\
+ 2X XS 8G OC Gra\
+phics Card, PCI-\
+E Gen 4\x22,v1|3260\
+87403646|0,189.9\
+9 USD,https://ww\
+w.ebay.com/itm/3\
+26087403646,['FI\
+XED_PRICE'],0.00\
+,,starlit_partne\
+r,10365,,,NaN,Ce\
+rtified refurbis\
+hed,[]\x0d\x0a174,\x22MSI\
+ G32C4XS 31.5\x22\x22 \
+FHD Curved Gamin\
+g Monitor, 250Hz\
+/1ms 3000:1 HDR \
+Ready\x22,v1|326049\
+399384|0,149.99 \
+USD,https://www.\
+ebay.com/itm/326\
+049399384?amdata\
+=enc%3AAQAKAAAAo\
+FkggFvd1GGDu0w3y\
+XCmi1fkwajyomVg7\
+5GMX6nsNXZJsEzI7\
+z3kQftUE0kFVLHgH\
+DbZ%2FpBddKazIei\
+fTh9q%2Fg1zx3qlS\
+2d57FrEHEH6IPUq%\
+2F8t50onrW9nVS3S\
+fS2GQDzOYQeN5jE4\
+TyqhDxrm5%2B5QO%\
+2FwQT4wWjQ8uf6it\
+eZPZyauB6yMvIvAk\
+nnup3b6Af8%2FLZa\
+iYj%2FEzUWGl8lMN\
+%2BZQg%3D,['FIXE\
+D_PRICE'],0.00,,\
+starlit_partner,\
+10365,,,NaN,Cert\
+ified - Refurbis\
+hed,[]\x0d\x0a175,\x22MSI\
+ Optix G32C4W 31\
+.5\x22\x22 FHD Curved \
+Gaming Monitor, \
+165Hz, 1ms, 3000\
+:1, Wide View\x22,v\
+1|145603455451|0\
+,129.99 USD,http\
+s://www.ebay.com\
+/itm/14560345545\
+1,['FIXED_PRICE'\
+],0.00,,starlit_\
+partner,10365,,,\
+NaN,Certified - \
+Refurbished,[]\x0d\x0a\
+176,\x22MSI PRO MP2\
+43X 24\x22\x22 FHD Bus\
+iness Flat IPS M\
+onitor 100Hz/1ms\
+ Build-in Speake\
+r\x22,v1|1455733707\
+59|0,67.99 USD,h\
+ttps://www.ebay.\
+com/itm/14557337\
+0759,['FIXED_PRI\
+CE'],0.00,,starl\
+it_partner,10365\
+,,,NaN,Certified\
+ - Refurbished,[\
+]\x0d\x0a177,\x22MSI G274\
+QPF 27\x22\x22 WQHD Fl\
+at Rapid IPS Gam\
+ing Monitor, 170\
+Hz/1ms HDR400\x22,v\
+1|145613148025|0\
+,139.99 USD,http\
+s://www.ebay.com\
+/itm/14561314802\
+5,['FIXED_PRICE'\
+],0.00,,starlit_\
+partner,10365,,,\
+NaN,Certified - \
+Refurbished,[]\x0d\x0a\
+178,MSI MPG B550\
+ GAMING PLUS AM4\
+ AMD B550 PCIe 4\
+.0 ATX Motherboa\
+rd,v1|1439961010\
+08|0,97.99 USD,h\
+ttps://www.ebay.\
+com/itm/14399610\
+1008,['FIXED_PRI\
+CE'],0.00,,starl\
+it_partner,10365\
+,,,NaN,Certified\
+ - Refurbished,[\
+]\x0d\x0a179,Dell Lati\
+tude 5411 Laptop\
+ PC 14\xe2\x80\x9d FHD Co\
+re i5 32GB RAM 5\
+12GB SSD Windows\
+ 11 Pro,v1|28605\
+5616899|0,318.51\
+ USD,https://www\
+.ebay.com/itm/28\
+6055616899?amdat\
+a=enc%3AAQAKAAAA\
+oFkggFvd1GGDu0w3\
+yXCmi1dErch0CPzy\
+fwSv9SA760lN0SiC\
+oZ1Ag9jaUewJUiLd\
+IpWFNaGhC0pn9nl2\
+icoYpLUwUSvub3jA\
+av0rFGC97XzbaUQ8\
+%2FmNm3MbSg4Uo34\
+rpTGJbmzAuKcrToz\
+8s29B2gEwaJqmrk0\
+IN%2F1oweZ81wSPN\
+0D0yH2JQmonBAjdS\
+6GnnkrkhkscRBjFW\
+JGdIhMOVpBU%3D,[\
+'FIXED_PRICE'],0\
+.00,,discountcom\
+puterdepot,13174\
+3,,,NaN,Good - R\
+efurbished,[]\x0d\x0a1\
+80,\x22Dell Latitud\
+e 7410 Business \
+Laptop 14\x22\x22 Core\
+ i7 4.9GHz 16GB \
+RAM 256GB SSD Wi\
+n 11\x22,v1|2860473\
+94395|0,292.54 U\
+SD,https://www.e\
+bay.com/itm/2860\
+47394395?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1d0RatvoL62RQ\
+OXBsKrhkTfyeXRfC\
+p2rzrvKkvMQBdXEV\
+5qOYkE4mYhWJw1rB\
+tgTyNYwErov%2B4V\
+Z2pN7jX7jV81Uqwt\
+EeBu5DJ3uBgYlun5\
+K5%2BuDQnx1SD9NO\
+xBQ3SD7PKJpXc%2B\
+b56VKfOsqBd%2BRi\
+oqrJ5b1xm2OcS8gi\
+OzjhPQtskwTLyQPh\
+INrzx6lV9rPl0%3D\
+,['FIXED_PRICE']\
+,0.00,,discountc\
+omputerdepot,131\
+743,,,NaN,Good -\
+ Refurbished,[]\x0d\
+\x0a181,\x22HP V24i G5\
+ 24\x22\x22 FHD 1920x1\
+080 IPS Monitor \
+5ms 75 Hz HDMI V\
+GA Display Port\x22\
+,v1|165917584066\
+|0,92.00 USD,htt\
+ps://www.ebay.co\
+m/itm/1659175840\
+66?amdata=enc%3A\
+AQAKAAAAoFkggFvd\
+1GGDu0w3yXCmi1dy\
+PFtNy5L3WIevB%2F\
+DRmhf29ADlBP7QFY\
+2iH66NeszUdeDFAd\
+oGimKKfq4diyTnpQ\
+4MKIsbH%2FOMRQH1\
+qvF0eoDbFZPdIqlJ\
+AqAMsjHS7763tGix\
+QuGtbT9MaDpP77aW\
+Rl615AflkNa7CbWh\
+yOCFgcIO2yjxj736\
+dEDianjhFwBr14O7\
+Il%2FwIuadMsCPV4\
+Ph2L8%3D,['FIXED\
+_PRICE'],0.00,,p\
+rycedin,69632,,,\
+NaN,Certified - \
+Refurbished,[]\x0d\x0a\
+182,\x22BenQ MOBIUZ\
+ EX3210U 32\x22\x22 4K\
+ HDR 1ms Gaming \
+Monitor 144Hz HD\
+MI DisplayPort\x22,\
+v1|374112619167|\
+0,427.00 USD,htt\
+ps://www.ebay.co\
+m/itm/3741126191\
+67?amdata=enc%3A\
+AQAKAAAAoFkggFvd\
+1GGDu0w3yXCmi1c7\
+KEqkeoPz7LsvnyBO\
+s3jj9YjdiALnlXz7\
+dUzQt%2Fn1iucDdH\
+8xGC73fBBUuzkXiK\
+E72nshz3yDE0nfcZ\
+bTsK3%2BNSTcmflh\
+G8OZlBbwD7OORiL6\
+pT7b7sgRCXVf0O52\
+trNntXiWDe2rX8I0\
+AqavOZ8T5FvAoO%2\
+BUXUgueJxVvpmQik\
+Aqut%2ByyZOuCr2Z\
+XUnwfas%3D,['FIX\
+ED_PRICE'],0.00,\
+,prycedin,69632,\
+,,NaN,Certified \
+- Refurbished,[]\
+\x0d\x0a183,\x222025 ASUS\
+ Vivobook 16\x22\x22 L\
+aptop 10-Core In\
+tel i7-1355U 40G\
+B RAM 1TB SSD Wi\
+n 11 Pro\x22,v1|126\
+978844867|0,719.\
+00 USD,https://w\
+ww.ebay.com/itm/\
+126978844867?amd\
+ata=enc%3AAQAKAA\
+AAoFkggFvd1GGDu0\
+w3yXCmi1fCoaqlK5\
+X0f3eeVMvwWwSskF\
+wmFDeWRWIEtfiJ54\
+FwkaNYWDU7iROlaW\
+ZCiCm5MLvZm0Wr4E\
+nQjh7JWsZfN6zvBo\
+LhFVXq78pMqYulBX\
+X02g6ju7vRSuhF3J\
+jGYbZVCKwcuV1In3\
+lve5pjId7bZXnRiZ\
+%2FyOtYtorCGjOdW\
+V7DLpO9g6eNARsrp\
+6tiLMELuVug%3D,\x22\
+['FIXED_PRICE', \
+'BEST_OFFER']\x22,0\
+.00,,hellogoodli\
+fe1,14239,,,NaN,\
+New,[]\x0d\x0a184,\x2216\x22\
+\x22 ASUS TUF 165Hz\
+ A16 Gaming Lapt\
+op AMD Ryzen 7 7\
+735HS 16GB 512GB\
+ SSD Excellent\x22,\
+v1|297379926343|\
+0,799.00 USD,htt\
+ps://www.ebay.co\
+m/itm/2973799263\
+43?amdata=enc%3A\
+AQAKAAAAoFkggFvd\
+1GGDu0w3yXCmi1d9\
+t%2Fu3nmVRhriJK7\
+npDjvGJwJzaTuPWS\
+KjqHxgX2Ae8i5qY9\
+H8rLmouYIu2Miq5B\
+ilapCbR2btZfApfZ\
+SuVfiDRinYXnN%2F\
+CRYQMnkaqAcjNIy6\
+IA3JuFukuC1ewR8U\
+0D1jkwezQgo0lN2i\
+R7YorkKX0ix55ASv\
+PTaidnIh2Q%2FU%2\
+FN3fLlFbJJOgDXcg\
+OXCS6rA%3D,['FIX\
+ED_PRICE'],0.00,\
+,goroostr,8718,,\
+,NaN,Excellent -\
+ Refurbished,[]\x0d\
+\x0a185,BenQ TH575 \
+1080p Home Enter\
+tainment Project\
+or | 3800 Lumens\
+ | Loud 10W Spea\
+ker,v1|375496991\
+612|0,544.99 USD\
+,https://www.eba\
+y.com/itm/375496\
+991612?amdata=en\
+c%3AAQAKAAAAoFkg\
+gFvd1GGDu0w3yXCm\
+i1f0NaMKKd8og7Fh\
+zRHir1BH4wph%2BH\
+0vep0d7S7Y6g5h5b\
+qZCnRmbSUyu0VPzf\
+3QmrP5B%2BQ17UfC\
+i5RHm7rqVDo%2F0H\
+r8%2FEfoclj1rSXW\
+c0%2B8HSOwjDSAj%\
+2Fh%2FbU1kw%2Bb1\
+2jR%2FWFxUTx4R7M\
+R2RvWIvcmRirwejl\
+fKWnPXSZif43IEF2\
+PmDTH9cbrLHGR7x%\
+2Fuxrew%3D,['FIX\
+ED_PRICE'],0.00,\
+,prycedin,69632,\
+,,NaN,Certified \
+- Refurbished,[]\
+\x0d\x0a186,\x222021 HP 1\
+4-DQ2053CL 14\x22\x22 \
+FHD IPS Intel Co\
+re i3-1125G4 8GB\
+ DDR4 RAM 256GB \
+W11H\x22,v1|1654576\
+76079|0,232.00 U\
+SD,https://www.e\
+bay.com/itm/1654\
+57676079?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1egAKHovaGfkv\
+1fOgXHee%2B7neaZ\
+3ixGZAHQiXMBnYD6\
+Du%2B5J4dYpjSdJI\
+v5TL9GBR%2FOrpPG\
+LghJ2Gyi97nKmrtL\
+IF5iDwcaUNete3rQ\
+83IvUg0KOpoouwv%\
+2BTYr5MN%2FNqmzq\
+hJYACgFV8iq1xOGG\
+Qh6fmY8W2ojodRT3\
+xF5VH4uDD6nOGB%2\
+Fx4vGo2a%2Bj0EkQ\
+aPU%3D,['FIXED_P\
+RICE'],0.00,,pry\
+cedin,69632,,,Na\
+N,Certified - Re\
+furbished,[]\x0d\x0a18\
+7,BenQ TK850 Tru\
+e 4K HDR-PRO DLP\
+ Projector for M\
+ovies Gaming & S\
+ports Dynamic Ir\
+is,v1|3734633400\
+03|0,859.99 USD,\
+https://www.ebay\
+.com/itm/3734633\
+40003?amdata=enc\
+%3AAQAKAAAAoFkgg\
+Fvd1GGDu0w3yXCmi\
+1crqI%2BBSCIyFV4\
+LtROISTlZTQOBilW\
+PzbRfKz1dDg3Dra5\
+%2B1HMQ5%2FQSXig\
+3oN9aNDXkXlBl62g\
+VzGc9W4oRN3bTd57\
+xb9shm86JM5IbsMk\
+6k7Xf%2FLZAK8F8Z\
+%2F1eGnxzIH2vC1Z\
+4l4QMMOam6scrOIg\
+B7TGAEGPGY%2B3Yc\
+w9V0Rd7Njw4k1l3o\
+SdEWIOU1Ta4LMs%3\
+D,['FIXED_PRICE'\
+],0.00,,prycedin\
+,69632,,,NaN,Cer\
+tified - Refurbi\
+shed,[]\x0d\x0a188,\x22HP\
+ ENVY 6052e All-\
+in-One Wireless \
+Color Inkjet Pho\
+to Printer, Prin\
+t, Copy, Scan\x22,v\
+1|166623157782|0\
+,52.00 USD,https\
+://www.ebay.com/\
+itm/166623157782\
+?amdata=enc%3AAQ\
+AKAAAAoFkggFvd1G\
+GDu0w3yXCmi1dRID\
+oiqlwsO56DFxFM6U\
+kVVKtow6DHbcrW8T\
+bN%2Fe9VVbnAXAyU\
+ImeG6bi8XnCHc4sA\
+iWXauV7Og7WRorFl\
+RYbx%2FJv37XsN5K\
+759PmLskimMjr9q%\
+2FacEytXitBMbauH\
+k46B7VJaSQyFMy6%\
+2FpJMatHQPFsQvvT\
+7f6dfJ7xNej%2BO%\
+2Fy4ZX8sk%2Fa5RL\
+dBbcpY33B14%3D,[\
+'FIXED_PRICE'],0\
+.00,,prycedin,69\
+632,,,NaN,Certif\
+ied - Refurbishe\
+d,[]\x0d\x0a189,\x222023 \
+ASUS Zenbook UM3\
+402YA 14\x22\x22 2.8K \
+OLED Touch Lapto\
+p Ryzen5 7530U 8\
+GB 256GB W11\x22,v1\
+|375180679177|0,\
+429.99 USD,https\
+://www.ebay.com/\
+itm/375180679177\
+?amdata=enc%3AAQ\
+AKAAAAoFkggFvd1G\
+GDu0w3yXCmi1cN2A\
+Ixfp50rI10smwf42\
+5xDmDtIisHo0yzzv\
+0lFfpgSpOxoLy1iC\
+X1ri7UpC2kB2ABQa\
+qsEClD7Nh623UKJI\
+q5dkiXIZFjdKSaN7\
+upRGxV1WJtVKLGwS\
+eswTvC37JwMozU5a\
+MbKNGV3xfAuiNMcd\
+3txqTiZj8XhTo1JT\
+JJTpohd%2BZ2C6uf\
+FM9EQwa4u7WRm5s%\
+3D,['FIXED_PRICE\
+'],0.00,,prycedi\
+n,69632,,,NaN,Ce\
+rtified - Refurb\
+ished,[]\x0d\x0a190,\x22H\
+P 17-cn2083dx 17\
+.3\x22\x22 FHD IPS Lap\
+top Intel i3-121\
+5U 3.30 GHz 8GB \
+256GB SSD W11S\x22,\
+v1|375817685079|\
+0,239.00 USD,htt\
+ps://www.ebay.co\
+m/itm/3758176850\
+79?amdata=enc%3A\
+AQAKAAAAoFkggFvd\
+1GGDu0w3yXCmi1cl\
+11SU2UDTIG2%2FRN\
+lrc9xwSf1vLEGur1\
+kMNygWAH8IVnsURU\
+5dDhmJ4kJvqaDwLr\
+tcvWiH4ik1NgN8F8\
+vGOrq5WKjmcaQanl\
+nVNUYjiAJLL2sBhn\
+qf4ZDslecUseqW5n\
+sjBx6VBAFxQFyU4G\
+pBS1Sic5MYxNPmqj\
+2TEsVRFnRf1D1chS\
+9sTPQM8%2By0%2BE\
+vMDgU%3D,['FIXED\
+_PRICE'],0.00,,p\
+rycedin,69632,,,\
+NaN,Certified - \
+Refurbished,[]\x0d\x0a\
+191,\x22ASUS CX1500\
+CKA 15.6\x22\x22 FHD N\
+anoEdge Intel N4\
+500 8GB 64GB Mil\
+itary Grade Chro\
+mebook\x22,v1|16702\
+5758236|0,108.00\
+ USD,https://www\
+.ebay.com/itm/16\
+7025758236?amdat\
+a=enc%3AAQAKAAAA\
+oFkggFvd1GGDu0w3\
+yXCmi1fU%2B9oPst\
+KGB3%2FHnbwXFBmE\
+h0EeA0dCcaRT7X6U\
+0nl9xXjNgX2o9cQT\
+wMdHLbsb0cVFCzzG\
+dd66jXoC38n1IypS\
+q1ZuOfCWMqs8KSxb\
+eDWe2K50wdbxEI1I\
+RiS63epHyqRN8MjP\
+lPCddiUgNGTqTXdR\
+Hv%2B7bE6CAXgyh9\
+RfRcffkoTY8da4iZ\
+ZxKOj0RZTmF0c%3D\
+,['FIXED_PRICE']\
+,0.00,,prycedin,\
+69632,,,NaN,Cert\
+ified - Refurbis\
+hed,[]\x0d\x0a192,\x22Ben\
+Q GW2283 22\x22\x22 Fu\
+ll HD 1920x1080 \
+60Hz 5ms Slim Be\
+zel Widescreen L\
+ED IPS Monitor\x22,\
+v1|164224118708|\
+0,79.00 USD,http\
+s://www.ebay.com\
+/itm/16422411870\
+8?amdata=enc%3AA\
+QAKAAAAoFkggFvd1\
+GGDu0w3yXCmi1di4\
+cmMj5tSV%2FEQ9o6\
+7j2VgLNPow%2FqsQ\
+W%2FceL4gSPxcciE\
+b1Lk7a6Hx0yew0cN\
+SDDpbwoksRscs%2F\
+XZrTGDzZs6pWk2nO\
+VAHB3UXDtkUWw8AZ\
+FxcGZd6eHmoq0z40\
+HVViU4FgCb3NJ10t\
+MRwQIJ9TSnjcQjpC\
+H0rLg%2FAafCVlTl\
+NyPbgYCBQ8BXXpqQ\
+YnClYNxI%3D,['FI\
+XED_PRICE'],0.00\
+,,prycedin,69632\
+,,,NaN,Certified\
+ - Refurbished,[\
+]\x0d\x0a193,Lenovo Th\
+inkPad E15 Lapto\
+p 15.6\xe2\x80\x9d FHD Co\
+re i5 16GB RAM 2\
+56GB SSD Windows\
+ 11 Pro,v1|28628\
+7864775|0,325.00\
+ USD,https://www\
+.ebay.com/itm/28\
+6287864775?amdat\
+a=enc%3AAQAKAAAA\
+oFkggFvd1GGDu0w3\
+yXCmi1eFKxbN8yu0\
+pagRJkFsOhF5FdXq\
+t5Jeq%2B7R5s6jfF\
+TuoYxEzvG7zTfmzY\
+I%2BxWHQzc%2BLHn\
+Zjm6L3imT9ETePXz\
+RfzVeyzgUSWrkRD%\
+2F%2BIiHz00nUtx0\
+LZwudnXxxGtNF%2F\
+YBzxvUtTzh0qiYdl\
+qPsMKwnAgxatG2nI\
+DWO9cvR7tm69np1m\
+AB7UHiEldLC7Jv8C\
+dMc%3D,\x22['FIXED_\
+PRICE', 'BEST_OF\
+FER']\x22,0.00,,dis\
+countcomputerdep\
+ot,131743,,,NaN,\
+Excellent - Refu\
+rbished,[]\x0d\x0a194,\
+Dell Inspiron 15\
+.6 Laptop Touch \
+FHD Intel i7 32G\
+B RAM 1TB SSD+1T\
+B HDD Office2024\
+,v1|146506951038\
+|0,769.00 USD,ht\
+tps://www.ebay.c\
+om/itm/146506951\
+038?amdata=enc%3\
+AAQAKAAAAoFkggFv\
+d1GGDu0w3yXCmi1c\
+5cY1gO7pTBIOHmhN\
+ay6gQ4Cmy8SvuDjX\
+hOWiiztkM64z8meP\
+LUS0uq87gViDdegU\
+gHrsSuIc9GMDkI3N\
+fTVy7y%2FXFdFaC%\
+2FbjjsSFRc2JsYuL\
+ZbItRDYGkhpqfv9l\
+Wa%2BXFPfVRfJ%2B\
+L9solhy2sQmutwDE\
+7KyA%2BPOnT8ps38\
+HFF6lUJ4sK1lIiY4\
+75YpD8reiA%3D,\x22[\
+'FIXED_PRICE', '\
+BEST_OFFER']\x22,0.\
+00,,hellogoodlif\
+e1,14239,,,NaN,N\
+ew,[]\x0d\x0a195,HP Vi\
+ctus Gaming 15.6\
+ Blue 144Hz FHD \
+2.1 GHz i5-13420\
+H 8GB 512GB SSD \
+RTX 3050,v1|2974\
+01906946|0,579.9\
+9 USD,https://ww\
+w.ebay.com/itm/2\
+97401906946?amda\
+ta=enc%3AAQAKAAA\
+AoFkggFvd1GGDu0w\
+3yXCmi1fuC5%2Bp8\
+r%2F6tvh%2BywYKL\
+OK7GNTZ9oMo7KtAy\
+axkZ56IM6mRq%2Bk\
+o5uphE5HDICEcIIo\
+WbK0vgznfuhGlijh\
+riOnugvkq1E122Ey\
+bayQ7RtHneiMsODz\
+cxFxzQAd1JqTyWsm\
+FWKMyvvOFyNc5KSM\
+6qTJN3L%2BLiENb1\
+7ACs%2FjQ0af4U%2\
+FGoOvP8RpX7YxpG0\
+cODeOk%3D,['FIXE\
+D_PRICE'],0.00,,\
+itsworthmore,942\
+29,,,NaN,Excelle\
+nt - Refurbished\
+,[]\x0d\x0a196,\x22Dell L\
+atitude 14\x22\x22 Lap\
+top Core i7 11th\
+ Gen 4.8GHz 16GB\
+ RAM 256GB SSD W\
+indows 10\x22,v1|26\
+7154269405|0,311\
+.67 USD,https://\
+www.ebay.com/itm\
+/267154269405?am\
+data=enc%3AAQAKA\
+AAAoFkggFvd1GGDu\
+0w3yXCmi1fGumSFs\
+SZfCHTDE9KEY%2FJ\
+wi6DG4DeivSgemAG\
+WKLWuQBNL7HtCveQ\
+fdYUkRdhZr60CSJq\
+Zg9VqQoGbrdbTN0p\
+Dy%2FyMDGIi7ygOb\
+mP%2BiP%2Fy6oNEy\
+j%2FuauIB2oPC6CA\
+g12hAsp6HVx3IA8q\
+Sa2XZVXTVV2Tqrz0\
+X8yOBh6JyIgFihPr\
+RrY6dwjmnaEF8eXx\
+GInw%3D,\x22['FIXED\
+_PRICE', 'BEST_O\
+FFER']\x22,0.00,,di\
+scountcomputerde\
+pot,131743,,,NaN\
+,Very Good - Ref\
+urbished,[]\x0d\x0a197\
+,HP ProBook X360\
+ 11 G6 Touchscre\
+en 11.6\xe2\x80\x9d Lapto\
+p Core i3 8GB RA\
+M 128GB SSD Win \
+11,v1|2667911011\
+15|0,179.99 USD,\
+https://www.ebay\
+.com/itm/2667911\
+01115?amdata=enc\
+%3AAQAKAAAAoFkgg\
+Fvd1GGDu0w3yXCmi\
+1f9B4JtNS9Y%2FuB\
+Cw6ouw0gE5CyDcO3\
+hkyAPKN8hvFfF6a3\
+j6mSOFunfI6Vgwjh\
+qiB%2B0xzFGNmobi\
+yKqrWL0CJmD313Hc\
+hbaQOMTzhNmFZqyP\
+s%2BwzdDoPQUK0Zi\
+Q%2B41HxmsAxKxUG\
+TvGfGH9nyxTq1ouJ\
+kAr8CGEKD8rcCYrN\
+adwRbfEEzMYkbsKH\
+LvGYjcfs%2FI%3D,\
+['FIXED_PRICE'],\
+0.00,,discountco\
+mputerdepot,1317\
+43,,,NaN,Very Go\
+od - Refurbished\
+,[]\x0d\x0a198,Asus G7\
+3JW Laptop Intel\
+ Core i7-Q740 1.\
+7GHz 6GB RAM NO \
+HDD NVIDIA GeFor\
+ce GTX460,v1|166\
+790963171|0,168.\
+00 USD,https://w\
+ww.ebay.com/itm/\
+166790963171?amd\
+ata=enc%3AAQAKAA\
+AAoFkggFvd1GGDu0\
+w3yXCmi1efgb3s56\
+GvGhzRtd1hqMeggo\
+Q8JWIDYjjpfDMttD\
+90%2FvdGeXvD6Vs8\
+22oKjRA5TjCbGaXX\
+3hYc9QqjZJlfXx7L\
+Zme%2BIVHMSkO2cx\
+O2rxotLQG0rGbZl7\
+DBzzQQqLhkmQJMSV\
+ukyT2wIWFSpCzSQg\
+Ee92s8g9uaDjAyat\
+%2FXWqHLK1Y1%2Bi\
+RoECKaDtdzOd3dVA\
+w%3D,\x22['FIXED_PR\
+ICE', 'BEST_OFFE\
+R']\x22,0.00,,quali\
+ty.parts93,24017\
+,,,NaN,For parts\
+ or not working,\
+[]\x0d\x0a199,\x22Dell La\
+titude E5470 14\x22\
+\x22 Laptop Intel C\
+ore i7 8GB RAM 5\
+12GB SSD Windows\
+ 10 HDMI\x22,v1|286\
+068797934|0,208.\
+57 USD,https://w\
+ww.ebay.com/itm/\
+286068797934?amd\
+ata=enc%3AAQAKAA\
+AAoFkggFvd1GGDu0\
+w3yXCmi1fNd31Sj6\
+T3plRjaG%2BbMpSL\
+eZUUTTA4cp0wZNuk\
+JzYKsb77IANTDFny\
+zldQK7fr0YDW8ZiA\
+DD%2BeOq609v1H7s\
+3FSNeWRMIAhbtLeK\
+ZGPLGzxzuGPRb2pP\
+y%2FO6MDFSHztVG1\
+LUYQOGBZr4bSfUsU\
+pl6o%2B8%2B2dYWh\
+sjFk%2Fah%2BJSpu\
+GyDTy%2B%2FNcmpq\
+IuH2E2cXLmU%3D,[\
+'FIXED_PRICE'],0\
+.00,,discountcom\
+puterdepot,13174\
+3,,,NaN,Used,[]\x0d\
+\x0a200,Dell Latitu\
+de 5521 Laptop 1\
+5.6\xe2\x80\x9d 8-Core i7\
+ 4.8GHz 16GB RAM\
+ 256GB SSD Win 1\
+1 Pro,v1|2565806\
+94395|0,304.68 U\
+SD,https://www.e\
+bay.com/itm/2565\
+80694395?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1enwbNaHs49Ug\
+AVCi4%2BVGkOnYJ5\
+QT5r40qOgdh9OmD4\
+KQGhqgTdh5UwpURR\
+SRg7KihqXGY%2Bqd\
+uIEHT0%2FRYlCsoQ\
+UIIwWfwRcBmYOFFi\
+vbDpvMR6b1PJ4I21\
+EYf2FsxdvL%2FVML\
+TqEvnmWLwp3mY9BH\
+fwizt4%2BVytIm%2\
+F4Lv1goLqoXKBoF3\
+zdd4r3176CXyxSmB\
+Y%3D,\x22['FIXED_PR\
+ICE', 'BEST_OFFE\
+R']\x22,0.00,,disco\
+untcomputerdepot\
+,131743,,,NaN,Go\
+od - Refurbished\
+,[]\x0d\x0a201,\x22MSI Cr\
+eator M16 16\x22\x22 L\
+aptop, i7, RTX 3\
+060, 32GB RAM, 1\
+TB SSD, Win11 Pr\
+o\x22,v1|1771807266\
+48|0,1049.99 USD\
+,https://www.eba\
+y.com/itm/177180\
+726648?amdata=en\
+c%3AAQAKAAAAoFkg\
+gFvd1GGDu0w3yXCm\
+i1fjp1l5%2BsCgZO\
+4m9rGzmlPrS1kRiA\
+hWO5LPwUukqPvTOr\
+ex8zkq%2F%2Bxs2o\
+Ox8I6wyV6FXDwDZB\
+GuVg19BuK6wxTypX\
+9tsjetAI33bqXuQq\
+4yOsrjhY%2B5DCjM\
+lMlimnmZ4%2BAkTl\
+1m8LVVxrkjLJB4Sb\
+0pun4WcpwrZL%2B3\
+ohN1ToAL5M1HMIWr\
+Mz5yEQFskxYckF4%\
+3D,\x22['FIXED_PRIC\
+E', 'BEST_OFFER'\
+]\x22,0.00,,onfired\
+eals,42,,,NaN,Ne\
+w,[]\x0d\x0a202,MSI Th\
+in 15.6 Inch FHD\
+ Laptop Intel Co\
+re i5-13420H GeF\
+orce RTX 4060 16\
+GB DDR4 ,v1|1675\
+75229345|0,769.0\
+0 USD,https://ww\
+w.ebay.com/itm/1\
+67575229345?amda\
+ta=enc%3AAQAKAAA\
+AoFkggFvd1GGDu0w\
+3yXCmi1f%2B%2Far\
+Y4QcG%2Fr9n88DRI\
+j3CoCv2lt3AoJi6i\
+yLH4amhC7w%2BJCa\
+pnYanZQAURDbH0rA\
+gTJw0wmbcvbal8Ds\
+g2Z%2FIv%2FoHyyu\
+vrLDg2gQxD9kVLct\
+IhNKwN%2FJQGExpt\
+mgxRGrwsMZJyFuds\
+qUD0QZTc8jH9WGgO\
+xTNx3p%2FBHm14MO\
+VfCR8ko%2FMFL%2F\
+lGsZqgJNQ4PM%3D,\
+['FIXED_PRICE'],\
+0.00,,digi-tech-\
+plus,138,,,NaN,N\
+ew,[]\x0d\x0a203,\x22MSI \
+Creator M16 16\x22\x22\
+ Laptop, i7-1265\
+0H, RTX 3060, 32\
+GB RAM, 1TB SSD,\
+ QHD+ 60Hz\x22,v1|1\
+77180721580|0,10\
+44.99 USD,https:\
+//www.ebay.com/i\
+tm/177180721580?\
+amdata=enc%3AAQA\
+KAAAAoFkggFvd1GG\
+Du0w3yXCmi1e%2BK\
+o1XdXjQPZbovxrrS\
+w4h9WbT7PNU2gv%2\
+FPt9OQEa0j3v2B8f\
+sAm0tRay6%2FbJZI\
+TpzTu4Ucw9Ua8xxX\
+ExZsmJxr2GD2zO2n\
+hbQEx81EYZhBNnqs\
+5pdenjaajhsbpirF\
+2TsG1DGaa5FxGmtZ\
+Pm58g%2F5n%2BUux\
+md%2BsCyAMYFojWq\
+bc6GNwJT0O0zJhx2\
+dE8IQvJk%3D,\x22['F\
+IXED_PRICE', 'BE\
+ST_OFFER']\x22,0.00\
+,,onfiredeals,42\
+,,,NaN,New,[]\x0d\x0a2\
+04,HP ZBook 15u \
+G3 15.6\xe2\x80\x9d Works\
+tation Laptop Co\
+re i7 16GB RAM 2\
+56GB SSD Windows\
+ 10,v1|267157284\
+916|0,295.42 USD\
+,https://www.eba\
+y.com/itm/267157\
+284916?amdata=en\
+c%3AAQAKAAAAoFkg\
+gFvd1GGDu0w3yXCm\
+i1dxll%2FgN8p0PL\
+qvpuNsgoLoSlq3wm\
+l7%2FLrfWquth1e9\
+gpvUuNLyNNtWmHED\
+9M5WnVjnv8j63BdL\
+%2FSjOJkoHC2%2Fd\
+mp%2FBvyoOPDILAN\
+PIvvVKoAAGkkAnW%\
+2B0znAoaUf3ZS2Fu\
+s8E7m5yVW79mll8X\
+zBgOR21%2FUkNl%2\
+B5cUz%2BP%2FbQBF\
+lrgfhK56bmZrCc%2\
+Bk0v%2FqSAA%3D,\x22\
+['FIXED_PRICE', \
+'BEST_OFFER']\x22,0\
+.00,,discountcom\
+puterdepot,13174\
+3,,,NaN,Very Goo\
+d - Refurbished,\
+[]\x0d\x0a205,\x22Dell 15\
+.6\x22\x22 NVIDIA Gami\
+ng Laptop - Inte\
+l Core i7 4.80GH\
+z 16GB RAM 512GB\
+ SSD W11P\x22,v1|33\
+5987342105|0,599\
+.00 USD,https://\
+www.ebay.com/itm\
+/335987342105?am\
+data=enc%3AAQAKA\
+AAAoFkggFvd1GGDu\
+0w3yXCmi1dflvzB8\
+43ItNO2%2FtsCKFr\
+F8pmG2RsjgUZgd3f\
+gt57aj9Kbh3qABIU\
+FkjWiWOmcZWLoqNv\
+US0Mb367LxeKQ%2F\
+f0Ms0PZ%2BPX%2FR\
+qId%2F4kyEuCZcBM\
+x88rhG2NcQwRAEbr\
+yEKFguHtL%2F4TVA\
+M5TNCavZbfL%2BW0\
+5M%2Fgsv1tUGeOzk\
+wGhd4bt1BPriJb%2\
+FE7bHe3%2BXnao%3\
+D,['FIXED_PRICE'\
+],0.00,,aaa_pcs,\
+5707,,,NaN,Excel\
+lent - Refurbish\
+ed,[]\x0d\x0a206,ASUS \
+ROG Strix G15 15\
+.6'' (1TB SSD AM\
+D Ryzen 9 5900HX\
+ 3.3GHz 32GB RAM\
+)...,v1|33596770\
+5421|0,1099.00 U\
+SD,https://www.e\
+bay.com/itm/3359\
+67705421?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1eDOrPqGGXj5t\
+hBdZTMamaBLkibsT\
+KJwkRrLuLkOZmJqc\
+Hz6yd9kHxwvP7Dy6\
+YpvSbTb7hJgCq0Hx\
+U%2B09lBNQ5KUaO0\
+hkP4tvsfmAoTD7x8\
+DVEBe1B279XCz4Zw\
+%2FkL8yipcFc18Mi\
+ClGnNG60jrVaot5z\
+kSr1LDSskYEi5q3a\
+wywJfuffFkNqdmjf\
+CSPWB1aKA%3D,['F\
+IXED_PRICE'],3.0\
+0,,isuperstore99\
+,381,,,NaN,Used,\
+[]\x0d\x0a207,\x22Dell La\
+titude 7290 12.5\
+\x22\x22 FHD Quad-Core\
+ i7 Laptop Windo\
+ws 11 16GB RAM 5\
+12GB SSD\x22,v1|283\
+987164379|0,264.\
+04 USD,https://w\
+ww.ebay.com/itm/\
+283987164379?amd\
+ata=enc%3AAQAKAA\
+AAoFkggFvd1GGDu0\
+w3yXCmi1dYHXrDNO\
+QS%2BsR0sQiTGg7k\
+JBoFVk%2FmEDIa4z\
+sa%2BalzszF1k2HC\
+qIRrYCLhqyIRw7gz\
+Oe7W1inErlYDttbt\
+0C7kgywjs3VAbpUZ\
+lWqf2I%2BhT6%2BJ\
+33eQFU2A0h%2BMj%\
+2FL5T8dyzsgUJWL6\
+ZNotd49tLgWCfL4h\
+uJ1%2BNPSai%2BIo\
+PICyG1GGCN6kA1qH\
+TdXfO%2BpIeKo%3D\
+,['FIXED_PRICE']\
+,0.00,,discountc\
+omputerdepot,131\
+743,,,NaN,Very G\
+ood - Refurbishe\
+d,[]\x0d\x0a208,\x22Dell \
+5520 15.6\x22\x22 Touc\
+hscreen Intel Co\
+re i5 4.40 GHz 8\
+GB RAM 512GB SSD\
+ Win 11 Pro\x22,v1|\
+335822786472|0,4\
+65.00 USD,https:\
+//www.ebay.com/i\
+tm/335822786472?\
+amdata=enc%3AAQA\
+KAAAAoFkggFvd1GG\
+Du0w3yXCmi1evaqS\
+cGXOL7Tkt68rkQwS\
+EE0woqNsYBfp4xGI\
+jz3sij3UF8Ua4eZ3\
+Pqhz9X9QLtUk%2FS\
+5evNXwcuT%2BedD9\
+juZLn3k0cK9U%2BV\
+dNaqXxeFznbYrL9Y\
+9sCQVso5WPOnZ%2B\
+QBmpIeevuj7xNL3A\
+okUBmYpzv4hoG7Gc\
+7f3%2F0unGLYMiHi\
+9%2BlR5Hh7ip3Y%2\
+FqGNNifw18%3D,['\
+FIXED_PRICE'],0.\
+00,,aaa_pcs,5707\
+,,,NaN,Very Good\
+ - Refurbished,[\
+]\x0d\x0a209,\x22Dell 15.\
+6\x22\x22 NVIDIA Gamin\
+g Laptop - Intel\
+ Quad Core i7 64\
+GB RAM 2TB SSD W\
+in 11 Pro\x22,v1|33\
+5309034074|0,659\
+.99 USD,https://\
+www.ebay.com/itm\
+/335309034074?am\
+data=enc%3AAQAKA\
+AAAoFkggFvd1GGDu\
+0w3yXCmi1dvrIUWE\
+ZDafBFFyb7qCgLOO\
+nCxjmgACKZmLT4n3\
+w3ixYz9lXiXatVWr\
+uvM7jEUYepfNPwu2\
+HKrXxpHdhvyu4pcz\
+XgicVlOHyznEdWgB\
+xZcSSkPJQmr%2FOQ\
+ulCwiFbnrBSdkHtN\
+CCktO8oCFXEmliBI\
+ZBh0yZs9NYaR48DK\
+CyCwE9Km%2BBhxjA\
+f9khM--QA1NE7k%3\
+D,['FIXED_PRICE'\
+],0.00,,aaa_pcs,\
+5707,,,NaN,Very \
+Good - Refurbish\
+ed,[]\x0d\x0a210,\x22Dell\
+ Latitude 14\x22\x22 L\
+ight Gaming Lapt\
+op 32GB RAM 1TB \
+SSD Intel Core i\
+7 Windows 11\x22,v1\
+|335687791979|0,\
+465.00 USD,https\
+://www.ebay.com/\
+itm/335687791979\
+?amdata=enc%3AAQ\
+AKAAAAoFkggFvd1G\
+GDu0w3yXCmi1dUXd\
+fnqZUhPPTu2ytjBa\
+ii7ukwVov2o%2Bcq\
+ZPXvH40blbuyxbFv\
+HfvUW8Nawf%2B082\
+gg8UT3bxTX5L6tgs\
+wmUIrQc2YlVjrl9m\
+idun3A5TWnGoZY2N\
+wUHekJTa0RFmrbqZ\
+%2BrfCsCVnHVIJtH\
+aFqLf8xIFIXQ%2FV\
+Wy3263msKhMhlSRI\
+Ju5zoNt7WH6esK2D\
+i4YN4%3D,['FIXED\
+_PRICE'],0.00,,a\
+aa_pcs,5707,,,Na\
+N,Very Good - Re\
+furbished,[]\x0d\x0a21\
+1,\x22Lenovo ThinkP\
+ad T14 Touch 14\x22\
+\x22 Intel Core i7 \
+4.90 GHz 32GB RA\
+M 1TB SSD Win 11\
+ Pro\x22,v1|3354976\
+64548|0,579.99 U\
+SD,https://www.e\
+bay.com/itm/3354\
+97664548?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1efWW3lsdlAyV\
+zLjwg787b%2Fr4iY\
+XU90Sm%2FJ8pPB2y\
+5%2FskDEwIQQFhb5\
+3aZl7faGblmZM6%2\
+B8HIDOIII4bEiTND\
+iKYB3G30qcni%2FM\
+tSIWhgH6mtd8BRFj\
+wdJ9YGC8b5H5TqoT\
+jpoUD%2B7I8a4Yyu\
+cJCUL1UK4zanzH4m\
+%2BAb%2FCRjXzo6m\
+Mm9MtVc7kyo%2BY4\
+iSDv%2FZk%3D,['F\
+IXED_PRICE'],0.0\
+0,,aaa_pcs,5707,\
+,,NaN,Very Good \
+- Refurbished,[]\
+\x0d\x0a212,\x22Dell 5520\
+ 15.6\x22\x22 Touchscr\
+een Intel Core i\
+5 4.40 GHz - 64G\
+B RAM 1TB SSD Wi\
+n 11 Pro\x22,v1|335\
+687601888|0,569.\
+99 USD,https://w\
+ww.ebay.com/itm/\
+335687601888?amd\
+ata=enc%3AAQAKAA\
+AAoFkggFvd1GGDu0\
+w3yXCmi1dPWbbpJ%\
+2BfKS3P9T3R7jeGT\
+%2Fw8QE4SMxi8EqU\
+cwXnkxfCjZYaMnOn\
+ZTHfiOoq0RSngkCJ\
+bIkSCnJ1CnK%2FTM\
+IO0%2Bq3Hrg%2Fzx\
+9wOrCiYmVLRTkSgS\
+2P%2FVMHmWmP%2Ba\
+20BJXqlBwczpJ4r3\
+zyrvRrIrA3tkFrJn\
+smZyF3Z5h9YP2Vmq\
+poZBQ6K05Sl9fERJ\
+%2BF2IZ4A%3D,['F\
+IXED_PRICE'],0.0\
+0,,aaa_pcs,5707,\
+,,NaN,Very Good \
+- Refurbished,[]\
+\x0d\x0a213,\x22Dell 5520\
+ 15.6\x22\x22 Touchscr\
+een Intel Core i\
+5 4.40 GHz 16GB \
+RAM 512GB SSD Wi\
+n 11 Pro\x22,v1|335\
+891118104|0,459.\
+99 USD,https://w\
+ww.ebay.com/itm/\
+335891118104?amd\
+ata=enc%3AAQAKAA\
+AAoFkggFvd1GGDu0\
+w3yXCmi1fl6qc%2F\
+NV%2FQPSL8gz4Xop\
+JSZec9XnYbLIVVQy\
+yUcxYy%2FsJkzkVm\
+SSm2jo9dQhnUbpqG\
+D4qQPMhbydCdWs8I\
+nYgnbYU35s5iceoT\
+nlDwchQeUPcUawRO\
+yYD82UAAlR6Eg8Ux\
+5KxND1bDSvUIBQpp\
+OEfFoYEGy1JMoiav\
+EIZC%2BdgQChQbmn\
+Y%2FnKEa%2F1z5Xb\
+o3lQY%3D,['FIXED\
+_PRICE'],0.00,,a\
+aa_pcs,5707,,,Na\
+N,Very Good - Re\
+furbished,[]\x0d\x0a21\
+4,\x22Lenovo LOQ 15\
+.6\x22\x22 144Hz Gamin\
+g Laptop - Intel\
+ Core i5 - Nvidi\
+a RTX 3050 - 8GB\
+ RAM\x22,v1|2054609\
+41698|0,615.00 U\
+SD,https://www.e\
+bay.com/itm/2054\
+60941698?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1fk0CNr%2BhXC\
+dYm1O6rbrkeSaTRB\
+lrFYV36p4kklmf6B\
+AuaO7%2BMZ7UU7Xb\
+u1NQaQcbhADqF63%\
+2Bwz%2FxGa9TmWdf\
+3%2B86Be7mHPlIZr\
+np69cCMHL9huzskh\
+OssJVRYz2ajQAFHs\
+q25QhbCTAIr796d1\
+7ignbuVC3fKPC%2B\
+6Y32vaDYrfml8rNG\
+VVABbRVVmcI3lxom\
+M%3D,['FIXED_PRI\
+CE'],0.00,,sunny\
+girl48176,10187,\
+,,NaN,New,[]\x0d\x0a21\
+5,New ASUS TUF A\
+15 FHD 144Hz Lap\
+top Ryzen 5 7535\
+HS 16GB 512GB RT\
+X4060 FA507NV-EH\
+53,v1|1872800043\
+65|0,839.99 USD,\
+https://www.ebay\
+.com/itm/1872800\
+04365?amdata=enc\
+%3AAQAKAAAAoFkgg\
+Fvd1GGDu0w3yXCmi\
+1eN2arUzwBKk1E%2\
+BQiZMAYR4DFwfNgH\
+gRgymeiOM3OUwHWT\
+gu%2FkWISqsSXSJ3\
+TznmmE9cC7weG93f\
+sEBvj%2F9bRFQXjJ\
+usMscYFck4zagV7E\
+OC833pRMkOj3%2FU\
+NS%2BMVhSg6wafMa\
+aSr2WwX5x%2FnKlM\
+B4F5zWz0lSwZCSC%\
+2BHdLraiBF7j%2FR\
+EdVc%2Bp%2FtKYQF\
+nE3KlU%3D,['FIXE\
+D_PRICE'],0.00,,\
+chouz_ecomm,5589\
+,,,NaN,New,[]\x0d\x0a2\
+16,2024 HP Lapto\
+p Notebook 15 FH\
+D 12th Gen Intel\
+ i5 32GB RAM 1TB\
+ SSD WinPro Offi\
+ce,v1|1267289233\
+34|0,529.00 USD,\
+https://www.ebay\
+.com/itm/1267289\
+23334?amdata=enc\
+%3AAQAKAAAAoFkgg\
+Fvd1GGDu0w3yXCmi\
+1clSSz%2F6kUhY3m\
+dWpGss%2FijXjVUr\
+21UaJnyF0%2B2Z1v\
+dXcI3TD0ePGOy9id\
+z57MqC0t6PPTOU4W\
+SWofoMgkwKd5azuN\
+uMuRC2KSgPFu5gAv\
+QeDQnyVvxuJaaeNv\
+58%2BRm%2B26Y26u\
+6avTUJxCEru1pJvN\
+hRwEV12GAl0t%2Fq\
+LBjdMezqEKgvnlqX\
+9cxskuQudcuhKw%3\
+D,['FIXED_PRICE'\
+],0.00,,hellogoo\
+dlife1,14239,,,N\
+aN,New,[]\x0d\x0a217,G\
+.SKILL Ripjaws V\
+ Series 16GB 288\
+-Pin SDRAM DDR4 \
+3200 (PC4 25600)\
+ Desktop Memory,\
+v1|381431652128|\
+0,37.49 USD,http\
+s://www.ebay.com\
+/itm/38143165212\
+8?amdata=enc%3AA\
+QAKAAAAoFkggFvd1\
+GGDu0w3yXCmi1eGY\
+a%2BNSaNT1CZK2Ka\
+pV42lE91wLuLQ%2F\
+CecOioRoA1xGWXf0\
+gjUj2VaghXuw%2B7\
+fTyjJ9B0RVs6tZlI\
+SOhoyipRkPBmXlm8\
+CVOvwT8QK4QZU749\
+7uiLaj9CLz3tQA0r\
+xBgShzCLKokPQ9MJ\
+HNUW%2FURTgFwCoB\
+E67Z7lc5EyqjwYlz\
+QvQk4DYRjOopQWHQ\
+KGf5DI%3D,['FIXE\
+D_PRICE'],0.00,,\
+newegg,1041524,,\
+,NaN,New,[]\x0d\x0a218\
+,WD Elements 8TB\
+ External Hard D\
+rive USB 3.0 Des\
+ktop HDD Black,v\
+1|302811882818|0\
+,142.99 USD,http\
+s://www.ebay.com\
+/itm/30281188281\
+8,['FIXED_PRICE'\
+],0.00,,newegg,1\
+041524,,,NaN,New\
+,[]\x0d\x0a219,G.SKILL\
+ Ripjaws V Serie\
+s 32GB (2 x 16GB\
+) 288-Pin DDR4 S\
+DRAM 3200 Deskto\
+p Memory,v1|2916\
+06948488|0,61.99\
+ USD,https://www\
+.ebay.com/itm/29\
+1606948488,['FIX\
+ED_PRICE'],0.00,\
+,newegg,1041524,\
+,,NaN,New,[]\x0d\x0a22\
+0,G.SKILL Ripjaw\
+s V Series 16GB \
+(2 x 8GB) 288-Pi\
+n PC RAM DDR4 36\
+00 (PC4 28800) I\
+nt,v1|3032611246\
+00|0,37.49 USD,h\
+ttps://www.ebay.\
+com/itm/30326112\
+4600?amdata=enc%\
+3AAQAKAAAAoFkggF\
+vd1GGDu0w3yXCmi1\
+fl%2B2yHd0ZQqapJ\
+44cMMvqeOyyBKvFa\
+mO4i2vizTGWBSeyV\
+QzmcssRpK1yByWPc\
+d9AI7%2F79aFQfno\
+u3apgQo%2BpHxzty\
+Qq2fJcUFTa%2Ftke\
+U5PGZU6i1Gvo9Y97\
+zF2QWNJbq0t5zzSm\
+RB0y%2BSDFTjhcR3\
+TS%2BwJsrQ9qo%2B\
+GazmknfsRp6Uc4kd\
+dtqhjeS12BzaKkE%\
+3D,['FIXED_PRICE\
+'],0.00,,newegg,\
+1041524,,,NaN,Ne\
+w,[]\x0d\x0a221,WD Ele\
+ments 10TB USB 3\
+.0 Portable Exte\
+rnal Desktop Har\
+d Drive - Black \
+HDD,v1|382581881\
+519|0,224.49 USD\
+,https://www.eba\
+y.com/itm/382581\
+881519,['FIXED_P\
+RICE'],0.00,,new\
+egg,1041524,,,Na\
+N,New,[]\x0d\x0a222,G.\
+SKILL Ripjaws V \
+Series 16GB 288-\
+Pin PC RAM DDR4 \
+3200 (PC4 25600)\
+ Desktop Memor,v\
+1|291602742593|0\
+,37.49 USD,https\
+://www.ebay.com/\
+itm/291602742593\
+?amdata=enc%3AAQ\
+AKAAAAoFkggFvd1G\
+GDu0w3yXCmi1fykM\
+BVJpngV1euTsgtsp\
+mgPo2P8nx0KXeElD\
+DLqOMgFkDBkVZT07\
+lqbbfQhROWMZtmCj\
+9qTjYXMJsuKmg0cn\
+7vrmrU7msbw3rAmj\
+Gz2R%2Fk7KGnLuUg\
+4gNHHRaGJqyZHawW\
+SYH%2Fo9A2rdK7uT\
+LJXczGkpXshhmlqx\
+71FA2X%2FigtQ0xj\
+hmLBHQZ0wY1ai49K\
+7gE%3D,['FIXED_P\
+RICE'],0.00,,new\
+egg,1041524,,,Na\
+N,New,[]\x0d\x0a223,CO\
+RSAIR Vengeance \
+LPX 16GB (2 x 8G\
+B) DDR4 3200 (PC\
+4 25600) Desktop\
+ Memory,v1|38139\
+7607742|0,39.49 \
+USD,https://www.\
+ebay.com/itm/381\
+397607742?amdata\
+=enc%3AAQAKAAAAo\
+FkggFvd1GGDu0w3y\
+XCmi1fJ530xFVAWi\
+Gc668UgrHCs43QKO\
+tMoTHzjScp0Qo7I6\
+doZ9hjcYBVUNbz4X\
+hXjtuxnDDQplgP4D\
+C0IQAzpFqDR2PziO\
+UsOvxINcqhFJgCvG\
+hTdBhyAa7Q4BWeK9\
+pwLzCl8QSGGS%2Fi\
+VCPRiEPGf2wYPn0x\
+GeTWggRFz%2Foysg\
+QW%2FO%2Fe8XpRTj\
+GYEtMrg%2BB5jIIM\
+%3D,['FIXED_PRIC\
+E'],0.00,,newegg\
+,1041524,,,NaN,N\
+ew,[]\x0d\x0a224,\x22MSI \
+Thin 15.6\x22\x22 B13V\
+ Gaming 144Hz FH\
+D i5-13420H 16GB\
+ 1TB SSD GeForce\
+ RTX 4060\x22,v1|29\
+7299301065|0,949\
+.00 USD,https://\
+www.ebay.com/itm\
+/297299301065?am\
+data=enc%3AAQAKA\
+AAAoFkggFvd1GGDu\
+0w3yXCmi1ewU3i3w\
+2W01EiQUZ%2FX2ra\
+%2BROVQIn3Ub1L1I\
+nSqDGGuww%2Blg9e\
+2LEAw8Z8JmGZ64fL\
+35Cxs91oVkO4ua9A\
+WAqpm08u695VO4pY\
+m%2B%2BM%2FWYqit\
+fzjNcl26vNpaYMFf\
+P4JtrW9F3aF51VCE\
+6Y1HSaxNr30IzmGZ\
+ZIDjsxDJlrfn%2F5\
+0bnL3AncQofMJXq1\
+omqRFc1A%3D,['FI\
+XED_PRICE'],0.00\
+,,themaxmart,144\
+58,,,NaN,New,[]\x0d\
+\x0a225,Thermaltake\
+ Smart Series 50\
+0W SLI/CrossFire\
+ Continuous Powe\
+r ATX Power Supp\
+ly...,v1|2916019\
+67605|0,43.49 US\
+D,https://www.eb\
+ay.com/itm/29160\
+1967605,['FIXED_\
+PRICE'],0.00,,ne\
+wegg,1041524,,,N\
+aN,New,[]\x0d\x0a226,T\
+eam Group 1TB MP\
+33 M.2 2280 PCIe\
+ 3.0 NVMe 3D NAN\
+D Internal Solid\
+ State Drive...,\
+v1|303313868150|\
+0,56.49 USD,http\
+s://www.ebay.com\
+/itm/30331386815\
+0,['FIXED_PRICE'\
+],0.00,,newegg,1\
+041524,,,NaN,New\
+,[]\x0d\x0a227,\x22Silico\
+n Power Ace A55 \
+2.5\x22\x22 256GB SATA\
+ III 3D TLC Inte\
+rnal Solid State\
+ Drive SSD\x22,v1|3\
+82439511156|0,22\
+.49 USD,https://\
+www.ebay.com/itm\
+/382439511156?am\
+data=enc%3AAQAKA\
+AAAoFkggFvd1GGDu\
+0w3yXCmi1f%2BRhE\
+TMGGonChqjCLcREf\
+EKC5I4E783vVqQ35\
+AgPUuUkoHyzHzJWp\
+4fHutH2VKqOiCCUD\
+jEfuqZSOnjiKQq%2\
+BAXJIM8wzR52TbLl\
+jhGSwGOc6YXHRqWd\
+EwMOAeL9GvB0pgF5\
+uVr5nYgqIKT3RbGr\
+ophZLJuKZJlHlJdl\
+4Bp5L6gp8CI17b8e\
+1cEx7ZvMclb3BY%3\
+D,['FIXED_PRICE'\
+],0.00,,newegg,1\
+041524,,,NaN,New\
+,[]\x0d\x0a228,Asus Ro\
+g Strix G 16 Lap\
+top NVIDIA RTX 4\
+060 Intel I7 136\
+50hx,v1|40547243\
+7255|0,1596.65 U\
+SD,https://www.e\
+bay.com/itm/4054\
+72437255?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1dkQdzKnMHQ8U\
+wr51kmYzvZfR1Mrr\
+ksEfy7sAWO0KMi58\
+osIv612xk01WiwZ%\
+2Bbw1r3DeHGEDxYN\
+SDlsh09Xag1FskC9\
+Id9FNziYbz0uGV8E\
+5vVSlAI3fzjhGT2C\
+VeGEHQ6h%2BjiUe8\
+CotPgnFS1bop1cbj\
+evrFpy5PTzqca0ZO\
+6gZzbc6rkyd4gh2O\
+8UddFjuM0%3D,['F\
+IXED_PRICE'],32.\
+51,,qover_-7152,\
+1,,,NaN,New,[]\x0d\x0a\
+229,\x22MSI GF65 Th\
+in 9SEXR-250 \xe2\x80\x93\
+ 15.6\x22\x22 FHD \xe2\x80\x93 \
+i7-9750H \xe2\x80\x93 8GB\
+ RAM \xe2\x80\x93 RTX 206\
+0 \xe2\x80\x93 512GB SSD\x22\
+,v1|205551038286\
+|0,474.99 USD,ht\
+tps://www.ebay.c\
+om/itm/205551038\
+286?amdata=enc%3\
+AAQAKAAAAoFkggFv\
+d1GGDu0w3yXCmi1c\
+G74B9p%2FpQ4aAd3\
+gmPMgc4a57mTIxPs\
+P3ebYANg5juwCzC9\
+ewUcCT3gihlU0Fit\
+xIhgDfMII77wibYW\
+72xfZz0fnbu9fU7l\
+xG2ahoLGYH2u3tQq\
+7CzYMjNMyiAelblL\
+IBtHC6YRXQFLv2By\
+%2FrJge79Mw464Rp\
+1zw9ZHIM2H9MeJra\
+SIevbbQ%2F1Msi3y\
+u8IwV0%3D,['FIXE\
+D_PRICE'],0.00,,\
+r3newtech,22710,\
+,,NaN,Very Good \
+- Refurbished,[]\
+\x0d\x0a230,\x22Dell Lati\
+tude 7420 14\x22\x22 F\
+HD Laptop 4-Core\
+ i5 16GB RAM 256\
+GB SSD Windows 1\
+1 Pro\x22,v1|256728\
+255215|0,353.89 \
+USD,https://www.\
+ebay.com/itm/256\
+728255215?amdata\
+=enc%3AAQAKAAAAo\
+FkggFvd1GGDu0w3y\
+XCmi1dPfQj%2B2Wr\
+0RJFoTbI5EcANXOx\
+1o7LcVcv8zEuOvar\
+fNOk2jJVz%2F1ora\
+Qkyco2Tp10LaIB3H\
+vMjjcJ4VkpAiCXAy\
+aKz7wOGPElZgM1mc\
+2p%2B30TjKqEf69x\
+H15RDd6QALQ80sGo\
+0uYAryPkjDcfxi8a\
+aGCT7v4Y5Zycj6WW\
+uLCCA%2BF5OmrvYY\
+%2B33TV2iD9Nu50Y\
+%3D,['FIXED_PRIC\
+E'],0.00,,discou\
+ntcomputerdepot,\
+131743,,,NaN,Exc\
+ellent - Refurbi\
+shed,[]\x0d\x0a231,\x2220\
+24 HP Victus 15.\
+6\x22\x22 144Hz Gaming\
+ Laptop Intel i5\
+ RTX 3050, 32GB \
+RAM 1TB SSD Pro\x22\
+,v1|116361922949\
+|0,779.00 USD,ht\
+tps://www.ebay.c\
+om/itm/116361922\
+949?amdata=enc%3\
+AAQAKAAAAoFkggFv\
+d1GGDu0w3yXCmi1f\
+9cSRPLbCjosvfuP1\
+l2i8g3TdnSkIpLaH\
+H5OiTBB%2Bwyhktj\
+cXjLbG5Tdhv0Ppx6\
+HC%2BScb5m2wZSug\
+u6rpbmTAIgK3iotH\
+zJ1AO3aUXZwPCrFG\
+bspxcb0kL4lJzgiw\
+MRkS3gCSVTBgdczC\
+4%2Fhol1m3qWLvkN\
+GZLLZ0%2BcCG6x8S\
+0ll8VJ0PGKi4Ib6B\
+KXAKuXsg%3D,['FI\
+XED_PRICE'],0.00\
+,,hellogoodlife1\
+,14239,,,NaN,New\
+,[]\x0d\x0a232,\x22ACEMAG\
+IC Gaming Laptop\
+: Ryzen 7 5700U,\
+ 16GB RAM, 512GB\
+ SSD,16.1\x22\x22 FHD \
+WiFi6 Win11\x22,v1|\
+375346784128|0,4\
+29.00 USD,https:\
+//www.ebay.com/i\
+tm/375346784128?\
+amdata=enc%3AAQA\
+KAAAAoFkggFvd1GG\
+Du0w3yXCmi1dEYAz\
+v7%2FbdDpz1PmxkI\
+LFmXDFdNHr1df%2B\
+bEqX4rnijMRNpUp%\
+2Blv0mLmAerRVTJ1\
+cWr2TnDpwqUBSdcD\
+LuN8ka%2FhbyI0xM\
+KmVk2naA%2FaxxZZ\
+jT4fdqz7ltc8CoxX\
+0gqkBlxTA%2FEdCX\
+cn0eQIUg6wmqP1mM\
+59uavbKhw0Zv8yDb\
+ulBzeBsR9lkubaZf\
+e6d0Xy7s%3D,\x22['F\
+IXED_PRICE', 'BE\
+ST_OFFER']\x22,0.00\
+,,kamruidirect,6\
+93,,,NaN,New,[]\x0d\
+\x0a233,\x22MSI Thin 1\
+5.6\x22\x22 B13V Gamin\
+g 144Hz FHD i5-1\
+3420H 32GB 1TB S\
+SD GeForce RTX 4\
+060\x22,v1|29729930\
+2033|0,999.00 US\
+D,https://www.eb\
+ay.com/itm/29729\
+9302033?amdata=e\
+nc%3AAQAKAAAAoFk\
+ggFvd1GGDu0w3yXC\
+mi1eNmc4L2%2BW3E\
+vV%2BIKicEGjt2%2\
+B%2BNNjQIkIV98TS\
+YNRPLPMSTP4muPYf\
+5VYuyFXiohgv%2BE\
+%2BRBKRPnOUg3scG\
+T35DgpWN%2B7WIF0\
+mestAb0Cs%2FK4D6\
+8iPsPKoPtsuH42iz\
+zbJddKVI7mtaAzPz\
+Kv2mcMsgH82VOAye\
+ePin873R6pOQly2z\
+qoqdrvEjYnlmpJwR\
+XsJ4%3D,['FIXED_\
+PRICE'],0.00,,th\
+emaxmart,14458,,\
+,NaN,New,[]\x0d\x0a234\
+,HP Pavillon Lap\
+top 15.6 FHD Off\
+ice 2024 6-Core \
+Intel i3 16GB RA\
+M 1TB SSD Win Pr\
+o,v1|12710999908\
+4|0,439.00 USD,h\
+ttps://www.ebay.\
+com/itm/12710999\
+9084?amdata=enc%\
+3AAQAKAAAAoFkggF\
+vd1GGDu0w3yXCmi1\
+eDjaXEYDJZs9NWzG\
+XgFb8IHBQvWcnd4A\
+yQqtmSgWQTE4Vkst\
+%2FqfCzvn0kZDwES\
+js9fkBGAJ%2Fq%2B\
+kRvOgOP6LbdkIn4V\
+QIqnS4HjQzPt8ArN\
+LV%2ByxcAHGwHMYl\
+CS13dUrahmuCqzri\
+owUG2JjQnejRh34p\
+Qz3fycE4tO9HkBYh\
+1QuNHO%2B89eQYhl\
+dqbuqlQv3ug%3D,\x22\
+['FIXED_PRICE', \
+'BEST_OFFER']\x22,0\
+.00,,hellogoodli\
+fe1,14239,,,NaN,\
+New,[]\x0d\x0a235,ASUS\
+ TUF F15 Gaming \
+Laptop 15.6\xe2\x80\x9d i\
+5-10300H 8GB 512\
+GB SSD Win 11H F\
+X506LH-AS51,v1|4\
+04590275692|0,69\
+9.88 USD,https:/\
+/www.ebay.com/it\
+m/404590275692?a\
+mdata=enc%3AAQAK\
+AAAAoFkggFvd1GGD\
+u0w3yXCmi1eZQ35W\
+uORXGHirmTMKKA3a\
+XKSfGh%2FlvcaKRM\
+nlpBwWWCWbUEztmX\
+ooz%2B7j%2BDh%2F\
+Jh0Yc8tnw88emjOh\
+Ua4oEejqJbdosd0y\
+5OUZZq8jNQIY4bbF\
+HIfoc2Az3jzcGgtT\
+Ic9BktIFDeRCVi%2\
+BLe4zdT40zWgtAfA\
+bVVBPKjNYcmmH1ed\
+9u58d%2BHhhyw7Ie\
+DjHWock%3D,['FIX\
+ED_PRICE'],0.00,\
+,etrondeals,229,\
+,,NaN,Open box,[\
+]\x0d\x0a236,\x22Lenovo I\
+deaPad Slim 3i 1\
+5.6\x22\x22 Touchscree\
+n FHD Core 5 120\
+U 16GB 1TB SSD W\
+11\x22,v1|326297491\
+859|0,389.00 USD\
+,https://www.eba\
+y.com/itm/326297\
+491859,['FIXED_P\
+RICE'],0.00,,new\
+.techies,17517,,\
+,NaN,Certified -\
+ Refurbished,[]\x0d\
+\x0a237,\x22Lenovo Ide\
+aPad Slim 7i 14\x22\
+\x22 Touchscreen FH\
+D+ Intel Core Ul\
+tra 7 32GB 1TB S\
+SD W11\x22,v1|22635\
+9046038|0,639.00\
+ USD,https://www\
+.ebay.com/itm/22\
+6359046038,['FIX\
+ED_PRICE'],0.00,\
+,new.techies,175\
+17,,,NaN,Certifi\
+ed - Refurbished\
+,[]\x0d\x0a238,\x22HP Eli\
+teBook 845 G8 14\
+\x22\x22 FHD IPS AMD R\
+yzen 7 PRO 5850U\
+ 16GB 512GB SSD \
+W11P Laptop\x22,v1|\
+167551127190|0,3\
+15.00 USD,https:\
+//www.ebay.com/i\
+tm/167551127190?\
+amdata=enc%3AAQA\
+KAAAAoFkggFvd1GG\
+Du0w3yXCmi1fSVkr\
+T1AhyOYYR5fb5hjP\
+7xcHjQeSa6qLS2wk\
+TMnDmJQjj916ROfS\
+JyMsUsMw2saJcOQx\
+R1kzKFqykqekSWOk\
+rF6cDWsDVyQt6rj%\
+2FlCx89hfa6YeQKe\
+tngPDzniHzsvHYga\
+rAJ6KDYZFDwFza9M\
+ee8WsRfPs5R1gBM2\
+2UW34mbvHv0HOW1c\
+OE%2BZE2OScltJAw\
+%3D,['FIXED_PRIC\
+E'],0.00,,pryced\
+in,69632,,,NaN,C\
+ertified - Refur\
+bished,[]\x0d\x0a239,\x22\
+Microsoft Surfac\
+e Laptop 7 Copil\
+ot+PC 13.8\x22\x22 Tou\
+ch X Plus 16GB/2\
+56GB/Platinum\x22,v\
+1|226714780969|0\
+,659.00 USD,http\
+s://www.ebay.com\
+/itm/22671478096\
+9,['FIXED_PRICE'\
+],0.00,,new.tech\
+ies,17517,,,NaN,\
+Certified - Refu\
+rbished,[]\x0d\x0a240,\
+Samsung Galaxy S\
+24 128GB - Onyx \
+Black Unlocked -\
+ Flawless condit\
+ion,v1|226156376\
+715|0,379.00 USD\
+,https://www.eba\
+y.com/itm/226156\
+376715,['FIXED_P\
+RICE'],0.00,,new\
+.techies,17517,,\
+,NaN,Excellent -\
+ Refurbished,[]\x0d\
+\x0a241,\x22Lenovo Ide\
+aPad Slim 5i 16\x22\
+\x22 Touchscreen FH\
+D+ Intel Core 7 \
+150U 16GB 1TB SS\
+D W11\x22,v1|226356\
+721440|0,489.00 \
+USD,https://www.\
+ebay.com/itm/226\
+356721440,['FIXE\
+D_PRICE'],0.00,,\
+new.techies,1751\
+7,,,NaN,Certifie\
+d - Refurbished,\
+[]\x0d\x0a242,2023 Del\
+l Inspiron 3020 \
+Desktop i5-13400\
+ 16GB RAM 1TB HD\
+D + 256GB SSD DV\
+D-RW W11,v1|3261\
+17046792|0,599.0\
+0 USD,https://ww\
+w.ebay.com/itm/3\
+26117046792,['FI\
+XED_PRICE'],0.00\
+,,new.techies,17\
+517,,,NaN,New,[]\
+\x0d\x0a243,\x22Lenovo Id\
+eaPad 5 2-in-1 1\
+4AHP9 Ryzen 7 88\
+45HS 16GB 1TB SS\
+D 14\x22\x22 FHD+ Touc\
+h W11\x22,v1|235748\
+207972|0,519.00 \
+USD,https://www.\
+ebay.com/itm/235\
+748207972,['FIXE\
+D_PRICE'],0.00,,\
+new.techies,1751\
+7,,,NaN,Certifie\
+d - Refurbished,\
+[]\x0d\x0a244,GIGABYTE\
+ GeForce RTX 307\
+0 EAGLE OC 8G  G\
+DDR6 (rev. 2.0) \
+VR-Ready,v1|2266\
+94002583|0,379.0\
+0 USD,https://ww\
+w.ebay.com/itm/2\
+26694002583,['FI\
+XED_PRICE'],0.00\
+,,new.techies,17\
+517,,,NaN,Excell\
+ent - Refurbishe\
+d,[]\x0d\x0a245,\x22Lenov\
+o Legion Slim 5 \
+Gen 8 16\x22\x22 FHD+ \
+4.3 GHz Ryzen 5 \
+7640HS 16GB 512G\
+B RTX 4060\x22,v1|2\
+77194371784|0,94\
+9.99 USD,https:/\
+/www.ebay.com/it\
+m/277194371784?a\
+mdata=enc%3AAQAK\
+AAAAoFkggFvd1GGD\
+u0w3yXCmi1cWSstM\
+vdclVhiM0XqaN74h\
+TYjH3eLC98IPMD1Y\
+Yz%2BbnCxIpgxQFU\
+pb0YTcrrR56tlL1Y\
+98zfOATAOYe6Fpn%\
+2F8Xy50XWDSfNfvO\
+hih74M01JXtrmi8w\
+e8iKci96CcZKXGal\
+L4lImAHpuPUemmmO\
+p0iB34mPfCsNDKmH\
+%2B4wsmmyY3YshXT\
+3tf%2Fg6TzyU70AP\
+zHc%3D,['FIXED_P\
+RICE'],0.00,,its\
+worthmore,94230,\
+,,NaN,Excellent \
+- Refurbished,[]\
+\x0d\x0a246,Microsoft \
+Surface Book 2 L\
+aptop 15\xe2\x80\x9d Core\
+ i7 4.2GHz 16GB \
+RAM 512GB SSD Wi\
+n 11 Pro,v1|2564\
+99495813|0,380.0\
+0 USD,https://ww\
+w.ebay.com/itm/2\
+56499495813?amda\
+ta=enc%3AAQAKAAA\
+AoFkggFvd1GGDu0w\
+3yXCmi1eaCDYPVT3\
+48PqM40FYOQUGaCk\
+S3TRv2Z9YrTzHrEb\
+vjyzSRf9s8vfYo9J\
+8sFU%2FWepeRlj9c\
+Je8WUROug1JabIVv\
+Nf85KiV8oaTiCQ9S\
+qH0nUJKR1kUJSSB%\
+2BNjnL4%2FIIA4KZ\
+g3P75a59p2uLEcGt\
+UFUJFYGx4VT8lRtx\
+JpZ3qCJvAhsNFzRl\
+xmH%2Bit3awySPmk\
+%3D,\x22['FIXED_PRI\
+CE', 'BEST_OFFER\
+']\x22,0.00,,discou\
+ntcomputerdepot,\
+131743,,,NaN,Ver\
+y Good - Refurbi\
+shed,[]\x0d\x0a247,\x22HP\
+ EliteBook 14\x22\x22 \
+FHD Laptop AMD R\
+yzen 5 4.2GHz 16\
+GB RAM 256GB SSD\
+ Windows 11 Pro\x22\
+,v1|256496543516\
+|0,282.46 USD,ht\
+tps://www.ebay.c\
+om/itm/256496543\
+516?amdata=enc%3\
+AAQAKAAAAoFkggFv\
+d1GGDu0w3yXCmi1f\
+XltL7STDgbzowUE0\
+pEWKN%2Bx3dMzQpE\
+EXeEwPWAeai6ka57\
+0OvGDC4Q%2BlCzfL\
+DfpZy7y6JZG8hCe9\
+GKtlAm7gWK5Wd82h\
+55vYkRib0DRSZvKe\
+8tkvvHYNU5cr0JrC\
+YuKbTxgJHEMwFxKq\
+RybIN61TUXiwJbnC\
+bYDq3w2keKoipvI2\
+VPSZB%2B8V4UzgYK\
+Z7NNO8%3D,['FIXE\
+D_PRICE'],0.00,,\
+discountcomputer\
+depot,131743,,,N\
+aN,Excellent - R\
+efurbished,[]\x0d\x0a2\
+48,Lenovo IdeaPa\
+d Pro 5 Laptop 1\
+6'' 120HZ OLED 2\
+K Ultra 9 185H 3\
+2GB 1TB RTX 4050\
+,v1|204880043580\
+|0,959.00 USD,ht\
+tps://www.ebay.c\
+om/itm/204880043\
+580?amdata=enc%3\
+AAQAKAAAAoFkggFv\
+d1GGDu0w3yXCmi1d\
+9wNm6UTVTg2U5rTq\
+YJ%2BsgPJv2AwFcK\
+KZZThtvPX3in262Y\
+XtXyqFyw5AZn0qWi\
+F3iRFDUWhd81%2Fu\
+nwVVQabMA466vZsZ\
+1%2Fa5JIIcEqWGGF\
+edY8l4nkG7yl6r%2\
+F3lOlnbhDzQiI1lc\
+aR4m24mzxANXsZBS\
+694COar0AEaLf1Iu\
+45l6TtW4DhL9LOhN\
+UnjjgZ2U%3D,['FI\
+XED_PRICE'],0.00\
+,,zacks-silo,447\
+9,,,NaN,Open box\
+,[]\x0d\x0a249,\x22Lenovo\
+ IdeaPad Laptop \
+15.6\x22\x22 6-Core Ry\
+zen 5, 20GB RAM \
+1TB SSD Backlit \
+Win 11 Pro\x22,v1|1\
+46165897359|0,52\
+9.00 USD,https:/\
+/www.ebay.com/it\
+m/146165897359?a\
+mdata=enc%3AAQAK\
+AAAAoFkggFvd1GGD\
+u0w3yXCmi1cZ%2FP\
+JGb%2F4x3GL6AMPo\
+C9p%2Fkz7pi7VjOY\
+EmGqnQZr5X%2FV%2\
+BE0fpAedvDRJSYf6\
+9KofC1ez%2BUjQgN\
+yDtQTF32b9ajsJW7\
+rChXZ00JAL8OuXgZ\
+8dsj%2F%2BIxnmu9\
+%2B38Wm05pOd51HG\
+bta9a%2BM1ZykM9O\
+NLbfF39BYFX%2Bpo\
+OoxzsKRf5etuAJzL\
+Wvu%2BQLvzf3CVed\
+2rY%3D,['FIXED_P\
+RICE'],0.00,,hel\
+logoodlife1,1423\
+9,,,NaN,New,[]\x0d\x0a\
+250,\x22Acer Nitro \
+5  ANV15-51 Inte\
+l i7-13620h 16Gb\
+ RAM 512GB SSD 4\
+Gb RTX2050 15.6\x22\
+\x22 FHD\x22,v1|167221\
+243581|0,584.44 \
+USD,https://www.\
+ebay.com/itm/167\
+221243581?amdata\
+=enc%3AAQAKAAAAo\
+FkggFvd1GGDu0w3y\
+XCmi1fXNvl4XwEC9\
+V6N2rA%2BLNAZLzq\
+NOJ89rSBST8Zwg6a\
+5CH4WWfcWM6IH577\
+jCDnqwlNH1lIQhBO\
+csZHKU70onNBRaA7\
+pfp7dUkrAWbIAHw1\
+00jJZn8GXzhDNfHP\
+xcL9Lo4zMnnZRx2m\
+iVC%2B%2Fc5HHKu2\
+UBUOerFIRIsOBlrp\
+WnNKqwWdPtkOAwAg\
+UMVMguI4jhaw%3D,\
+\x22['FIXED_PRICE',\
+ 'BEST_OFFER']\x22,\
+81.26,,comprem,1\
+9467,,,NaN,Open \
+box,[]\x0d\x0a251,\x22Len\
+ovo ThinkPad L13\
+ 2-in-1 Laptop 4\
+-Core i5 13.3\x22\x22 \
+8GB RAM 256GB SS\
+D Windows 11\x22,v1\
+|286068793851|0,\
+206.77 USD,https\
+://www.ebay.com/\
+itm/286068793851\
+?amdata=enc%3AAQ\
+AKAAAAoFkggFvd1G\
+GDu0w3yXCmi1e1EQ\
+FGUllBlozGTbf2Ko\
+ca0%2BHvQ7NjKU7Z\
+mjBaaqOuq5UdIVSl\
+R%2BJVzyufQ%2BJ2\
+%2F9xuQKKsByfKBc\
+5YcgkVYagcd7E4Cn\
+hQKtdCdCPyDl4AjH\
+%2BTB2VXpQrWmZLd\
+VMw6%2FYSItTdlfF\
+ejX5nM0tCyzowXSv\
+K%2Bz6dBkrEJq6SX\
+keOqMhakiHjb9WTK\
+YetSoNfrzxQ%3D,[\
+'FIXED_PRICE'],0\
+.00,,discountcom\
+puterdepot,13174\
+3,,,NaN,Good - R\
+efurbished,[]\x0d\x0a2\
+52,\x22Lenovo Yoga \
+L390 2-in-1 Touc\
+h 13.3\x22\x22 Laptop \
+Core i3 8GB RAM \
+256GB SSD Window\
+s 11\x22,v1|2650380\
+69230|0,180.49 U\
+SD,https://www.e\
+bay.com/itm/2650\
+38069230?amdata=\
+enc%3AAQAKAAAAoF\
+kggFvd1GGDu0w3yX\
+Cmi1d7RmOK%2FXge\
+V8UjdLTeEoQtoWpi\
+vYLfGUq33a%2B0RW\
+e%2FBlHNR6dktjJT\
+Rj2Huh%2FJ5vENQ1\
+XJWN01LbkiPZpQoa\
+1srf3BN8ieAA8rN0\
+vidW1NhwPpo67Ozs\
+Mhb5%2FYOi5PuHHA\
+LHWELOoYUg%2Flv%\
+2FSWIP3tppE6M8UR\
+rBfOHYV8kqqk8WnH\
+whtHcc16J9UTdYel\
+TVg%3D,['FIXED_P\
+RICE'],0.00,,dis\
+countcomputerdep\
+ot,131743,,,NaN,\
+Good - Refurbish\
+ed,[]\x0d\x0a253,\x22Gami\
+ng Laptop AMD Ry\
+zen 7 5700U 16GB\
+ DDR4 512GB SSD \
+1080P 16.1\x22\x22 Win\
+11 | AX16 Pro\x22,v\
+1|376329330485|0\
+,429.00 USD,http\
+s://www.ebay.com\
+/itm/37632933048\
+5?amdata=enc%3AA\
+QAKAAAAoFkggFvd1\
+GGDu0w3yXCmi1fqJ\
+4%2Fcm500ICST3FN\
+oQQt6k9nehKxVTqy\
+vWCcCHgQ%2BuLdON\
+MrKMeK%2BmrWBGvF\
+wZmj4JR06igg5ZKH\
+OjornW9mVX0YfUE%\
+2BUXvkGvEYNUd%2B\
+IHrYg3exavCbVlwK\
+MfEGqFsq0hC0%2Fr\
+rWbRw3IEJPO2CCIq\
+SWOTKGT%2FYlwmdp\
+PyzU%2FJTPQ6Mawy\
+amKqDovMlbMeqI%3\
+D,\x22['FIXED_PRICE\
+', 'BEST_OFFER']\
+\x22,0.00,,kamruidi\
+rect,693,,,NaN,N\
+ew,[]\x0d\x0a254,\x22Acem\
+agic 16\x22\x22 Gaming\
+ Laptop AMD Ryze\
+n9 6900HX 16GB D\
+DR5 512GB SSD Wi\
+Fi6 Win11 Pro\x22,v\
+1|376315653670|0\
+,549.00 USD,http\
+s://www.ebay.com\
+/itm/37631565367\
+0?amdata=enc%3AA\
+QAKAAAAoFkggFvd1\
+GGDu0w3yXCmi1dmF\
+%2FgKi14dXti4v5s\
+Xb2MrWZJBgY0qSnT\
+%2BEbV03CeIv9KJl\
+3PhQkDzdDrUSGqGs\
+pRq4NSzeI%2BuVyJ\
+phaMyXfajmOSz8Vc\
+WUCjhv6BY9sU0xhs\
+lzF7SxCN1P%2FxvW\
+PJOpsJjC92rwPUTX\
+7JPU%2FM5iD1bj2P\
+A%2B1tw0cN5SeSKj\
+vMayOfCvzpkW1nMM\
+ZAWnKVe2f4%3D,\x22[\
+'FIXED_PRICE', '\
+BEST_OFFER']\x22,0.\
+00,,kamruidirect\
+,693,,,NaN,New,[\
+]\x0d\x0a255,MSI GE72 \
+17.3in Gaming La\
+ptop i7 3.8GHz 3\
+2GB 1TB SSD GTX \
+1070 Backlit WIN\
+ 11,v1|205536156\
+186|0,549.00 USD\
+,https://www.eba\
+y.com/itm/205536\
+156186?amdata=en\
+c%3AAQAKAAAAoFkg\
+gFvd1GGDu0w3yXCm\
+i1dKVaGen1qfJwti\
+rTwHsZ%2F6i5%2B2\
+qcJE78%2FPvFo%2F\
+1aH%2BrnMgD%2FRi\
+or%2FTS657Ax6%2F\
+MhNWbX38bNYsYElH\
+yEfSeWZylQ92yeeh\
+LIBr2gq9P%2FxCL%\
+2FK6C8j9DPPiqEDB\
+zERU1poRHr%2B84e\
+EDDZZcT2%2Bh7u5V\
+6VYp2Xn5vGzglRCD\
+DsnOPRZM7D3Xn%2B\
+NnzB3n6knDkR0%3D\
+,['FIXED_PRICE']\
+,10.00,,elitegam\
+inglaptop,1253,,\
+,NaN,Used,[]\x0d\x0a25\
+6,MSI GT73 17.3i\
+n Gaming Laptop \
+i7 3.6GHz 32GB 1\
+TB SSD GTX 1080 \
+WIN 11,v1|197262\
+069061|0,699.00 \
+USD,https://www.\
+ebay.com/itm/197\
+262069061?amdata\
+=enc%3AAQAKAAAAo\
+FkggFvd1GGDu0w3y\
+XCmi1dQH2Ntj%2Bj\
+qWXvkzxlYzJvRALZ\
+j9MW%2FgV5Wp%2Ft\
+dtlxzOMk87sDb4Xt\
+6fuYK15BvNwThUix\
+AXfMaldS3Iwp%2Fb\
+RPz%2BlB38S%2BBv\
+qK8%2BG5PJwDTVJx\
+SzhQMj9AKMHl%2Bl\
+etvy4hEhK73hdxMH\
+STwTOGYaLL26SByy\
+oSxqIHT9wn9mtR8y\
+5CpngovMRNj22oHi\
+YpSC%2BQ%3D,['FI\
+XED_PRICE'],7.00\
+,,elitegaminglap\
+top,1253,,,NaN,U\
+sed,[]\x0d\x0a257,MSI \
+GS65 15.6in Gami\
+ng Laptop i7 4.5\
+GHz 32GB 1TB SSD\
+ GTX 1660 Backli\
+t WIN 11,v1|2054\
+62303624|0,599.0\
+0 USD,https://ww\
+w.ebay.com/itm/2\
+05462303624?amda\
+ta=enc%3AAQAKAAA\
+AoFkggFvd1GGDu0w\
+3yXCmi1fOXFZHD9o\
+yvmthvg9n2XJyPEC\
+PMFKUqSPzv9DpDTk\
+aLEEFdPEl8Xn608A\
+cXWaU7lXyuL%2BI3\
+KRRpV8xOxQsdn6Gw\
+GKqDSNiY1WjKub6B\
+M89Um3LuNiy7mQUE\
+s%2BseuJRtzoAxPz\
+J5zBHKgAxCWPvyD%\
+2Fm4KRc%2BNRNLnv\
+kl%2BEU75QnyuwzX\
+lVTwM7hD%2B%2FCo\
+SXNXVw%3D,['FIXE\
+D_PRICE'],5.00,,\
+elitegaminglapto\
+p,1253,,,NaN,Use\
+d,[]\x0d\x0a258,MSI GS\
+65 15.6in Gaming\
+ Laptop i7 4.1GH\
+z 32GB 1TB SSD R\
+TX 2060 Backlit \
+WIN 11,v1|205462\
+103208|0,599.00 \
+USD,https://www.\
+ebay.com/itm/205\
+462103208?amdata\
+=enc%3AAQAKAAAAo\
+FkggFvd1GGDu0w3y\
+XCmi1eBWw9G4h8BO\
+FzNCTODkv1MD2OWQ\
+cYU%2FfdK1y0%2F0\
+b1swYAGIsC3OhD7w\
+1GM%2BNpOcMetqOr\
+gLywHnTeG%2B9gZN\
+Zofm4TWNa1TZl24s\
+RwLf%2FE2uK2nxdd\
+CL6fk6xclDVyiyUs\
+tXxp5DyHGWw87hf8\
+re6poMyVGUIiTu1L\
+2sALW1js2oi5uRdi\
+yYNWrE8nflIOI4To\
+%3D,['FIXED_PRIC\
+E'],5.00,,eliteg\
+aminglaptop,1253\
+,,,NaN,Used,[]\x0d\x0a\
+259,MSI GT80 TIT\
+AN 18.4in Gaming\
+ Laptop i7 3.8GH\
+z 32GB 2TB SSD G\
+TX 980 DVD WIN 1\
+1,v1|20553605116\
+3|0,799.00 USD,h\
+ttps://www.ebay.\
+com/itm/20553605\
+1163?amdata=enc%\
+3AAQAKAAAAoFkggF\
+vd1GGDu0w3yXCmi1\
+djyDfcfmHIf%2F30\
+638h9sUpSVLBGqnb\
+bHL%2Faki4s4Y50p\
+xKSgpPYGAAHIsGGL\
+jEeem8XHX5fSQ6bC\
+Z7XpmjbPHtOf7Vbi\
+PpKvwcfpWTMv79NN\
+TmmDeJiIsy9KdYrh\
+15e5CZwXuaaVarpj\
+6IDM5SQSG5Q%2Fk8\
+D9rYMqBgkbcbcO1f\
+kqtylTctITjgA7wX\
+MPahLcg%3D,['FIX\
+ED_PRICE'],20.00\
+,,elitegaminglap\
+top,1253,,,NaN,U\
+sed,[]\x0d\x0a260,MSI \
+17.3in Gaming La\
+ptop i7 5.0GHz 3\
+2GB 1TB SSD RTX \
+2060 Backlit WIN\
+ 11,v1|197305444\
+702|0,699.00 USD\
+,https://www.eba\
+y.com/itm/197305\
+444702?amdata=en\
+c%3AAQAKAAAAoFkg\
+gFvd1GGDu0w3yXCm\
+i1ekX4OqPugz6uHc\
+uDJXmkRrVOLw74k1\
+BNA%2B4BKs%2FMcT\
+xH%2Bj8VmwQSQ4VE\
+Odhb2A3WnahIeYBY\
+TlkFeItLqu9iB9Z7\
+EyiKS%2BIeMXoUAq\
+FzMbykedBj6dlYeP\
+MsiBPvJ3k9jilf5v\
+DGO2uwBFh30cmo1V\
+xXq1r93L%2F8gIUH\
+TXMj%2FbBIU2%2Bw\
+cXvSMRFA150f%2Fo\
+Ees%3D,['FIXED_P\
+RICE'],10.00,,el\
+itegaminglaptop,\
+1253,,,NaN,Used,\
+[]\x0d\x0a261,\x22HP Elit\
+eBook 840 G1 14\x22\
+\x22 Laptop Intel i\
+7-5600U 8GB 128G\
+B SSD W10 R7 M26\
+0 READ -RR\x22,v1|3\
+26634858248|0,95\
+.00 USD,https://\
+www.ebay.com/itm\
+/326634858248?am\
+data=enc%3AAQAKA\
+AAAoFkggFvd1GGDu\
+0w3yXCmi1dAG6%2F\
+bjXOOQaHhen6LXWG\
+6WVHG6jgHH8gkwux\
+P0BD14SxAnSYY416\
+Y0vdVfr7eFc4SLNm\
+noVNiUBUCryt%2FN\
+fx0zEJ2ZKBTthnhV\
+4Nzhx%2FLvGbnGGe\
+zR6X0GV9iKYnIFfD\
+RWGuAwbdB9vUTeCQ\
+OQV37uMCMbD28ryp\
+f01%2Bl5T6NFYJXs\
+n2pRTb2BZdD6axhw\
+Ds%3D,['FIXED_PR\
+ICE'],0.00,,jcs_\
+computer_store,5\
+5561,,,NaN,Used,\
+[]\x0d\x0a262,\x22Dell XP\
+S 9310 Laptop In\
+tel i7 11th Gen \
+13.4\x22\x22 FHD+ 16GB\
+ RAM NO HDD/BATT\
+ERY Parts\x22,v1|29\
+7406413590|0,116\
+.99 USD,https://\
+www.ebay.com/itm\
+/297406413590?am\
+data=enc%3AAQAKA\
+AAAoFkggFvd1GGDu\
+0w3yXCmi1cIexSml\
+rWeZRHbKbxMiSzzx\
+N%2FVabTZNLkZrNS\
+Afh9H2S6YxGiY1Qt\
+C%2BPGPgvqp4EFRV\
+LQIBtHJPVOEY1M7F\
+ohCWngjX3Ox%2BIC\
+dGYR%2B6s%2BBlDk\
+fWn9TMRxLhjvjaiu\
+FMlfwkK%2Bj3FqGU\
+ikJRrBrlvB1FMfeq\
+7ol6zmpkhhDuvTxB\
+SKp6dNrc06yg4B%2\
+Fnl46hKc%3D,['FI\
+XED_PRICE'],N/A,\
+,ocdepot,55612,,\
+,NaN,For parts o\
+r not working,[]\
+\x0d\x0a263,\x22HP 17.3\x22\x22\
+ Touch Laptop Co\
+mputer 10-Core I\
+ntel i7, 32GB RA\
+M & 1TB SSD, Bac\
+klit KB\x22,v1|1464\
+35421876|0,869.0\
+0 USD,https://ww\
+w.ebay.com/itm/1\
+46435421876?amda\
+ta=enc%3AAQAKAAA\
+AoFkggFvd1GGDu0w\
+3yXCmi1c6gyls2%2\
+Ft%2B19kgk2UeQCx\
+1oUmI4lZD5nwg7z%\
+2FnIjIejGrtqgT1V\
+zMON0d9NZSZ7sCea\
+SSAyrIDXIcPkZfoF\
+%2Fsw%2FbjTOSGoe\
+jcbtEKkfYCU%2FLh\
+XuRZg6Pb%2FsLbcx\
+5M%2BK7L2fKNPwY0\
+DMndtq8mZsL9hilw\
+jt6YVOfRXt23REz0\
+O%2Boepng8IiNoia\
+FCUNQqdgOg%3D,\x22[\
+'FIXED_PRICE', '\
+BEST_OFFER']\x22,0.\
+00,,hellogoodlif\
+e1,14239,,,NaN,N\
+ew,[]\x0d\x0a264,New F\
+or Asus TUF Gami\
+ng F17 FX706HC F\
+X706LI FX706HE P\
+almrest Keyboard\
+ LED RGB,v1|1557\
+18605647|0,138.0\
+0 USD,https://ww\
+w.ebay.com/itm/1\
+55718605647?amda\
+ta=enc%3AAQAKAAA\
+AoFkggFvd1GGDu0w\
+3yXCmi1eL0RcP560\
+6BbycyxpF8E%2Bwt\
+hRP4fM1S9lawZYK1\
+NIfu5omftO85qvMa\
+ESTXlXRXypSferhj\
+eHUmn7T70HNEqTGN\
+PM7uwzviLi7bgIfz\
+AwTUqjr%2BARhgcT\
+AX0pB691lOlDgD9f\
+Ak7sBeo%2FXayz9s\
+xkWVahvfEVQ0fXXs\
+RBEOA3mjaDzZu2R%\
+2Fk1b9%2FBWYCP06\
+hw%3D,\x22['FIXED_P\
+RICE', 'BEST_OFF\
+ER']\x22,0.00,,ipar\
+tstore,7470,,,Na\
+N,New,[]\x0d\x0a265,\x22A\
+CEMAGIC 16.1\x22\x22 F\
+HD Laptop AMD Ry\
+zen 7 5700U 16GB\
+ DDR4 RAM 512GB \
+SSD Refurbished\x22\
+,v1|356865037528\
+|0,299.99 USD,ht\
+tps://www.ebay.c\
+om/itm/356865037\
+528?amdata=enc%3\
+AAQAKAAAAoFkggFv\
+d1GGDu0w3yXCmi1c\
+U%2FDimzw1MN2uVs\
+PYjROgDBckxsH7ml\
+OIPx7ZNFV8dUD4Jx\
+%2Bn7F8eppM3ZNhA\
+2e%2BkcdcDiI0cAP\
+faSaYw%2FeXzj4G0\
+TwfgzJupMsfvUG2c\
+0bYGu1CcRwrxgc7m\
+cdOlGs0thKjQQIKR\
+QBMyrBang3BsX8Pk\
+lpHD%2FUT8T%2Bpc\
+mktHbAQ%2BKGH7nC\
+t%2FULVt6l%2BxBP\
+bs%3D,['FIXED_PR\
+ICE'],0.00,,kamr\
+ui_outlet_store,\
+761,,,NaN,Very G\
+ood - Refurbishe\
+d,[]\x0d\x0a266,\x22ACEMA\
+GIC 16.1\x22\x22 FHD L\
+aptop AMD Ryzen \
+7 5700U 16GB DDR\
+4 512GB SSD Note\
+book WiFi6\x22,v1|3\
+55928110014|0,31\
+2.99 USD,https:/\
+/www.ebay.com/it\
+m/355928110014?a\
+mdata=enc%3AAQAK\
+AAAAoFkggFvd1GGD\
+u0w3yXCmi1e4Mwe4\
+Z32K5%2B3NzPFZ67\
+1LNahu%2B%2FdqhU\
+ntkoqzTTsycNi%2F\
+HfEEDb%2BMYyUvyA\
+6zQ3K9VDmhoKKXor\
+4tExUyIsAogAAxLJ\
+FJT3mY7suZR9jjlA\
+adUXwVBz940Y9EZW\
+dVu%2B4yPbmYEyU%\
+2BPsXFjc%2BB5XZu\
+kfgpCWRGPeaQRI3C\
+sxjjYbOQKusdaDBC\
+zNnH5sQ6V90%3D,\x22\
+['FIXED_PRICE', \
+'BEST_OFFER']\x22,0\
+.00,,kamrui_outl\
+et_store,761,,,N\
+aN,Certified - R\
+efurbished,[]\x0d\x0a2\
+67,\x222024 Acer As\
+pire Laptop Comp\
+uter  15.6\x22\x22 FHD\
+ AMD Ryzen 7 570\
+0U 16GB RAM 512G\
+B SSD\x22,v1|145699\
+174625|0,479.00 \
+USD,https://www.\
+ebay.com/itm/145\
+699174625?amdata\
+=enc%3AAQAKAAAAo\
+FkggFvd1GGDu0w3y\
+XCmi1eeI8BGzD5AG\
+O26%2FEjjVLza67s\
+MrA2z0RfmOvc8Uih\
+Mgq1PtAEQHYoHHsw\
+ng%2BGG7mzrQUaWp\
+Mq0UXhynaUpHbCe8\
+ThjN2FA6PS0KLkbO\
+jhAar8rT4M27pIom\
+BS2uIMlC6r2Zajo1\
+Xs%2FqkYLJacC0EQ\
+StClrAg6WnptKCVz\
+jJV4AwQQBtHKURiM\
+G9MNG98hM4uE%3D,\
+['FIXED_PRICE'],\
+0.00,,hellogoodl\
+ife1,14239,,,NaN\
+,New,[]\x0d\x0a268,\x22Ac\
+er - Nitro V ANV\
+15-41-R2Y3 Gamin\
+g Laptop15.6\x22\x22 F\
+ull HD 144Hz AMD\
+ Ryzen 5...\x22,v1|\
+388560306260|0,7\
+20.00 USD,https:\
+//www.ebay.com/i\
+tm/388560306260?\
+amdata=enc%3AAQA\
+KAAAAoFkggFvd1GG\
+Du0w3yXCmi1eGvuU\
+X86hECiXIK6rClzf\
+cmMmhQP0T2BkdLO%\
+2FYzNOD%2FnhKDAv\
+JXsuDoDwB0p4m%2F\
+1Km29q3BqFyqYMtL\
+DzWOBhDTKFEJAg48\
+U2QDoGd5gTlCwzUx\
+0zgpS3uSV4aN1TL3\
+raOTgZjXBnH1lrFh\
+9DEQraCtJV5s8LuC\
+iOcibxbPbUq6h8W4\
+elgzMWAKGd8U%2Fv\
+dsO0%3D,\x22['FIXED\
+_PRICE', 'BEST_O\
+FFER']\x22,N/A,,soh\
+o_7,67,,,NaN,New\
+,[]\x0d\x0a269,\x222024 A\
+cer Aspire 5 Lap\
+top  15.6\x22\x22 FHD \
+IPS Intel i5-124\
+50H 16GB RAM 512\
+GB SSD\x22,v1|14558\
+6096901|0,529.00\
+ USD,https://www\
+.ebay.com/itm/14\
+5586096901?amdat\
+a=enc%3AAQAKAAAA\
+oFkggFvd1GGDu0w3\
+yXCmi1eVoqPQa3Uk\
+uFrfEPZsV3upn2Mc\
+yZfZevV7bRIV9kWx\
+QIPHBkouvC9TbmjL\
+dncmcLYiCrx9B5mR\
+xMDy4kwly6WHj%2B\
+2JgCV7UyM78Kr91D\
+NM919M92WvhRohCh\
+cSScX6OJuHSSlSi3\
+MwgN1uPaTnPq35AN\
+yBSg26FFaH32quCE\
+849bGKm3A%2Ft9jf\
+T1loOcpgcrM%3D,[\
+'FIXED_PRICE'],0\
+.00,,hellogoodli\
+fe1,14239,,,NaN,\
+New,[]\x0d\x0a270,\x22202\
+5 HP Laptop Comp\
+uter 17.3 FHD 6-\
+Core AMD Ryzen 5\
+, 32GB RAM 1TB S\
+SD Win 11 Pro\x22,v\
+1|126767521041|0\
+,579.00 USD,http\
+s://www.ebay.com\
+/itm/12676752104\
+1?amdata=enc%3AA\
+QAKAAAAoFkggFvd1\
+GGDu0w3yXCmi1fjx\
+roQSEj9zHsRG0jtL\
+soG6%2FRWydt0eWr\
+%2FmrcDW5Hhm%2BN\
+Yl6NPmX%2BFg52zs\
+tgrgKG8b40uESsLz\
+OCB1yG61g2Mi95cr\
+7BXpMtsghHnEx5YK\
+L63OdCCzhpIDECr5\
+G0sBNgRVHX3f4NL7\
+0koTRQOUAkmjVZpu\
+Nqe5deqPAFYlyc%2\
+FRLyxp7u9kmA%2FX\
+yQKhNIR5IE%3D,['\
+FIXED_PRICE'],0.\
+00,,hellogoodlif\
+e1,14239,,,NaN,N\
+ew,[]\x0d\x0a271,MSI T\
+hin 15.6 Inch FH\
+D Laptop Intel C\
+ore i5-13420H Ge\
+Force RTX 4060 1\
+6GB DDR4 ,v1|177\
+094764440|0,799.\
+99 USD,https://w\
+ww.ebay.com/itm/\
+177094764440?amd\
+ata=enc%3AAQAKAA\
+AAoFkggFvd1GGDu0\
+w3yXCmi1fpDb%2Bk\
+7HA6Sk3Z6Bf13EQo\
+yNNLR1KEzYT5xe3R\
+RCxLZcKj9j%2FRTt\
+eoHog2sLyuoaW3pI\
+DLkwmp9tvND%2FTc\
+D%2F%2BZl4AxogEV\
+B2Bm4KqSmeSHvpOg\
+1DjQHc36fBIvrMid\
+hh7zYTBuBddvAfZM\
+UPr7KemXJR1M18r2\
+snhqkiroNksdd3bY\
+Otv41u9fLIhi72V7\
+u0U%3D,['FIXED_P\
+RICE'],0.00,,cho\
+uz_ecomm,5589,,,\
+NaN,New,[]\x0d\x0a272,\
+\x22Lenovo IdeaPad \
+Flex 5 Laptop 14\
+\x22\x22 Office 2024 1\
+0-Core Intel i5 \
+16GB RAM 1TB SSD\
+\x22,v1|11659318815\
+6|0,649.00 USD,h\
+ttps://www.ebay.\
+com/itm/11659318\
+8156?amdata=enc%\
+3AAQAKAAAAoFkggF\
+vd1GGDu0w3yXCmi1\
+dURUjdbA%2By2qeK\
+G0YqaXl2CoUBNqjO\
+2f4PRRu2KdXNMQzg\
+T3RY6FofiSZ9KQuX\
+nO%2B9yJQb0S60HG\
+TVceZwR9V4BmO8a7\
+c6XlFnfacoXOdtD9\
+DMzZyKmcrDm3OesK\
+24OwP0URg57jTReY\
+kf%2Bzj76vPvxXP4\
+Y6AfZ%2FPen6SBuU\
+CdZB0Vdi3mPegF%2\
+FfVtnJFXdfw%3D,\x22\
+['FIXED_PRICE', \
+'BEST_OFFER']\x22,0\
+.00,,hellogoodli\
+fe1,14239,,,NaN,\
+New,[]\x0d\x0a273,\x22HP \
+15.6\x22\x22 Touch Lap\
+top, 10-Core Int\
+el i7, 32GB RAM \
+& 1TB SSD, Win11\
+ Pro, Open Box\x22,\
+v1|146510949481|\
+0,649.00 USD,htt\
+ps://www.ebay.co\
+m/itm/1465109494\
+81?amdata=enc%3A\
+AQAKAAAAoFkggFvd\
+1GGDu0w3yXCmi1dr\
+jVU%2Bv6%2FDDSR0\
+UkfL%2FqsOV2n5MJ\
+w4FHY0zu1Vi%2BDZ\
+yXct90NT%2FzGiuj\
+o6WB%2B59AwRW9ct\
+%2FJvvlXDzq4bTjA\
+sqVrrVX3imzvPQ%2\
+BcAJeEWB488VRkl%\
+2FUKbEt3809RrG%2\
+Fzp6xUi0mBWPCg8o\
+PEmiQ8RSMtZeEgMx\
+IBMK%2FPtMZshDrM\
+tHq5cuxNz6w9vdGX\
+noK8k%3D,['FIXED\
+_PRICE'],0.00,,h\
+ellogoodlife1,14\
+239,,,NaN,Open b\
+ox,[]\x0d\x0a274,\x22New \
+HP Victus Gaming\
+ 15.6\x22\x22 144Hz FH\
+D Ryzen 5 7535HS\
+ 8GB 512GB SSD R\
+adeon RX6550M\x22,v\
+1|116399517214|0\
+,569.00 USD,http\
+s://www.ebay.com\
+/itm/11639951721\
+4?amdata=enc%3AA\
+QAKAAAAoFkggFvd1\
+GGDu0w3yXCmi1eSU\
+cGgCnT9NKCZ2PAyi\
+MFv0Kyk4WidKGq%2\
+FPEhO5vW3zixyxHa\
+gB0n9T%2FvS4CbMQ\
+z17vlN23kMUd0fhb\
+z3Txlui0yUDzed%2\
+By%2Fr7TQkA9EU4D\
+SS9VknbuSlnM%2Bf\
+c6YsS25vZbG0GD%2\
+FBT%2BG1HzEAc6bn\
+WT5pZWgw22gEQPAN\
+tzHiaEOoDdBswgd2\
+O2u69PFnOC8A%3D,\
+['FIXED_PRICE'],\
+0.00,,themaxmart\
+,14458,,,NaN,New\
+,[]\x0d\x0a275,\x22HP Vic\
+tus 15 Gaming La\
+ptop 15.6\x22\x22FHD 1\
+44Hz AMD Ryzen 5\
+ 7535HS,8GB RAM,\
+512GB SSD\x22,v1|15\
+6985904639|0,512\
+.99 USD,https://\
+www.ebay.com/itm\
+/156985904639?am\
+data=enc%3AAQAKA\
+AAAoFkggFvd1GGDu\
+0w3yXCmi1dlpFtyY\
+QwSGv63Q9HSQ1SqX\
+s4P8juxB%2Byavi9\
+598JMLNYQCW9EsPi\
+fn%2Buigwp9VFvqj\
+5pxCOmC%2BKH0fSN\
+EBg8k3f9x8TKHv89\
+na9d3gkL%2FNKtrI\
+PUsh6Xw9NFXAqqYN\
+CbmskNgCf2sGyeSV\
+8knVZs%2BGiuk7ko\
+cwRMMTyFuN1zP%2B\
+riT8DoeylV%2F8dH\
+zgKqlfPg%3D,['FI\
+XED_PRICE'],0.00\
+,,zqzxcd,511,,,N\
+aN,Excellent - R\
+efurbished,[]\x0d\x0a2\
+76,\x222025 HP Lapt\
+op Computer 17.3\
+\x22\x22 FHD Hexa-Core\
+ AMD Ryzen 5 743\
+0U 16GB RAM 1TB \
+SSD\x22,v1|12606496\
+0522|0,559.00 US\
+D,https://www.eb\
+ay.com/itm/12606\
+4960522?amdata=e\
+nc%3AAQAKAAAAoFk\
+ggFvd1GGDu0w3yXC\
+mi1dVYxArSpQyZu%\
+2Bi0wA1RRUtQ23pb\
+JAoC9yWYBDZ%2B1W\
+FigIAH%2F6o0DAui\
+NEs7WqGKWP42OBKz\
+gFMjNbPrdhIokecR\
+TngJ1CCbIQC5GTMk\
+sGoXiJfjvY6EiJ1S\
+7%2BvCk7GdrQSCJ7\
+SdFYmRRdYxhR7KJY\
+IjbGM6%2F1mJCxK4\
+cSf9eEt%2BbLbix6\
+51tj4xRmbTIFe5uM\
+%3D,['FIXED_PRIC\
+E'],0.00,,hellog\
+oodlife1,14239,,\
+,NaN,New,[]\x0d\x0a277\
+,Z-Wave Siren & \
+Chime compatible\
+ w/ Samsung Smar\
+tThing Hub,v1|36\
+2866974046|0,18.\
+44 USD,https://w\
+ww.ebay.com/itm/\
+362866974046,['F\
+IXED_PRICE'],0.0\
+0,,hypermicrosys\
+tems,72287,,,NaN\
+,New,[]\x0d\x0a278,His\
+ense Portable Ai\
+r Conditioner 25\
+0-Sq.ft 6000 BTU\
+ 115-Volt White \
+AP0621CR1W,v1|36\
+4898950295|0,189\
+.49 USD,https://\
+www.ebay.com/itm\
+/364898950295,['\
+FIXED_PRICE'],0.\
+00,,hypermicrosy\
+stems,72287,,,Na\
+N,Certified - Re\
+furbished,[]\x0d\x0a27\
+9,Westinghouse 5\
+0\xe2\x80\xb3 4K Ultra HD\
+ Smart Roku TV w\
+ith HDR WR50UT42\
+12,v1|3639821758\
+17|0,194.00 USD,\
+https://www.ebay\
+.com/itm/3639821\
+75817,['FIXED_PR\
+ICE'],0.00,,hype\
+rmicrosystems,72\
+287,,,NaN,Excell\
+ent - Refurbishe\
+d,[]\x0d\x0a280,Lasko \
+Digital Ceramic \
+Room Tower Heate\
+r with Remote Co\
+ntrol CT16670,v1\
+|235689795686|0,\
+36.98 USD,https:\
+//www.ebay.com/i\
+tm/235689795686,\
+['FIXED_PRICE'],\
+0.00,,hypermicro\
+systems,72287,,,\
+NaN,New,[]\x0d\x0a281,\
+Z-Wave Smart Doo\
+r / Window Senso\
+r Compatible wit\
+h Samsung SmartT\
+hings Hub Retail\
+,v1|392615109579\
+|0,16.99 USD,htt\
+ps://www.ebay.co\
+m/itm/3926151095\
+79,['FIXED_PRICE\
+'],0.00,,hypermi\
+crosystems,72287\
+,,,NaN,New,[]\x0d\x0a2\
+82,MSI Katana 15\
+ 15.6 144Hz FHD \
+2.4 GHz i7-13620\
+H 16GB 1TB SSD R\
+TX 4050 - Excell\
+ent,v1|286646725\
+509|0,849.99 USD\
+,https://www.eba\
+y.com/itm/286646\
+725509?amdata=en\
+c%3AAQAKAAAAoFkg\
+gFvd1GGDu0w3yXCm\
+i1e2jlEbW8qrqbqR\
+ZokJlNSwYMJ3NRdC\
+4Y%2BHIz4ImQaFnu\
+gWn1KsOpg00Xcgjx\
+xs6BOHzUI3dTKWy2\
+qNhJJ230YCpAK2st\
+SY%2FnVMdoZG%2BZ\
+roXi2k1HBgvqInD%\
+2BOr6EPiw3DWYCdW\
+Ov5ReHmhpewMkQFR\
+dBILXXvBtR3CuTee\
+y3vMp5CVaQJ9pdVE\
+QHvxpZYqEIU%3D,[\
+'FIXED_PRICE'],0\
+.00,,itsworthmor\
+e,94230,,,NaN,Ex\
+cellent - Refurb\
+ished,[]\x0d\x0a283,\x22S\
+ylvania SDPF1095\
+ 10\x22\x22 Picture Fr\
+ame 8GB WiFi IPS\
+ Touchscreen 5-P\
+oint Capacitive\x22\
+,v1|392165168331\
+|0,44.97 USD,htt\
+ps://www.ebay.co\
+m/itm/3921651683\
+31,['FIXED_PRICE\
+'],0.00,,hypermi\
+crosystems,72287\
+,,,NaN,Certified\
+ - Refurbished,[\
+]\x0d\x0a284,Hisense H\
+S214 2.1ch Sound\
+ Bar w/ Built-in\
+ Subwoofer 108W \
+Bluetooth,v1|364\
+057078967|0,59.9\
+9 USD,https://ww\
+w.ebay.com/itm/3\
+64057078967,['FI\
+XED_PRICE'],0.00\
+,,hypermicrosyst\
+ems,72287,,,NaN,\
+Certified - Refu\
+rbished,[]\x0d\x0a285,\
+\x22RCA RPJ136 1080\
+P, 30\x22\x22-130\x22\x22 Pi\
+cture (No Lens C\
+ap) Home Theater\
+ Projector RPJ13\
+6\x22,v1|2343387064\
+75|0,27.98 USD,h\
+ttps://www.ebay.\
+com/itm/23433870\
+6475,['FIXED_PRI\
+CE'],0.00,,hyper\
+microsystems,722\
+87,,,NaN,Certifi\
+ed - Refurbished\
+,[]\x0d\x0a286,\x22RCA Ho\
+me Theater Proje\
+ctor 1080P Up to\
+ 150\x22\x22 image, HD\
+MI, USB,  RPJ136\
+\x22,v1|36267700941\
+8|0,29.99 USD,ht\
+tps://www.ebay.c\
+om/itm/362677009\
+418,['FIXED_PRIC\
+E'],0.00,,hyperm\
+icrosystems,7228\
+7,,,NaN,Certifie\
+d - Refurbished,\
+[]\x0d\x0a287,\x22Lasko O\
+scillating 32\x22\x22 \
+Ceramic Tower Sp\
+ace Heater 1500W\
+ Remote Control \
+8hr-Timer\x22,v1|23\
+5647665580|0,47.\
+98 USD,https://w\
+ww.ebay.com/itm/\
+235647665580,['F\
+IXED_PRICE'],0.0\
+0,,hypermicrosys\
+tems,72287,,,NaN\
+,New,[]\x0d\x0a288,\x22HP\
+ 17.3 Laptop Com\
+puter FHD IPS Ry\
+zen 5 Up to 4.3G\
+Hz, 32GB RAM 1TB\
+ SSD, Open Box\x22,\
+v1|127016011276|\
+0,459.00 USD,htt\
+ps://www.ebay.co\
+m/itm/1270160112\
+76?amdata=enc%3A\
+AQAKAAAAoFkggFvd\
+1GGDu0w3yXCmi1cR\
+cFFug17K4Yqc7VzP\
+rN6R%2BngtrIAwe5\
+YXf0I3X1xcBcce7Y\
+e591mO%2BCmQwco9\
+1tbh8YSWpHypUqTW\
+qrYfeh46Vo0PJ%2B\
+MeJvJ7b%2BVXCArh\
+O7kPrJaj2ktKAdkt\
+QfCYSf8pmi%2FSf6\
+U%2BEq69RWF9QaQg\
+rHwERalMwFhA7gpa\
+W%2FOhw5yAdSL4ug\
+YJT9LUl3RQ79E%3D\
+,['FIXED_PRICE']\
+,0.00,,hellogood\
+life1,14239,,,Na\
+N,Open box,[]\x0d\x0a2\
+89,Alienware M15\
+ R3 Gaming Lapto\
+p Intel i7 2.6 G\
+Hz 16 Ram 1TB SS\
+D AMD Radeon RX5\
+500,v1|116618097\
+564|0,809.98 USD\
+,https://www.eba\
+y.com/itm/116618\
+097564?amdata=en\
+c%3AAQAKAAAAoFkg\
+gFvd1GGDu0w3yXCm\
+i1fQJRo%2Bc0Vcz3\
+xPSJ4%2BXCh1srYU\
+vwQBnnE1I4dVRuOw\
+QW5oNFlTzdeSzmCM\
+dEzTL1DQp04%2BFS\
+ZzRhmAI2wQ0L15zz\
+1cO4dO%2BQDVg%2F\
+7P39DBKSs7P728VC\
+f%2FwpOC3UaMzHxn\
+ALF%2FpZOWrvLQLt\
+yIM%2BjxI9FPMNpn\
+94ltkNHxboSbaJ9r\
+behipUDtC9q00U%2\
+FXNjg%3D,['FIXED\
+_PRICE'],0.00,,j\
+etpaltd,2650,,,N\
+aN,Excellent - R\
+efurbished,[]\x0d\x0a2\
+90,Alienware 15 \
+R3 Laptop w/ Bra\
+nd New Samsung S\
+SD**,v1|23614027\
+9174|0,402.20 US\
+D,https://www.eb\
+ay.com/itm/23614\
+0279174?amdata=e\
+nc%3AAQAKAAAAoFk\
+ggFvd1GGDu0w3yXC\
+mi1dQT3ZShba7%2B\
+MfUXPQ2zMo7L0moc\
+l3sCjGDaoinuzRLV\
+AGj0xTQs0%2BGX3D\
+sNIyF44dBsz0rWUy\
+gYLAWNeJX4mCzCRP\
+iVItPmeJ1KWSX%2B\
+DMHKguELZcKcqveB\
+XoTwMWezZhsTcCVC\
+%2Fm8jQZjzn4mVNH\
+%2FQXeI9MhAV1Nkz\
+7UmVIH12sBb%2FHM\
+M1oPYSheQOKbLnZg\
+%3D,\x22['FIXED_PRI\
+CE', 'BEST_OFFER\
+']\x22,N/A,,pattiet\
+urtlet,7,,,NaN,U\
+sed,[]\x0d\x0a291,New \
+ASUS ROG Strix S\
+car 15 G533Z Pal\
+mrest w/ Backlit\
+ Keyboard 90NR08\
+E2-R31US0,v1|404\
+655007131|0,102.\
+00 USD,https://w\
+ww.ebay.com/itm/\
+404655007131?amd\
+ata=enc%3AAQAKAA\
+AAoFkggFvd1GGDu0\
+w3yXCmi1fO2C3z3K\
+5mnAphMsPa5lFNM2\
+xnrh9fkdm0Dnl%2F\
+%2BImAAq1dU66htB\
+MBS6CEguE9v%2F5I\
+iY4uis96NpZC%2Fc\
+ZjAPzqbO8BOn3s8G\
+Aktw%2BZNJEw%2Fs\
+etLW2GBQz0MSY9zn\
+fnr%2BPua6ZE2fW7\
+5J5CzM4QTwH3u73r\
+KMCOsu5rBfp%2B3g\
+FvFTTSGGEbGXHb9f\
+8vv2sA4u8%3D,\x22['\
+FIXED_PRICE', 'B\
+EST_OFFER']\x22,0.0\
+0,,kilopromise,1\
+567,,,NaN,Open b\
+ox,[]\x0d\x0a\
 "
 
 qt_resource_name = b"\
@@ -24794,6 +33602,11 @@ qt_resource_name = b"\
 \x00f\
 \x00r\x00e\x00q\x00u\x00e\x00n\x00t\x00l\x00y\x00_\x00b\x00o\x00u\x00g\x00h\x00t\
 \x00_\x00t\x00o\x00g\x00e\x00t\x00h\x00e\x00r\x00.\x00c\x00s\x00v\
+\x00\x15\
+\x06\x11\xac\x06\
+\x00u\
+\x00l\x00t\x00i\x00m\x00a\x00t\x00e\x00l\x00y\x00_\x00b\x00o\x00u\x00g\x00h\x00t\
+\x00.\x00c\x00s\x00v\
 "
 
 qt_resource_struct = b"\
@@ -24809,12 +33622,14 @@ qt_resource_struct = b"\
 \x00\x00\x01\x97\x07\xca\x91\x1f\
 \x00\x00\x008\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\
 \x00\x00\x01\x96\xe1\x95q\x8b\
-\x00\x00\x00 \x00\x02\x00\x00\x00\x02\x00\x00\x00\x07\
+\x00\x00\x00 \x00\x02\x00\x00\x00\x03\x00\x00\x00\x07\
 \x00\x00\x00\x00\x00\x00\x00\x00\
 \x00\x00\x00\x88\x00\x01\x00\x00\x00\x01\x00\x03^\xa9\
-\x00\x00\x01\x97P\x03\xf0G\
+\x00\x00\x01\x97i\x15I\xce\
+\x00\x00\x01\x04\x00\x00\x00\x00\x00\x01\x00\x06\x0a\x94\
+\x00\x00\x01\x97g\x80\x02>\
 \x00\x00\x00\xc2\x00\x00\x00\x00\x00\x01\x00\x03\xcd0\
-\x00\x00\x01\x97B=\xacu\
+\x00\x00\x01\x97Ah\x07Y\
 "
 
 def qInitResources():

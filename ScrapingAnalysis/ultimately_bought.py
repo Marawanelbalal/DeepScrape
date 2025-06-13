@@ -1,3 +1,5 @@
+from networkx.algorithms.centrality import in_degree_centrality
+
 from . import nx #Networkx
 from . import plt #Pyplot
 from . import pd #Pandas
@@ -9,7 +11,7 @@ from common_imports import json
 from selenium.webdriver.common.by import By
 from .scraping_functions import show_graph_summary
 
-def get_bought_together(URL, XPATH):
+def customers_ultimately_bought(URL, XPATH):
     web = initialize_chromedriver()
     web.get(URL)
     delay2 = random.uniform(1, 3)
@@ -20,7 +22,7 @@ def get_bought_together(URL, XPATH):
 
     last_count = -1
     stable_count = 0
-    bought_together = []
+    ultimately_bought = []
 
     try:
         for _ in range(max_checks):
@@ -33,25 +35,25 @@ def get_bought_together(URL, XPATH):
                 stable_count = 0
 
             last_count = current_count
-            bought_together = elements
+            ultimately_bought = elements
 
             if stable_count >= 3:  # e.g., stable for 1.5s
                 break
 
             time.sleep(check_interval)
 
-        if not bought_together:
-            print(f"No 'also bought' elements found after {max_wait_time} seconds.")
+        if not ultimately_bought:
+            print(f"No 'Ultimately Bought' elements found after {max_wait_time} seconds.")
     except Exception as e:
-        print(f"Failed to collect 'also bought' items:\n{e}")
+        print(f"Failed to collect 'Ultimately Bought' items:\n{e}")
         web.quit()
         web = None
         return []
 
-    print(f"Found {len(bought_together)} elements")
+    print(f"Found {len(ultimately_bought)} elements")
     print(f"Sleeping for {delay2:.2f} seconds...")
 
-    links = [x.get_attribute("href") for x in bought_together if x.get_attribute("href")]
+    links = [x.get_attribute("href") for x in ultimately_bought if x.get_attribute("href")]
     item_ids = [extract_item_id(x) for x in links]
 
     web.quit()
@@ -60,25 +62,25 @@ def get_bought_together(URL, XPATH):
     return item_ids
 
 
-def frequently_bought_together(items:dict)->pd.DataFrame:
+def ultimately_bought_dataframe(items:dict)->pd.DataFrame:
     for item in items.values():
-        item['Bought Together'] = []
+        item['Ultimately Bought'] = []
     scraped_ids = set(items.keys())
     duplicates = 0
     if items:
         items_copy = copy.deepcopy(items)
         for key,value in items.items():
-            bought_together_IDs = get_bought_together(value['Link'], "//a[contains(@class, 'NEvY')]")
-            if bought_together_IDs:
-                items_copy[key].update({"Bought Together": bought_together_IDs})
+            ultimately_bought_IDs = customers_ultimately_bought(value['Link'], "//a[contains(@class, 'NEvY')]")
+            if ultimately_bought_IDs:
+                items_copy[key].update({"Ultimately Bought": ultimately_bought_IDs})
 
             scraped_ids.add(key)
             last_scraped = {}
-            bought_together = items_copy[key]['Bought Together']
+            ultimately_bought = items_copy[key]['Ultimately Bought']
 
-            bought_together = list(set(bought_together))
+            ultimately_bought = list(set(ultimately_bought))
             ebay_token_manager = TokenManager()
-            for ID in bought_together:
+            for ID in ultimately_bought:
                 if not ID.startswith("v1|"):
                     formatted_ID = f"v1|{ID}|0"
                 else:
@@ -90,35 +92,32 @@ def frequently_bought_together(items:dict)->pd.DataFrame:
                     access_token = ebay_token_manager.get_token()
                     last_scraped = get_item_data(formatted_ID, access_token,'EBAY_US')
                     if last_scraped is not None:
-                        last_scraped['Bought Together'] = [key]
                         items_copy[last_scraped['Item ID']] = last_scraped
                         scraped_ids.add(formatted_ID)
-                else:
-                    if key not in items_copy[formatted_ID]['Bought Together']:
-                        items_copy[formatted_ID]['Bought Together'].append(key)
-                        print('Added relationship: ', formatted_ID)
-                    else:
-                        print('Cycle detected, skipping: ', formatted_ID)
-                        continue
 
         print(len(items_copy))
+        print(duplicates, " duplicates found!")
 
         all_items = list(items_copy.values())
 
         df = pd.DataFrame(all_items)
-
         return df
     else:
         print('No items found')
 
-def bought_together_network(items:dict,df:pd.DataFrame=None):
+def ultimately_bought_network(items:dict,df:pd.DataFrame=None):
     if df is None:
         print("Trying to scrape live data...")
-        df = frequently_bought_together(items)
-    df["Bought Together"] = df["Bought Together"].fillna("[]")
-    df["Bought Together"] = df["Bought Together"].apply(
-        lambda x: json.loads(x) if isinstance(x, str) else x
-    )
+        df =ultimately_bought_dataframe(items)
+    df["Ultimately Bought"] = df["Ultimately Bought"].fillna("[]")
+    def safe_json_load(x):
+        if isinstance(x, str):
+            try:
+                return json.loads(x)
+            except json.JSONDecodeError:
+                return x
+        return x
+    df["Ultimately Bought"] = df["Ultimately Bought"].apply(safe_json_load)
 
     print(df)
     df["Item ID"] = df["Item ID"].apply(lambda x: f"v1|{x}|0" if not str(x).startswith("v1|") else x)
@@ -130,13 +129,13 @@ def bought_together_network(items:dict,df:pd.DataFrame=None):
             "Price": "first",
             "Seller": "first",
             "Feedback Score": "first",
-            "Bought Together": lambda x: list(set().union(*x))
+            "Ultimately Bought": lambda x: list(set().union(*x))
         }).reset_index()
     except Exception as e:
         print(e)
     print(len(df))
 
-    G = nx.Graph()
+    G = nx.DiGraph()
 
 
     item_id_map = {row["Item ID"]: row["Title"] for index, row in df.iterrows()}
@@ -148,8 +147,8 @@ def bought_together_network(items:dict,df:pd.DataFrame=None):
 
     for _, row in df.iterrows():
         source_id = row["Item ID"]
-        if isinstance(row["Bought Together"], list):
-            for bought_id in row["Bought Together"]:
+        if isinstance(row["Ultimately Bought"], list):
+            for bought_id in row["Ultimately Bought"]:
                 if not bought_id.startswith("v1|"):
                     formatted_bought_id = f"v1|{bought_id}|0"
                 else:
@@ -164,25 +163,62 @@ def bought_together_network(items:dict,df:pd.DataFrame=None):
 
     sorted_centrality = sorted(betweenness.items(), key=lambda x: x[1], reverse=True)
 
-    show_graph_summary(G)
-
-    print("Ranked Nodes by Betweenness Centrality (Non-Zero Only):")
+    print("\n\tRanked Nodes by Betweenness Centrality (Non-Zero Only):")
     for item_num,centrality in sorted_centrality:
         node = [x for x in numbered_items.keys() if numbered_items[x] == item_num][0]
         if centrality == 0:
             break
         print(f"{item_num}: {item_id_map.get(node, 'Unknown')} - "
             f"Normalized Betweenness Centrality: {betweenness_normalized[item_num]:.5f} - Non-Normalized : {centrality:.5f} ")
+        print(f"In-Degree: {G.in_degree(item_num)} - Out-Degree: {G.out_degree(item_num)}")
         print("-" * 150)
+    in_degrees = G.in_degree()
+    out_degrees = G.out_degree()
+    if len(G.in_degree()) <= 20:
+        top_in_degrees = sorted(G.in_degree(),key=lambda x:x[1],reverse = True)
+    else:
+        top_in_degrees = sorted(G.in_degree(),key=lambda x:x[1],reverse = True)[:20]
+    if len(G.out_degree()) <= 20:
+        top_out_degrees = sorted(G.out_degree(),key=lambda x:x[1],reverse = True)
+    else:
+        top_out_degrees = sorted(G.out_degree(),key=lambda x:x[1],reverse = True)[:20]
 
 
+    print("\n\tTop 20 Nodes By In-Degree (Customers Ultimately Bought These):")
+    for node,in_degree in top_in_degrees:
+        name = G.nodes[node].get("title",f"Node")
+        out_degree = out_degrees[node]
+        print(f"{node}: {name}\nIn-Degree: {in_degree} - Out-Degree: {out_degree}")
+        print("-"*100)
+    print("\n\tTop 20 Nodes By Out-Degree (Customers Ultimately Moved Away From These")
+    for node,out_degree in top_out_degrees:
+        name = G.nodes[node].get("title",f"Node")
+        in_degree = in_degrees[node]
+        print(f"{node}: {name}\nOut-Degree: {out_degree} - In-Degree: {in_degree}")
+        print("-"*100)
 
+    pagerank = nx.pagerank(G, alpha=0.85)
+
+    if len(pagerank.items()) <= 20:
+        top_pageranks = sorted(pagerank.items(),key=lambda x:x[1],reverse = True)
+    else:
+        top_pageranks = sorted(pagerank.items(),key=lambda x:x[1],reverse = True)[:20]
+    print("\n\tTop 20 nodes with highest pagerank:")
+    for node, rank in top_pageranks:
+        name = G.nodes[node].get("title",node)
+        print(f"{name}: {rank:.4f}")
+        print("-"*100)
 
     pos = nx.kamada_kawai_layout(G)
 
-    fig = plt.figure(figsize=(16, 12))
+    fig = plt.figure(figsize=(12, 12))
+    nx.draw_networkx_nodes(G, pos, node_size=100, node_color='skyblue')
+    nx.draw_networkx_edges(G, pos, edge_color='gray', arrows=True)
+    nx.draw_networkx_labels(G, pos, font_size=8)
 
-    nx.draw(G, pos, with_labels=True, node_color="lightblue", edge_color="gray", node_size=150)
+    plt.axis('off')
+    plt.title("A Network of 'Ultimately Bought' Items")
+    plt.tight_layout()
 
     return fig
 

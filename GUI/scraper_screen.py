@@ -27,7 +27,8 @@ from ScrapingAnalysis.regional_heatmap import regional_price_heatmap
 
 from ScrapingAnalysis.charts import price_range_pie_chart,price_range_chart,feedback_percentage_pie_chart
 
-from ScrapingAnalysis.fbt_network import bought_together_analysis
+from ScrapingAnalysis.fbt_network import frequently_bought_together, bought_together_network
+from ScrapingAnalysis.ultimately_bought import ultimately_bought_network
 
 from ScrapingAnalysis.reviews import review_analysis
 
@@ -242,12 +243,13 @@ class ScraperScreen(QWidget):
         self.analysis_dropdown.addItems([
             "Select an analysis type...",
             "Seller Influence Analysis",
-            "Product Network Graph",
             "Heatmap Analysis",
             "Chart Analysis",
-            "Review Sentiment Analysis",
             "3D Graph Analysis",
-            "Chart Showing Communities (Related Categories)"
+            "Chart Showing Communities (Related Categories)",
+            "Product Network Graph ('Customers Ultimately Bought' Relationship)",
+            "Product Network Graph ('Frequently Bought Together' Relationship)",
+            "Review Sentiment Analysis"
         ])
         self.analysis_dropdown.setStyleSheet("""
             QComboBox {
@@ -578,15 +580,16 @@ class ScraperScreen(QWidget):
         self.loading.showGIF()
         @get_runtime
         def worker():
+
             try:
                 fig = None
                 if text == "Seller Influence Analysis":
                     fig = seller_network(self.items)
 
-                elif text == "Product Network Graph":
-                    fig = bought_together_analysis(self.items)
-
-
+                elif text == "Product Network Graph ('Customers Ultimately Bought' Relationship)":
+                    fig = ultimately_bought_network(self.items)
+                elif text == "Product Network Graph ('Frequently Bought Together' Relationship)":
+                    fig = bought_together_network(self.items)
                 elif text == "Review Sentiment Analysis":
                     fig = review_analysis(self.items)
 
@@ -659,9 +662,14 @@ class ScraperScreen(QWidget):
     def toggle_analysis_button(self):
         #Make sure user has selected an analysis type before enabling the analyze button
         text = self.analysis_dropdown.currentText()
+        warning_options = [
+            "Product Network Graph ('Customers Ultimately Bought' Relationship)",
+            "Product Network Graph ('Frequently Bought Together' Relationship)",
+            "Review Sentiment Analysis"
+        ]
         if text == "Select an analysis type...":
             self.analyze_button.setEnabled(False)
-        elif text == "Product Network Graph" or text == "Review Sentiment Analysis":
+        elif text in warning_options:
             pass
         elif self.search_clicked:
             self.analyze_button.setEnabled(True)
@@ -711,9 +719,12 @@ class ScraperScreen(QWidget):
 
         def worker():
             fig = None
-            if text == "Product Network Graph":
+            if text == "Product Network Graph ('Frequently Bought Together' Relationship)":
                 df = read_csv_from_qrc(r":/data/resources/frequently_bought_together.csv")
-                fig = bought_together_analysis({},df)
+                fig = bought_together_network({},df)
+            elif text == "Product Network Graph ('Customers Ultimately Bought' Relationship)":
+                df = read_csv_from_qrc(r":/data/resources/ultimately_bought.csv")
+                fig = ultimately_bought_network({},df)
             elif text == "Review Sentiment Analysis":
                 fig = review_analysis(self.items,r":/data/resources/product_reviews_scores.csv")
             self.loading.hideGIF()
@@ -736,7 +747,6 @@ class ScraperScreen(QWidget):
                     "Link": item.get('Link'),
                     "Buying Options": json.dumps(item.get('Buying Options', [])),  # JSON string
                     "Shipping Cost": item.get('Shipping Cost'),
-                    "Also Bought": json.dumps(item.get('Also Bought', [])),  # JSON string
                     "Image": item.get('Image'),
                     "Seller": item.get('Seller'),
                     "Feedback Score": item.get('Feedback Score'),
@@ -783,7 +793,6 @@ class ScraperScreen(QWidget):
                         'Link': row['Link'],
                         'Buying Options': json.loads(row['Buying Options']) if pd.notna(row['Buying Options']) else [],
                         'Shipping Cost': row['Shipping Cost'],
-                        'Also Bought': json.loads(row['Also Bought']) if pd.notna(row['Also Bought']) else [],
                         'Image': row['Image'],
                         'Seller': row['Seller'],
                         'Feedback Score': row['Feedback Score'],
@@ -860,25 +869,18 @@ class ScraperScreen(QWidget):
         self.terminal_group = group
     def update_warning(self):
         text = self.analysis_dropdown.currentText()
-
-        if text == "Product Network Graph":
+        warning_options = [
+            "Product Network Graph ('Customers Ultimately Bought' Relationship)",
+            "Product Network Graph ('Frequently Bought Together' Relationship)",
+            "Review Sentiment Analysis"
+        ]
+        if text in warning_options:
             self.warning_label.setText(get_warning(text))
             self.warning_label.setVisible(True)
             self.warning_scrollarea.setVisible(True)
             self.load_csv_button.setVisible(True)
             self.enable_analyze_button.setVisible(True)
             self.analyze_button.setEnabled(False)
-            print("Analyze button supposedly disabled.")
-
-
-        elif text == "Review Sentiment Analysis":
-            self.warning_label.setText(get_warning(text))
-            self.warning_label.setVisible(True)
-            self.warning_scrollarea.setVisible(True)
-            self.load_csv_button.setVisible(True)
-            self.enable_analyze_button.setVisible(True)
-            self.analyze_button.setEnabled(False)
-            print("Analyze button supposedly disabled.")
 
         else:
             self.warning_label.setText("")
@@ -886,7 +888,6 @@ class ScraperScreen(QWidget):
             self.warning_scrollarea.setVisible(False)
             self.load_csv_button.setVisible(False)
             self.enable_analyze_button.setVisible(False)
-            print("Analyze button supposedly enabled.")
             self.analyze_button.setEnabled(False)
 
 
