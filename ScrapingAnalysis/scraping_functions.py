@@ -40,8 +40,7 @@ def get_item_data(item_id,access_token,region):
       "Feedback Score": result.get("seller", {}).get("feedbackScore", 'N/A'),
       "Shipping Cost": shipping_cost,
       "Link": result.get("itemWebUrl", 'N/A'),
-      "Buying Options": result.get("buyingOptions", []),
-      "Also Bought": []
+      "Buying Options": result.get("buyingOptions", [])
     }
 
     return item_data

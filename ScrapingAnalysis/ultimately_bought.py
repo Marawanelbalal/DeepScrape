@@ -122,7 +122,7 @@ def ultimately_bought_network(items:dict,df:pd.DataFrame=None):
     print(df)
     df["Item ID"] = df["Item ID"].apply(lambda x: f"v1|{x}|0" if not str(x).startswith("v1|") else x)
     # merge duplicate items without deleting them
-    # merge them by also bought values while keeping the other attributes from the first item
+    # merge them by ultimately bought values while keeping the other attributes from the first item
     try:
         df = df.groupby("Item ID").agg({
             "Title": "first",

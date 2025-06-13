@@ -41,14 +41,14 @@ def get_bought_together(URL, XPATH):
             time.sleep(check_interval)
 
         if not bought_together:
-            print(f"No 'also bought' elements found after {max_wait_time} seconds.")
+            print(f"No 'bought together' elements found after {max_wait_time} seconds.")
     except Exception as e:
-        print(f"Failed to collect 'also bought' items:\n{e}")
+        print(f"Failed to collect 'bought together' items:\n{e}")
         web.quit()
         web = None
         return []
 
-    print(f"Found {len(bought_together)} elements")
+    print(f"Found {len(bought_together)} elements for item: v1|{extract_item_id(URL)}|0")
     print(f"Sleeping for {delay2:.2f} seconds...")
 
     links = [x.get_attribute("href") for x in bought_together if x.get_attribute("href")]
@@ -123,7 +123,7 @@ def bought_together_network(items:dict,df:pd.DataFrame=None):
     print(df)
     df["Item ID"] = df["Item ID"].apply(lambda x: f"v1|{x}|0" if not str(x).startswith("v1|") else x)
     # merge duplicate items without deleting them
-    # merge them by also bought values while keeping the other attributes from the first item
+    # merge them by bought together values while keeping the other attributes from the first item
     try:
         df = df.groupby("Item ID").agg({
             "Title": "first",
