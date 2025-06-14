@@ -56,7 +56,8 @@ Place it in the .env file like this:
   Identifies and counts related product categories, visualized in chart form.
 
 - **Product Network Graph**  
-  Creates a network of items and their "also bought" relationships (requires Selenium).
+  Frequently bought together: Creates a network of items connected to their "Bought Together" items via an undirected graph.
+  Customers Ultimately Bought: Creates a network of items connected to the items the customers ended up buying via a directed   graph.
 
 - **Multiregional Heatmap**  
   Currency-normalized map across different regions (requires a Forex API key and geopandas).
