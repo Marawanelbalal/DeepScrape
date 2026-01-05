@@ -1,85 +1,162 @@
-DeepScrape
-==========
+# DeepScrape
 
-DeepScrape is a comprehensive data acquisition and analysis tool for scraping eBay product listings based on user-defined queries.
-Built with PyQt6, the application provides a graphical interface for both scraping and analyzing large volumes of eBay data.
+DeepScrape is a data acquisition and analysis tool for scraping eBay product listings based on
+user-defined queries. Built with PyQt6, the application provides a graphical interface for both
+scraping and analyzing large volumes of eBay data.
 
-🔧 Features
-------------
+---
 
-- **Customizable Search**  
-  Users can input a product query, set the number of items per request, and specify the total number of items to retrieve. For example, setting 50 items/request and 200 total will perform 4 sequential requests.
-  The maximum recommended number of items per request is 200. 
+## Features
 
-- **.env Configuration**  
-  The user must supply their own:
-  - eBay API keys, essential for the application to work.
-  - Optional: ExchangeRate API key (for multi-regional currency unification), Failure to provide this key will only lock out the multiregional heatmap option and will not impact other options.
+### Customizable Search
+Users can input a product query, set the number of items per request, and specify the total number
+of items to retrieve.  
+For example, setting 50 items per request and 200 total items will perform 4 sequential requests.
+---
 
-- **Data Export**  
-  After scraping, results can be exported as a CSV file.
+### `.env` Configuration
+The user must supply their own API keys:
 
+- eBay API keys (required for the application to function)
+- ExchangeRate API key (optional, used for multi-regional currency unification)
 
-🚀 Getting Started
-1. Clone the repo: `git clone https://github.com/yourusername/DeepScrape.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Add your keys to a `.env` file (see instructions below)
-4. Run the app: `python main.py`
+The ExchangeRate API key will only enable the multiregional heatmap option and
+is not necessary for other analysis features.
 
+---
 
-How to get the required keys?
------------------------------
-For the eBay keys, sign up for the eBay developer's program: https://developer.ebay.com/signin?tab=register
-After signing in, go to Application Keysets, on the right there are the required production keys.
-The App ID is the Client ID, and Cert ID is the Client Secret, now place them in the .env file like this:
-> EBAY_CLIENT_ID = your_client_ID
-> EBAY_CLIENT_SECRET = your_client_secret
+### Data Export
+After scraping, results can be exported as a CSV file containing structured data such as:
+- Item titles
+- Seller names and ratings
+- Prices and shipping costs
+- Categories and additional metadata
 
-For the ExchangeRate API, sign up here: https://app.exchangerate-api.com/sign-up
-Afterwards, an email will be sent to verify the account. Finally, the user will have access to the key.
-Place it in the .env file like this:
-> EXCHANGE_API_KEY = your_exchange_api_key
+---
 
-📊 Analysis Options
---------------------
+## Getting Started
 
-- **Seller Influence Graph**  
-  Built using NetworkX, this graph shows how sellers are connected to popular products.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/DeepScrape.git
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Add your API keys to a `.env` file (see below)
+4. Run the application:
+   ```bash
+   python main.py
+   ```
 
-- **Price Range & Feedback Distribution**  
-  Visualized with heatmaps and bar charts using matplotlib and pandas.
+---
 
-- **KNN Clustering**  
-  Clusters similar products and visualizes them on a 3D graph using scikit-learn.
+## How to Get the Required API Keys
 
-- **Community Analysis**  
-  Identifies and counts related product categories, visualized in chart form.
+### eBay API
+Sign up for the eBay Developer Program:  
+https://developer.ebay.com/signin?tab=register
 
-- **Product Network Graph**  
-  Frequently bought together: Creates a network of items connected to their "Bought Together" items via an undirected graph.
-  Customers Ultimately Bought: Creates a network of items connected to the items the customers ended up buying via a directed   graph.
+After signing in, navigate to **Application Keysets** and use the production keys for real market data.
+The App ID corresponds to the Client ID, and the Cert ID corresponds to the Client Secret.
 
-- **Multiregional Heatmap**  
-  Currency-normalized map across different regions (requires a Forex API key and geopandas).
+Add them to the `.env` file as follows:
+```env
+EBAY_CLIENT_ID=your_client_id
+EBAY_CLIENT_SECRET=your_client_secret
+```
 
-- **Review Sentiment Analysis** *(optional)*  
-  Uses Selenium to fetch and analyze review sentiments (longer runtime).
+---
 
-Notes
-------
+### ExchangeRate API (Optional)
+Sign up at:  
+https://app.exchangerate-api.com/sign-up
 
-- Scraping or Analysis can occasionally fail; simply retry.
-- Ensure ChromeDriver and Chrome versions match.
-- Some analysis types (Review Sentiment and Product Network Graphs) take longer due to Selenium dependencies.
-- No API rate limits or regional restrictions assumed.
-- Most output is shown in the built-in terminal within the app — not in the IDE terminal.
-- More details about each analysis type is provided inside the application.
+After verifying your account, add the key to the `.env` file:
+```env
+EXCHANGE_API_KEY=your_exchange_api_key
+```
 
-Tech Stack
------------
+---
 
-- **Frontend/UI**: PyQt6  
-- **Data Handling**: pandas, matplotlib, scikit-learn, geopandas, NetworkX  
-- **Scraping**: Selenium  
-- **License**: MIT  
-- **Dependencies**: Listed in requirements.txt
+## Some of the analysis options
+
+### Seller Network Graph
+Each item is associated with its seller, and items belonging to the same seller are connected.
+Sellers are ranked using degree-based centrality measures to show seller frequency and influence.
+
+---
+
+### Price Range and Feedback Distributions
+Heatmaps and bar charts displaying price ranges and feedback score distributions,
+implemented using pandas and matplotlib. Useful for market analysis.
+
+---
+
+### 3D Clustering
+Each item is represented in a three-dimensional feature space consisting of:
+- Price
+- Seller feedback score
+- Feedback percentage
+
+All features are normalized and clustered using KNN.
+This visualization is primarily exploratory and intended to highlight rough groupings.
+
+---
+
+### Product Network Graphs
+
+**Frequently Bought Together**  
+An undirected graph connecting items that are frequently purchased together.
+
+**Customers Ultimately Bought**  
+A directed graph modeling customer transitions from viewed items to purchased items.
+
+Centrality measures such as betweenness, in-degree, out-degree, PageRank, and degree centrality
+are used to extract insights from these networks.
+
+---
+
+### Multiregional Heatmap
+A currency normalized heatmap showing average item prices across different eBay regions.
+This feature requires both an ExchangeRate API key and geopandas for a clean looking world map with a heatmap overlay.
+
+---
+
+### Review Sentiment Analysis (Optional)
+Uses Selenium to navigate product pages, collect reviews, and compute sentiment scores using VADER.
+Scores are aggregated and normalized to produce a final item score.
+
+This option has a longer runtime due to browser automation, and is not guaranteed to work all the time.
+
+---
+
+### Community Analysis
+Analyzes how often product categories appear together across listings.
+Frequently co-occurring categories are treated as communities.
+
+Users can apply a Jaccard similarity threshold to merge similar communities.
+
+---
+
+## Notes
+
+- Scraping or analysis may occasionally fail; retrying usually resolves the issue.
+- Ensure Chrome and ChromeDriver versions match.
+- Selenium-based analysis options have longer runtimes and are not guaranteed to work.
+- Standard output and errors are displayed in the built-in terminal inside the application. There is no need to switch to the IDE.
+- More detailed explanations of each analysis option are provided within the app.
+
+---
+
+## Tech Stack
+
+- Frontend / UI: PyQt6
+- Data Processing: pandas
+- Visualization: matplotlib, geopandas
+- Machine Learning: scikit-learn
+- Graph Analysis: NetworkX
+- Scraping: Selenium
+- License: MIT
+- Dependencies: listed in `requirements.txt`
